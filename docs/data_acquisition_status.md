@@ -159,6 +159,36 @@ MLB 로스터 상태와 Savant 성과 요약을 결합해 가용성 1차 후보 
 
 - `src/features/build_candidate_pool_v1.py`
 
+2026-06-14에는 MLB Stats API를 사용해 current replacement market 전체에 대해 MiLB year-by-year stats를 확장 수집했다.
+
+| dataset | scope | rows | output |
+|---|---|---:|---|
+| MiLB current market stats, all scope | 1,745 current market rows x AAA/AA/High-A/Single-A/Rookie | 18,258 | `outputs/tables/milb_market_pool_stats_all_v1.csv` |
+| MiLB current market request audit | 8,725 requests, all HTTP 200 | 8,725 | `outputs/tables/milb_market_pool_stats_request_audit_all_v1.csv` |
+| MLB market MiLB role context | current market rows with role/level continuity features | 1,745 | `outputs/tables/mlb_market_pool_milb_role_context_v1.csv` |
+| MiLB role-context summary | role bucket summary | 50 | `outputs/tables/mlb_market_pool_milb_role_context_summary_v1.csv` |
+
+요약:
+
+- 기존 Run 013 MiLB 수집은 research/medical subset 883행 중심이었다.
+- Run 019 이후 전체 current market 1,745행 모두 MiLB 조회 대상이 되었다.
+- MiLB stat track이 있는 current market row는 1,664행이다.
+- 후보 이름은 여전히 final recommendation 또는 shortlist로 공개하지 않는다.
+
+과거 KBO 외국인 선수의 pre-arrival MiLB context도 보강했다.
+
+| dataset | scope | rows | output |
+|---|---|---:|---|
+| Historical KBO pre-arrival MiLB stats | MLBAM/Savant matched KBO foreign-player rows | 981 | `outputs/tables/historical_kbo_prearrival_milb_stats_v1.csv` |
+| Historical KBO pre-arrival MiLB request audit | 280 requests, all HTTP 200 | 280 | `outputs/tables/historical_kbo_prearrival_milb_request_audit_v1.csv` |
+| Historical KBO pre-arrival MiLB features | matched KBO rows with pre-KBO MiLB features | 71 | `outputs/tables/historical_kbo_prearrival_milb_features_v1.csv` |
+
+수집/검증 스크립트:
+
+- `src/data/collect_milb_stats_for_market_pool.py`
+- `src/features/build_milb_role_continuity_features_v1.py`
+- `src/data/collect_historical_kbo_milb_stats.py`
+
 ### NPB / CPBL Asian Market
 
 2026-06-14에 NPB/CPBL 아시아 시장 1차 roster layer를 구축했고, NPB는 공식 2026 1군/팜 성적까지 확장했다.
@@ -232,7 +262,7 @@ NPB 공식 성적 수집 coverage:
 ## 아직 해야 할 수집
 
 - MLB/MiLB 후보의 DFA, release, minor-league contract, option, salary, Korea-willingness status
-- MiLB Statcast coverage audit
+- MiLB Statcast or advanced pitch/batted-ball coverage audit
 - FanGraphs MiLB/MLB leaderboard export 또는 대체 수집
 - NPB salary/contract/buyout proxy, universal nationality verification, medical/news context, Korea-willingness
 - ABL roster/stats and Asian market feasibility references

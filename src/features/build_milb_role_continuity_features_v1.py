@@ -23,6 +23,11 @@ def to_num(series: pd.Series) -> pd.Series:
     return pd.to_numeric(series, errors="coerce")
 
 
+def to_nullable_int(series: pd.Series) -> pd.Series:
+    numeric = pd.to_numeric(series, errors="coerce")
+    return np.floor(numeric).astype("Int64")
+
+
 def ip_to_outs(value: object) -> float:
     if pd.isna(value):
         return np.nan
@@ -55,9 +60,9 @@ def weighted_mean(values: pd.Series, weights: pd.Series) -> float:
 
 def prepare_rows(stats: pd.DataFrame) -> pd.DataFrame:
     out = stats.copy()
-    out["player_id"] = to_num(out["player_id"]).astype("Int64")
-    out["season"] = to_num(out["season"]).astype("Int64")
-    out["sport_id"] = to_num(out["sport_id"]).astype("Int64")
+    out["player_id"] = to_nullable_int(out["player_id"])
+    out["season"] = to_nullable_int(out["season"])
+    out["sport_id"] = to_nullable_int(out["sport_id"])
     out["level_score"] = out["sport_id"].map(LEVEL_SCORE).fillna(0)
     out["level_name"] = out["sport_id"].map(LEVEL_NAME).fillna(out["sport_abbreviation"].fillna(""))
     out["team_id_missing"] = out["team_id"].isna()
@@ -255,9 +260,9 @@ def hitter_features(player: pd.DataFrame) -> dict:
 
 
 def build_features() -> tuple[pd.DataFrame, pd.DataFrame]:
-    stats = prepare_rows(pd.read_csv(STATS))
+    stats = prepare_rows(pd.read_csv(STATS, low_memory=False))
     audit = pd.read_csv(AUDIT)
-    audit["player_id"] = to_num(audit["player_id"]).astype("Int64")
+    audit["player_id"] = to_nullable_int(audit["player_id"])
     requested = (
         audit.groupby(["player_id", "stat_group"], dropna=False)
         .agg(
@@ -269,7 +274,7 @@ def build_features() -> tuple[pd.DataFrame, pd.DataFrame]:
     )
     collapsed = collapse_multi_team(stats)
     market = pd.read_csv(MARKET)
-    market["player_id"] = to_num(market["player_id"]).astype("Int64")
+    market["player_id"] = to_nullable_int(market["player_id"])
     market["stat_group"] = "hitting"
     market.loc[market["slot"].eq("regular_foreign_pitcher"), "stat_group"] = "pitching"
 

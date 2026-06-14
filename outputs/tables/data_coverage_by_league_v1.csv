@@ -11,7 +11,8 @@ MLB Savant processed 2025,1,100.0486888885498,0.0,processed parquet
 MLB Savant processed 2026,1,40.97789192199707,0.0,processed parquet
 MLB roster status raw,1,10.58433723449707,,data/raw/mlb/roster_status
 MLB transactions raw,1,4.634586334228516,11799.0,data/raw/mlb/transactions
-MiLB stats raw,1,14.427300453186035,4415.0,data/raw/mlb/milb_stats
+MiLB stats raw,3,42.92456245422363,13420.0,current all-scope plus previous subset plus historical KBO pre-arrival raw jsonl
+MiLB current and historical output,7,14.62926959991455,30110.0,current market all-scope stats/audits/context plus historical pre-KBO MiLB backfill
 NPB official roster output,1,0.15204524993896484,810.0,outputs/tables/npb_official_roster_2026_v1.csv
 NPB official stats output,4,2.047030448913574,4444.0,NPB official 2026 first-team/farm stats features source inventory and depth summary
 CPBL official roster output,1,0.032317161560058594,168.0,outputs/tables/cpbl_official_roster_2026_v1.csv

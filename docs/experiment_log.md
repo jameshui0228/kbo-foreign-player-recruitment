@@ -1204,3 +1204,58 @@ Decision:
   - ABL roster/stats;
   - news/manual market feasibility checks;
   - NPB/CPBL integration into SSG fit ranking.
+
+## 2026-06-14 Run 019 MiLB All-Candidate And Historical Backfill
+
+Stage: expand current-market MiLB coverage and historical KBO pre-arrival MiLB features.
+
+Actions:
+
+- Reran `src/data/collect_milb_stats_for_market_pool.py` with `--scope all`.
+- Rebuilt `src/features/build_milb_role_continuity_features_v1.py` after making season parsing robust to rare fractional season labels.
+- Added and ran `src/data/collect_historical_kbo_milb_stats.py`.
+- Created:
+  - `outputs/tables/milb_market_pool_stats_all_v1.csv`
+  - `outputs/tables/milb_market_pool_stats_request_audit_all_v1.csv`
+  - `outputs/tables/historical_kbo_prearrival_milb_stats_v1.csv`
+  - `outputs/tables/historical_kbo_prearrival_milb_request_audit_v1.csv`
+  - `outputs/tables/historical_kbo_prearrival_milb_features_v1.csv`
+  - `docs/run_019_milb_all_and_historical_backfill.md`
+  - `outputs/tables/recruitment_gate_status_v9.csv`
+- Updated:
+  - `outputs/tables/mlb_market_pool_milb_role_context_v1.csv`
+  - `outputs/tables/mlb_market_pool_milb_role_context_summary_v1.csv`
+  - `outputs/tables/six_layer_progress_v1.csv`
+  - `docs/six_layer_progress_board.md`
+
+Findings:
+
+- Current market MiLB requests: 8,725 of 8,725 HTTP 200.
+- Current market MiLB stat rows: 18,258.
+- Current market rows requested: 1,745 of 1,745.
+- Current market rows with MiLB stat track: 1,664.
+- Historical KBO pre-arrival MiLB requests: 280 of 280 HTTP 200.
+- Historical pre-KBO MiLB feature rows: 71 of 71 matched rows.
+- Historical role coverage:
+  - hitters: 22 of 22 rows with pre-KBO MiLB features;
+  - pitchers: 49 of 49 rows with pre-KBO MiLB features.
+
+Six-layer progress update:
+
+- Layer 2 KBO foreign-player success/failure archetype mining: 55% -> 62%.
+- Layer 3 candidate market construction: 72% -> 80%.
+- Layer 4 KBO translation model: 56% -> 64%.
+- Layer 5 failure risk model: 53% -> 58%.
+- Layer 6 SSG fit ranking: 25% -> 28%.
+- Layer 1 unchanged at 93%.
+- Candidate names remain locked.
+
+Decision:
+
+- Promote Layer 3 to `partial_plus_full_milb_and_npb_context`.
+- Promote Layer 4 to `pilot_plus_historical_milb_backfill`.
+- Do not release a shortlist until:
+  - historical MiLB features are joined into model marts and repeated CV is rerun;
+  - NPB contract/salary/buyout and nationality checks are added;
+  - KBO/STATIZ current data is refreshed after 2026-06-11;
+  - injury/news/adaptation and Korea-willingness variables are attached.
