@@ -93,6 +93,13 @@ PR에는 반드시 아래 내용을 적습니다.
 
 민감정보와 API 키는 절대 commit하지 않습니다.
 
+팀원들이 사용 데이터 목록을 확인할 때는 아래 파일을 봅니다.
+
+- `docs/data_manifest_for_teammates.md`
+- `outputs/tables/project_data_file_manifest_v1.csv`
+
+원천 파일 자체가 필요한 경우 public GitHub에 직접 올리기보다 Google Drive, GitHub Release, Git LFS, 또는 각자 재수집 스크립트를 사용합니다.
+
 ## Six-Layer Progress Contract
 
 모든 주요 업데이트는 아래 6단계 진행률을 같이 보고합니다.

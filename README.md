@@ -82,6 +82,7 @@ reports/
 
 - `docs/initial_project_plan.md`: 첫 단계 전체 설계 문서
 - `docs/source_log.md`: 데이터 출처, 접근 방식, 한계, 사용 목적
+- `docs/data_manifest_for_teammates.md`: 팀원용 전체 데이터 파일 manifest 요약
 - `docs/data_dictionary.md`: 최소 데이터셋 스키마
 - `docs/methodology.md`: 점수 체계, validation, leakage 방지
 - `docs/strategy_replacement_outfielder.md`: 1차 우선순위인 대체 외국인 외야수 전략
@@ -89,6 +90,8 @@ reports/
 - `docs/literature_log.md`: feature engineering 근거용 논문 로그
 - `docs/assumptions.md`: 현재 단계의 가정과 프록시 변수
 - `docs/experiment_log.md`: 실험/의사결정 로그
+
+전체 local data/output 파일 목록은 `outputs/tables/project_data_file_manifest_v1.csv`에서 확인한다.
 
 ## Reproducibility Rules
 
