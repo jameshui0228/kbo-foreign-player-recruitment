@@ -1,0 +1,7 @@
+candidate_signal,article_count,text_interpretation,data_crosscheck_needed
+power,2358,장타/홈런 언급이 반복된다.,STATIZ/Savant에서 같은 방향의 결핍 또는 후보 강점이 확인되어야 메시지로 승격
+injury_depth,1692,부상/공백/뎁스 맥락이 반복된다.,STATIZ/Savant에서 같은 방향의 결핍 또는 후보 강점이 확인되어야 메시지로 승격
+run_creation,1611,타선/득점권/해결사 언급이 반복된다.,STATIZ/Savant에서 같은 방향의 결핍 또는 후보 강점이 확인되어야 메시지로 승격
+onbase_discipline,1192,출루/선구안/존/삼진 맥락이 반복된다.,STATIZ/Savant에서 같은 방향의 결핍 또는 후보 강점이 확인되어야 메시지로 승격
+foreign_hitter,1155,외국인 타자/교체 맥락이 반복된다.,STATIZ/Savant에서 같은 방향의 결핍 또는 후보 강점이 확인되어야 메시지로 승격
+outfield,988,외야 포지션 언급이 반복된다.,STATIZ/Savant에서 같은 방향의 결핍 또는 후보 강점이 확인되어야 메시지로 승격

@@ -1,0 +1,7 @@
+gate,layer,status,evidence_output,decision,blocking_gap
+G1,SSG hidden-need mining,pass,outputs/tables/ssg_pitching_message_v0_2_decision_table.csv,pitcher-first message can define target features,
+G2,KBO success/failure archetype mining,partial_pass,outputs/tables/kbo_foreign_archetype_summary_v0_1.csv,"target archetypes exist, but pre-arrival explanation still needs richer non-MLB context",needs MiLB/NPB/CPBL pre-arrival features and stronger ID crosswalk
+G3,Candidate market construction,partial_plus_market_layers_secured,outputs/tables/candidate_market_coverage_v0_3.csv,MLB transactions and NPB/CPBL roster inventory are now secured initial layers,"contract/salary, current assignment, medical, Korea-willingness, ABL, and NPB nationality verification remain"
+G4,KBO translation model,pass_to_pilot,outputs/tables/kbo_translation_failure_repeated_cv_comparison_v0_1.csv,role-specific pilots exist; hitter signals are more stable than pitcher public-Savant-only signals,pitcher model needs non-public-style context before candidate release
+G5,Failure-risk model,pass_to_pilot,outputs/tables/kbo_translation_failure_oof_predictions_v0_1.csv,failure-risk pilots exist but must absorb medical/role/adaptation market context,medical/news/adaptation and role-continuity features not yet attached
+G6,Final SSG fit and shortlist,locked,docs/candidate_release_gates_v1.md,candidate names remain research leads only,unlock only after G3 manual feasibility and pitcher context expansion pass

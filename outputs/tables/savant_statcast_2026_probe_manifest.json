@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-06-11T18:57:23",
+  "source": "Baseball Savant via pybaseball.statcast",
+  "seed": 7,
+  "args": {
+    "start": "2026-04-15",
+    "end": "2026-04-15",
+    "team": null,
+    "chunk_days": 1,
+    "out_dir": "data/raw/mlb_milb/savant/statcast_2026_probe",
+    "manifest": "outputs/tables/savant_statcast_2026_probe_manifest.json",
+    "sleep_sec": 0.0,
+    "resume": true,
+    "no_cache": false,
+    "combine": false,
+    "combined_out": "data/processed/savant_statcast_combined.parquet",
+    "parallel": true
+  },
+  "chunks": [
+    {
+      "start_date": "2026-04-15",
+      "end_date": "2026-04-15",
+      "output_file": "data/raw/mlb_milb/savant/statcast_2026_probe/statcast_20260415_20260415.csv.gz",
+      "rows": 4343,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    }
+  ]
+}

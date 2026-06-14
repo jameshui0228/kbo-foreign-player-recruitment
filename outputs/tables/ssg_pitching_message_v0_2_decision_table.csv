@@ -1,0 +1,6 @@
+criterion,value,threshold,status,note,overall_decision
+run008_signal_strength,58.48833333333333,>= 50,pass,pitcher message should clearly outrank hitter message,promote_pitcher_message_v0_2
+starter_monthly_stability,3.0,>= 2 bottom-three months,pass,controls for one-month noise,promote_pitcher_message_v0_2
+short_start_win_rate_penalty,-0.20659340659340653,<= -0.12,pass,short starts should materially hurt game outcome,promote_pitcher_message_v0_2
+disaster_start_win_rate_penalty,-0.2621951219512195,<= -0.20,pass,disaster starts should separate wins from losses,promote_pitcher_message_v0_2
+context_concentration,8.0,>= 3 severe contexts,pass,bad ranks should concentrate in interpretable contexts,promote_pitcher_message_v0_2

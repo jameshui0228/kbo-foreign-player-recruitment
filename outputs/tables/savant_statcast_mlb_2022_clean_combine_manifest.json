@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-06-12T22:24:34",
+  "year": 2022,
+  "source_files": [
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220407_20220420.csv.gz",
+      "raw_rows": 52902,
+      "kept_rows": 52902,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220421_20220504.csv.gz",
+      "raw_rows": 54621,
+      "kept_rows": 54621,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220505_20220518.csv.gz",
+      "raw_rows": 55677,
+      "kept_rows": 55677,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220519_20220601.csv.gz",
+      "raw_rows": 56359,
+      "kept_rows": 56359,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220602_20220615.csv.gz",
+      "raw_rows": 56532,
+      "kept_rows": 56532,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220616_20220629.csv.gz",
+      "raw_rows": 55766,
+      "kept_rows": 55766,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220630_20220713.csv.gz",
+      "raw_rows": 57519,
+      "kept_rows": 57519,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220714_20220727.csv.gz",
+      "raw_rows": 43485,
+      "kept_rows": 43485,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220811_20220824.csv.gz",
+      "raw_rows": 55810,
+      "kept_rows": 55810,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220825_20220907.csv.gz",
+      "raw_rows": 55457,
+      "kept_rows": 55457,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220908_20220921.csv.gz",
+      "raw_rows": 54358,
+      "kept_rows": 54358,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220922_20221005.csv.gz",
+      "raw_rows": 56695,
+      "kept_rows": 56695,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220728_20220728.csv.gz",
+      "raw_rows": 2736,
+      "kept_rows": 2736,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220729_20220729.csv.gz",
+      "raw_rows": 4346,
+      "kept_rows": 4346,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220730_20220730.csv.gz",
+      "raw_rows": 4364,
+      "kept_rows": 4364,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220731_20220731.csv.gz",
+      "raw_rows": 4292,
+      "kept_rows": 4292,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220801_20220801.csv.gz",
+      "raw_rows": 2897,
+      "kept_rows": 2897,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220802_20220802.csv.gz",
+      "raw_rows": 4559,
+      "kept_rows": 4559,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220803_20220803.csv.gz",
+      "raw_rows": 3916,
+      "kept_rows": 3916,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220804_20220804.csv.gz",
+      "raw_rows": 3720,
+      "kept_rows": 3720,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220805_20220805.csv.gz",
+      "raw_rows": 4224,
+      "kept_rows": 4224,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220806_20220806.csv.gz",
+      "raw_rows": 4887,
+      "kept_rows": 4887,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220807_20220807.csv.gz",
+      "raw_rows": 4376,
+      "kept_rows": 4376,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220808_20220808.csv.gz",
+      "raw_rows": 1862,
+      "kept_rows": 1862,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220809_20220809.csv.gz",
+      "raw_rows": 4690,
+      "kept_rows": 4690,
+      "columns": 119
+    },
+    {
+      "file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220810_20220810.csv.gz",
+      "raw_rows": 4160,
+      "kept_rows": 4160,
+      "columns": 119
+    }
+  ],
+  "rows_before_dedupe": 710210,
+  "rows_after_dedupe": 710210,
+  "columns": 119,
+  "output_file": "data/processed/mlb_milb/savant/savant_statcast_2022.parquet"
+}

@@ -1,0 +1,8 @@
+market_bucket,priority,data_needed,primary_source,local_target,why_it_matters,status
+regular_foreign_pitcher,1,"MLB/AAA org status, 40-man flag, active flag, injury status, age, handedness",MLB Stats API,outputs/tables/mlb_roster_status_latest.csv,filters out players who are too good or unavailable,secured_initial
+regular_foreign_hitter,1,"MLB/AAA org status, 40-man flag, active flag, injury status, age, handedness",MLB Stats API,outputs/tables/mlb_roster_status_latest.csv,filters out players who are too good or unavailable,secured_initial
+injury_replacement,1,"current free-agent/released/DFA pool, short-window readiness, recent workload",MLB transactions plus roster status,outputs/tables/mlb_transaction_availability_v1.csv,replacement value depends on speed and monthly cost,not_started
+asian_quota,1,"nationality, prior/current Asian league, NPB/CPBL/ABL status, salary estimate",NPB/CPBL/ABL official data,outputs/tables/asian_quota_market_status_v1.csv,eligibility and 200k USD ceiling are hard gates,not_started
+kbo_translation_labels,2,"historical KBO foreign players, pre-KBO stats, first-year KBO result, renewal/release label",STATIZ plus public KBO records,outputs/tables/kbo_foreign_player_outcome_labels_v1.csv,needed for backtesting KBO translation model,not_started
+article_full_text,2,"full article text, quotes, interview source, medical and adaptation comments",Naver original links and media pages,data/raw/articles/full_text,turns metadata into evidence-grade narrative signals,not_started
+weather_park_context,3,"Munhak weather, humidity, park factors, batted-ball environment",KMA/weather plus KBO game data,outputs/tables/munhak_weather_park_context_v1.csv,needed for fine-grained hitter/pitcher translation,not_started

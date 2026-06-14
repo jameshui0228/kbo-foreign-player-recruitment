@@ -1,0 +1,7 @@
+signal,text_article_count,statiz_evidence,status,next_question
+power,2358,"SSG OF HR rank avg 3.0, ISO rank avg 3.7; this does not support a simple power-shortage message.",mixed_or_reframed,Is power failing to convert into OBP/run creation rather than being absent?
+run_creation,1611,"SSG OF OPS rank avg 4.7, R rank avg 6.0, RBI rank avg 3.0.",supported_for_deeper_split,Which lineup slots or player types create the conversion bottleneck?
+onbase_discipline,1192,"SSG OF OBP rank avg 6.7, BB% rank avg 9.3, K% rank avg 6.3.",strong_candidate,Should the replacement OF prioritize zone discipline/BB retention over raw HR only?
+foreign_hitter,1155,Text strongly links the issue to foreign-player context; quantitative check requires current roster/foreign-player PA split.,needs_roster_context,How much of SSG OF production depends on current foreign hitter availability?
+outfield,988,SSG OF is a valid split with full 2023-2025 rank coverage; current first-priority role is measurable.,supported_as_role_scope,Should candidate pool be strict OF only or OF/DH with flaw maskability?
+injury_depth,1692,"Daily batting can measure PA concentration, but injury-days data is not yet attached.",pending_external_injury_context,Use news tags plus PA concentration to identify depth/absence risk.

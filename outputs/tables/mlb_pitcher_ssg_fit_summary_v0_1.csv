@@ -1,0 +1,15 @@
+research_tier,market_access_bucket,rows,mean_fit_score,max_fit_score,first_pass_rows
+A_research_lead,non40man_org_candidate,1,62.739601517580866,62.739601517580866,1
+B_plus_gate_review,non40man_org_candidate,1,66.58433082320467,66.58433082320467,0
+B_research_lead,non40man_org_candidate,3,56.362903010662215,60.56432482861358,3
+C_watchlist,mlb_active_low_access,122,65.05480763289678,74.00471994751697,0
+C_watchlist,40man_not_active_medium_low_access,4,61.89702216236755,65.51903101346906,0
+C_watchlist,dfa_designated_high_signal,1,64.88523518340311,64.88523518340311,0
+C_watchlist,unknown_not_in_current_mlb_org,2,62.88441387239,64.39834995500544,0
+C_watchlist,non40man_org_candidate,5,63.061643171578496,63.912995540138745,0
+D_hold,medical_red_flag,192,47.670957696407726,73.68008652261896,0
+D_hold,40man_not_active_medium_low_access,145,42.34187118983839,59.9337338949455,0
+D_hold,mlb_active_low_access,307,48.62165603370366,59.91291208597345,0
+D_hold,non40man_org_candidate,109,44.30488282869669,59.384700198216066,0
+D_hold,dfa_designated_high_signal,6,49.25642007706765,58.88713635055463,0
+D_hold,unknown_not_in_current_mlb_org,111,40.808512317801885,57.01296496433655,0

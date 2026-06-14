@@ -1,0 +1,51 @@
+# macOS / editor noise
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Secrets and local runtime config
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+*.token
+
+# Large or license-sensitive source data
+data/raw/
+data/external/
+data/interim/
+data/processed/
+
+# Keep schemas tracked
+!data/schemas/
+!data/schemas/**
+
+# Local scratch exports
+outputs/figures/
+outputs/reports/
+outputs/candidates/
+reports/rendered/
+tmp/
+scratch/
+
+# Do not track generated archives by default
+*.zip
+*.tar
+*.tar.gz
+*.7z

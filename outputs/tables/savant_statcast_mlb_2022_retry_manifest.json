@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-06-12T22:23:47",
+  "source": "Baseball Savant via pybaseball.statcast",
+  "seed": 7,
+  "args": {
+    "start": "2022-07-28",
+    "end": "2022-08-10",
+    "team": null,
+    "chunk_days": 1,
+    "out_dir": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022",
+    "manifest": "outputs/tables/savant_statcast_mlb_2022_retry_manifest.json",
+    "sleep_sec": 0.2,
+    "resume": true,
+    "no_cache": false,
+    "combine": false,
+    "combined_out": "data/processed/savant_statcast_combined.parquet",
+    "parallel": false
+  },
+  "chunks": [
+    {
+      "start_date": "2022-07-28",
+      "end_date": "2022-07-28",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220728_20220728.csv.gz",
+      "rows": 2736,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-07-29",
+      "end_date": "2022-07-29",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220729_20220729.csv.gz",
+      "rows": 4346,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-07-30",
+      "end_date": "2022-07-30",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220730_20220730.csv.gz",
+      "rows": 4364,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-07-31",
+      "end_date": "2022-07-31",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220731_20220731.csv.gz",
+      "rows": 4292,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-08-01",
+      "end_date": "2022-08-01",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220801_20220801.csv.gz",
+      "rows": 2897,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-08-02",
+      "end_date": "2022-08-02",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220802_20220802.csv.gz",
+      "rows": 4559,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-08-03",
+      "end_date": "2022-08-03",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220803_20220803.csv.gz",
+      "rows": 3916,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-08-04",
+      "end_date": "2022-08-04",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220804_20220804.csv.gz",
+      "rows": 3720,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-08-05",
+      "end_date": "2022-08-05",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220805_20220805.csv.gz",
+      "rows": 4224,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-08-06",
+      "end_date": "2022-08-06",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220806_20220806.csv.gz",
+      "rows": 4887,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-08-07",
+      "end_date": "2022-08-07",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220807_20220807.csv.gz",
+      "rows": 4376,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-08-08",
+      "end_date": "2022-08-08",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220808_20220808.csv.gz",
+      "rows": 1862,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-08-09",
+      "end_date": "2022-08-09",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220809_20220809.csv.gz",
+      "rows": 4690,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-08-10",
+      "end_date": "2022-08-10",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb_retry_2022/statcast_20220810_20220810.csv.gz",
+      "rows": 4160,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    }
+  ]
+}

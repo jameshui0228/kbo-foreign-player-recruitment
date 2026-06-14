@@ -1,0 +1,25 @@
+column,type,nullable,description
+season,int,false,KBO season
+team,string,false,KBO team name
+role,string,false,starter or bullpen
+games,int,true,games
+gs,int,true,games started
+ip,float,true,innings pitched
+era,float,true,earned run average
+fip,float,true,fielding independent pitching if available
+whip,float,true,walks plus hits per inning pitched
+k_pct,float,true,strikeout rate stored as 0-1
+bb_pct,float,true,walk rate stored as 0-1
+k_bb_pct,float,true,K% minus BB%
+hr9,float,true,home runs per nine innings
+qs_pct,float,true,quality start rate for starters
+avg_ip_per_start,float,true,starter average innings per start
+gmli,float,true,average leverage index at game entry
+pli,float,true,average leverage index
+wpa,float,true,win probability added
+back_to_back_games,int,true,back-to-back relief appearances
+league_rank_era,int,true,league rank by ERA
+league_rank_k_bb_pct,int,true,league rank by K-BB%
+source,string,false,source id from docs/source_log.md
+accessed_at,datetime,false,data access timestamp
+raw_file,string,true,path to raw data file

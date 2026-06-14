@@ -1,0 +1,26 @@
+column,type,nullable,description
+player_key,string,false,internal player key
+player_name,string,false,player name
+arrival_season,int,false,first KBO arrival season in stint
+kbo_team,string,false,KBO signing team
+role_group,string,false,hitter starter or reliever
+pre_arrival_primary_league,string,true,primary league before KBO arrival
+pre_arrival_level,string,true,MLB AAA AA NPB Farm CPBL ABL etc
+age_at_arrival,float,true,age at arrival
+bats,string,true,batter handedness
+throws,string,true,throwing hand
+position_or_role,string,true,position or pitching role
+first_kbo_pa,int,true,target-only hitter PA
+first_kbo_ip,float,true,target-only pitcher IP
+first_kbo_war,float,true,target-only KBO WAR
+first_kbo_wrc_plus,float,true,target-only hitter wRC+
+first_kbo_era_plus,float,true,target-only pitcher ERA+
+first_kbo_k_bb_pct,float,true,target-only pitcher or hitter K-BB style outcome
+renewed_next_year,int,true,target-only next-year renewal flag
+in_season_replaced,int,true,target-only in-season replacement flag
+injury_exit_flag,int,true,target-only injury exit flag
+success,int,true,label only not feature
+strong_success,int,true,label only not feature
+failure,int,true,label only not feature
+source,string,false,source id from docs/source_log.md
+accessed_at,datetime,false,data access timestamp

@@ -1,0 +1,3 @@
+pitch_role,months,bottom_three_months,mean_bad_rank_points,mean_era_rank,mean_whip_rank,mean_ops_allowed_rank,mean_outs_per_start_rank,median_outs_per_start,total_ip,temporal_stability_flag
+bullpen,4,1,2.5833333333333335,6.25,5.25,3.5,,,259.3333333333333,False
+starter,4,3,4.722222222222222,8.75,8.75,7.75,8.5,13.66826923076923,277.3333333333333,True

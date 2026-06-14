@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+requests
+certifi
+pybaseball
+pyarrow
+jupyter
+

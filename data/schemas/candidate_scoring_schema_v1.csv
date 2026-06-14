@@ -1,0 +1,43 @@
+column,type,nullable,description
+candidate_id,string,false,stable candidate identifier
+player_name,string,false,player name
+evaluation_date,date,false,scoring date
+slot,string,false,foreign_hitter foreign_pitcher asian_quota injury_replacement offseason_watchlist
+market_bucket,string,false,regular_foreign_player asian_quota injury_replacement offseason_candidate
+current_org,string,true,current organization or most recent organization
+league_level,string,true,MLB AAA AA NPB NPB_Farm CPBL ABL KBO Other
+age,float,true,age on evaluation date
+bats_throws,string,true,bats throws or throwing hand
+primary_role,string,false,OF DH SP RP swingman long_relief utility
+regulation_gate_pass,bool,false,whether nationality slot roster and replacement rules pass
+economic_gate_pass,bool,false,whether expected cost fits relevant cap budget and transfer constraints
+availability_gate_pass,bool,false,whether acquisition timing and contract status are realistic
+medical_gate_pass,bool,false,whether injury and physical-risk screen passes
+role_gate_pass,bool,false,whether the candidate can perform the SSG role being bought
+gate_fail_reason,string,true,reason if any hard gate fails
+estimated_total_cost_usd,float,true,expected salary signing bonus paid options transfer fee and buyout
+estimated_monthly_cost_usd,float,true,monthly cost for replacement or midseason scenario
+remaining_season_cost_usd,float,true,pro-rated remaining cost if relevant
+source_confidence_1_5,int,false,confidence in contract availability and data sources
+ssg_fit_score_0_100,float,false,fit to mined SSG problem
+market_inefficiency_score_0_100,float,false,degree to which market likely undervalues the candidate
+kbo_translation_score_0_100,float,false,likelihood that prior-league skills carry to KBO
+failure_risk_score_0_100,float,false,higher means safer after injury adaptation volatility role risk
+tool_process_score_0_100,float,false,overall process/skill score from scouting proxies
+surplus_value_score_0_100,float,false,value relative to expected cost and slot scarcity
+final_score_0_100,float,false,weighted final score after gates
+hit_tool_20_80,float,true,hitter scouting proxy
+game_power_20_80,float,true,hitter scouting proxy
+raw_power_20_80,float,true,hitter scouting proxy
+run_20_80,float,true,hitter scouting proxy
+field_20_80,float,true,hitter scouting proxy
+arm_20_80,float,true,hitter scouting proxy
+stuff_20_80,float,true,pitcher scouting proxy
+location_command_20_80,float,true,pitcher scouting proxy
+secondary_pitch_20_80,float,true,pitcher scouting proxy
+workload_durability_20_80,float,true,pitcher/role proxy
+adaptation_risk_label,string,true,low medium high unknown
+availability_label,string,true,available_now likely_available blocked unknown
+candidate_card_claim,string,true,one-sentence evidence-backed reason this player matches SSG
+key_evidence_sources,string,true,semicolon-separated source ids or file paths
+review_status,string,false,not_started screen_pass watchlist reject final_candidate

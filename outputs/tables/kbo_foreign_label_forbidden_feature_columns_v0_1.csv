@@ -1,0 +1,15 @@
+column,allowed_as_candidate_feature,allowed_as_label_or_validation_outcome,reason
+first_kbo_pa,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+first_kbo_ip,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+first_kbo_war,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+first_kbo_wrc_plus,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+first_kbo_era,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+first_kbo_k_bb_pct,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+renewed_next_year,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+in_season_replaced,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+injury_exit_flag,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+performance_exit_flag,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+temporary_foreign_flag,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+success,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+strong_success,False,True,post-KBO outcome; using it for candidate ranking would be target leakage
+failure,False,True,post-KBO outcome; using it for candidate ranking would be target leakage

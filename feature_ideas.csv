@@ -1,0 +1,15 @@
+feature_id,slot,hypothesis,source,feature_family,leakage_risk,expected_impact,effort,validation_result,status
+F001,foreign_hitter,Runner-on-first transition skill predicts better fit than generic OPS,STATIZ+Savant,base_state_context,low,high,medium,not_started,active
+F002,foreign_hitter,Low GDP plus line-drive/gap contact is central to runway conversion,STATIZ+Savant,batted_ball_shape,medium,high,medium,not_started,active
+F003,foreign_hitter,RHP split matters more than overall production for SSG OF/DH need,STATIZ+Savant,platoon_context,low,medium,low,not_started,active
+F004,foreign_pitcher,Zone rate and first-pitch non-ball rate identify ABS-native command better than BB% alone,Savant+ABS paper,pitch_discipline,low,high,medium,not_started,active
+F005,foreign_pitcher,80-90 pitch workload history is required before considering a candidate a stabilizer,Savant,workload,low,high,low,not_started,active
+F006,foreign_pitcher,Early-inning and RISP wOBA allowed catch game-script risk better than season ERA,Savant+STATIZ,stress_context,medium,high,medium,not_started,active
+F007,asian_quota,3-5 inning absorption is more valuable than starter-only upside for Asian quota,STATIZ+external rules,role_flexibility,medium,high,medium,not_started,active
+F008,asian_quota,Availability and transition risk should be modeled as first-class features,articles+rosters,market_constraint,medium,high,high,not_started,active
+F009,all,Convert public/statistical percentiles into 20-80 proxy grades so final cards resemble field scouting reports,scouting references,tool_grade_proxy,low,high,medium,not_started,active
+F010,foreign_pitcher,Separate stuff location ABS-command and workload instead of letting velocity or strikeout rate dominate,FanGraphs+Savant+ABS paper,pitch_process,low,high,medium,not_started,active
+F011,all,Adaptation risk should be a scored variable not a narrative aside,academic papers+articles,adaptation_risk,medium,medium,medium,not_started,active
+F012,all,Contract and regulation feasibility should be a hard gate before baseball scoring,KBO rules+SSG releases,contract_rule_gate,low,high,low,not_started,active
+F013,asian_quota,Asian quota targets need surplus value under a 200k USD ceiling rather than normal foreign-player upside,KBO rules+NPB/CPBL/ABL,low_cost_surplus,medium,high,medium,not_started,active
+F014,injury_replacement,Replacement foreign players need short-window readiness under a 100k USD monthly cap,KBO rules+rosters,short_window_readiness,medium,high,medium,not_started,active

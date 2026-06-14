@@ -1,0 +1,16 @@
+{
+  "scope": "research_plus_medical",
+  "candidate_rows": 883,
+  "request_count": 4415,
+  "stat_rows": 9560,
+  "audit_rows": 4415,
+  "sport_ids": [
+    11,
+    12,
+    13,
+    14,
+    16
+  ],
+  "raw_jsonl_path": "/Users/jameshui/CODEX/포트폴리오/SDA 2기 프로젝트_야구/kbo-foreign-player-recruitment/data/raw/mlb/milb_stats/milb_stats_research_plus_medical_20260614_002614.jsonl",
+  "collected_at": "2026-06-14T00:26:14+09:00"
+}

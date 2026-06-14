@@ -1,0 +1,133 @@
+validation_scheme,role_model_family,target,valid_year,model,player_key,player_name,player_name_en,kbo_team,label,prediction,success,failure,prior_savant_years
+time_forward_holdout,hitter,success,2025,role_prior,패트릭위즈덤,패트릭 위즈덤,Patrick Wisdom,KIA,1,0.6153846153846154,1,0,2022|2023|2024
+time_forward_holdout,hitter,success,2025,role_prior,앤드류스티븐슨,앤드류 스티븐슨,Andrew Stevenson,KT,0,0.6153846153846154,0,1,2023
+time_forward_holdout,hitter,success,2025,role_prior,오스틴딘,오스틴 딘,Austin James Dean,LG,1,0.6153846153846154,1,0,2022
+time_forward_holdout,hitter,success,2025,role_prior,제이크케이브,제이크 케이브,Jake Cave,두산,1,0.6153846153846154,1,0,2022|2023|2024
+time_forward_holdout,hitter,success,2025,role_prior,빅터레예스,빅터 레예스,Víctor José Reyes,롯데,1,0.6153846153846154,1,0,2022
+time_forward_holdout,hitter,success,2025,role_prior,르윈디아즈,르윈 디아즈,Lewin Díaz,삼성,1,0.6153846153846154,1,0,2022
+time_forward_holdout,hitter,success,2025,role_prior,스톤개랫,스톤 개랫,Stone Garrett,키움,0,0.6153846153846154,0,1,2022|2023|2024
+time_forward_holdout,hitter,success,2025,role_prior,루이스리베라토,루이스 리베라토,Luis David Liberato,한화,0,0.6153846153846154,0,0,2022
+time_forward_holdout,hitter,success,2025,role_prior,에스테반플로리알,에스테반 플로리알,Estevan Florial,한화,0,0.6153846153846154,0,1,2022|2023|2024
+time_forward_holdout,hitter,success,2025,ridge_logit,패트릭위즈덤,패트릭 위즈덤,Patrick Wisdom,KIA,1,0.98,1,0,2022|2023|2024
+time_forward_holdout,hitter,success,2025,ridge_logit,앤드류스티븐슨,앤드류 스티븐슨,Andrew Stevenson,KT,0,0.9447187446789765,0,1,2023
+time_forward_holdout,hitter,success,2025,ridge_logit,오스틴딘,오스틴 딘,Austin James Dean,LG,1,0.9006282666971377,1,0,2022
+time_forward_holdout,hitter,success,2025,ridge_logit,제이크케이브,제이크 케이브,Jake Cave,두산,1,0.98,1,0,2022|2023|2024
+time_forward_holdout,hitter,success,2025,ridge_logit,빅터레예스,빅터 레예스,Víctor José Reyes,롯데,1,0.8902035502929294,1,0,2022
+time_forward_holdout,hitter,success,2025,ridge_logit,르윈디아즈,르윈 디아즈,Lewin Díaz,삼성,1,0.70663323984755,1,0,2022
+time_forward_holdout,hitter,success,2025,ridge_logit,스톤개랫,스톤 개랫,Stone Garrett,키움,0,0.32874630946496247,0,1,2022|2023|2024
+time_forward_holdout,hitter,success,2025,ridge_logit,루이스리베라토,루이스 리베라토,Luis David Liberato,한화,0,0.14380644901297085,0,0,2022
+time_forward_holdout,hitter,success,2025,ridge_logit,에스테반플로리알,에스테반 플로리알,Estevan Florial,한화,0,0.13129198084238386,0,1,2022|2023|2024
+time_forward_holdout,hitter,success,2025,balanced_ridge_logit,패트릭위즈덤,패트릭 위즈덤,Patrick Wisdom,KIA,1,0.9755990566639764,1,0,2022|2023|2024
+time_forward_holdout,hitter,success,2025,balanced_ridge_logit,앤드류스티븐슨,앤드류 스티븐슨,Andrew Stevenson,KT,0,0.9292371430683835,0,1,2023
+time_forward_holdout,hitter,success,2025,balanced_ridge_logit,오스틴딘,오스틴 딘,Austin James Dean,LG,1,0.8755774096098425,1,0,2022
+time_forward_holdout,hitter,success,2025,balanced_ridge_logit,제이크케이브,제이크 케이브,Jake Cave,두산,1,0.98,1,0,2022|2023|2024
+time_forward_holdout,hitter,success,2025,balanced_ridge_logit,빅터레예스,빅터 레예스,Víctor José Reyes,롯데,1,0.861241286606642,1,0,2022
+time_forward_holdout,hitter,success,2025,balanced_ridge_logit,르윈디아즈,르윈 디아즈,Lewin Díaz,삼성,1,0.6373108047346027,1,0,2022
+time_forward_holdout,hitter,success,2025,balanced_ridge_logit,스톤개랫,스톤 개랫,Stone Garrett,키움,0,0.26557294692713357,0,1,2022|2023|2024
+time_forward_holdout,hitter,success,2025,balanced_ridge_logit,루이스리베라토,루이스 리베라토,Luis David Liberato,한화,0,0.10953068435613857,0,0,2022
+time_forward_holdout,hitter,success,2025,balanced_ridge_logit,에스테반플로리알,에스테반 플로리알,Estevan Florial,한화,0,0.1010951842169989,0,1,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,role_prior,패트릭위즈덤,패트릭 위즈덤,Patrick Wisdom,KIA,0,0.38461538461538464,1,0,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,role_prior,앤드류스티븐슨,앤드류 스티븐슨,Andrew Stevenson,KT,1,0.38461538461538464,0,1,2023
+time_forward_holdout,hitter,failure,2025,role_prior,오스틴딘,오스틴 딘,Austin James Dean,LG,0,0.38461538461538464,1,0,2022
+time_forward_holdout,hitter,failure,2025,role_prior,제이크케이브,제이크 케이브,Jake Cave,두산,0,0.38461538461538464,1,0,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,role_prior,빅터레예스,빅터 레예스,Víctor José Reyes,롯데,0,0.38461538461538464,1,0,2022
+time_forward_holdout,hitter,failure,2025,role_prior,르윈디아즈,르윈 디아즈,Lewin Díaz,삼성,0,0.38461538461538464,1,0,2022
+time_forward_holdout,hitter,failure,2025,role_prior,스톤개랫,스톤 개랫,Stone Garrett,키움,1,0.38461538461538464,0,1,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,role_prior,루이스리베라토,루이스 리베라토,Luis David Liberato,한화,0,0.38461538461538464,0,0,2022
+time_forward_holdout,hitter,failure,2025,role_prior,에스테반플로리알,에스테반 플로리알,Estevan Florial,한화,1,0.38461538461538464,0,1,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,ridge_logit,패트릭위즈덤,패트릭 위즈덤,Patrick Wisdom,KIA,0,0.02,1,0,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,ridge_logit,앤드류스티븐슨,앤드류 스티븐슨,Andrew Stevenson,KT,1,0.055281255321023515,0,1,2023
+time_forward_holdout,hitter,failure,2025,ridge_logit,오스틴딘,오스틴 딘,Austin James Dean,LG,0,0.09937173330286223,1,0,2022
+time_forward_holdout,hitter,failure,2025,ridge_logit,제이크케이브,제이크 케이브,Jake Cave,두산,0,0.02,1,0,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,ridge_logit,빅터레예스,빅터 레예스,Víctor José Reyes,롯데,0,0.10979644970707049,1,0,2022
+time_forward_holdout,hitter,failure,2025,ridge_logit,르윈디아즈,르윈 디아즈,Lewin Díaz,삼성,0,0.29336676015244995,1,0,2022
+time_forward_holdout,hitter,failure,2025,ridge_logit,스톤개랫,스톤 개랫,Stone Garrett,키움,1,0.6712536905350376,0,1,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,ridge_logit,루이스리베라토,루이스 리베라토,Luis David Liberato,한화,0,0.8561935509870293,0,0,2022
+time_forward_holdout,hitter,failure,2025,ridge_logit,에스테반플로리알,에스테반 플로리알,Estevan Florial,한화,1,0.8687080191576162,0,1,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,balanced_ridge_logit,패트릭위즈덤,패트릭 위즈덤,Patrick Wisdom,KIA,0,0.024400943336023644,1,0,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,balanced_ridge_logit,앤드류스티븐슨,앤드류 스티븐슨,Andrew Stevenson,KT,1,0.0707628569316164,0,1,2023
+time_forward_holdout,hitter,failure,2025,balanced_ridge_logit,오스틴딘,오스틴 딘,Austin James Dean,LG,0,0.12442259039015743,1,0,2022
+time_forward_holdout,hitter,failure,2025,balanced_ridge_logit,제이크케이브,제이크 케이브,Jake Cave,두산,0,0.02,1,0,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,balanced_ridge_logit,빅터레예스,빅터 레예스,Víctor José Reyes,롯데,0,0.13875871339335777,1,0,2022
+time_forward_holdout,hitter,failure,2025,balanced_ridge_logit,르윈디아즈,르윈 디아즈,Lewin Díaz,삼성,0,0.3626891952653973,1,0,2022
+time_forward_holdout,hitter,failure,2025,balanced_ridge_logit,스톤개랫,스톤 개랫,Stone Garrett,키움,1,0.7344270530728664,0,1,2022|2023|2024
+time_forward_holdout,hitter,failure,2025,balanced_ridge_logit,루이스리베라토,루이스 리베라토,Luis David Liberato,한화,0,0.8904693156438613,0,0,2022
+time_forward_holdout,hitter,failure,2025,balanced_ridge_logit,에스테반플로리알,에스테반 플로리알,Estevan Florial,한화,1,0.898904815783001,0,1,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,role_prior,애덤올러,애덤 올러,Adam Oller,KIA,1,0.35,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,role_prior,제임스네일,제임스 네일,James Aubrey Naile,KIA,1,0.35,1,0,2022|2023
+time_forward_holdout,pitcher,success,2025,role_prior,엔마누엘데헤수스,엔마누엘 데 헤수스,Enmanuel Jose De Jesus,KT,1,0.35,1,0,2023
+time_forward_holdout,pitcher,success,2025,role_prior,패트릭머피,패트릭 머피,Patrick Murphy,KT,0,0.35,0,1,2022
+time_forward_holdout,pitcher,success,2025,role_prior,엘리에이저에르난데스,엘리에이저 에르난데스,Elieser Hernández,LG,0,0.35,0,1,2022|2024
+time_forward_holdout,pitcher,success,2025,role_prior,요니치리노스,요니 치리노스,Yonny Chirinos,LG,1,0.35,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,role_prior,미치화이트,미치 화이트,Mitch White,SSG,1,0.35,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,role_prior,잭로그,잭 로그,Zach Logue,두산,1,0.35,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,role_prior,콜어빈,콜 어빈,Cole Irvin,두산,1,0.35,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,role_prior,터커데이비드슨,터커 데이비드슨,Tucker Davidson,롯데,0,0.35,0,1,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,role_prior,데니레예스,데니 레예스,Denyi Reyes,삼성,0,0.35,0,1,2022|2023
+time_forward_holdout,pitcher,success,2025,role_prior,헤르손가라비토,헤르손 가라비토,Gerson Yeris Garabito,삼성,0,0.35,0,0,2024
+time_forward_holdout,pitcher,success,2025,role_prior,케니로젠버그,케니 로젠버그,Kenny Rosenberg,키움,0,0.35,0,1,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,ridge_logit,애덤올러,애덤 올러,Adam Oller,KIA,1,0.6504846338022584,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,ridge_logit,제임스네일,제임스 네일,James Aubrey Naile,KIA,1,0.28868990512931847,1,0,2022|2023
+time_forward_holdout,pitcher,success,2025,ridge_logit,엔마누엘데헤수스,엔마누엘 데 헤수스,Enmanuel Jose De Jesus,KT,1,0.6190741872291289,1,0,2023
+time_forward_holdout,pitcher,success,2025,ridge_logit,패트릭머피,패트릭 머피,Patrick Murphy,KT,0,0.4505420037277237,0,1,2022
+time_forward_holdout,pitcher,success,2025,ridge_logit,엘리에이저에르난데스,엘리에이저 에르난데스,Elieser Hernández,LG,0,0.17249068738934428,0,1,2022|2024
+time_forward_holdout,pitcher,success,2025,ridge_logit,요니치리노스,요니 치리노스,Yonny Chirinos,LG,1,0.4060884848994777,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,ridge_logit,미치화이트,미치 화이트,Mitch White,SSG,1,0.4725295296258261,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,ridge_logit,잭로그,잭 로그,Zach Logue,두산,1,0.10577193027855922,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,ridge_logit,콜어빈,콜 어빈,Cole Irvin,두산,1,0.6499594298089345,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,ridge_logit,터커데이비드슨,터커 데이비드슨,Tucker Davidson,롯데,0,0.29644379989208575,0,1,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,ridge_logit,데니레예스,데니 레예스,Denyi Reyes,삼성,0,0.5444971346210324,0,1,2022|2023
+time_forward_holdout,pitcher,success,2025,ridge_logit,헤르손가라비토,헤르손 가라비토,Gerson Yeris Garabito,삼성,0,0.0432957011785655,0,0,2024
+time_forward_holdout,pitcher,success,2025,ridge_logit,케니로젠버그,케니 로젠버그,Kenny Rosenberg,키움,0,0.21051445621781403,0,1,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,애덤올러,애덤 올러,Adam Oller,KIA,1,0.7668219698240808,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,제임스네일,제임스 네일,James Aubrey Naile,KIA,1,0.4340237486800139,1,0,2022|2023
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,엔마누엘데헤수스,엔마누엘 데 헤수스,Enmanuel Jose De Jesus,KT,1,0.7308372015753944,1,0,2023
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,패트릭머피,패트릭 머피,Patrick Murphy,KT,0,0.5374957856524855,0,1,2022
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,엘리에이저에르난데스,엘리에이저 에르난데스,Elieser Hernández,LG,0,0.2361563051028171,0,1,2022|2024
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,요니치리노스,요니 치리노스,Yonny Chirinos,LG,1,0.5300496913671123,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,미치화이트,미치 화이트,Mitch White,SSG,1,0.6021673649604561,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,잭로그,잭 로그,Zach Logue,두산,1,0.15265403385487716,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,콜어빈,콜 어빈,Cole Irvin,두산,1,0.7729540775510951,1,0,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,터커데이비드슨,터커 데이비드슨,Tucker Davidson,롯데,0,0.39206590268650826,0,1,2022|2023|2024
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,데니레예스,데니 레예스,Denyi Reyes,삼성,0,0.6689607226095606,0,1,2022|2023
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,헤르손가라비토,헤르손 가라비토,Gerson Yeris Garabito,삼성,0,0.05737019123429879,0,0,2024
+time_forward_holdout,pitcher,success,2025,balanced_ridge_logit,케니로젠버그,케니 로젠버그,Kenny Rosenberg,키움,0,0.2829810322479785,0,1,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,role_prior,애덤올러,애덤 올러,Adam Oller,KIA,0,0.6,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,role_prior,제임스네일,제임스 네일,James Aubrey Naile,KIA,0,0.6,1,0,2022|2023
+time_forward_holdout,pitcher,failure,2025,role_prior,엔마누엘데헤수스,엔마누엘 데 헤수스,Enmanuel Jose De Jesus,KT,0,0.6,1,0,2023
+time_forward_holdout,pitcher,failure,2025,role_prior,패트릭머피,패트릭 머피,Patrick Murphy,KT,1,0.6,0,1,2022
+time_forward_holdout,pitcher,failure,2025,role_prior,엘리에이저에르난데스,엘리에이저 에르난데스,Elieser Hernández,LG,1,0.6,0,1,2022|2024
+time_forward_holdout,pitcher,failure,2025,role_prior,요니치리노스,요니 치리노스,Yonny Chirinos,LG,0,0.6,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,role_prior,미치화이트,미치 화이트,Mitch White,SSG,0,0.6,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,role_prior,잭로그,잭 로그,Zach Logue,두산,0,0.6,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,role_prior,콜어빈,콜 어빈,Cole Irvin,두산,0,0.6,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,role_prior,터커데이비드슨,터커 데이비드슨,Tucker Davidson,롯데,1,0.6,0,1,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,role_prior,데니레예스,데니 레예스,Denyi Reyes,삼성,1,0.6,0,1,2022|2023
+time_forward_holdout,pitcher,failure,2025,role_prior,헤르손가라비토,헤르손 가라비토,Gerson Yeris Garabito,삼성,0,0.6,0,0,2024
+time_forward_holdout,pitcher,failure,2025,role_prior,케니로젠버그,케니 로젠버그,Kenny Rosenberg,키움,1,0.6,0,1,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,ridge_logit,애덤올러,애덤 올러,Adam Oller,KIA,0,0.3521437041377652,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,ridge_logit,제임스네일,제임스 네일,James Aubrey Naile,KIA,0,0.6509459896413294,1,0,2022|2023
+time_forward_holdout,pitcher,failure,2025,ridge_logit,엔마누엘데헤수스,엔마누엘 데 헤수스,Enmanuel Jose De Jesus,KT,0,0.39231725310803367,1,0,2023
+time_forward_holdout,pitcher,failure,2025,ridge_logit,패트릭머피,패트릭 머피,Patrick Murphy,KT,1,0.5819010955082647,0,1,2022
+time_forward_holdout,pitcher,failure,2025,ridge_logit,엘리에이저에르난데스,엘리에이저 에르난데스,Elieser Hernández,LG,1,0.6293238784064193,0,1,2022|2024
+time_forward_holdout,pitcher,failure,2025,ridge_logit,요니치리노스,요니 치리노스,Yonny Chirinos,LG,0,0.28595907163665746,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,ridge_logit,미치화이트,미치 화이트,Mitch White,SSG,0,0.2097681317400047,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,ridge_logit,잭로그,잭 로그,Zach Logue,두산,0,0.7576019416515635,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,ridge_logit,콜어빈,콜 어빈,Cole Irvin,두산,0,0.04643109346554702,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,ridge_logit,터커데이비드슨,터커 데이비드슨,Tucker Davidson,롯데,1,0.1680876116141843,0,1,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,ridge_logit,데니레예스,데니 레예스,Denyi Reyes,삼성,1,0.4178066331017834,0,1,2022|2023
+time_forward_holdout,pitcher,failure,2025,ridge_logit,헤르손가라비토,헤르손 가라비토,Gerson Yeris Garabito,삼성,0,0.7760866889618532,0,0,2024
+time_forward_holdout,pitcher,failure,2025,ridge_logit,케니로젠버그,케니 로젠버그,Kenny Rosenberg,키움,1,0.7381525232897264,0,1,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,애덤올러,애덤 올러,Adam Oller,KIA,0,0.27229626202247526,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,제임스네일,제임스 네일,James Aubrey Naile,KIA,0,0.55845080684568,1,0,2022|2023
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,엔마누엘데헤수스,엔마누엘 데 헤수스,Enmanuel Jose De Jesus,KT,0,0.314634654728719,1,0,2023
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,패트릭머피,패트릭 머피,Patrick Murphy,KT,1,0.5225605244431546,0,1,2022
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,엘리에이저에르난데스,엘리에이저 에르난데스,Elieser Hernández,LG,1,0.5633938861988664,0,1,2022|2024
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,요니치리노스,요니 치리노스,Yonny Chirinos,LG,0,0.22217634940422015,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,미치화이트,미치 화이트,Mitch White,SSG,0,0.1568957401935225,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,잭로그,잭 로그,Zach Logue,두산,0,0.7000657280401549,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,콜어빈,콜 어빈,Cole Irvin,두산,0,0.030097633174264102,1,0,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,터커데이비드슨,터커 데이비드슨,Tucker Davidson,롯데,1,0.12962431476669933,0,1,2022|2023|2024
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,데니레예스,데니 레예스,Denyi Reyes,삼성,1,0.3391731953351142,0,1,2022|2023
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,헤르손가라비토,헤르손 가라비토,Gerson Yeris Garabito,삼성,0,0.7325850065185855,0,0,2024
+time_forward_holdout,pitcher,failure,2025,balanced_ridge_logit,케니로젠버그,케니 로젠버그,Kenny Rosenberg,키움,1,0.6820201259839891,0,1,2022|2023|2024

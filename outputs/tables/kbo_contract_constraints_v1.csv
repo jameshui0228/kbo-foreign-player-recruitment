@@ -1,0 +1,13 @@
+constraint_id,market_bucket,constraint_name,rule_value,source_url,model_action,status
+C001,asian_quota,eligible_nationality,"BFA-country or Australian nationality; non-Asian dual nationality not allowed",https://www.koreabaseball.com/Kbo/League/GameManage2026.aspx,hard_gate,confirmed
+C002,asian_quota,league_history,"prior or current year Asian league affiliation required",https://www.koreabaseball.com/Kbo/League/GameManage2026.aspx,hard_gate,confirmed
+C003,asian_quota,max_count,"maximum one Asian quota player; position unrestricted",https://www.koreabaseball.com/Kbo/League/GameManage2026.aspx,hard_gate,confirmed
+C004,asian_quota,new_signing_cost_cap,"200000 USD total cost cap including salary signing bonus paid options and transfer fee excluding tax",https://www.koreabaseball.com/MediaNews/News/KboPhoto/View.aspx?bdSe=520974,economic_gate,confirmed
+C005,asian_quota,roster_effect,"2026 KBO page lists 29 registered and 28 active game players after Asian quota change",https://www.koreabaseball.com/Kbo/League/GameManage2026.aspx,roster_context,confirmed
+C006,injury_replacement,injury_trigger,"current foreign player needs at least six weeks of treatment",https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=9984,hard_gate,confirmed
+C007,injury_replacement,replacement_mechanism,"club may put injured foreign player on rehab list and sign replacement until original returns without using replacement count",https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=9984,hard_gate,confirmed
+C008,injury_replacement,monthly_cost_cap,"100000 USD per month",https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=9984,economic_gate,confirmed
+C009,regular_foreign,ssg_white_contract,"Mitch White announced total value 1200000 USD",https://www.ssglanders.com/media/news/detail?idx=19829&page=,cost_baseline,confirmed
+C010,regular_foreign,ssg_heredia_contract,"Guillermo Heredia announced total value 1300000 USD",https://www.ssglanders.com/media/news/detail?idx=19829&page=,cost_baseline,confirmed
+C011,regular_foreign,ssg_veneziano_contract,"Anthony Veneziano announced total value 850000 USD",https://www.ssglanders.com/media/news/detail?idx=19834&page=,cost_baseline,confirmed
+C012,asian_quota,ssg_takeda_contract,"Takeda Shota reported at 200000 USD; official SSG/KBO source still needed",https://v.daum.net/v/20251116095946866,cost_baseline,needs_official_confirmation

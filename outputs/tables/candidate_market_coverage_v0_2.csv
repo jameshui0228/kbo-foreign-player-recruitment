@@ -1,0 +1,7 @@
+slot,market_scope,rows,first_pass_gate_pass,non40man_org_candidate,dfa_designated_high_signal,medical_red_flag,mlb_active_low_access,data_status,blocking_gap
+regular_foreign_pitcher,MLB Savant 2025-2026 plus MLB official roster status,1009,4,119,7,192,429,partial_current_mlb_org_only,"needs transaction/free-agent feed, option/salary proxy, medical review, Korea-willingness, and manual contract feasibility"
+regular_foreign_hitter_outfield_priority,MLB Savant 2025-2026 plus MLB official roster status,736,6,85,3,96,394,partial_current_mlb_org_only,"needs transaction/free-agent feed, option/salary proxy, medical review, Korea-willingness, and manual contract feasibility"
+injury_replacement,MLB transactions plus roster status,0,0,0,0,0,0,not_started,"current free-agent/released/DFA pool, short-window readiness, recent workload"
+asian_quota,NPB/CPBL/ABL official data,0,0,0,0,0,0,not_started,"nationality, prior/current Asian league, NPB/CPBL/ABL status, salary estimate"
+article_full_text,Naver original links and media pages,0,0,0,0,0,0,not_started,"full article text, quotes, interview source, medical and adaptation comments"
+weather_park_context,KMA/weather plus KBO game data,0,0,0,0,0,0,not_started,"Munhak weather, humidity, park factors, batted-ball environment"

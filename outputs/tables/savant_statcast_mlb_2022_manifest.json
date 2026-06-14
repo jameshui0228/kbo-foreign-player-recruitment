@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-06-12T22:21:39",
+  "source": "Baseball Savant via pybaseball.statcast",
+  "seed": 7,
+  "args": {
+    "start": "2022-04-07",
+    "end": "2022-10-05",
+    "team": null,
+    "chunk_days": 14,
+    "out_dir": "data/raw/mlb_milb/savant/statcast_mlb",
+    "manifest": "outputs/tables/savant_statcast_mlb_2022_manifest.json",
+    "sleep_sec": 0.2,
+    "resume": true,
+    "no_cache": false,
+    "combine": true,
+    "combined_out": "data/processed/mlb_milb/savant/savant_statcast_2022.parquet",
+    "parallel": false
+  },
+  "chunks": [
+    {
+      "start_date": "2022-04-07",
+      "end_date": "2022-04-20",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220407_20220420.csv.gz",
+      "rows": 52902,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-04-21",
+      "end_date": "2022-05-04",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220421_20220504.csv.gz",
+      "rows": 54621,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-05-05",
+      "end_date": "2022-05-18",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220505_20220518.csv.gz",
+      "rows": 55677,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-05-19",
+      "end_date": "2022-06-01",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220519_20220601.csv.gz",
+      "rows": 56359,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-06-02",
+      "end_date": "2022-06-15",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220602_20220615.csv.gz",
+      "rows": 56532,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-06-16",
+      "end_date": "2022-06-29",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220616_20220629.csv.gz",
+      "rows": 55766,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-06-30",
+      "end_date": "2022-07-13",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220630_20220713.csv.gz",
+      "rows": 57519,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-07-14",
+      "end_date": "2022-07-27",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220714_20220727.csv.gz",
+      "rows": 43485,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-07-28",
+      "end_date": "2022-08-10",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220728_20220810.csv.gz",
+      "rows": 0,
+      "columns": 0,
+      "status": "failed",
+      "error": "Error tokenizing data. C error: Expected 1 fields in line 12, saw 2\n"
+    },
+    {
+      "start_date": "2022-08-11",
+      "end_date": "2022-08-24",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220811_20220824.csv.gz",
+      "rows": 55810,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-08-25",
+      "end_date": "2022-09-07",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220825_20220907.csv.gz",
+      "rows": 55457,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-09-08",
+      "end_date": "2022-09-21",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220908_20220921.csv.gz",
+      "rows": 54358,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2022-09-22",
+      "end_date": "2022-10-05",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20220922_20221005.csv.gz",
+      "rows": 56695,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+source_name,league,source_url,team_code,team_name,rows,data_status,blocking_gap,collected_at
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_g.html,g,Yomiuri Giants,66,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_t.html,t,Hanshin Tigers,67,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_db.html,db,YOKOHAMA DeNA BAYSTARS,69,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_d.html,d,Chunichi Dragons,67,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_c.html,c,Hiroshima Toyo Carp,68,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_s.html,s,Tokyo Yakult Swallows,67,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_h.html,h,Fukuoka SoftBank Hawks,67,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_f.html,f,Hokkaido Nippon-Ham Fighters,67,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_b.html,b,ORIX Buffaloes,67,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_e.html,e,Tohoku Rakuten Golden Eagles,70,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_l.html,l,Saitama Seibu Lions,68,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+NPB official English roster,NPB,https://npb.jp/bis/eng/teams/rst_m.html,m,Chiba Lotte Marines,67,ok,official roster has no nationality field; salary/contract status not exposed,2026-06-14T00:11:14+09:00
+CPBL official English roster and player pages,CPBL,https://en.cpbl.com.tw/team?ClubNo=AAA,AAA,DRAGONS,28,ok,salary/contract status not exposed; active roster means release/buyout feasibility unknown,2026-06-14T00:11:14+09:00
+CPBL official English roster and player pages,CPBL,https://en.cpbl.com.tw/team?ClubNo=ACN,ACN,Brothers,28,ok,salary/contract status not exposed; active roster means release/buyout feasibility unknown,2026-06-14T00:11:14+09:00
+CPBL official English roster and player pages,CPBL,https://en.cpbl.com.tw/team?ClubNo=ADD,ADD,U-Lions,28,ok,salary/contract status not exposed; active roster means release/buyout feasibility unknown,2026-06-14T00:11:14+09:00
+CPBL official English roster and player pages,CPBL,https://en.cpbl.com.tw/team?ClubNo=AEO,AEO,Guardians,28,ok,salary/contract status not exposed; active roster means release/buyout feasibility unknown,2026-06-14T00:11:14+09:00
+CPBL official English roster and player pages,CPBL,https://en.cpbl.com.tw/team?ClubNo=AJL,AJL,Monkeys,28,ok,salary/contract status not exposed; active roster means release/buyout feasibility unknown,2026-06-14T00:11:14+09:00
+CPBL official English roster and player pages,CPBL,https://en.cpbl.com.tw/team?ClubNo=AKP,AKP,TSG Hawks,28,ok,salary/contract status not exposed; active roster means release/buyout feasibility unknown,2026-06-14T00:11:14+09:00

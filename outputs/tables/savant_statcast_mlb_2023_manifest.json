@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-06-11T18:42:03",
+  "source": "Baseball Savant via pybaseball.statcast",
+  "seed": 7,
+  "args": {
+    "start": "2023-03-30",
+    "end": "2023-10-01",
+    "team": null,
+    "chunk_days": 7,
+    "out_dir": "data/raw/mlb_milb/savant/statcast_mlb",
+    "manifest": "outputs/tables/savant_statcast_mlb_2023_manifest.json",
+    "sleep_sec": 0.25,
+    "resume": true,
+    "no_cache": false,
+    "combine": false,
+    "combined_out": "data/processed/savant_statcast_combined.parquet",
+    "parallel": true
+  },
+  "chunks": [
+    {
+      "start_date": "2023-03-30",
+      "end_date": "2023-04-05",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230330_20230405.csv.gz",
+      "rows": 26924,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-04-06",
+      "end_date": "2023-04-12",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230406_20230412.csv.gz",
+      "rows": 28347,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-04-13",
+      "end_date": "2023-04-19",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230413_20230419.csv.gz",
+      "rows": 28305,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-04-20",
+      "end_date": "2023-04-26",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230420_20230426.csv.gz",
+      "rows": 27295,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-04-27",
+      "end_date": "2023-05-03",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230427_20230503.csv.gz",
+      "rows": 26769,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-05-04",
+      "end_date": "2023-05-10",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230504_20230510.csv.gz",
+      "rows": 28338,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-05-11",
+      "end_date": "2023-05-17",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230511_20230517.csv.gz",
+      "rows": 27430,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-05-18",
+      "end_date": "2023-05-24",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230518_20230524.csv.gz",
+      "rows": 27212,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-05-25",
+      "end_date": "2023-05-31",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230525_20230531.csv.gz",
+      "rows": 28358,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-06-01",
+      "end_date": "2023-06-07",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230601_20230607.csv.gz",
+      "rows": 25714,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-06-08",
+      "end_date": "2023-06-14",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230608_20230614.csv.gz",
+      "rows": 28429,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-06-15",
+      "end_date": "2023-06-21",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230615_20230621.csv.gz",
+      "rows": 27540,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-06-22",
+      "end_date": "2023-06-28",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230622_20230628.csv.gz",
+      "rows": 26074,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-06-29",
+      "end_date": "2023-07-05",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230629_20230705.csv.gz",
+      "rows": 28685,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-07-06",
+      "end_date": "2023-07-12",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230706_20230712.csv.gz",
+      "rows": 16246,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-07-13",
+      "end_date": "2023-07-19",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230713_20230719.csv.gz",
+      "rows": 25732,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-07-20",
+      "end_date": "2023-07-26",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230720_20230726.csv.gz",
+      "rows": 27575,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-07-27",
+      "end_date": "2023-08-02",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230727_20230802.csv.gz",
+      "rows": 26434,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-08-03",
+      "end_date": "2023-08-09",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230803_20230809.csv.gz",
+      "rows": 28225,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-08-10",
+      "end_date": "2023-08-16",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230810_20230816.csv.gz",
+      "rows": 27123,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-08-17",
+      "end_date": "2023-08-23",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230817_20230823.csv.gz",
+      "rows": 27098,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-08-24",
+      "end_date": "2023-08-30",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230824_20230830.csv.gz",
+      "rows": 28850,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-08-31",
+      "end_date": "2023-09-06",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230831_20230906.csv.gz",
+      "rows": 27355,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-09-07",
+      "end_date": "2023-09-13",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230907_20230913.csv.gz",
+      "rows": 28551,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-09-14",
+      "end_date": "2023-09-20",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230914_20230920.csv.gz",
+      "rows": 29078,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-09-21",
+      "end_date": "2023-09-27",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230921_20230927.csv.gz",
+      "rows": 26422,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    },
+    {
+      "start_date": "2023-09-28",
+      "end_date": "2023-10-01",
+      "output_file": "data/raw/mlb_milb/savant/statcast_mlb/statcast_20230928_20231001.csv.gz",
+      "rows": 16575,
+      "columns": 119,
+      "status": "downloaded",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+model_layer,role_model_family,eligible_labeled_rows,pre_kbo_savant_matched_rows,coverage_rate,success_rows,failure_rows,training_ready,minimum_role_rows_required,minimum_class_rows_required
+kbo_translation_and_failure_risk,hitter,42,22,0.5238095238095238,13,8,True,20,8
+kbo_translation_and_failure_risk,pitcher,86,33,0.38372093023255816,14,17,True,20,8
+kbo_translation_and_failure_risk,all_roles,128,55,0.4296875,27,25,False,60,8

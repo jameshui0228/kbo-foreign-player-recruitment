@@ -1,0 +1,17 @@
+column,type,nullable,description
+rank,int,false,role-specific rank
+player_name,string,false,player name
+age,float,true,age on evaluation date
+position_role,string,false,position or role
+current_team,string,true,current team
+league,string,true,current league
+bats_throws,string,true,bats/throws or throwing hand
+key_strength,string,true,strongest skill
+acceptable_flaw,string,true,flaw that may make acquisition realistic
+ssg_fit_score,float,false,0-100 SSG fit score
+kbo_translation_score,float,false,0-100 KBO translation score
+skill_score,float,false,0-100 raw skill score
+availability_score,float,false,0-100 acquisition feasibility score
+risk_score,float,false,0-100 safety score where higher is safer
+final_score,float,false,0-100 final acquisition score
+short_comment,string,true,one-sentence interpretation

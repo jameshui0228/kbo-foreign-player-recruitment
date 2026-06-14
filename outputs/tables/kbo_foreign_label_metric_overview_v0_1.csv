@@ -1,0 +1,7 @@
+check,value,status,note
+rows_total,406,pass,foreign-player season rows
+label_available_rows,353,pass,rows usable as historical supervised labels
+statiz_outcome_rows,128,pass,rows with local STATIZ performance outcomes attached
+current_2026_labels_withheld,0,pass,"2026 should be current context, not completed-season label"
+target_only_column_count,14,pass,these columns are forbidden as candidate ranking features
+required_identity_non_null,0,pass,identity grain should be complete

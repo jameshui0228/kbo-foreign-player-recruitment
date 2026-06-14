@@ -1,0 +1,4 @@
+role_group,failure_archetype,failure_rows,share_of_role_failures,injury_exit_rate,performance_exit_rate,in_season_replaced_rate,median_pa,median_ip,median_war,median_wrc_plus,median_era,example_failures
+hitter,hitter_failure_replacement_or_low_impact,12,0.7058823529411765,0.5833333333333334,0.4166666666666667,1.0,236.5,,0.03352122567594051,98.0936279296875,,잭 렉스 | 에디슨 러셀 | 브라이언 오그레디 | 헨리 라모스 | 데이비드 맥키넌 | 루벤 카데나스 | 멜 로하스 주니어 | 라이언 맥브룸
+hitter,hitter_everyday_middle_order_anchor,5,0.29411764705882354,0.0,0.0,0.0,201.0,,0.4046840369701385,104.46678161621094,,니코 구드럼 | 닉 윌리엄스 | 제러드 영 | 앤드류 스티븐슨 | 루벤 카디네스
+starter,pitcher_failure_replacement_or_health_risk,37,1.0,0.2702702702702703,0.35135135135135137,0.7027027027027027,,53.333333333333336,0.7603555099081909,,4.53,마리오 산체스 | 버치 스미스 | 이언 매키니 | 테일러 와이드너 | 앨버트 수아레즈 | 댄 스트레일리 | 에릭 요키시 | 태너 털리

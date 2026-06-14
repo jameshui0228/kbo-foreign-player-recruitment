@@ -1,0 +1,11 @@
+season,rows,listed_rows,released_rows,statiz_matched_rows,outcome_available_rows,label_available_rows,success_rows,failure_rows,coverage_note
+2017,37,29,8,0,0,37,16,8,roster/renewal proxy only
+2018,34,28,6,0,0,34,12,6,roster/renewal proxy only
+2019,39,30,9,0,0,39,12,9,roster/renewal proxy only
+2020,34,29,5,0,0,34,12,5,roster/renewal proxy only
+2021,38,29,9,0,0,38,9,9,roster/renewal proxy only
+2022,42,29,13,0,0,42,11,13,roster/renewal proxy only
+2023,42,30,12,41,41,42,22,18,STATIZ outcome coverage
+2024,43,30,13,43,43,43,23,18,STATIZ outcome coverage
+2025,44,30,14,44,44,44,24,19,STATIZ outcome coverage
+2026,53,44,9,0,0,0,0,0,current season; labels withheld

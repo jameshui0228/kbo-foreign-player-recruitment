@@ -1,0 +1,3 @@
+date,submission_file,public_lb,rank_if_known,linked_run_id,cv_score,cv_lb_relation,notes
+2026-06-12,docs/three_slot_core_messages_v1.md,NA,NA,run_001,"foreign_pitcher=74;foreign_hitter=56;asian_quota=48",NA,Initial message framework; not a leaderboard submission
+

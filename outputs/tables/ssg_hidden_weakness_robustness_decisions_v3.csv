@@ -1,0 +1,5 @@
+rule_id,core_type,games,win_pct,avg_run_diff,half_windows_with_signal,leave_one_opponent_support_rate,bootstrap_median_win_pct,bootstrap_median_run_diff,perm_p_win_pct_as_low_or_lower,perm_p_run_diff_as_low_or_lower,passes_games,passes_strength,passes_bootstrap_median,passes_leave_one_opponent,decision
+R1_rhp_low_of_conversion_run_trade,primary_message,20,0.1,-5.1,2,1.0,0.09090909090909091,-5.105263157894737,0.0,0.0,True,True,True,True,promote_core
+R2_rhp_ofdh_run_kill,hitter_filter,9,0.0,-5.111111111111111,1,1.0,0.0,-5.095454545454546,0.005333333333333333,0.003,True,True,True,True,promote_core
+R3_extra_out_high_of_void,pitcher_hitter_bridge,8,0.0,-4.5,1,0.8888888888888888,0.0,-4.5,0.008,0.011666666666666667,True,True,True,True,promote_core
+R4_top_opponent_short_start_of_void,support_only,6,0.0,-5.833333333333333,0,0.7777777777777778,0.0,-5.857142857142857,0.03,0.006666666666666667,False,True,True,True,support_only

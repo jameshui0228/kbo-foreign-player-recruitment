@@ -1,0 +1,6 @@
+candidate_id,type,description,inputs,status,notes
+ens_001,message_ensemble,Three-slot portfolio message,"runway_converter;abs_native_load_bearing_starter;option_layer",active,Use for project narrative
+ens_002,pitcher_screen_blend,Blend workload command and damage suppression,"Savant workload;zone command;HR/barrel;stress splits",planned,Build after candidate pool
+ens_003,hitter_screen_blend,Blend runway context and batted-ball quality,"on-first production;GDP risk;RHP split;two-strike survival",planned,Build after candidate pool
+ens_004,asian_quota_screen_blend,Blend option value and market feasibility,"multi-inning ability;availability;transition risk;command",planned,Needs NPB/CPBL/Australia data
+

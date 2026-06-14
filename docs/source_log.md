@@ -1,0 +1,36 @@
+# Source Log
+
+접근일: 2026-06-11 KST
+
+이 문서는 데이터 출처, 접근 방식, 포함 범위, 수집 가능성, 한계, 프로젝트 내 사용 목적을 기록한다. 실제 수집 후에는 파일명, row count, column list, 수집 시각, 변환 스크립트도 추가한다.
+
+| source_id | source_name | url | domain | included_data | access_method | collection_status | limitations_and_terms | project_use |
+|---|---|---|---|---|---|---|---|---|
+| kbo_statiz | STATIZ | https://www.statiz.co.kr/ | KBO | player/team stats, WAR, wRC+, FIP-style metrics, splits | local contest API snapshot copied from `/Users/jameshui/New project/tmp/live_delta_20260611_from_api_v1`; HMAC API auth verified 2026-06-11 | acquired_partial | Existing local API snapshot is available. Provided key/secret worked for `gameSchedule`; store credentials only in local env, not in repo. | SSG 전력 진단, KBO 외국인 성공 label 보강 |
+| kbo_official | KBO official records | https://eng.koreabaseball.com/ | KBO | official standings, batting/pitching leaders, roster | official pages | planned | 고급지표 제한. 페이지 구조 변동 가능. | 최신 로스터/공식 기록 검증 |
+| kbo_official_team | KBO official team stats | https://eng.koreabaseball.com/stats/TeamStats.aspx | KBO | team batting/pitching basic stats | official pages | planned | split/advanced metrics 제한. | SSG vs league baseline |
+| mykbo_stats | MyKBO Stats | https://mykbostats.com/stats | KBO | KBO standings, league summaries, foreign player stats, team splits | web tables | planned | 비공식. 컬럼 정의 확인 필요. | KBO split/foreign player 보조 |
+| fg_kbo | FanGraphs International KBO | https://www.fangraphs.com/leaders/international/kbo | KBO | KBO leaders and advanced stats | leaderboard/export if allowed | planned | 업데이트 시점, export 제한 확인 필요. | KBO 고급지표 교차검증 |
+| savant_search | Baseball Savant Statcast Search | https://baseballsavant.mlb.com/statcast_search | MLB/MiLB | pitch-level and batted-ball Statcast | `pybaseball.statcast` chunk download | acquired_partial | MLB pitch/play-level data acquired for 2023-2025 regular season and 2026 through 2026-06-11. MiLB Statcast coverage still needs separate audit. | hitter batted-ball, pitcher arsenal, ABS proxy |
+| savant_csv_docs | Baseball Savant CSV Docs | https://baseballsavant.mlb.com/csv-docs | MLB/MiLB | Statcast CSV column definitions | documentation | active_reference | 문서와 실제 export 컬럼 차이 확인 필요. | data dictionary |
+| fangraphs_mlb | FanGraphs MLB leaders | https://www.fangraphs.com/leaders/major-league | MLB | MLB advanced player stats | leaderboard/export if allowed | planned | 일부 데이터/다운로드 제한 가능. | MLB skill baseline |
+| fangraphs_milb | FanGraphs Minor League leaders | https://www.fangraphs.com/leaders/minor-league | MiLB | MiLB batting/pitching advanced stats | leaderboard/export if allowed | planned | 일부 workbook/member 제한 가능. | AAA/AA 후보 pool |
+| bref_register | Baseball-Reference Register | https://www.baseball-reference.com/register/ | MLB/MiLB/KBO/NPB | player history, yearly stats, level | web/manual within allowed use | planned | scraping 제한 준수 필요. | 선수 이력, 레벨, age 확인 |
+| mlb_official | MLB official | https://www.mlb.com/ | MLB | current roster, transactions, injury news | official roster/transactions | planned | 계약 세부 제한. | 40-man/availability 검증 |
+| milb_official | MiLB official | https://www.milb.com/ | MiLB | roster, transactions, player pages | official pages | planned | 일부 기록 export 제한. | AAA/AA current team 확인 |
+| npb_official | NPB official | https://npb.jp/eng/ | NPB | schedules, teams, official stats, players | official pages | planned | 고급지표 제한. | NPB 후보 공식 검증 |
+| npb_official_stats | NPB official stats | https://npb.jp/bis/eng/2025/stats/ | NPB | season standings and basic stats | official pages | planned | 연도별 URL 구조 확인 필요. | NPB 기본 성적 |
+| fg_npb | FanGraphs International NPB | https://www.fangraphs.com/leaders/international/npb | NPB | advanced NPB leaders | leaderboard/export if allowed | planned | 업데이트/coverage 확인 필요. | NPB 고급지표 보강 |
+| proeyekyuu | ProEyeKyuu | https://proeyekyuu.com/ | NPB | player/team stats, historical/current, downloadable reports | site download if allowed | planned | 다운로드 약관/컬럼 정의 확인 필요. | NPB/Farm 후보 pool |
+| yakyu_cosmo | Yakyu Cosmopolitan | https://www.yakyucosmo.com/ | NPB/Farm | NPB batting/pitching, farm batting/pitching | web tables | planned | 비공식. 컬럼 정의/업데이트 확인 필요. | 아시아쿼터 후보 pool |
+| npbstats | NPB STATS | https://npbstats.com/eng/ | NPB | leaderboard, WAR, player records | web tables | planned | 무료/유료/정의 확인 필요. | NPB cross-check |
+| onepoint02 | 1point02 | https://1point02.jp/op/reg/guide_reg_description-en.aspx | NPB/Farm | NPB and farm advanced stats by membership class | membership site | restricted_reference | 유료/회원제. 무료 범위 외 데이터 무단 사용 금지. | 접근 가능 시 고급지표 참고 |
+| yakyuu_jp | yakyuu.jp | https://yakyuu.jp/ | NPB | game records, standings, advanced stat finder, downloadable data | public data tools | planned | 독립 데이터셋, 정의 확인 필요. | NPB play-by-play/advanced proxy |
+| naver_news_api | Naver News Search API | https://developers.naver.com/docs/serviceapi/search/news/news.md | articles | news search metadata and snippets | REST API with key | verified | Provided Naver key/secret worked for Search News on 2026-06-11. Store credentials only in local env, not in repo. 본문 전문 제한. 호출 한도 준수. | SSG 기사/인터뷰 corpus |
+| bigkinds | BIGKinds | https://www.bigkinds.or.kr/ | articles | Korean news archive, keywords/entities | web/API if permitted | planned | 계정/이용조건 확인 필요. | 텍스트 분석, 발언 근거 |
+| ssg_official | SSG Landers official | https://www.ssglanders.com/ | articles/roster | team news, notices, roster | official pages | planned | 사이트 구조/접근성 확인 필요. | 공식 보도자료/선수단 |
+| mykbo_news | MyKBO newsfeed | https://mykbo.net/news/ | articles | English/Korean KBO news headlines | web | planned | headline aggregation 중심. | 기사 seed discovery |
+| kma | Korea Meteorological Administration | https://www.weather.go.kr/neng/index.do | weather | temp, humidity, precipitation, wind | official web/API if available | planned | API 신청/관측소 매칭 필요. | 인천 경기일 weather |
+| open_meteo_kma | Open-Meteo KMA API | https://open-meteo.com/en/docs/kma-api | weather | KMA model/forecast weather | public API | planned | 관측 원자료가 아닌 모델/보간 가능. | KMA 대체 proxy |
+| ssg_field_dims_secondary | Incheon SSG Landers Field public dimensions | https://en.wikipedia.org/wiki/Incheon_SSG_Landers_Field | park | LF 95m, LCF 115m, CF 120m, RCF 115m, RF 95m, wall 2.8m | secondary reference | needs_official_crosscheck | 2차 출처. 공식 구장 자료로 확인 필요. | Munhak Park Fit 초기값 |
+| cheongna_stadium | Cheongna SSG Baseball Stadium project | https://www.dlaplus.com/pages/cheongna-ssg-baseball-stadium | park/future | future stadium project info | project page | reference_only | 단기 대체외인에는 보조 변수. | 중장기 park preference 참고 |

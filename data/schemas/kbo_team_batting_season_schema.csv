@@ -1,0 +1,24 @@
+column,type,nullable,description
+season,int,false,KBO season
+team,string,false,KBO team name
+games,int,true,games played
+pa,int,true,plate appearances
+runs,int,true,runs scored
+avg,float,true,batting average
+obp,float,true,on-base percentage
+slg,float,true,slugging percentage
+ops,float,true,on-base plus slugging
+iso,float,true,isolated power
+wrc_plus,float,true,league-adjusted offensive production if available
+hr,int,true,home runs
+bb_pct,float,true,walk rate stored as 0-1
+k_pct,float,true,strikeout rate stored as 0-1
+risp_ops,float,true,OPS with runners in scoring position
+vs_lhp_ops,float,true,OPS against left-handed pitchers
+vs_rhp_ops,float,true,OPS against right-handed pitchers
+league_rank_runs,int,true,league rank by runs
+league_rank_wrc_plus,int,true,league rank by wRC+
+league_rank_iso,int,true,league rank by ISO
+source,string,false,source id from docs/source_log.md
+accessed_at,datetime,false,data access timestamp
+raw_file,string,true,path to raw data file
