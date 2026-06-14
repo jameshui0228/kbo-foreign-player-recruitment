@@ -87,6 +87,8 @@ def source_group(path: str) -> str:
         return "Naver News Search API"
     if path.startswith("data/raw/asian_market_rosters/"):
         return "NPB/CPBL official roster collection"
+    if path.startswith("outputs/tables/npb_") or path.startswith("outputs/tables/cpbl_") or path.startswith("outputs/tables/asian_quota_market"):
+        return "NPB/CPBL official roster and stats outputs"
     if path.startswith("data/external/literature/"):
         return "Literature PDFs"
     if path.startswith("data/external/kbo_foreign_players/"):
@@ -153,7 +155,7 @@ def main() -> None:
 
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
     with MANIFEST_PATH.open("w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 

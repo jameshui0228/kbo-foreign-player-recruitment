@@ -5,11 +5,11 @@
 
 ## Summary
 
-- Total local data/output files scanned: 355
-- Total scanned size: 1,132.0 MB
+- Total local data/output files scanned: 363
+- Total scanned size: 1,134.1 MB
 - Raw data size: 647.5 MB
 - Processed data size: 413.6 MB
-- Git-tracked data/output size: 58.0 MB
+- Git-tracked data/output size: 58.1 MB
 
 ## Policy
 
@@ -26,12 +26,13 @@
 | External ABS paper replication data | private_or_regenerate | 5 | 0.0 |
 | Literature PDFs | do_not_public_git | 5 | 12.2 |
 | MLB official/stats API | private_or_regenerate | 3 | 29.6 |
-| NPB/CPBL official roster collection | private_or_regenerate | 1 | 0.0 |
+| NPB/CPBL official roster and stats outputs | tracked_in_github | 9 | 2.6 |
+| NPB/CPBL official roster collection | private_or_regenerate | 2 | 0.0 |
 | Naver News Search API | do_not_public_git | 6 | 14.7 |
 | Processed KBO labels | private_or_regenerate | 1 | 0.2 |
 | Project schema | tracked_in_github | 5 | 0.0 |
 | STATIZ API/local KBO snapshot | do_not_public_git | 31 | 39.7 |
-| Tracked analysis output | tracked_in_github | 160 | 58.0 |
+| Tracked analysis output | tracked_in_github | 158 | 57.5 |
 | Wikipedia templates | private_or_regenerate | 10 | 0.7 |
 
 ## Full Manifest

@@ -1150,3 +1150,57 @@ Decision:
 - Promote Layer 1 to `presentation_bridge_ready_pending_refresh`.
 - Use the Layer 1 feature blueprint as the handoff into Layers 2-5.
 - Do not final-freeze Layer 1 until refreshed post-2026-06-11 data and stronger play-by-play/defense/baserunning proxies are attached.
+
+## 2026-06-14 Run 018 NPB Official Stats Market Expansion
+
+Stage: expand Layer 3 candidate-market construction with current NPB performance context.
+
+Actions:
+
+- Added and ran `src/data/collect_npb_official_stats_2026.py`.
+- Collected official NPB 2026 player stats for all 12 teams across:
+  - regular-season batting;
+  - regular-season pitching;
+  - farm-league batting;
+  - farm-league pitching.
+- Joined NPB official stat rows to existing official roster fields and foreign-player nationality seed hints where available.
+- Created:
+  - `outputs/tables/npb_official_player_stats_2026_v1.csv`
+  - `outputs/tables/npb_official_stats_source_inventory_2026_v1.csv`
+  - `outputs/tables/npb_player_market_features_2026_v1.csv`
+  - `outputs/tables/npb_market_depth_summary_2026_v1.csv`
+  - `docs/run_018_npb_official_stats_market_expansion.md`
+- Updated:
+  - `outputs/tables/six_layer_progress_v1.csv`
+  - `docs/six_layer_progress_board.md`
+  - `outputs/tables/recruitment_gate_status_v8.csv`
+
+Findings:
+
+- All 48 official NPB stat pages parsed successfully.
+- Unified NPB official stats: 2,186 rows.
+- Coverage:
+  - first-team batting: 617 rows;
+  - first-team pitching: 313 rows;
+  - farm batting: 835 rows;
+  - farm pitching: 421 rows.
+- Added market-screening features:
+  - batters: OPS, ISO, BB%, SO%, HR/PA, SB success%, GDP+CS run-kill proxy, playing-time buckets;
+  - pitchers: decimal IP, WHIP, K%, BB%, K-BB%, K/9, BB/9, HR/9, 30+ IP workload proxy, traffic-command proxy.
+
+Six-layer progress update:
+
+- Layer 3 candidate market construction: 68% -> 72%.
+- Layers 1, 2, 4, 5, and 6 unchanged.
+- Candidate names remain locked.
+
+Decision:
+
+- Promote Layer 3 to `partial_plus_npb_official_stats_context`.
+- Treat NPB as performance-context ready, not feasibility-ready.
+- Next Layer 3 gaps:
+  - NPB nationality verification beyond known foreign-player seed rows;
+  - salary/contract/buyout or proxy tiers;
+  - ABL roster/stats;
+  - news/manual market feasibility checks;
+  - NPB/CPBL integration into SSG fit ranking.

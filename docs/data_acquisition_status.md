@@ -1,6 +1,6 @@
 # Data Acquisition Status
 
-업데이트: 2026-06-12 KST
+업데이트: 2026-06-14 KST
 
 ## 확보 완료
 
@@ -159,6 +159,40 @@ MLB 로스터 상태와 Savant 성과 요약을 결합해 가용성 1차 후보 
 
 - `src/features/build_candidate_pool_v1.py`
 
+### NPB / CPBL Asian Market
+
+2026-06-14에 NPB/CPBL 아시아 시장 1차 roster layer를 구축했고, NPB는 공식 2026 1군/팜 성적까지 확장했다.
+
+| dataset | scope | rows | output |
+|---|---|---:|---|
+| NPB official roster | 2026 NPB 12개 구단 공식 영문 roster | 810 | `outputs/tables/npb_official_roster_2026_v1.csv` |
+| CPBL official roster | 2026 CPBL 공식 roster | 168 | `outputs/tables/cpbl_official_roster_2026_v1.csv` |
+| NPB+CPBL Asian market status | NPB/CPBL roster, nationality seed, 아시아쿼터 gate | 978 | `outputs/tables/asian_quota_market_status_v1.csv` |
+| NPB official player stats | 2026 NPB 1군/팜 타격·투구 공식 성적 | 2,186 | `outputs/tables/npb_official_player_stats_2026_v1.csv` |
+| NPB player market features | NPB official stats joined to roster/nationality seed and market role buckets | 2,186 | `outputs/tables/npb_player_market_features_2026_v1.csv` |
+| NPB market depth summary | NPB league/level/stat type/role bucket depth | 24 | `outputs/tables/npb_market_depth_summary_2026_v1.csv` |
+| NPB official stats source inventory | 12 teams x 4 official stat page audit | 48 | `outputs/tables/npb_official_stats_source_inventory_2026_v1.csv` |
+
+NPB 공식 성적 수집 coverage:
+
+| level | stat type | rows |
+|---|---|---:|
+| NPB first team | batting | 617 |
+| NPB first team | pitching | 313 |
+| NPB farm | batting | 835 |
+| NPB farm | pitching | 421 |
+
+수집/검증 스크립트:
+
+- `src/data/collect_asian_market_rosters.py`
+- `src/data/collect_npb_official_stats_2026.py`
+
+요약:
+
+- 2026 NPB 공식 1군/팜 성적 페이지 48개가 모두 정상 파싱되었다.
+- NPB 성적 기반 시장 변수는 확보됐지만, 공식 NPB 페이지에는 salary, contract length, buyout, universal nationality, medical/news context, Korea-willingness가 없으므로 feasibility layer는 아직 미완성이다.
+- NPB의 `*` 표시는 공식 페이지상 좌타자 표시이므로 외국인/가용성 flag로 쓰지 않는다.
+
 ### External Research / Articles
 
 2026-06-12에 STATIZ 외부 자료를 메시지 발굴용으로 수집했다.
@@ -200,7 +234,8 @@ MLB 로스터 상태와 Savant 성과 요약을 결합해 가용성 1차 후보 
 - MLB/MiLB 후보의 DFA, release, minor-league contract, option, salary, Korea-willingness status
 - MiLB Statcast coverage audit
 - FanGraphs MiLB/MLB leaderboard export 또는 대체 수집
-- NPB/NPB Farm/아시아쿼터 후보 데이터
+- NPB salary/contract/buyout proxy, universal nationality verification, medical/news context, Korea-willingness
+- ABL roster/stats and Asian market feasibility references
 - 기사/인터뷰 full text corpus 및 인용 가능한 원문 링크 정리
 - KBO/ABS pitch-location raw data의 팀/선수 단위 접근 가능성 확인
 - 인천/문학 구장·날씨 데이터

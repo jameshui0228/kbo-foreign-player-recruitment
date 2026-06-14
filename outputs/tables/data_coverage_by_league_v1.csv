@@ -1,0 +1,22 @@
+league_bucket,files,size_mb,rows,detail
+KBO/STATIZ snapshot,20,39.665520668029785,425964.0,20 STATIZ inventory tables
+MLB Savant raw 2023,27,123.17999744415283,720684.0,pitch-level Statcast csv.gz
+MLB Savant raw 2024,27,132.04754161834717,710631.0,pitch-level Statcast csv.gz
+MLB Savant raw 2025,27,133.4122724533081,711897.0,pitch-level Statcast csv.gz
+MLB Savant raw 2026,12,53.77144145965576,296322.0,pitch-level Statcast csv.gz
+MLB Savant processed 2022,1,82.71437168121338,0.0,processed parquet
+MLB Savant processed 2023,1,90.86360931396484,0.0,processed parquet
+MLB Savant processed 2024,1,98.81008911132812,0.0,processed parquet
+MLB Savant processed 2025,1,100.0486888885498,0.0,processed parquet
+MLB Savant processed 2026,1,40.97789192199707,0.0,processed parquet
+MLB roster status raw,1,10.58433723449707,,data/raw/mlb/roster_status
+MLB transactions raw,1,4.634586334228516,11799.0,data/raw/mlb/transactions
+MiLB stats raw,1,14.427300453186035,4415.0,data/raw/mlb/milb_stats
+NPB official roster output,1,0.15204524993896484,810.0,outputs/tables/npb_official_roster_2026_v1.csv
+NPB official stats output,4,2.047030448913574,4444.0,NPB official 2026 first-team/farm stats features source inventory and depth summary
+CPBL official roster output,1,0.032317161560058594,168.0,outputs/tables/cpbl_official_roster_2026_v1.csv
+NPB+CPBL Asian quota market output,1,0.39713096618652344,978.0,outputs/tables/asian_quota_market_status_v1.csv
+Naver SSG hitter/need news,3,9.83220386505127,15768.0,data/raw/articles/naver_news
+Naver SSG pitching news,3,4.822943687438965,7644.0,data/raw/articles/naver_news_pitching
+KBO historical foreign player labels,1,0.20063018798828125,406.0,outputs/tables/kbo_foreign_player_season_labels_v0_1.csv
+KBO processed foreign labels,1,0.20063018798828125,406.0,data/processed/kbo/kbo_foreign_player_season_labels_v0_1.csv
