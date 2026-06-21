@@ -240,6 +240,22 @@ NPB 공식 성적 수집 coverage:
 - `outputs/tables/external_message_candidates_v1.csv`
 - `docs/external_message_discovery_v1.md`
 
+2026-06-21에 후보별 공개 뉴스 메타데이터를 시장 현실성/리스크 검토용으로 확장했다.
+
+| dataset | scope | rows | output |
+|---|---|---:|---|
+| Candidate news scope | Run 024 market-realism priority candidates | 200 | `outputs/tables/candidate_news_scope_v0_2.csv` |
+| Candidate news article relevance | Google News RSS English metadata, title/description tag relevance | 613 | `outputs/tables/candidate_news_article_relevance_v0_2.csv` |
+| Candidate news signal summary | candidate-level medical/contract/Korea-overseas context summary | 200 | `outputs/tables/candidate_news_signal_summary_v0_2.csv` |
+| News-enriched market realism worklist | Run 024 manual worklist joined with expanded candidate-news signals | 2,723 | `outputs/tables/ssg_market_realism_news_join_v0_2.csv` |
+
+요약:
+
+- Google API 없이 Google News RSS로 200명 범위의 영어권 기사 메타데이터를 수집했다.
+- 수집 기사 메타데이터 613건, 후보명 매칭 339건, 사용 가능 뉴스 신호 340건이 확보됐다.
+- 한국어 뉴스는 현재 shell에 Naver 환경변수가 없어 수집되지 않았다.
+- 아시아쿼터 후보의 영어 기사 공백은 리스크 없음이 아니라 source coverage gap으로 처리해야 한다.
+
 2026-06-12에 논문/스카우팅/규정 자료를 후보평가용으로 보강했다.
 
 | source | status | local output |

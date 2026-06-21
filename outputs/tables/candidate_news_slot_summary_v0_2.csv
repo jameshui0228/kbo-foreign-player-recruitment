@@ -1,0 +1,11 @@
+fit_slot,candidate_news_status,candidates,usable_articles,injury_articles,contract_articles,korea_context_articles
+asian_quota,no_candidate_specific_news_found,138,0,0,0,0
+asian_quota,medical_news_review_needed,11,25,13,4,11
+asian_quota,candidate_news_review_available,2,2,0,0,0
+asian_quota,korea_or_overseas_context_found,1,2,0,0,2
+asian_quota,market_contract_news_review_needed,1,3,0,3,1
+foreign_hitter,medical_news_review_needed,13,105,32,56,0
+foreign_hitter,market_contract_news_review_needed,3,20,0,11,0
+foreign_pitcher,medical_news_review_needed,19,142,42,66,1
+foreign_pitcher,no_candidate_specific_news_found,6,0,0,0,0
+foreign_pitcher,market_contract_news_review_needed,5,41,0,27,0

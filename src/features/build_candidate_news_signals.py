@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import re
 from pathlib import Path
 
@@ -10,8 +11,6 @@ import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-NEWS_META = PROJECT_ROOT / "data/raw/articles/candidate_news_pilot_v0_1/candidate_news_metadata.csv"
-SCOPE = PROJECT_ROOT / "outputs/tables/candidate_news_pilot_scope_v0_1.csv"
 WORKLIST = PROJECT_ROOT / "outputs/tables/ssg_market_realism_manual_worklist_v0_1.csv"
 OUTPUT_DIR = PROJECT_ROOT / "outputs/tables"
 
@@ -231,7 +230,7 @@ def build_summary(article_relevance: pd.DataFrame, scope: pd.DataFrame) -> pd.Da
     return base
 
 
-def build_join(summary: pd.DataFrame) -> pd.DataFrame:
+def build_join(summary: pd.DataFrame, missing_status: str) -> pd.DataFrame:
     worklist = pd.read_csv(WORKLIST)
     joined = worklist.merge(
         summary[
@@ -241,6 +240,7 @@ def build_join(summary: pd.DataFrame) -> pd.DataFrame:
                 "player_id",
                 "player_name",
                 "team_or_org",
+                "position_or_role",
                 "usable_article_rows",
                 "injury_medical_article_rows",
                 "contract_market_article_rows",
@@ -254,10 +254,10 @@ def build_join(summary: pd.DataFrame) -> pd.DataFrame:
                 "candidate_news_score_release_allowed",
             ]
         ],
-        on=["fit_slot", "player_id", "player_name", "team_or_org"],
+        on=["fit_slot", "player_id", "player_name", "team_or_org", "position_or_role"],
         how="left",
     )
-    joined["candidate_news_status"] = joined["candidate_news_status"].fillna("not_in_run025_pilot_scope")
+    joined["candidate_news_status"] = joined["candidate_news_status"].fillna(missing_status)
     for col in [
         "usable_article_rows",
         "injury_medical_article_rows",
@@ -275,11 +275,24 @@ def build_join(summary: pd.DataFrame) -> pd.DataFrame:
     return joined
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--raw-dir", default="data/raw/articles/candidate_news_pilot_v0_1")
+    parser.add_argument("--scope-file", default="outputs/tables/candidate_news_pilot_scope_v0_1.csv")
+    parser.add_argument("--output-suffix", default="v0_1")
+    parser.add_argument("--missing-status", default="not_in_run025_pilot_scope")
+    return parser.parse_args()
+
+
 def main() -> None:
+    args = parse_args()
+    news_meta = PROJECT_ROOT / args.raw_dir / "candidate_news_metadata.csv"
+    scope_path = PROJECT_ROOT / args.scope_file
+
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    scope = pd.read_csv(SCOPE)
-    if NEWS_META.exists() and NEWS_META.stat().st_size > 0:
-        news = pd.read_csv(NEWS_META)
+    scope = pd.read_csv(scope_path)
+    if news_meta.exists() and news_meta.stat().st_size > 0:
+        news = pd.read_csv(news_meta)
     else:
         news = pd.DataFrame()
 
@@ -289,11 +302,11 @@ def main() -> None:
         article_relevance = build_article_relevance(news)
 
     summary = build_summary(article_relevance, scope)
-    joined = build_join(summary)
+    joined = build_join(summary, args.missing_status)
 
-    article_relevance.to_csv(OUTPUT_DIR / "candidate_news_article_relevance_v0_1.csv", index=False)
-    summary.to_csv(OUTPUT_DIR / "candidate_news_signal_summary_v0_1.csv", index=False)
-    joined.to_csv(OUTPUT_DIR / "ssg_market_realism_news_join_v0_1.csv", index=False)
+    article_relevance.to_csv(OUTPUT_DIR / f"candidate_news_article_relevance_{args.output_suffix}.csv", index=False)
+    summary.to_csv(OUTPUT_DIR / f"candidate_news_signal_summary_{args.output_suffix}.csv", index=False)
+    joined.to_csv(OUTPUT_DIR / f"ssg_market_realism_news_join_{args.output_suffix}.csv", index=False)
 
     slot_summary = (
         summary.groupby(["fit_slot", "candidate_news_status"], dropna=False)
@@ -307,7 +320,7 @@ def main() -> None:
         .reset_index()
         .sort_values(["fit_slot", "candidates"], ascending=[True, False])
     )
-    slot_summary.to_csv(OUTPUT_DIR / "candidate_news_slot_summary_v0_1.csv", index=False)
+    slot_summary.to_csv(OUTPUT_DIR / f"candidate_news_slot_summary_{args.output_suffix}.csv", index=False)
 
     print(f"article_rows={len(article_relevance)}")
     print(f"candidate_rows={len(summary)}")

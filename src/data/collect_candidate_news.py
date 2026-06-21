@@ -37,7 +37,7 @@ import certifi
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 WORKLIST = PROJECT_ROOT / "outputs/tables/ssg_market_realism_manual_worklist_v0_1.csv"
-OUTPUT_DIR = PROJECT_ROOT / "data/raw/articles/candidate_news_pilot_v0_1"
+RAW_ARTICLE_DIR = PROJECT_ROOT / "data/raw/articles"
 TABLE_DIR = PROJECT_ROOT / "outputs/tables"
 SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
 
@@ -64,7 +64,12 @@ def player_search_name(name: object) -> str:
     return text
 
 
-def candidate_scope(worklist: pd.DataFrame, asian_limit: int, mlb_limit_per_slot: int) -> pd.DataFrame:
+def candidate_scope(
+    worklist: pd.DataFrame,
+    asian_limit: int,
+    mlb_limit_per_slot: int,
+    scope_label: str,
+) -> pd.DataFrame:
     priority = worklist[
         (
             worklist["fit_slot"].isin(["foreign_hitter", "foreign_pitcher"])
@@ -88,7 +93,7 @@ def candidate_scope(worklist: pd.DataFrame, asian_limit: int, mlb_limit_per_slot
         else:
             parts.append(group)
     priority = pd.concat(parts, ignore_index=True) if parts else priority
-    priority["candidate_news_scope"] = "run024_market_realism_priority_pilot"
+    priority["candidate_news_scope"] = scope_label
     priority["search_name"] = priority["player_name"].map(player_search_name)
     priority["candidate_key"] = priority.apply(
         lambda row: stable_id(row.get("fit_slot"), row.get("player_id"), row.get("player_name"), row.get("team_or_org")),
@@ -256,17 +261,26 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--timeout-sec", type=float, default=8.0)
     parser.add_argument("--query-mode", choices=["compact", "full"], default="compact")
     parser.add_argument("--providers", nargs="+", default=["google_news_rss", "naver_news"])
+    parser.add_argument("--output-name", default="candidate_news_pilot_v0_1")
+    parser.add_argument("--table-suffix", default="v0_1")
+    parser.add_argument("--scope-label", default="run024_market_realism_priority_pilot")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    output_dir = RAW_ARTICLE_DIR / args.output_name
+    scope_path = TABLE_DIR / f"candidate_news_scope_{args.table_suffix}.csv"
+    if args.table_suffix == "v0_1":
+        scope_path = TABLE_DIR / "candidate_news_pilot_scope_v0_1.csv"
+    audit_path = TABLE_DIR / f"candidate_news_collection_audit_{args.table_suffix}.csv"
+
+    output_dir.mkdir(parents=True, exist_ok=True)
     TABLE_DIR.mkdir(parents=True, exist_ok=True)
 
     worklist = pd.read_csv(WORKLIST)
-    scope = candidate_scope(worklist, args.asian_limit, args.mlb_limit_per_slot)
-    scope.to_csv(TABLE_DIR / "candidate_news_pilot_scope_v0_1.csv", index=False)
+    scope = candidate_scope(worklist, args.asian_limit, args.mlb_limit_per_slot, args.scope_label)
+    scope.to_csv(scope_path, index=False)
 
     naver_client_id = os.getenv("NAVER_CLIENT_ID")
     naver_client_secret = os.getenv("NAVER_CLIENT_SECRET")
@@ -337,9 +351,8 @@ def main() -> None:
                     )
                 time.sleep(args.sleep_sec)
 
-    metadata_path = OUTPUT_DIR / "candidate_news_metadata.csv"
-    raw_path = OUTPUT_DIR / "candidate_news_raw.jsonl"
-    audit_path = TABLE_DIR / "candidate_news_collection_audit_v0_1.csv"
+    metadata_path = output_dir / "candidate_news_metadata.csv"
+    raw_path = output_dir / "candidate_news_raw.jsonl"
     with raw_path.open("w", encoding="utf-8") as handle:
         for record in records:
             handle.write(json.dumps(record, ensure_ascii=False) + "\n")
@@ -362,10 +375,10 @@ def main() -> None:
         "google_api_needed": False,
         "metadata_path": str(metadata_path.relative_to(PROJECT_ROOT)),
         "raw_path": str(raw_path.relative_to(PROJECT_ROOT)),
-        "scope_path": "outputs/tables/candidate_news_pilot_scope_v0_1.csv",
-        "audit_path": "outputs/tables/candidate_news_collection_audit_v0_1.csv",
+        "scope_path": str(scope_path.relative_to(PROJECT_ROOT)),
+        "audit_path": str(audit_path.relative_to(PROJECT_ROOT)),
     }
-    manifest_path = OUTPUT_DIR / "candidate_news_manifest.json"
+    manifest_path = output_dir / "candidate_news_manifest.json"
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(json.dumps(manifest, ensure_ascii=False, indent=2))

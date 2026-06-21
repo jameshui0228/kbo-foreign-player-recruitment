@@ -1490,3 +1490,41 @@ Next:
 
 - Load Naver credentials in the shell and rerun the same pilot for Korean candidate-specific news.
 - Expand the news scope after the Korean pilot validates precision.
+
+## 2026-06-21 Run 026 Candidate News Expansion v0.2
+
+Hypothesis:
+
+- Expanded candidate-specific English news metadata should strengthen market realism and risk screening without requiring Google API.
+
+Actions:
+
+- Generalized the news collector and signal builder so candidate-news runs can be versioned without overwriting the Run 025 pilot.
+- Expanded Google News RSS collection from 26 pilot candidates to 200 market-realism priority candidates.
+- Joined expanded news signals back to the full 2,723-row manual worklist.
+- Recorded Naver as skipped because `NAVER_CLIENT_ID` and `NAVER_CLIENT_SECRET` were not loaded in the shell environment.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v16.csv`.
+
+Validation:
+
+- Scoped candidate rows: 200.
+- News metadata rows: 613.
+- Candidate-name matched article rows: 339.
+- Usable news-signal rows: 340.
+- Usable English article rows: 340.
+- Usable Korean article rows: 0.
+- Google API needed: no.
+- Naver candidate-specific news: skipped, missing shell environment credentials.
+- Joined worklist rows: 2,723.
+- Release locks passed for all 2,723 joined rows.
+
+Decision:
+
+- Promote the expanded English news layer as a research-only manual review queue.
+- Do not release candidate recommendations or shortlist labels.
+- Treat Asian-quota English-news gaps as source coverage gaps, not as evidence of low risk.
+
+Next:
+
+- Load Naver credentials in the shell and rerun candidate-specific Korean news.
+- Add salary, opt-out, transfer-fee, buyout, agent, and Korea-willingness sources before any shortlist labels.
