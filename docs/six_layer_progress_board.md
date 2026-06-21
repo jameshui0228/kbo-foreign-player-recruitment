@@ -16,7 +16,7 @@ From this point forward, every major update should report progress on these six 
 | no. | layer | status | progress | latest evidence | next action |
 |---:|---|---|---:|---|---|
 | 1 | SSG hidden weakness mining | presentation bridge ready pending refresh | 93% | `outputs/tables/ssg_layer1_candidate_feature_blueprint_v4.csv` | refresh STATIZ/current-game data and attach stronger play-by-play/defense/baserunning proxies; then freeze Layer 1 or move effort to layers 2-5 |
-| 2 | KBO foreign-player success/failure archetype mining | fit-prep signal contract attached | 73% | `outputs/tables/ssg_fit_preparation_feature_contract_v0_1.csv` | expand historical ID crosswalk to 2017-2022, add NPB/CPBL pre-arrival context, and calibrate final fit rules |
+| 2 | KBO foreign-player success/failure archetype mining | pre-arrival archetype bridge attached | 78% | `outputs/tables/kbo_foreign_archetype_feature_contract_v0_2.csv` | backfill 2017-2022 ID/pre-arrival features, add NPB/CPBL historical context, and validate promoted archetype rules against candidate-side source lanes |
 | 3 | Candidate market construction | official market refresh plus news joined | 94% | `outputs/tables/ssg_market_realism_news_join_v0_5.csv` | fill salary, opt-out, transfer-fee, buyout, agent, medical, and Korea-willingness source lanes |
 | 4 | KBO translation model | hitter component in fit-prep mart | 80% | `outputs/tables/ssg_fit_preparation_mart_v0_1.csv` | keep hitter component as pilot input and build pitcher translation only after stronger risk/context variables |
 | 5 | Failure risk model | official market and news risk refresh attached | 85% | `outputs/tables/candidate_news_signal_summary_v0_5.csv` | fill medical/adaptation/Korea-willingness source lanes |

@@ -1675,3 +1675,46 @@ Next:
 
 - Fill source-lane values for salary, contract terms, options, buyout/transfer
   fee, medical availability, agent signals, and Korea-willingness.
+
+## 2026-06-22 Run 031 KBO Foreign Archetype Bridge v0.2
+
+Hypothesis:
+
+- Layer 2 should connect historical KBO success/failure archetypes to
+  pre-arrival feature-family fingerprints, rather than relying on one blunt
+  success/failure classifier.
+
+Actions:
+
+- Added `src/modeling/build_kbo_foreign_archetype_bridge_v0_2.py`.
+- Joined KBO outcome archetypes to the v0.2 translation mart.
+- Built pre-arrival feature-family scores from Savant and MiLB signals.
+- Mined one-family and two-family rule lifts with permutation checks.
+- Separated semantically aligned research rules from counterintuitive
+  negative-control rules.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v21.csv`.
+
+Validation:
+
+- Outcome archetype rows joined: 127 / 127.
+- Pre-arrival fingerprint rows available: 71 / 127.
+- Cluster profiles created: 7 / 7.
+- Rule lifts mined: 294.
+- Semantically aligned research rules: 4.
+- Counterintuitive negative-control rules: 15.
+- Release locks passed for all bridge rows.
+
+Decision:
+
+- Promote the v0.2 archetype bridge as the current Layer 2 evidence base.
+- Treat pitcher raw-miss-without-role-continuity as a research risk signal.
+- Treat hitter archetype rules as not yet scoreable beyond pilot component
+  status because the sample is thin and counterintuitive signals are present.
+- Do not release candidate recommendations, shortlist labels, scores, or names.
+
+Next:
+
+- Backfill 2017-2022 historical IDs and pre-arrival features.
+- Add historical NPB/CPBL pre-arrival context.
+- Validate promoted Layer 2 rules against candidate-side source lanes before
+  using them in Layer 6.

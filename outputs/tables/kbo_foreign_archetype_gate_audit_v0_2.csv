@@ -1,0 +1,6 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+L2A,outcome_archetypes_joined_to_translation_mart,127,127,pass,Historical labels still cover only the current outcome-attached sample
+L2B,prearrival_fingerprint_rows_available,71,127,partial_pass,Only model-ready rows can support pre-arrival archetype mining
+L2C,archetype_profiles_created,7,7,pass,"Profiles remain descriptive and should be used as feature contracts, not final decisions"
+L2D,rule_lifts_mined_with_small_sample_gate,4,294,pass_research_only,Rules are small-sample research signals and need candidate-side source validation
+L2E,release_locks_preserved,127,127,pass,No candidate recommendations or shortlist labels are released
