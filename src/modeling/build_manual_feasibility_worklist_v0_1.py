@@ -8,13 +8,13 @@ before any candidate can be shortlisted.
 
 from __future__ import annotations
 
+import argparse
 from pathlib import Path
 
 import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-INPUT = PROJECT_ROOT / "outputs/tables/ssg_market_realism_news_join_v0_3.csv"
 OUTPUT_DIR = PROJECT_ROOT / "outputs/tables"
 
 RELEASE_POLICY = "manual_feasibility_research_only_no_recommendation"
@@ -81,9 +81,17 @@ def priority_tier(lanes: list[str], row: pd.Series) -> str:
     return "tier_3_single_source_followup"
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input", default="outputs/tables/ssg_market_realism_news_join_v0_3.csv")
+    parser.add_argument("--output-suffix", default="v0_1")
+    return parser.parse_args()
+
+
 def main() -> None:
+    args = parse_args()
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    df = pd.read_csv(INPUT)
+    df = pd.read_csv(PROJECT_ROOT / args.input)
     out = df.copy()
     out["manual_source_lanes_list"] = out.apply(build_lanes, axis=1)
     out["manual_source_lanes"] = out["manual_source_lanes_list"].map(lambda lanes: "|".join(lanes))
@@ -97,7 +105,7 @@ def main() -> None:
 
     drop_cols = ["manual_source_lanes_list"]
     out = out.drop(columns=[col for col in drop_cols if col in out.columns])
-    out.to_csv(OUTPUT_DIR / "manual_feasibility_source_worklist_v0_1.csv", index=False)
+    out.to_csv(OUTPUT_DIR / f"manual_feasibility_source_worklist_{args.output_suffix}.csv", index=False)
 
     summary = (
         out.groupby(["fit_slot", "manual_feasibility_priority_tier"], dropna=False)
@@ -113,7 +121,7 @@ def main() -> None:
         .sort_values(["fit_slot", "manual_feasibility_priority_tier"])
     )
     summary["avg_source_lanes"] = summary["avg_source_lanes"].round(2)
-    summary.to_csv(OUTPUT_DIR / "manual_feasibility_source_summary_v0_1.csv", index=False)
+    summary.to_csv(OUTPUT_DIR / f"manual_feasibility_source_summary_{args.output_suffix}.csv", index=False)
 
     lane_rows = []
     for lane, group in out[out["manual_source_lanes"].ne("")].assign(
@@ -130,7 +138,7 @@ def main() -> None:
             }
         )
     lane_summary = pd.DataFrame(lane_rows).sort_values(["rows", "manual_source_lane"], ascending=[False, True])
-    lane_summary.to_csv(OUTPUT_DIR / "manual_feasibility_source_lane_summary_v0_1.csv", index=False)
+    lane_summary.to_csv(OUTPUT_DIR / f"manual_feasibility_source_lane_summary_{args.output_suffix}.csv", index=False)
 
     print(f"worklist_rows={len(out)}")
     print(f"manual_scope_rows={int(out['manual_source_lane_count'].gt(0).sum())}")

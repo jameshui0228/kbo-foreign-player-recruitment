@@ -1,0 +1,11 @@
+manual_source_lane,rows,unique_players,foreign_hitter_rows,foreign_pitcher_rows,asian_quota_rows
+medical_file_and_recent_availability_check,1706,1698,655,897,154
+korean_news_naver_or_local_search,1696,1688,653,895,148
+agent_korea_willingness_check,1552,1545,655,897,0
+role_salary_kbo_cost_fit_check,1552,1545,655,897,0
+mlb_contract_salary_option_check,1496,1489,634,862,0
+asian_league_contract_buyout_transfer_fee_check,154,153,0,0,154
+local_league_salary_agent_source_check,154,153,0,0,154
+passport_nationality_and_quota_eligibility_check,154,153,0,0,154
+korea_overseas_intent_context_review,18,17,1,2,15
+public_contract_market_news_review,9,9,3,5,1

@@ -1598,3 +1598,40 @@ Decision:
 Next:
 
 - Create local `.env.naver`, then run the documented Naver collection command and combine it with the existing English news layer.
+
+## 2026-06-21 Run 029 Naver Candidate News v0.4
+
+Hypothesis:
+
+- Naver candidate-news metadata should reduce the Korean-source gap and add usable medical, contract, and Korea-overseas risk signals.
+
+Actions:
+
+- Created a local gitignored `.env.naver` file and verified Naver News API access without committing secrets.
+- Collected Naver News metadata for the 62-candidate priority scope.
+- Combined Naver metadata with the existing English v0.2 candidate-news layer into v0.4 outputs.
+- Rebuilt the manual feasibility worklist on the v0.4 news join.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v19.csv`.
+
+Validation:
+
+- Naver priority scope rows: 62.
+- Naver article metadata rows: 39.
+- Naver candidate-name matched rows: 31.
+- Combined article rows: 652.
+- Combined usable news-signal rows: 367.
+- Usable Korean article rows: 27.
+- Candidates with usable Korean articles: 10.
+- Manual Korean-news missing lane rows: 1,696.
+- Joined worklist rows: 2,723.
+- Release locks passed for all joined/manual rows.
+
+Decision:
+
+- Promote Naver candidate-news signals as research-only risk context.
+- Do not release candidate recommendations, shortlist labels, scores, or names.
+- Continue treating salary, contract, option, buyout, medical file, agent, and Korea-willingness checks as manual gates.
+
+Next:
+
+- Fill source-lane values for salary, contract terms, options, buyout/transfer fee, medical availability, agent signals, and Korea-willingness.

@@ -271,6 +271,23 @@ NPB 공식 성적 수집 coverage:
 - 따라서 Google KR RSS는 Naver/local Korean news의 대체재로 쓰지 않는다.
 - 후보 release 전 필요한 검증 소스는 Korean news, medical file, MLB contract/salary/option, Asian-league buyout/transfer fee, passport/nationality, agent/Korea-willingness로 정리됐다.
 
+2026-06-21에 Naver News API로 후보별 한국어 기사 메타데이터를 수집했다.
+
+| dataset | scope | rows | output |
+|---|---|---:|---|
+| Naver candidate news scope | 62 priority candidates | 62 | `outputs/tables/candidate_news_scope_naver_v0_4.csv` |
+| Naver candidate news collection audit | Naver query audit | 310 | `outputs/tables/candidate_news_collection_audit_naver_v0_4.csv` |
+| Combined candidate news signals | English v0.2 + Naver v0.4 | 200 | `outputs/tables/candidate_news_signal_summary_v0_4.csv` |
+| Naver-enriched market realism worklist | full worklist with English + Naver news counts | 2,723 | `outputs/tables/ssg_market_realism_news_join_v0_4.csv` |
+| Naver-enriched manual feasibility worklist | manual source lanes rebuilt on v0.4 news | 2,723 | `outputs/tables/manual_feasibility_source_worklist_v0_2.csv` |
+
+요약:
+
+- Naver 기사 메타데이터 39건, 후보명 매칭 31건, 사용 가능한 한국어 뉴스 신호 27건이 확보됐다.
+- 한국어 기사 신호가 붙은 후보는 10명이다.
+- 한국어 뉴스 공백 source lane은 1,706행에서 1,696행으로 줄었다.
+- Naver raw metadata는 `data/raw/articles/candidate_news_naver_v0_4/` 아래 local ignored data로 유지하고, derived research tables만 GitHub에 올린다.
+
 2026-06-12에 논문/스카우팅/규정 자료를 후보평가용으로 보강했다.
 
 | source | status | local output |
