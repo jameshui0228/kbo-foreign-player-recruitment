@@ -208,3 +208,36 @@ Important interpretation:
 - `fit_preparation_index` is a research triage index, not a recommendation score.
 - Pitcher rows remain diagnostic-only.
 - Asian-quota rows still need contract, salary, buyout, and agent/willingness checks.
+
+## Run 024 Gate Audit
+
+`run_024` added official roster, transaction, and market-realism gates to the locked fit-preparation mart.
+
+| gate | run_024 status | evidence |
+|---|---|---|
+| G1 SSG need | unchanged | Layer 1 still feeds the fit-prep target features |
+| G2 KBO archetype | unchanged | historical archetype context remains attached but not final |
+| G3 market | market-realism gates attached | official MLB transaction and roster status are refreshed through 2026-06-21 |
+| G4 KBO translation | unchanged | hitter component remains a pilot input; pitcher remains diagnostic |
+| G5 failure risk | official proxies attached | roster/transaction medical signals and contract blockers are visible |
+| G6 final fit | locked manual queue only | no shortlist or recommendation labels allowed |
+
+Run 024 coverage:
+
+| item | value |
+|---|---:|
+| official MLB transaction rows | 12,139 |
+| official MLB roster rows | 8,197 |
+| market-realism layer rows | 2,723 |
+| foreign hitter manual-contact priority rows | 16 |
+| foreign pitcher manual-contact priority rows | 30 |
+| Asian-quota buyout/salary/agent-check rows | 154 |
+| rows with final recommendation allowed | 0 |
+| rows with shortlist label allowed | 0 |
+| rows with candidate name release allowed | 0 |
+
+Important interpretation:
+
+- `market_realism_score` is a manual-verification triage field, not a recommendation score.
+- Medical signals are public roster/transaction proxies only.
+- Candidate-specific news, salary, opt-out, buyout, agent, and Korea-willingness checks remain blocking gaps.

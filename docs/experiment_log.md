@@ -1418,3 +1418,39 @@ Next:
 - Add manual contract, salary, buyout, medical/news/adaptation, and Korea-willingness checks.
 - Refresh current SSG data when available.
 - Only then build the final SSG fit ranking review.
+
+## 2026-06-21 Run 024 Market Realism Layer v0.1
+
+Hypothesis:
+
+- Official roster, transaction, and Asian-quota feasibility gates should narrow the fit-prep mart into a realistic manual verification queue.
+
+Actions:
+
+- Refreshed official MLB transaction data through 2026-06-21.
+- Refreshed official MLB roster status as of 2026-06-21.
+- Added `src/modeling/build_market_realism_layer_v0_1.py`.
+- Built contract-control buckets, medical proxy buckets, KBO cost-rule buckets, and manual check flags.
+- Built a research-only manual verification worklist.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v14.csv`.
+
+Validation:
+
+- MLB transaction rows: 12,139.
+- MLB roster rows: 8,197.
+- Market-realism layer rows: 2,723.
+- Foreign hitter manual-contact priority rows: 16.
+- Foreign pitcher manual-contact priority rows: 30.
+- Asian-quota buyout/salary/agent-check rows: 154.
+- Release locks passed for all 2,723 rows.
+
+Decision:
+
+- Promote the market-realism layer as the current working queue.
+- Do not release candidate recommendations or shortlist labels.
+- Treat `market_realism_score` and the blended field as triage-only fields.
+
+Next:
+
+- Refresh candidate-specific news after loading Naver credentials in the shell.
+- Add salary, opt-out, contract, transfer-fee, buyout, and agent/willingness sources.

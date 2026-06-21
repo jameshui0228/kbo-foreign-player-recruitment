@@ -1,0 +1,4 @@
+fit_slot,rows,median_market_realism_score,p75_market_realism_score,manual_contact_or_buyout_priority_rows,contract_blocker_or_low_access_rows,medical_hold_rows,nationality_or_asian_eligibility_gap_rows,candidate_release_policy
+asian_quota,978,9.0,9.0,154,0,0,824,market_realism_research_only_no_recommendation
+foreign_hitter,736,0.0,16.25,16,429,218,0,market_realism_research_only_no_recommendation
+foreign_pitcher,1009,0.0,20.0,30,524,358,0,market_realism_research_only_no_recommendation

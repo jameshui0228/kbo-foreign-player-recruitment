@@ -17,10 +17,10 @@ From this point forward, every major update should report progress on these six 
 |---:|---|---|---:|---|---|
 | 1 | SSG hidden weakness mining | presentation bridge ready pending refresh | 93% | `outputs/tables/ssg_layer1_candidate_feature_blueprint_v4.csv` | refresh STATIZ/current-game data and attach stronger play-by-play/defense/baserunning proxies; then freeze Layer 1 or move effort to layers 2-5 |
 | 2 | KBO foreign-player success/failure archetype mining | fit-prep signal contract attached | 73% | `outputs/tables/ssg_fit_preparation_feature_contract_v0_1.csv` | expand historical ID crosswalk to 2017-2022, add NPB/CPBL pre-arrival context, and calibrate final fit rules |
-| 3 | Candidate market construction | locked three-slot market mart built | 85% | `outputs/tables/ssg_fit_preparation_mart_v0_1.csv` | add NPB/CPBL salary, contract, buyout, club-control, news, and Korea-willingness checks |
+| 3 | Candidate market construction | market-realism gates attached | 88% | `outputs/tables/ssg_market_realism_layer_v0_1.csv` | add salary, opt-out, transfer-fee, buyout, agent, and Korea-willingness sources |
 | 4 | KBO translation model | hitter component in fit-prep mart | 80% | `outputs/tables/ssg_fit_preparation_mart_v0_1.csv` | keep hitter component as pilot input and build pitcher translation only after stronger risk/context variables |
-| 5 | Failure risk model | risk diagnostics visible in fit-prep mart | 71% | `outputs/tables/ssg_fit_preparation_gate_audit_v0_1.csv` | add injury/news/adaptation text plus contract and willingness variables to pitcher and Asian-quota risk layers |
-| 6 | SSG fit ranking | locked fit-preparation mart built | 52% | `docs/run_023_locked_ssg_fit_preparation_mart_v0_1.md` | add manual market checks and final weighting review before any shortlist/recommendation labels |
+| 5 | Failure risk model | official medical and market-risk proxies attached | 76% | `outputs/tables/ssg_market_realism_gate_audit_v0_1.csv` | refresh candidate-specific news and add adaptation/Korea-willingness text signals |
+| 6 | SSG fit ranking | locked market-realism work queue built | 60% | `docs/run_024_market_realism_layer_v0_1.md` | add final salary/contract/news verification before any shortlist/recommendation labels |
 
 ## Reporting Rule
 
