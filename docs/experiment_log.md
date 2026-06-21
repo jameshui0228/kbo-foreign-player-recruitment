@@ -1759,3 +1759,47 @@ Next:
 - Fill source values for medical files, salary, opt-out, buyout, agent, and
   Korea-willingness.
 - Calibrate risk buckets against resolved cases before Layer 6 ranking.
+
+## 2026-06-22 Run 033 SSG Risk-Adjusted Fit Queue v0.1
+
+Hypothesis:
+
+- A candidate should not move toward final SSG review unless SSG fit, KBO
+  translation readiness, market realism, tool/process signal, surplus/access,
+  failure-risk penalty, and source confidence survive together.
+
+Actions:
+
+- Added `src/modeling/build_ssg_risk_adjusted_fit_queue_v0_1.py`.
+- Built an internal risk-adjusted SSG fit queue for all 2,723 candidates.
+- Added default Dacon-style scoring plus four sensitivity variants:
+  SSG-fit heavy, risk-conservative, market-realism heavy, and
+  translation-heavy.
+- Created slot/lane summary, factor summary, sensitivity summary, and gate
+  audit outputs.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v23.csv`.
+
+Validation:
+
+- Risk-adjusted fit queue rows: 2,723.
+- All candidates receive an internal score: 2,723 / 2,723.
+- Sensitivity variants attached: 2,723 / 2,723.
+- Release locks passed for all 2,723 rows.
+- Locked deep-review lanes: 37 foreign hitters and 47 foreign pitchers.
+- Asian quota has 18 source-fill priority rows and no clean deep-review lane.
+
+Decision:
+
+- Promote the risk-adjusted fit queue as the current Layer 6 evidence base.
+- Treat all scores, ranks, lanes, and candidate names as internal locked review
+  artifacts only.
+- Do not release candidate names, rankings, shortlist labels, or
+  recommendations.
+
+Next:
+
+- Fill source values for salary, opt-out, buyout, agent, medical files, and
+  Korea-willingness.
+- Calibrate internal scores against resolved cases and manual scouting notes.
+- Only after that, consider unlocking candidate-name discussion for the final
+  team shortlist.

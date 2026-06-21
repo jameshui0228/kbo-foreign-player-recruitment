@@ -1,0 +1,14 @@
+fit_slot,fit_review_lane,rows,median_internal_fit_score,p75_internal_fit_score,median_failure_risk,stable_top25_rows,stable_top50_rows,high_data_gap_rows,high_contract_rows,release_allowed
+asian_quota,lane_1_source_fill_priority_locked,18,52.046,52.85,50.63,11,18,18,18,False
+asian_quota,lane_3_market_watch_locked,132,50.258,50.258,48.57,0,0,103,132,False
+asian_quota,lane_4_low_priority_locked,828,44.5745,47.46825,45.027,0,0,33,776,False
+foreign_hitter,lane_0_blocked_or_medical_review_locked,366,22.811,38.807500000000005,70.02250000000001,1,8,362,346,False
+foreign_hitter,lane_1_source_fill_priority_locked,4,54.2915,55.373000000000005,50.792,0,4,4,4,False
+foreign_hitter,lane_2_deep_review_candidate_locked,37,62.635,67.541,37.93,22,37,0,0,False
+foreign_hitter,lane_3_market_watch_locked,74,49.897499999999994,51.333,52.058499999999995,0,0,62,62,False
+foreign_hitter,lane_4_low_priority_locked,255,38.649,42.7375,55.686,0,0,211,211,False
+foreign_pitcher,lane_0_blocked_or_medical_review_locked,730,19.1385,24.2775,70.548,1,1,727,689,False
+foreign_pitcher,lane_1_source_fill_priority_locked,2,50.2585,50.32925,52.4285,0,2,2,2,False
+foreign_pitcher,lane_2_deep_review_candidate_locked,47,54.884,57.8625,42.524,23,47,0,0,False
+foreign_pitcher,lane_3_market_watch_locked,86,44.958,47.356,52.594,0,0,45,42,False
+foreign_pitcher,lane_4_low_priority_locked,144,34.894999999999996,38.2945,57.278499999999994,0,0,105,96,False

@@ -20,7 +20,7 @@ From this point forward, every major update should report progress on these six 
 | 3 | Candidate market construction | official market refresh plus news joined | 94% | `outputs/tables/ssg_market_realism_news_join_v0_5.csv` | fill salary, opt-out, transfer-fee, buyout, agent, medical, and Korea-willingness source lanes |
 | 4 | KBO translation model | hitter component in fit-prep mart | 80% | `outputs/tables/ssg_fit_preparation_mart_v0_1.csv` | keep hitter component as pilot input and build pitcher translation only after stronger risk/context variables |
 | 5 | Failure risk model | candidate failure-risk ledger built | 89% | `outputs/tables/candidate_failure_risk_ledger_v0_1.csv` | fill source values and calibrate risk buckets against resolved cases before using any score in Layer 6 |
-| 6 | SSG fit ranking | locked risk-enriched feasibility queue built | 72% | `outputs/tables/candidate_failure_risk_ledger_v0_1.csv` | fill feasibility source lanes and then build a risk-adjusted SSG fit ranking without releasing names until gates pass |
+| 6 | SSG fit ranking | risk-adjusted fit queue built release locked | 80% | `outputs/tables/ssg_risk_adjusted_fit_queue_v0_1.csv` | fill feasibility source lanes and calibrate the internal score before any candidate names, ranks, shortlist labels, or recommendations are released |
 
 ## Reporting Rule
 

@@ -1,0 +1,5 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+Q1,all_candidates_receive_risk_adjusted_fit_score,2723,2723,pass,Internal scores are research-only and not public ranking scores
+Q2,sensitivity_variants_attached,2723,2723,pass,Sensitivity does not replace manual scouting or source verification
+Q3,release_locks_preserved,2723,2723,pass,"No candidate names, scores, ranks, shortlist labels, or recommendations are released"
+Q4,source_gap_visible,1120,2723,pass_visible_gap,Source gaps still dominate many high-interest rows

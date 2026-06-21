@@ -1,0 +1,16 @@
+weight_variant,fit_slot,rows,median_score,p75_score,top_25_locked_rows,top_50_locked_rows,score_release_allowed
+default_dacon_style,asian_quota,978,45.6915,49.109,25,50,False
+default_dacon_style,foreign_hitter,736,37.083,45.543,25,50,False
+default_dacon_style,foreign_pitcher,1009,22.238,35.287,25,50,False
+ssg_fit_heavy,asian_quota,978,44.528,47.87425,25,50,False
+ssg_fit_heavy,foreign_hitter,736,36.718999999999994,45.13925,25,50,False
+ssg_fit_heavy,foreign_pitcher,1009,21.551,34.118,25,50,False
+risk_conservative,asian_quota,978,40.899,44.46575,25,50,False
+risk_conservative,foreign_hitter,736,30.3595,38.8645,25,50,False
+risk_conservative,foreign_pitcher,1009,15.279,29.559,25,50,False
+market_realism_heavy,asian_quota,978,42.8795,46.7515,25,50,False
+market_realism_heavy,foreign_hitter,736,34.494,42.52375,25,50,False
+market_realism_heavy,foreign_pitcher,1009,21.792,35.102,25,50,False
+translation_heavy,asian_quota,978,47.807500000000005,50.84225,25,50,False
+translation_heavy,foreign_hitter,736,37.834,46.95525,25,50,False
+translation_heavy,foreign_pitcher,1009,21.968,35.265,25,50,False
