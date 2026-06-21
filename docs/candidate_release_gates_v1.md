@@ -241,3 +241,35 @@ Important interpretation:
 - `market_realism_score` is a manual-verification triage field, not a recommendation score.
 - Medical signals are public roster/transaction proxies only.
 - Candidate-specific news, salary, opt-out, buyout, agent, and Korea-willingness checks remain blocking gaps.
+
+## Run 025 Gate Audit
+
+`run_025` added the first candidate-specific news pilot to the locked market-realism queue.
+
+| gate | run_025 status | evidence |
+|---|---|---|
+| G1 SSG need | unchanged | Layer 1 still feeds fit-prep target features |
+| G2 KBO archetype | unchanged | historical archetype context remains attached but not final |
+| G3 market | English news pilot attached | 26 priority candidates searched through Google News RSS metadata |
+| G4 KBO translation | unchanged | hitter component remains a pilot input; pitcher remains diagnostic |
+| G5 failure risk | news-risk pilot attached | article title/description tags now flag medical, contract, overseas, and adaptation context |
+| G6 final fit | locked news-enriched queue only | no shortlist or recommendation labels allowed |
+
+Run 025 coverage:
+
+| item | value |
+|---|---:|
+| pilot candidate rows | 26 |
+| news metadata rows | 182 |
+| candidate-name matched rows | 118 |
+| usable news-signal rows | 119 |
+| full worklist joined rows | 2,723 |
+| rows with final recommendation allowed | 0 |
+| rows with shortlist label allowed | 0 |
+| rows with candidate name release allowed | 0 |
+
+Important interpretation:
+
+- English Google News RSS works for a small pilot and does not require Google API.
+- Naver candidate-specific news is still missing because the shell environment does not contain Naver credentials.
+- `candidate_news_status` is a manual-review signal, not a recommendation label.

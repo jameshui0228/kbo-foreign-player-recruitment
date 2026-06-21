@@ -1,0 +1,79 @@
+provider,status,candidate_key,candidate_name,message,query,returned_rows,error_rows
+naver_news,skipped_missing_env,c58df457ee2acd50,"Sun, Yi-Lei",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,c58df457ee2acd50,"Sun, Yi-Lei",,"""Yi-Lei Sun"" ""Hokkaido Nippon-Ham Fighters"" baseball",6.0,0.0
+google_news_rss,attempted,c58df457ee2acd50,"Sun, Yi-Lei",,"""Yi-Lei Sun"" NPB OR CPBL OR injury OR contract OR KBO",6.0,0.0
+naver_news,skipped_missing_env,77fcb317bda63213,"Yang, Po-Hsiang",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,77fcb317bda63213,"Yang, Po-Hsiang",,"""Po-Hsiang Yang"" ""Tohoku Rakuten Golden Eagles"" baseball",6.0,0.0
+google_news_rss,attempted,77fcb317bda63213,"Yang, Po-Hsiang",,"""Po-Hsiang Yang"" NPB OR CPBL OR injury OR contract OR KBO",4.0,0.0
+naver_news,skipped_missing_env,dc923c066641a262,"Gu Lin, Ruei-Yang",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,dc923c066641a262,"Gu Lin, Ruei-Yang",,"""Ruei-Yang Gu Lin"" ""Hokkaido Nippon-Ham Fighters"" baseball",6.0,0.0
+google_news_rss,attempted,dc923c066641a262,"Gu Lin, Ruei-Yang",,"""Ruei-Yang Gu Lin"" NPB OR CPBL OR injury OR contract OR KBO",6.0,0.0
+naver_news,skipped_missing_env,036e9341b9b2a5eb,CHEN Jiu Teng,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,036e9341b9b2a5eb,CHEN Jiu Teng,,"""CHEN Jiu Teng"" ""Brothers"" baseball",0.0,0.0
+google_news_rss,attempted,036e9341b9b2a5eb,CHEN Jiu Teng,,"""CHEN Jiu Teng"" NPB OR CPBL OR injury OR contract OR KBO",0.0,0.0
+naver_news,skipped_missing_env,07d6481baede5769,CHEN Tong En,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,07d6481baede5769,CHEN Tong En,,"""CHEN Tong En"" ""Brothers"" baseball",0.0,0.0
+google_news_rss,attempted,07d6481baede5769,CHEN Tong En,,"""CHEN Tong En"" NPB OR CPBL OR injury OR contract OR KBO",0.0,0.0
+naver_news,skipped_missing_env,84a38920dcef97cb,KAO Yu Chieh,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,84a38920dcef97cb,KAO Yu Chieh,,"""KAO Yu Chieh"" ""Brothers"" baseball",3.0,0.0
+google_news_rss,attempted,84a38920dcef97cb,KAO Yu Chieh,,"""KAO Yu Chieh"" NPB OR CPBL OR injury OR contract OR KBO",4.0,0.0
+naver_news,skipped_missing_env,a4d1a63e8d72d579,CHANG Chih Hao,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,a4d1a63e8d72d579,CHANG Chih Hao,,"""CHANG Chih Hao"" ""Brothers"" baseball",4.0,0.0
+google_news_rss,attempted,a4d1a63e8d72d579,CHANG Chih Hao,,"""CHANG Chih Hao"" NPB OR CPBL OR injury OR contract OR KBO",5.0,0.0
+naver_news,skipped_missing_env,d92f63deb3d66696,HSU Ting Lun,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,d92f63deb3d66696,HSU Ting Lun,,"""HSU Ting Lun"" ""Brothers"" baseball",0.0,0.0
+google_news_rss,attempted,d92f63deb3d66696,HSU Ting Lun,,"""HSU Ting Lun"" NPB OR CPBL OR injury OR contract OR KBO",0.0,0.0
+naver_news,skipped_missing_env,d4d4084b3ae27c88,YUEH Cheng Hua,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,d4d4084b3ae27c88,YUEH Cheng Hua,,"""YUEH Cheng Hua"" ""Brothers"" baseball",6.0,0.0
+google_news_rss,attempted,d4d4084b3ae27c88,YUEH Cheng Hua,,"""YUEH Cheng Hua"" NPB OR CPBL OR injury OR contract OR KBO",6.0,0.0
+naver_news,skipped_missing_env,d43930fce77b50b9,HSU Chi Hung,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,d43930fce77b50b9,HSU Chi Hung,,"""HSU Chi Hung"" ""Brothers"" baseball",3.0,0.0
+google_news_rss,attempted,d43930fce77b50b9,HSU Chi Hung,,"""HSU Chi Hung"" NPB OR CPBL OR injury OR contract OR KBO",4.0,0.0
+naver_news,skipped_missing_env,08d5a18c327d9b93,will brennan,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,08d5a18c327d9b93,will brennan,,"""will brennan"" baseball",6.0,0.0
+google_news_rss,attempted,08d5a18c327d9b93,will brennan,,"""will brennan"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,d30bb7a0c8810b39,omar martinez,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,d30bb7a0c8810b39,omar martinez,,"""omar martinez"" baseball",6.0,0.0
+google_news_rss,attempted,d30bb7a0c8810b39,omar martinez,,"""omar martinez"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,c7b49f5657f0b336,césar salazar,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,c7b49f5657f0b336,césar salazar,,"""césar salazar"" baseball",6.0,0.0
+google_news_rss,attempted,c7b49f5657f0b336,césar salazar,,"""césar salazar"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,c07d037cda2b8992,rhylan thomas,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,c07d037cda2b8992,rhylan thomas,,"""rhylan thomas"" baseball",6.0,0.0
+google_news_rss,attempted,c07d037cda2b8992,rhylan thomas,,"""rhylan thomas"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,e7a8764273b7dcb2,chadwick tromp,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,e7a8764273b7dcb2,chadwick tromp,,"""chadwick tromp"" baseball",6.0,0.0
+google_news_rss,attempted,e7a8764273b7dcb2,chadwick tromp,,"""chadwick tromp"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,3edf37c0ec4e3096,orlando arcia,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,3edf37c0ec4e3096,orlando arcia,,"""orlando arcia"" baseball",6.0,0.0
+google_news_rss,attempted,3edf37c0ec4e3096,orlando arcia,,"""orlando arcia"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,528cf226e7fba270,vidal bruján,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,528cf226e7fba270,vidal bruján,,"""vidal bruján"" baseball",6.0,0.0
+google_news_rss,attempted,528cf226e7fba270,vidal bruján,,"""vidal bruján"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,5322310d436edffd,luis rengifo,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,5322310d436edffd,luis rengifo,,"""luis rengifo"" baseball",6.0,0.0
+google_news_rss,attempted,5322310d436edffd,luis rengifo,,"""luis rengifo"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,7a55953cea7bee47,"Rodríguez, Yariel",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,7a55953cea7bee47,"Rodríguez, Yariel",,"""Yariel Rodríguez"" baseball",6.0,0.0
+google_news_rss,attempted,7a55953cea7bee47,"Rodríguez, Yariel",,"""Yariel Rodríguez"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,eeba3c1f9f7fe331,"Falter, Bailey",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,eeba3c1f9f7fe331,"Falter, Bailey",,"""Bailey Falter"" baseball",6.0,0.0
+google_news_rss,attempted,eeba3c1f9f7fe331,"Falter, Bailey",,"""Bailey Falter"" injury OR contract OR DFA OR released OR KBO",0.0,0.0
+naver_news,skipped_missing_env,e910355ba4060585,"Gonzalez, Domingo",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,e910355ba4060585,"Gonzalez, Domingo",,"""Domingo Gonzalez"" baseball",6.0,0.0
+google_news_rss,attempted,e910355ba4060585,"Gonzalez, Domingo",,"""Domingo Gonzalez"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,20117bc6ab3ab515,"Thompson, Keegan",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,20117bc6ab3ab515,"Thompson, Keegan",,"""Keegan Thompson"" baseball",6.0,0.0
+google_news_rss,attempted,20117bc6ab3ab515,"Thompson, Keegan",,"""Keegan Thompson"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,e8de2782bd57a2e1,"Salazar, César",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,e8de2782bd57a2e1,"Salazar, César",,"""César Salazar"" baseball",6.0,0.0
+google_news_rss,attempted,e8de2782bd57a2e1,"Salazar, César",,"""César Salazar"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,e432b835b58b25d4,"Voth, Austin",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,e432b835b58b25d4,"Voth, Austin",,"""Austin Voth"" baseball",6.0,0.0
+google_news_rss,attempted,e432b835b58b25d4,"Voth, Austin",,"""Austin Voth"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,6d6ec0c129792603,"Woodford, Jake",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,6d6ec0c129792603,"Woodford, Jake",,"""Jake Woodford"" baseball",6.0,0.0
+google_news_rss,attempted,6d6ec0c129792603,"Woodford, Jake",,"""Jake Woodford"" injury OR contract OR DFA OR released OR KBO",6.0,0.0
+naver_news,skipped_missing_env,6e1ab580572b5708,"Andrews, Tanner",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss,attempted,6e1ab580572b5708,"Andrews, Tanner",,"""Tanner Andrews"" baseball",6.0,0.0
+google_news_rss,attempted,6e1ab580572b5708,"Andrews, Tanner",,"""Tanner Andrews"" injury OR contract OR DFA OR released OR KBO",6.0,0.0

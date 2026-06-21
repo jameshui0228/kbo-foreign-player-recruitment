@@ -1454,3 +1454,39 @@ Next:
 
 - Refresh candidate-specific news after loading Naver credentials in the shell.
 - Add salary, opt-out, contract, transfer-fee, buyout, and agent/willingness sources.
+
+## 2026-06-21 Run 025 Candidate News Pilot v0.1
+
+Hypothesis:
+
+- English candidate-specific news metadata should add medical, contract, and overseas-context signals to the market-realism queue without requiring Google API.
+
+Actions:
+
+- Added `src/data/collect_candidate_news.py`.
+- Added `src/features/build_candidate_news_signals.py`.
+- Collected a small Google News RSS pilot for 26 Run 024 priority candidates.
+- Wrote candidate-level news signal summaries and joined them back to the full 2,723-row manual worklist.
+- Recorded Naver as skipped because `NAVER_CLIENT_ID` and `NAVER_CLIENT_SECRET` were not loaded in the shell environment.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v15.csv`.
+
+Validation:
+
+- Pilot candidate rows: 26.
+- News metadata rows: 182.
+- Candidate-name matched article rows: 118.
+- Usable news-signal rows: 119.
+- Google API needed: no.
+- Naver candidate-specific news: skipped, missing shell environment credentials.
+- Release locks passed for all 2,723 joined rows.
+
+Decision:
+
+- Promote the English news pilot as a research-only risk layer.
+- Do not release candidate recommendations or shortlist labels.
+- Treat candidate-news status as a manual review signal only.
+
+Next:
+
+- Load Naver credentials in the shell and rerun the same pilot for Korean candidate-specific news.
+- Expand the news scope after the Korean pilot validates precision.
