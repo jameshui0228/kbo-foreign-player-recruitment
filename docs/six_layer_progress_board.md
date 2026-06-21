@@ -1,6 +1,6 @@
 # Six Layer Progress Board
 
-Generated: 2026-06-14 KST
+Generated: 2026-06-21 KST
 
 From this point forward, every major update should report progress on these six layers:
 
@@ -16,11 +16,11 @@ From this point forward, every major update should report progress on these six 
 | no. | layer | status | progress | latest evidence | next action |
 |---:|---|---|---:|---|---|
 | 1 | SSG hidden weakness mining | presentation bridge ready pending refresh | 93% | `outputs/tables/ssg_layer1_candidate_feature_blueprint_v4.csv` | refresh STATIZ/current-game data and attach stronger play-by-play/defense/baserunning proxies; then freeze Layer 1 or move effort to layers 2-5 |
-| 2 | KBO foreign-player success/failure archetype mining | partial plus historical MiLB backfill | 62% | `outputs/tables/historical_kbo_prearrival_milb_features_v1.csv` | expand historical ID crosswalk to 2017-2022 and add NPB/CPBL pre-arrival context |
+| 2 | KBO foreign-player success/failure archetype mining | partial plus MiLB model signals v0.2 | 66% | `outputs/tables/kbo_translation_failure_feature_signals_v0_2.csv` | run compact feature-family ablation and expand historical ID crosswalk to 2017-2022 plus NPB/CPBL context |
 | 3 | Candidate market construction | partial plus full MiLB and NPB context | 80% | `outputs/tables/milb_market_pool_stats_all_v1.csv` | add NPB nationality and salary/contract/buyout proxies, ABL roster/stats, and news/manual availability checks |
-| 4 | KBO translation model | pilot plus historical MiLB backfill | 64% | `outputs/tables/historical_kbo_prearrival_milb_features_v1.csv` | join historical MiLB features into model marts and rerun repeated CV |
-| 5 | Failure risk model | pilot plus full MiLB role context | 58% | `outputs/tables/mlb_market_pool_milb_role_context_v1.csv` | add injury/news/adaptation text plus contract and willingness variables |
-| 6 | SSG fit ranking | locked with stronger market inputs | 28% | `docs/run_019_milb_all_and_historical_backfill.md` | build layer-weighted ranking only after market, translation, and risk joins are validated |
+| 4 | KBO translation model | pilot v0.2 retrained, not promoted | 67% | `outputs/tables/kbo_translation_failure_repeated_cv_comparison_v0_2.csv` | run compact feature-family ablation before using any model score in ranking |
+| 5 | Failure risk model | pilot v0.2 risk signals, not promoted | 61% | `outputs/tables/kbo_translation_failure_feature_signals_v0_2.csv` | add injury/news/adaptation text plus contract and willingness variables, then test compact risk models |
+| 6 | SSG fit ranking | locked with v0.2 model diagnostics | 29% | `docs/run_020_translation_failure_v0_2_milb_modeling.md` | build layer-weighted ranking only after compact models and market/risk gates clear |
 
 ## Reporting Rule
 

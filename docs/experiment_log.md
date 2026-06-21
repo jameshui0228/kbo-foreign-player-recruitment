@@ -1259,3 +1259,45 @@ Decision:
   - NPB contract/salary/buyout and nationality checks are added;
   - KBO/STATIZ current data is refreshed after 2026-06-11;
   - injury/news/adaptation and Korea-willingness variables are attached.
+
+## 2026-06-21 Run 020 Translation And Failure-Risk v0.2 MiLB Modeling
+
+Hypothesis:
+
+- Historical pre-KBO MiLB features should expand model-ready rows and reveal whether KBO translation/failure-risk scores can be promoted into the SSG fit-ranking layer.
+
+Actions:
+
+- Added `src/modeling/build_recruitment_model_marts_v0_2.py`.
+- Added `src/modeling/train_kbo_translation_failure_models_v0_2.py`.
+- Built `outputs/tables/kbo_translation_feature_mart_v0_2.csv` and `outputs/tables/failure_risk_feature_mart_v0_2.csv`.
+- Reran time-forward holdout and repeated stratified CV with a broader `has_model_pre_kbo_features` flag.
+- Wrote v0.1 vs v0.2 comparison and v0.2 feature-signal audit.
+- Updated six-layer progress and gate status in `outputs/tables/recruitment_gate_status_v10.csv`.
+
+Validation:
+
+- v0.2 model-ready rows: 71, up from 55.
+- Hitter model-ready rows: 22, unchanged.
+- Pitcher model-ready rows: 49, up from 33.
+- MiLB-only pitcher rows added to model scope: 16.
+- Repeated CV score rows: 1,440.
+- Feature-signal rows: 146.
+
+Findings:
+
+- Strict repeated CV did not promote the all-feature v0.2 models.
+- Hitter models lost v0.1 pilot-promote status because the row count stayed at 22 while the feature set widened.
+- Pitcher models gained validation coverage but still did not reliably beat role-prior baselines.
+- Pitcher risk signals suggest that raw bat-missing upside needs to be separated from damage suppression, command friction, and recent role continuity.
+
+Decision:
+
+- Promote Run 020 as a diagnostic and archetype-mining improvement.
+- Do not promote v0.2 all-feature scores into final SSG fit ranking.
+- Keep candidate names locked.
+
+Next:
+
+- Run compact feature-family ablations:
+  Savant-only, MiLB level/role only, MiLB damage/command only, recent-track continuity only, and compact mixed models with at most 6-10 features per role/target.

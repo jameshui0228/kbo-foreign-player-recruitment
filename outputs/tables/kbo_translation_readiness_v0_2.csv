@@ -1,0 +1,4 @@
+scope,rows,label_available_rows,pre_kbo_savant_rows,pre_kbo_milb_rows,model_ready_rows,model_ready_labeled_rows,success_rows,failure_rows,milb_only_model_ready_rows,savant_and_milb_rows
+all,128,128,55,71,71,71,38,29,16,55
+hitter,42,42,22,22,22,22,13,8,0,22
+pitcher,86,86,33,49,49,49,25,21,16,33

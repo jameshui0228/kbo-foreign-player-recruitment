@@ -1,0 +1,11 @@
+role_model_family,model_feature_source,rows,input_file,input_rows,output_rows
+hitter,none,20,kbo_translation_feature_mart_v0_1.csv,128,128
+hitter,savant_and_milb,22,kbo_translation_feature_mart_v0_1.csv,128,128
+pitcher,milb_only,16,kbo_translation_feature_mart_v0_1.csv,128,128
+pitcher,none,37,kbo_translation_feature_mart_v0_1.csv,128,128
+pitcher,savant_and_milb,33,kbo_translation_feature_mart_v0_1.csv,128,128
+hitter,none,20,failure_risk_feature_mart_v0_1.csv,128,128
+hitter,savant_and_milb,22,failure_risk_feature_mart_v0_1.csv,128,128
+pitcher,milb_only,16,failure_risk_feature_mart_v0_1.csv,128,128
+pitcher,none,37,failure_risk_feature_mart_v0_1.csv,128,128
+pitcher,savant_and_milb,33,failure_risk_feature_mart_v0_1.csv,128,128
