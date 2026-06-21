@@ -1,0 +1,12 @@
+fit_slot,failure_risk_review_tier,rows,median_failure_risk,p75_failure_risk,high_medical_rows,high_contract_rows,high_translation_rows,layer2_flag_rows,release_allowed
+asian_quota,tier_2_multi_risk_review,154,48.57,48.57,0,154,0,154,False
+asian_quota,tier_3_watch_review,410,45.2585,45.49525,0,358,0,410,False
+asian_quota,tier_4_low_current_risk,414,44.829,44.898,0,414,0,414,False
+foreign_hitter,tier_1_blocker_review,355,70.102,74.9735,208,346,84,232,False
+foreign_hitter,tier_2_multi_risk_review,303,55.196,57.439499999999995,10,277,16,52,False
+foreign_hitter,tier_3_watch_review,31,53.638,54.843,0,0,0,29,False
+foreign_hitter,tier_4_low_current_risk,47,38.158,41.0235,1,0,0,12,False
+foreign_pitcher,tier_1_blocker_review,722,70.58250000000001,76.55250000000001,351,689,1,161,False
+foreign_pitcher,tier_2_multi_risk_review,160,56.619,60.18325,8,140,1,104,False
+foreign_pitcher,tier_3_watch_review,80,51.064,54.1175,0,0,0,51,False
+foreign_pitcher,tier_4_low_current_risk,47,42.14,43.592,0,0,0,35,False

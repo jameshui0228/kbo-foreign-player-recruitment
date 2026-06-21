@@ -1,0 +1,5 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+R1,all_candidates_receive_failure_risk_buckets,2723,2723,pass,Risk buckets are research-only and not calibrated as public final scores
+R2,layer2_archetype_flags_attached,1654,2723,partial_pass,Layer 2 flags are only available where candidate-side proxies exist
+R3,manual_source_lane_integration,1703,2723,pass_visible_gap,"Many risk rows still require manual contract, medical, agent, salary, buyout, or willingness source values"
+R4,release_locks_preserved,2723,2723,pass,"No candidate names, scores, rankings, shortlist labels, or recommendations are released"

@@ -19,8 +19,8 @@ From this point forward, every major update should report progress on these six 
 | 2 | KBO foreign-player success/failure archetype mining | pre-arrival archetype bridge attached | 78% | `outputs/tables/kbo_foreign_archetype_feature_contract_v0_2.csv` | backfill 2017-2022 ID/pre-arrival features, add NPB/CPBL historical context, and validate promoted archetype rules against candidate-side source lanes |
 | 3 | Candidate market construction | official market refresh plus news joined | 94% | `outputs/tables/ssg_market_realism_news_join_v0_5.csv` | fill salary, opt-out, transfer-fee, buyout, agent, medical, and Korea-willingness source lanes |
 | 4 | KBO translation model | hitter component in fit-prep mart | 80% | `outputs/tables/ssg_fit_preparation_mart_v0_1.csv` | keep hitter component as pilot input and build pitcher translation only after stronger risk/context variables |
-| 5 | Failure risk model | official market and news risk refresh attached | 85% | `outputs/tables/candidate_news_signal_summary_v0_5.csv` | fill medical/adaptation/Korea-willingness source lanes |
-| 6 | SSG fit ranking | locked latest feasibility queue built | 71% | `outputs/tables/manual_feasibility_source_worklist_v0_3.csv` | fill feasibility source lanes before any shortlist/recommendation labels |
+| 5 | Failure risk model | candidate failure-risk ledger built | 89% | `outputs/tables/candidate_failure_risk_ledger_v0_1.csv` | fill source values and calibrate risk buckets against resolved cases before using any score in Layer 6 |
+| 6 | SSG fit ranking | locked risk-enriched feasibility queue built | 72% | `outputs/tables/candidate_failure_risk_ledger_v0_1.csv` | fill feasibility source lanes and then build a risk-adjusted SSG fit ranking without releasing names until gates pass |
 
 ## Reporting Rule
 

@@ -1718,3 +1718,44 @@ Next:
 - Add historical NPB/CPBL pre-arrival context.
 - Validate promoted Layer 2 rules against candidate-side source lanes before
   using them in Layer 6.
+
+## 2026-06-22 Run 032 Candidate Failure Risk Ledger v0.1
+
+Hypothesis:
+
+- Before any SSG fit ranking can be trusted, every candidate should have a
+  source-backed explanation of possible failure modes.
+
+Actions:
+
+- Added `src/modeling/build_candidate_failure_risk_ledger_v0_1.py`.
+- Combined Layer 2 archetype flags, Layer 3 market/news context, candidate-side
+  hitter/pitcher/Asian-quota signals, and manual source lanes.
+- Attached candidate-side primary signal and feature-coverage values from the
+  locked SSG fit-preparation mart.
+- Built six failure-risk buckets: medical, contract/cost, role-fit, KBO
+  translation, adaptation/willingness, and data/source gap.
+- Added risk-tier summaries and gate audit outputs.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v22.csv`.
+
+Validation:
+
+- Failure-risk ledger rows: 2,723.
+- All candidates receive six risk buckets: 2,723 / 2,723.
+- Layer 2 flags attached: 1,654 / 2,723.
+- Manual source lanes integrated: 1,703 / 2,723.
+- Release locks passed for all 2,723 rows.
+- Tier-1 blocker review rows: 355 foreign hitters and 722 foreign pitchers.
+
+Decision:
+
+- Promote the candidate failure-risk ledger as the current Layer 5 evidence
+  base.
+- Do not use `failure_risk_index` as a final public ranking score.
+- Keep candidate recommendations, shortlist labels, scores, and names locked.
+
+Next:
+
+- Fill source values for medical files, salary, opt-out, buyout, agent, and
+  Korea-willingness.
+- Calibrate risk buckets against resolved cases before Layer 6 ranking.
