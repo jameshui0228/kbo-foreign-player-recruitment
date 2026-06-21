@@ -11,6 +11,8 @@ Google News RSS is used for English/Korean-locale metadata without a Google API 
 Naver Search News is supported only when NAVER_CLIENT_ID and
 NAVER_CLIENT_SECRET are loaded in the shell environment. Credentials are never
 written to disk.
+
+Optionally pass a gitignored local env file with `--env-file .env.naver`.
 """
 
 from __future__ import annotations
@@ -48,6 +50,20 @@ def clean_text(value: object) -> str:
     value = re.sub(r"<[^>]+>", " ", str(value))
     value = html.unescape(value)
     return re.sub(r"\s+", " ", value).strip()
+
+
+def load_env_file(path: Path) -> None:
+    if not path.exists():
+        return
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = value
 
 
 def stable_id(*parts: object) -> str:
@@ -289,11 +305,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-name", default="candidate_news_pilot_v0_1")
     parser.add_argument("--table-suffix", default="v0_1")
     parser.add_argument("--scope-label", default="run024_market_realism_priority_pilot")
+    parser.add_argument("--env-file", default="")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
+    if args.env_file:
+        load_env_file(PROJECT_ROOT / args.env_file)
     output_dir = RAW_ARTICLE_DIR / args.output_name
     scope_path = TABLE_DIR / f"candidate_news_scope_{args.table_suffix}.csv"
     if args.table_suffix == "v0_1":

@@ -1568,3 +1568,33 @@ Next:
 
 - Load Naver credentials in the shell and run candidate-specific Korean news.
 - Fill source-lane values for salary, contract terms, options, buyout/transfer fee, medical availability, agent signals, and Korea-willingness.
+
+## 2026-06-21 Run 028 Naver News Ready State v0.1
+
+Hypothesis:
+
+- Naver collection should be executable without exposing secrets in commands, source files, Git, or output tables.
+
+Actions:
+
+- Added optional `--env-file` support to `src/data/collect_candidate_news.py`.
+- Documented a local gitignored `.env.naver` workflow.
+- Added `docs/run_028_naver_news_ready_state_v0_1.md`.
+- Added `outputs/tables/recruitment_gate_status_v18.csv`.
+
+Validation:
+
+- Collector compiles successfully.
+- `.env.*` files are gitignored.
+- Current shell still has no `NAVER_CLIENT_ID` or `NAVER_CLIENT_SECRET`.
+- No Naver rows were collected in this run.
+- Progress remains unchanged until real Naver data is collected.
+
+Decision:
+
+- Ready to run Naver collection once local credentials are available.
+- Do not put Naver keys in shell command text, source files, tracked docs, or committed outputs.
+
+Next:
+
+- Create local `.env.naver`, then run the documented Naver collection command and combine it with the existing English news layer.
