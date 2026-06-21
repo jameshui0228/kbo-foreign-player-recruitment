@@ -5,11 +5,11 @@
 
 ## Summary
 
-- Total local data/output files scanned: 390
-- Total scanned size: 1,182.9 MB
+- Total local data/output files scanned: 397
+- Total scanned size: 1,183.9 MB
 - Raw data size: 676.0 MB
 - Processed data size: 413.6 MB
-- Git-tracked data/output size: 77.7 MB
+- Git-tracked data/output size: 80.4 MB
 
 ## Policy
 
@@ -32,7 +32,7 @@
 | Processed KBO labels | private_or_regenerate | 1 | 0.2 |
 | Project schema | tracked_in_github | 5 | 0.0 |
 | STATIZ API/local KBO snapshot | do_not_public_git | 31 | 39.7 |
-| Tracked analysis output | tracked_in_github | 183 | 77.8 |
+| Tracked analysis output | tracked_in_github | 190 | 78.8 |
 | Wikipedia templates | private_or_regenerate | 10 | 0.7 |
 
 ## Full Manifest

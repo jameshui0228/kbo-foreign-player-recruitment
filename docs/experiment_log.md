@@ -1342,3 +1342,41 @@ Next:
 - Build candidate-side hitter Savant pilot component.
 - Convert pitcher MiLB damage/command into diagnostic tags.
 - Add injury/news/adaptation, Korea-willingness, contract, salary, buyout, and NPB nationality feasibility before fit ranking.
+
+## 2026-06-21 Run 022 Candidate-Side Signal Join v0.1
+
+Hypothesis:
+
+- Validated model families should be attached to candidate markets as locked signal components rather than recommendations.
+
+Actions:
+
+- Added `src/modeling/build_candidate_side_signal_join_v0_1.py`.
+- Built hitter Savant pilot component for MLB outfielder/hitter candidates.
+- Reran candidate-compatible hitter model audit with 17 available Savant features.
+- Built pitcher MiLB damage/command diagnostic tags.
+- Built Asian-quota feasibility tags from current NPB/CPBL roster and nationality gates.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v12.csv`.
+
+Validation:
+
+- Hitter candidate rows: 736.
+- Pitcher candidate rows: 1,009.
+- Asian-quota market rows: 978.
+- Candidate-compatible hitter success model: AUC 0.808, Brier lift +0.065.
+- Candidate-compatible hitter failure model: AUC 0.757, Brier lift +0.027.
+- Pitcher positive diagnostic-watch rows: 79.
+- Asian nationality-pass but contract-unknown rows: 154.
+- Every row-level output keeps `is_final_recommendation = False`, `shortlist_label_allowed = False`, and `candidate_name_release_allowed = False`.
+
+Decision:
+
+- Promote hitter Savant pilot component into the next locked fit-preparation mart.
+- Keep pitcher output as diagnostic tags only.
+- Keep Asian-quota output as feasibility inventory only.
+- Do not release recommendations or shortlist labels.
+
+Next:
+
+- Build locked SSG fit ranking preparation mart with research-only labels.
+- Add contract, salary, buyout, injury/news/adaptation, Korea-willingness, and manual feasibility context before any candidate release.
