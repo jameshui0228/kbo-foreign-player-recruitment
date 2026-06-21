@@ -1,0 +1,5 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+S1,source_fill_scope_built_from_layer6_queue,118,118,pass,Scope is internal and candidate release remains locked
+S2,source_evidence_status_attached,118,118,pass,"Evidence statuses are source tasks, not final approvals"
+S3,fresh_naver_collection_attempted,118,118,pass_visible_gap,"Fresh Naver search returned few candidate-specific rows, so manual/local source checks remain necessary"
+S4,release_locks_preserved,118,118,pass,"No candidate names, ranks, scores, shortlist labels, or recommendations are released"

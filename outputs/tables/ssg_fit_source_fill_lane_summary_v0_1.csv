@@ -1,0 +1,14 @@
+fit_slot,fit_review_lane,source_fill_readiness_bucket,rows,median_internal_fit_score,usable_article_rows,korean_article_rows,fresh_returned_rows,contract_missing_rows,medical_missing_rows,korea_missing_rows,nationality_missing_rows,release_allowed
+asian_quota,lane_1_source_fill_priority_locked,source_blocked_major_gap_locked,1,53.018,1,0,0,1,1,1,0,False
+asian_quota,lane_1_source_fill_priority_locked,source_blocked_targeted_gap_locked,15,52.118,37,11,1,13,5,2,0,False
+asian_quota,lane_1_source_fill_priority_locked,source_supported_manual_verification_needed_locked,2,50.846000000000004,5,0,0,0,0,0,0,False
+foreign_hitter,lane_0_blocked_or_medical_review_locked,source_blocked_major_gap_locked,4,55.486999999999995,0,0,0,4,4,4,0,False
+foreign_hitter,lane_0_blocked_or_medical_review_locked,source_supported_manual_verification_needed_locked,1,74.672,12,2,0,0,0,0,0,False
+foreign_hitter,lane_1_source_fill_priority_locked,source_blocked_major_gap_locked,4,54.2915,0,0,0,4,4,4,0,False
+foreign_hitter,lane_2_deep_review_candidate_locked,source_blocked_targeted_gap_locked,6,66.4485,45,0,0,0,2,6,0,False
+foreign_hitter,lane_2_deep_review_candidate_locked,source_supported_scouting_card_next_locked,31,61.094,6,0,1,0,0,0,0,False
+foreign_pitcher,lane_0_blocked_or_medical_review_locked,source_blocked_major_gap_locked,3,44.802,0,0,0,3,3,3,0,False
+foreign_pitcher,lane_0_blocked_or_medical_review_locked,source_blocked_targeted_gap_locked,2,55.5775,16,0,0,0,0,2,0,False
+foreign_pitcher,lane_1_source_fill_priority_locked,source_blocked_major_gap_locked,2,50.2585,0,0,0,2,2,2,0,False
+foreign_pitcher,lane_2_deep_review_candidate_locked,source_blocked_targeted_gap_locked,6,58.2465,50,4,0,0,1,5,0,False
+foreign_pitcher,lane_2_deep_review_candidate_locked,source_supported_scouting_card_next_locked,41,54.385,0,0,1,0,0,0,0,False

@@ -1,0 +1,9 @@
+next_source_action,rows,foreign_hitter_rows,foreign_pitcher_rows,asian_quota_rows
+ready_for_manual_scouting_card_review_locked,72,31,41,0
+search_korean_local_and_agent_willingness_sources,29,14,12,3
+verify_salary_contract_option_buyout_agent,27,8,5,14
+manual_medical_file_review,24,5,7,12
+request_or_find_recent_medical_availability_source,22,10,6,6
+extract_exact_contract_terms_from_source,19,7,8,4
+confirm_passport_against_asian_quota_rules,18,0,0,18
+read_context_for_korea_or_overseas_intent,17,1,1,15

@@ -1,0 +1,237 @@
+provider,status,candidate_key,candidate_name,fit_slot,fit_review_lane,query,returned_rows,error_rows
+naver_news,attempted,c58df457ee2acd50,"Sun, Yi-Lei",asian_quota,lane_1_source_fill_priority_locked,Yi-Lei Sun 계약 이적료 바이아웃,0,0
+naver_news,attempted,c58df457ee2acd50,"Sun, Yi-Lei",asian_quota,lane_1_source_fill_priority_locked,Yi-Lei Sun 부상 KBO 한국,0,0
+naver_news,attempted,77fcb317bda63213,"Yang, Po-Hsiang",asian_quota,lane_1_source_fill_priority_locked,Po-Hsiang Yang 계약 이적료 바이아웃,0,0
+naver_news,attempted,77fcb317bda63213,"Yang, Po-Hsiang",asian_quota,lane_1_source_fill_priority_locked,Po-Hsiang Yang 부상 KBO 한국,0,0
+naver_news,attempted,dc923c066641a262,"Gu Lin, Ruei-Yang",asian_quota,lane_1_source_fill_priority_locked,Ruei-Yang Gu Lin 계약 이적료 바이아웃,0,0
+naver_news,attempted,dc923c066641a262,"Gu Lin, Ruei-Yang",asian_quota,lane_1_source_fill_priority_locked,Ruei-Yang Gu Lin 부상 KBO 한국,0,0
+naver_news,attempted,abcd007c02e88802,WANG Wei Chen,asian_quota,lane_1_source_fill_priority_locked,WANG Wei Chen 계약 이적료 바이아웃,0,0
+naver_news,attempted,abcd007c02e88802,WANG Wei Chen,asian_quota,lane_1_source_fill_priority_locked,WANG Wei Chen 부상 KBO 한국,0,0
+naver_news,attempted,b900cfa1663d7462,TSENG Tzu Yu,asian_quota,lane_1_source_fill_priority_locked,TSENG Tzu Yu 계약 이적료 바이아웃,0,0
+naver_news,attempted,b900cfa1663d7462,TSENG Tzu Yu,asian_quota,lane_1_source_fill_priority_locked,TSENG Tzu Yu 부상 KBO 한국,0,0
+naver_news,attempted,4c25d0dd81e484e7,CHIANG Kun Yu,asian_quota,lane_1_source_fill_priority_locked,CHIANG Kun Yu 계약 이적료 바이아웃,0,0
+naver_news,attempted,4c25d0dd81e484e7,CHIANG Kun Yu,asian_quota,lane_1_source_fill_priority_locked,CHIANG Kun Yu 부상 KBO 한국,0,0
+naver_news,attempted,674e5533305cb46e,LIN Tzu Wei,asian_quota,lane_1_source_fill_priority_locked,LIN Tzu Wei 계약 이적료 바이아웃,0,0
+naver_news,attempted,674e5533305cb46e,LIN Tzu Wei,asian_quota,lane_1_source_fill_priority_locked,LIN Tzu Wei 부상 KBO 한국,0,0
+naver_news,attempted,674e5533305cb46e,LIN Tzu Wei,asian_quota,lane_1_source_fill_priority_locked,LIN Tzu Wei 계약 이적료 바이아웃,0,0
+naver_news,attempted,674e5533305cb46e,LIN Tzu Wei,asian_quota,lane_1_source_fill_priority_locked,LIN Tzu Wei 부상 KBO 한국,0,0
+naver_news,attempted,a96040b69b8259ba,YOU Jun You,asian_quota,lane_1_source_fill_priority_locked,YOU Jun You 계약 이적료 바이아웃,0,0
+naver_news,attempted,a96040b69b8259ba,YOU Jun You,asian_quota,lane_1_source_fill_priority_locked,YOU Jun You 부상 KBO 한국,1,0
+naver_news,attempted,5fe07483eaef76c0,CHEN Chieh Hsien,asian_quota,lane_1_source_fill_priority_locked,CHEN Chieh Hsien 계약 이적료 바이아웃,0,0
+naver_news,attempted,5fe07483eaef76c0,CHEN Chieh Hsien,asian_quota,lane_1_source_fill_priority_locked,CHEN Chieh Hsien 부상 KBO 한국,0,0
+naver_news,attempted,90e11c1c15d4ad6d,LEE Chun,asian_quota,lane_1_source_fill_priority_locked,LEE Chun 계약 이적료 바이아웃,0,0
+naver_news,attempted,90e11c1c15d4ad6d,LEE Chun,asian_quota,lane_1_source_fill_priority_locked,LEE Chun 부상 KBO 한국,0,0
+naver_news,attempted,32b9a113fe643865,WU Chun Wei,asian_quota,lane_1_source_fill_priority_locked,WU Chun Wei 계약 이적료 바이아웃,0,0
+naver_news,attempted,32b9a113fe643865,WU Chun Wei,asian_quota,lane_1_source_fill_priority_locked,WU Chun Wei 부상 KBO 한국,0,0
+naver_news,attempted,034265bc8aac7a34,CHU Yu Hsien,asian_quota,lane_1_source_fill_priority_locked,CHU Yu Hsien 계약 이적료 바이아웃,0,0
+naver_news,attempted,034265bc8aac7a34,CHU Yu Hsien,asian_quota,lane_1_source_fill_priority_locked,CHU Yu Hsien 부상 KBO 한국,0,0
+naver_news,attempted,0238c02ba635ca07,LIN Dai An,asian_quota,lane_1_source_fill_priority_locked,LIN Dai An 계약 이적료 바이아웃,0,0
+naver_news,attempted,0238c02ba635ca07,LIN Dai An,asian_quota,lane_1_source_fill_priority_locked,LIN Dai An 부상 KBO 한국,0,0
+naver_news,attempted,9bfd9391859ee728,WANG Yi Cheng,asian_quota,lane_1_source_fill_priority_locked,WANG Yi Cheng 계약 이적료 바이아웃,0,0
+naver_news,attempted,9bfd9391859ee728,WANG Yi Cheng,asian_quota,lane_1_source_fill_priority_locked,WANG Yi Cheng 부상 KBO 한국,0,0
+naver_news,attempted,212e67914d8a0517,WANG Po Jung,asian_quota,lane_1_source_fill_priority_locked,WANG Po Jung 계약 이적료 바이아웃,0,0
+naver_news,attempted,212e67914d8a0517,WANG Po Jung,asian_quota,lane_1_source_fill_priority_locked,WANG Po Jung 부상 KBO 한국,0,0
+naver_news,attempted,b6c401b1562a35e1,LI Chao,asian_quota,lane_1_source_fill_priority_locked,LI Chao 계약 이적료 바이아웃,0,0
+naver_news,attempted,b6c401b1562a35e1,LI Chao,asian_quota,lane_1_source_fill_priority_locked,LI Chao 부상 KBO 한국,0,0
+naver_news,attempted,6cdd44bfdb0bab0a,CHIANG Kuo Hao,asian_quota,lane_1_source_fill_priority_locked,CHIANG Kuo Hao 계약 이적료 바이아웃,0,0
+naver_news,attempted,6cdd44bfdb0bab0a,CHIANG Kuo Hao,asian_quota,lane_1_source_fill_priority_locked,CHIANG Kuo Hao 부상 KBO 한국,0,0
+naver_news,attempted,08d5a18c327d9b93,will brennan,foreign_hitter,lane_0_blocked_or_medical_review_locked,will brennan 부상 계약 방출,0,0
+naver_news,attempted,08d5a18c327d9b93,will brennan,foreign_hitter,lane_0_blocked_or_medical_review_locked,will brennan KBO 한국 해외,0,0
+naver_news,attempted,c7c27effca31f41b,luis urías,foreign_hitter,lane_0_blocked_or_medical_review_locked,luis urías 부상 계약 방출,0,0
+naver_news,attempted,c7c27effca31f41b,luis urías,foreign_hitter,lane_0_blocked_or_medical_review_locked,luis urías KBO 한국 해외,0,0
+naver_news,attempted,78cb3e2121a13c9a,jon singleton,foreign_hitter,lane_0_blocked_or_medical_review_locked,jon singleton 부상 계약 방출,0,0
+naver_news,attempted,78cb3e2121a13c9a,jon singleton,foreign_hitter,lane_0_blocked_or_medical_review_locked,jon singleton KBO 한국 해외,0,0
+naver_news,attempted,e9184b171abc9b08,vinnie pasquantino,foreign_hitter,lane_0_blocked_or_medical_review_locked,vinnie pasquantino 부상 계약 방출,0,0
+naver_news,attempted,e9184b171abc9b08,vinnie pasquantino,foreign_hitter,lane_0_blocked_or_medical_review_locked,vinnie pasquantino KBO 한국 해외,0,0
+naver_news,attempted,0c1a296a19cda748,jose iglesias,foreign_hitter,lane_0_blocked_or_medical_review_locked,jose iglesias 부상 계약 방출,0,0
+naver_news,attempted,0c1a296a19cda748,jose iglesias,foreign_hitter,lane_0_blocked_or_medical_review_locked,jose iglesias KBO 한국 해외,0,0
+naver_news,attempted,18c9b97ad0ff1d78,davis wendzel,foreign_hitter,lane_1_source_fill_priority_locked,davis wendzel 부상 계약 방출,0,0
+naver_news,attempted,18c9b97ad0ff1d78,davis wendzel,foreign_hitter,lane_1_source_fill_priority_locked,davis wendzel KBO 한국 해외,0,0
+naver_news,attempted,9df352c847664721,yandy díaz,foreign_hitter,lane_1_source_fill_priority_locked,yandy díaz 부상 계약 방출,0,0
+naver_news,attempted,9df352c847664721,yandy díaz,foreign_hitter,lane_1_source_fill_priority_locked,yandy díaz KBO 한국 해외,0,0
+naver_news,attempted,24107d4d22c7b9be,darell hernaiz,foreign_hitter,lane_1_source_fill_priority_locked,darell hernaiz 부상 계약 방출,0,0
+naver_news,attempted,24107d4d22c7b9be,darell hernaiz,foreign_hitter,lane_1_source_fill_priority_locked,darell hernaiz KBO 한국 해외,0,0
+naver_news,attempted,1dbe878f21255344,agustín ramírez,foreign_hitter,lane_1_source_fill_priority_locked,agustín ramírez 부상 계약 방출,0,0
+naver_news,attempted,1dbe878f21255344,agustín ramírez,foreign_hitter,lane_1_source_fill_priority_locked,agustín ramírez KBO 한국 해외,0,0
+naver_news,attempted,c37f274e459f8611,c. j. stubbs,foreign_hitter,lane_2_deep_review_candidate_locked,c. j. stubbs 부상 계약 방출,0,0
+naver_news,attempted,c37f274e459f8611,c. j. stubbs,foreign_hitter,lane_2_deep_review_candidate_locked,c. j. stubbs KBO 한국 해외,0,0
+naver_news,attempted,c07d037cda2b8992,rhylan thomas,foreign_hitter,lane_2_deep_review_candidate_locked,rhylan thomas 부상 계약 방출,0,0
+naver_news,attempted,c07d037cda2b8992,rhylan thomas,foreign_hitter,lane_2_deep_review_candidate_locked,rhylan thomas KBO 한국 해외,0,0
+naver_news,attempted,3f7e64f3aea1baea,carter kieboom,foreign_hitter,lane_2_deep_review_candidate_locked,carter kieboom 부상 계약 방출,0,0
+naver_news,attempted,3f7e64f3aea1baea,carter kieboom,foreign_hitter,lane_2_deep_review_candidate_locked,carter kieboom KBO 한국 해외,0,0
+naver_news,attempted,d30bb7a0c8810b39,omar martinez,foreign_hitter,lane_2_deep_review_candidate_locked,omar martinez 부상 계약 방출,0,0
+naver_news,attempted,d30bb7a0c8810b39,omar martinez,foreign_hitter,lane_2_deep_review_candidate_locked,omar martinez KBO 한국 해외,0,0
+naver_news,attempted,b4bd78257bc6865c,dominic fletcher,foreign_hitter,lane_2_deep_review_candidate_locked,dominic fletcher 부상 계약 방출,0,0
+naver_news,attempted,b4bd78257bc6865c,dominic fletcher,foreign_hitter,lane_2_deep_review_candidate_locked,dominic fletcher KBO 한국 해외,0,0
+naver_news,attempted,cf649d8e4ec5946e,ronny simon,foreign_hitter,lane_2_deep_review_candidate_locked,ronny simon 부상 계약 방출,0,0
+naver_news,attempted,cf649d8e4ec5946e,ronny simon,foreign_hitter,lane_2_deep_review_candidate_locked,ronny simon KBO 한국 해외,0,0
+naver_news,attempted,5c4dec8d0d65fcb5,owen miller,foreign_hitter,lane_2_deep_review_candidate_locked,owen miller 부상 계약 방출,0,0
+naver_news,attempted,5c4dec8d0d65fcb5,owen miller,foreign_hitter,lane_2_deep_review_candidate_locked,owen miller KBO 한국 해외,0,0
+naver_news,attempted,1c46bb90d080fde1,tirso ornelas,foreign_hitter,lane_2_deep_review_candidate_locked,tirso ornelas 부상 계약 방출,0,0
+naver_news,attempted,1c46bb90d080fde1,tirso ornelas,foreign_hitter,lane_2_deep_review_candidate_locked,tirso ornelas KBO 한국 해외,0,0
+naver_news,attempted,c7b49f5657f0b336,césar salazar,foreign_hitter,lane_2_deep_review_candidate_locked,césar salazar 부상 계약 방출,0,0
+naver_news,attempted,c7b49f5657f0b336,césar salazar,foreign_hitter,lane_2_deep_review_candidate_locked,césar salazar KBO 한국 해외,0,0
+naver_news,attempted,6635d4c486ec1427,abraham toro,foreign_hitter,lane_2_deep_review_candidate_locked,abraham toro 부상 계약 방출,0,0
+naver_news,attempted,6635d4c486ec1427,abraham toro,foreign_hitter,lane_2_deep_review_candidate_locked,abraham toro KBO 한국 해외,0,0
+naver_news,attempted,8f085eb457d894d3,trey mancini,foreign_hitter,lane_2_deep_review_candidate_locked,trey mancini 부상 계약 방출,0,0
+naver_news,attempted,8f085eb457d894d3,trey mancini,foreign_hitter,lane_2_deep_review_candidate_locked,trey mancini KBO 한국 해외,0,0
+naver_news,attempted,a0c6dedd9f3938a9,drew avans,foreign_hitter,lane_2_deep_review_candidate_locked,drew avans 부상 계약 방출,0,0
+naver_news,attempted,a0c6dedd9f3938a9,drew avans,foreign_hitter,lane_2_deep_review_candidate_locked,drew avans KBO 한국 해외,0,0
+naver_news,attempted,d75fa5d898d2f2a2,luis matos,foreign_hitter,lane_2_deep_review_candidate_locked,luis matos 부상 계약 방출,0,0
+naver_news,attempted,d75fa5d898d2f2a2,luis matos,foreign_hitter,lane_2_deep_review_candidate_locked,luis matos KBO 한국 해외,0,0
+naver_news,attempted,94be28a4a41e8285,andy ibáñez,foreign_hitter,lane_2_deep_review_candidate_locked,andy ibáñez 부상 계약 방출,0,0
+naver_news,attempted,94be28a4a41e8285,andy ibáñez,foreign_hitter,lane_2_deep_review_candidate_locked,andy ibáñez KBO 한국 해외,0,0
+naver_news,attempted,7dfb771f5f6429b6,cal stevenson,foreign_hitter,lane_2_deep_review_candidate_locked,cal stevenson 부상 계약 방출,0,0
+naver_news,attempted,7dfb771f5f6429b6,cal stevenson,foreign_hitter,lane_2_deep_review_candidate_locked,cal stevenson KBO 한국 해외,0,0
+naver_news,attempted,7cf7b8397facd5ef,tristin english,foreign_hitter,lane_2_deep_review_candidate_locked,tristin english 부상 계약 방출,0,0
+naver_news,attempted,7cf7b8397facd5ef,tristin english,foreign_hitter,lane_2_deep_review_candidate_locked,tristin english KBO 한국 해외,0,0
+naver_news,attempted,5322310d436edffd,luis rengifo,foreign_hitter,lane_2_deep_review_candidate_locked,luis rengifo 부상 계약 방출,0,0
+naver_news,attempted,5322310d436edffd,luis rengifo,foreign_hitter,lane_2_deep_review_candidate_locked,luis rengifo KBO 한국 해외,0,0
+naver_news,attempted,62e255a110118ff4,nolan jones,foreign_hitter,lane_2_deep_review_candidate_locked,nolan jones 부상 계약 방출,0,0
+naver_news,attempted,62e255a110118ff4,nolan jones,foreign_hitter,lane_2_deep_review_candidate_locked,nolan jones KBO 한국 해외,0,0
+naver_news,attempted,cbd1d8d9eceb4cef,kevin newman,foreign_hitter,lane_2_deep_review_candidate_locked,kevin newman 부상 계약 방출,0,0
+naver_news,attempted,cbd1d8d9eceb4cef,kevin newman,foreign_hitter,lane_2_deep_review_candidate_locked,kevin newman KBO 한국 해외,0,0
+naver_news,attempted,1551be9661d5a464,enmanuel valdez,foreign_hitter,lane_2_deep_review_candidate_locked,enmanuel valdez 부상 계약 방출,0,0
+naver_news,attempted,1551be9661d5a464,enmanuel valdez,foreign_hitter,lane_2_deep_review_candidate_locked,enmanuel valdez KBO 한국 해외,0,0
+naver_news,attempted,f73d97c395915bd0,brian navarreto,foreign_hitter,lane_2_deep_review_candidate_locked,brian navarreto 부상 계약 방출,0,0
+naver_news,attempted,f73d97c395915bd0,brian navarreto,foreign_hitter,lane_2_deep_review_candidate_locked,brian navarreto KBO 한국 해외,0,0
+naver_news,attempted,87e2ce08bfcae78b,josé azócar,foreign_hitter,lane_2_deep_review_candidate_locked,josé azócar 부상 계약 방출,0,0
+naver_news,attempted,87e2ce08bfcae78b,josé azócar,foreign_hitter,lane_2_deep_review_candidate_locked,josé azócar KBO 한국 해외,0,0
+naver_news,attempted,9e8316621c97f179,jonathan ornelas,foreign_hitter,lane_2_deep_review_candidate_locked,jonathan ornelas 부상 계약 방출,0,0
+naver_news,attempted,9e8316621c97f179,jonathan ornelas,foreign_hitter,lane_2_deep_review_candidate_locked,jonathan ornelas KBO 한국 해외,0,0
+naver_news,attempted,c6e19abfb60bf36b,tyler heineman,foreign_hitter,lane_2_deep_review_candidate_locked,tyler heineman 부상 계약 방출,0,0
+naver_news,attempted,c6e19abfb60bf36b,tyler heineman,foreign_hitter,lane_2_deep_review_candidate_locked,tyler heineman KBO 한국 해외,0,0
+naver_news,attempted,d7a16c8c00944ff2,ryan fitzgerald,foreign_hitter,lane_2_deep_review_candidate_locked,ryan fitzgerald 부상 계약 방출,0,0
+naver_news,attempted,d7a16c8c00944ff2,ryan fitzgerald,foreign_hitter,lane_2_deep_review_candidate_locked,ryan fitzgerald KBO 한국 해외,0,0
+naver_news,attempted,93e1b7e847a88d1e,jurickson profar,foreign_hitter,lane_2_deep_review_candidate_locked,jurickson profar 부상 계약 방출,0,0
+naver_news,attempted,93e1b7e847a88d1e,jurickson profar,foreign_hitter,lane_2_deep_review_candidate_locked,jurickson profar KBO 한국 해외,0,0
+naver_news,attempted,68127010987e8f00,jacob amaya,foreign_hitter,lane_2_deep_review_candidate_locked,jacob amaya 부상 계약 방출,0,0
+naver_news,attempted,68127010987e8f00,jacob amaya,foreign_hitter,lane_2_deep_review_candidate_locked,jacob amaya KBO 한국 해외,0,0
+naver_news,attempted,87011e074faf3491,josé barrero,foreign_hitter,lane_2_deep_review_candidate_locked,josé barrero 부상 계약 방출,0,0
+naver_news,attempted,87011e074faf3491,josé barrero,foreign_hitter,lane_2_deep_review_candidate_locked,josé barrero KBO 한국 해외,0,0
+naver_news,attempted,4c63a6631fa53a12,brett wisely,foreign_hitter,lane_2_deep_review_candidate_locked,brett wisely 부상 계약 방출,0,0
+naver_news,attempted,4c63a6631fa53a12,brett wisely,foreign_hitter,lane_2_deep_review_candidate_locked,brett wisely KBO 한국 해외,0,0
+naver_news,attempted,d0f05bcc818528ad,logan porter,foreign_hitter,lane_2_deep_review_candidate_locked,logan porter 부상 계약 방출,0,0
+naver_news,attempted,d0f05bcc818528ad,logan porter,foreign_hitter,lane_2_deep_review_candidate_locked,logan porter KBO 한국 해외,0,0
+naver_news,attempted,9ef9c6dec49798fb,dylan carlson,foreign_hitter,lane_2_deep_review_candidate_locked,dylan carlson 부상 계약 방출,0,0
+naver_news,attempted,9ef9c6dec49798fb,dylan carlson,foreign_hitter,lane_2_deep_review_candidate_locked,dylan carlson KBO 한국 해외,0,0
+naver_news,attempted,2a18140090dfc8b1,aaron schunk,foreign_hitter,lane_2_deep_review_candidate_locked,aaron schunk 부상 계약 방출,0,0
+naver_news,attempted,2a18140090dfc8b1,aaron schunk,foreign_hitter,lane_2_deep_review_candidate_locked,aaron schunk KBO 한국 해외,0,0
+naver_news,attempted,3edf37c0ec4e3096,orlando arcia,foreign_hitter,lane_2_deep_review_candidate_locked,orlando arcia 부상 계약 방출,0,0
+naver_news,attempted,3edf37c0ec4e3096,orlando arcia,foreign_hitter,lane_2_deep_review_candidate_locked,orlando arcia KBO 한국 해외,0,0
+naver_news,attempted,900dbb9e1b7dfbb0,max kepler,foreign_hitter,lane_2_deep_review_candidate_locked,max kepler 부상 계약 방출,1,0
+naver_news,attempted,900dbb9e1b7dfbb0,max kepler,foreign_hitter,lane_2_deep_review_candidate_locked,max kepler KBO 한국 해외,0,0
+naver_news,attempted,dcf34f55a89dbc3f,ben rortvedt,foreign_hitter,lane_2_deep_review_candidate_locked,ben rortvedt 부상 계약 방출,0,0
+naver_news,attempted,dcf34f55a89dbc3f,ben rortvedt,foreign_hitter,lane_2_deep_review_candidate_locked,ben rortvedt KBO 한국 해외,0,0
+naver_news,attempted,9fa0799fec8da4f6,vinny capra,foreign_hitter,lane_2_deep_review_candidate_locked,vinny capra 부상 계약 방출,0,0
+naver_news,attempted,9fa0799fec8da4f6,vinny capra,foreign_hitter,lane_2_deep_review_candidate_locked,vinny capra KBO 한국 해외,0,0
+naver_news,attempted,528cf226e7fba270,vidal bruján,foreign_hitter,lane_2_deep_review_candidate_locked,vidal bruján 부상 계약 방출,0,0
+naver_news,attempted,528cf226e7fba270,vidal bruján,foreign_hitter,lane_2_deep_review_candidate_locked,vidal bruján KBO 한국 해외,0,0
+naver_news,attempted,eeba3c1f9f7fe331,"Falter, Bailey",foreign_pitcher,lane_0_blocked_or_medical_review_locked,Bailey Falter 부상 계약 방출,0,0
+naver_news,attempted,eeba3c1f9f7fe331,"Falter, Bailey",foreign_pitcher,lane_0_blocked_or_medical_review_locked,Bailey Falter KBO 한국 해외,0,0
+naver_news,attempted,560f837d672a6340,"Rivera, Eduardo",foreign_pitcher,lane_0_blocked_or_medical_review_locked,Eduardo Rivera 부상 계약 방출,0,0
+naver_news,attempted,560f837d672a6340,"Rivera, Eduardo",foreign_pitcher,lane_0_blocked_or_medical_review_locked,Eduardo Rivera KBO 한국 해외,0,0
+naver_news,attempted,cfc7d7f161849a7d,"Pushard, Matt",foreign_pitcher,lane_0_blocked_or_medical_review_locked,Matt Pushard 부상 계약 방출,0,0
+naver_news,attempted,cfc7d7f161849a7d,"Pushard, Matt",foreign_pitcher,lane_0_blocked_or_medical_review_locked,Matt Pushard KBO 한국 해외,0,0
+naver_news,attempted,e5de422006305e4a,"Melton, Troy",foreign_pitcher,lane_0_blocked_or_medical_review_locked,Troy Melton 부상 계약 방출,0,0
+naver_news,attempted,e5de422006305e4a,"Melton, Troy",foreign_pitcher,lane_0_blocked_or_medical_review_locked,Troy Melton KBO 한국 해외,0,0
+naver_news,attempted,c56e8028ff676138,"Skubal, Tarik",foreign_pitcher,lane_0_blocked_or_medical_review_locked,Tarik Skubal 부상 계약 방출,0,0
+naver_news,attempted,c56e8028ff676138,"Skubal, Tarik",foreign_pitcher,lane_0_blocked_or_medical_review_locked,Tarik Skubal KBO 한국 해외,0,0
+naver_news,attempted,ee8f2b2b718d3e19,"Whisenhunt, Carson",foreign_pitcher,lane_1_source_fill_priority_locked,Carson Whisenhunt 부상 계약 방출,0,0
+naver_news,attempted,ee8f2b2b718d3e19,"Whisenhunt, Carson",foreign_pitcher,lane_1_source_fill_priority_locked,Carson Whisenhunt KBO 한국 해외,0,0
+naver_news,attempted,a46bde9a4099db87,"Dallas, Chad",foreign_pitcher,lane_1_source_fill_priority_locked,Chad Dallas 부상 계약 방출,0,0
+naver_news,attempted,a46bde9a4099db87,"Dallas, Chad",foreign_pitcher,lane_1_source_fill_priority_locked,Chad Dallas KBO 한국 해외,0,0
+naver_news,attempted,75e609873987418e,"Fleming, Josh",foreign_pitcher,lane_2_deep_review_candidate_locked,Josh Fleming 부상 계약 방출,0,0
+naver_news,attempted,75e609873987418e,"Fleming, Josh",foreign_pitcher,lane_2_deep_review_candidate_locked,Josh Fleming KBO 한국 해외,0,0
+naver_news,attempted,e910355ba4060585,"Gonzalez, Domingo",foreign_pitcher,lane_2_deep_review_candidate_locked,Domingo Gonzalez 부상 계약 방출,0,0
+naver_news,attempted,e910355ba4060585,"Gonzalez, Domingo",foreign_pitcher,lane_2_deep_review_candidate_locked,Domingo Gonzalez KBO 한국 해외,0,0
+naver_news,attempted,7a55953cea7bee47,"Rodríguez, Yariel",foreign_pitcher,lane_2_deep_review_candidate_locked,Yariel Rodríguez 부상 계약 방출,0,0
+naver_news,attempted,7a55953cea7bee47,"Rodríguez, Yariel",foreign_pitcher,lane_2_deep_review_candidate_locked,Yariel Rodríguez KBO 한국 해외,0,0
+naver_news,attempted,7c30db5a03db71a0,"Blewett, Scott",foreign_pitcher,lane_2_deep_review_candidate_locked,Scott Blewett 부상 계약 방출,0,0
+naver_news,attempted,7c30db5a03db71a0,"Blewett, Scott",foreign_pitcher,lane_2_deep_review_candidate_locked,Scott Blewett KBO 한국 해외,0,0
+naver_news,attempted,3711685839b234ce,"Bowman, Matt",foreign_pitcher,lane_2_deep_review_candidate_locked,Matt Bowman 부상 계약 방출,0,0
+naver_news,attempted,3711685839b234ce,"Bowman, Matt",foreign_pitcher,lane_2_deep_review_candidate_locked,Matt Bowman KBO 한국 해외,0,0
+naver_news,attempted,b25d02b0d435859e,"Hamilton, Ian",foreign_pitcher,lane_2_deep_review_candidate_locked,Ian Hamilton 부상 계약 방출,0,0
+naver_news,attempted,b25d02b0d435859e,"Hamilton, Ian",foreign_pitcher,lane_2_deep_review_candidate_locked,Ian Hamilton KBO 한국 해외,0,0
+naver_news,attempted,382dd8e537ddca8a,"Murdock, Noah",foreign_pitcher,lane_2_deep_review_candidate_locked,Noah Murdock 부상 계약 방출,0,0
+naver_news,attempted,382dd8e537ddca8a,"Murdock, Noah",foreign_pitcher,lane_2_deep_review_candidate_locked,Noah Murdock KBO 한국 해외,0,0
+naver_news,attempted,b9a47640dc03ee5f,"Zimmermann, Bruce",foreign_pitcher,lane_2_deep_review_candidate_locked,Bruce Zimmermann 부상 계약 방출,0,0
+naver_news,attempted,b9a47640dc03ee5f,"Zimmermann, Bruce",foreign_pitcher,lane_2_deep_review_candidate_locked,Bruce Zimmermann KBO 한국 해외,0,0
+naver_news,attempted,20117bc6ab3ab515,"Thompson, Keegan",foreign_pitcher,lane_2_deep_review_candidate_locked,Keegan Thompson 부상 계약 방출,0,0
+naver_news,attempted,20117bc6ab3ab515,"Thompson, Keegan",foreign_pitcher,lane_2_deep_review_candidate_locked,Keegan Thompson KBO 한국 해외,0,0
+naver_news,attempted,03bbbec5350be454,"Anderson, Shaun",foreign_pitcher,lane_2_deep_review_candidate_locked,Shaun Anderson 부상 계약 방출,0,0
+naver_news,attempted,03bbbec5350be454,"Anderson, Shaun",foreign_pitcher,lane_2_deep_review_candidate_locked,Shaun Anderson KBO 한국 해외,0,0
+naver_news,attempted,8f5d9a2d7e76bb49,"Allard, Kolby",foreign_pitcher,lane_2_deep_review_candidate_locked,Kolby Allard 부상 계약 방출,0,0
+naver_news,attempted,8f5d9a2d7e76bb49,"Allard, Kolby",foreign_pitcher,lane_2_deep_review_candidate_locked,Kolby Allard KBO 한국 해외,0,0
+naver_news,attempted,da3792553ca62c7b,"Lawrence, Casey",foreign_pitcher,lane_2_deep_review_candidate_locked,Casey Lawrence 부상 계약 방출,0,0
+naver_news,attempted,da3792553ca62c7b,"Lawrence, Casey",foreign_pitcher,lane_2_deep_review_candidate_locked,Casey Lawrence KBO 한국 해외,0,0
+naver_news,attempted,24998d09dfe64c21,"Campbell, Isaiah",foreign_pitcher,lane_2_deep_review_candidate_locked,Isaiah Campbell 부상 계약 방출,0,0
+naver_news,attempted,24998d09dfe64c21,"Campbell, Isaiah",foreign_pitcher,lane_2_deep_review_candidate_locked,Isaiah Campbell KBO 한국 해외,0,0
+naver_news,attempted,0f486ed50daf85f6,"Rainey, Tanner",foreign_pitcher,lane_2_deep_review_candidate_locked,Tanner Rainey 부상 계약 방출,0,0
+naver_news,attempted,0f486ed50daf85f6,"Rainey, Tanner",foreign_pitcher,lane_2_deep_review_candidate_locked,Tanner Rainey KBO 한국 해외,0,0
+naver_news,attempted,a9ee0a6cc9003609,"Murray, Jayden",foreign_pitcher,lane_2_deep_review_candidate_locked,Jayden Murray 부상 계약 방출,0,0
+naver_news,attempted,a9ee0a6cc9003609,"Murray, Jayden",foreign_pitcher,lane_2_deep_review_candidate_locked,Jayden Murray KBO 한국 해외,0,0
+naver_news,attempted,7a73b68d7835ec75,"Díaz, Jhonathan",foreign_pitcher,lane_2_deep_review_candidate_locked,Jhonathan Díaz 부상 계약 방출,0,0
+naver_news,attempted,7a73b68d7835ec75,"Díaz, Jhonathan",foreign_pitcher,lane_2_deep_review_candidate_locked,Jhonathan Díaz KBO 한국 해외,0,0
+naver_news,attempted,be23b172b1b6432e,"Krook, Matt",foreign_pitcher,lane_2_deep_review_candidate_locked,Matt Krook 부상 계약 방출,0,0
+naver_news,attempted,be23b172b1b6432e,"Krook, Matt",foreign_pitcher,lane_2_deep_review_candidate_locked,Matt Krook KBO 한국 해외,0,0
+naver_news,attempted,86adfdcd2b609c3b,"Daniel, Davis",foreign_pitcher,lane_2_deep_review_candidate_locked,Davis Daniel 부상 계약 방출,0,0
+naver_news,attempted,86adfdcd2b609c3b,"Daniel, Davis",foreign_pitcher,lane_2_deep_review_candidate_locked,Davis Daniel KBO 한국 해외,0,0
+naver_news,attempted,172aa89ada448aa8,"Lucchesi, Joey",foreign_pitcher,lane_2_deep_review_candidate_locked,Joey Lucchesi 부상 계약 방출,0,0
+naver_news,attempted,172aa89ada448aa8,"Lucchesi, Joey",foreign_pitcher,lane_2_deep_review_candidate_locked,Joey Lucchesi KBO 한국 해외,0,0
+naver_news,attempted,4405181803ef07f3,"Montero, Rafael",foreign_pitcher,lane_2_deep_review_candidate_locked,Rafael Montero 부상 계약 방출,0,0
+naver_news,attempted,4405181803ef07f3,"Montero, Rafael",foreign_pitcher,lane_2_deep_review_candidate_locked,Rafael Montero KBO 한국 해외,0,0
+naver_news,attempted,0527e11050b44177,"Trivino, Lou",foreign_pitcher,lane_2_deep_review_candidate_locked,Lou Trivino 부상 계약 방출,0,0
+naver_news,attempted,0527e11050b44177,"Trivino, Lou",foreign_pitcher,lane_2_deep_review_candidate_locked,Lou Trivino KBO 한국 해외,0,0
+naver_news,attempted,bd53a016f456930a,"Garabito, Gerson",foreign_pitcher,lane_2_deep_review_candidate_locked,Gerson Garabito 부상 계약 방출,0,0
+naver_news,attempted,bd53a016f456930a,"Garabito, Gerson",foreign_pitcher,lane_2_deep_review_candidate_locked,Gerson Garabito KBO 한국 해외,0,0
+naver_news,attempted,50e1a03458f9e1f2,"Carrasco, Carlos",foreign_pitcher,lane_2_deep_review_candidate_locked,Carlos Carrasco 부상 계약 방출,0,0
+naver_news,attempted,50e1a03458f9e1f2,"Carrasco, Carlos",foreign_pitcher,lane_2_deep_review_candidate_locked,Carlos Carrasco KBO 한국 해외,0,0
+naver_news,attempted,1dbd6dd10cc9a699,"Richardson, Lyon",foreign_pitcher,lane_2_deep_review_candidate_locked,Lyon Richardson 부상 계약 방출,0,0
+naver_news,attempted,1dbd6dd10cc9a699,"Richardson, Lyon",foreign_pitcher,lane_2_deep_review_candidate_locked,Lyon Richardson KBO 한국 해외,0,0
+naver_news,attempted,8a1d7209f28969e1,"Muñoz, Roddery",foreign_pitcher,lane_2_deep_review_candidate_locked,Roddery Muñoz 부상 계약 방출,0,0
+naver_news,attempted,8a1d7209f28969e1,"Muñoz, Roddery",foreign_pitcher,lane_2_deep_review_candidate_locked,Roddery Muñoz KBO 한국 해외,0,0
+naver_news,attempted,8931f2890fdbdd3b,"Lara, Andry",foreign_pitcher,lane_2_deep_review_candidate_locked,Andry Lara 부상 계약 방출,0,0
+naver_news,attempted,8931f2890fdbdd3b,"Lara, Andry",foreign_pitcher,lane_2_deep_review_candidate_locked,Andry Lara KBO 한국 해외,0,0
+naver_news,attempted,bb0ba3f751af1c43,"Fulmer, Michael",foreign_pitcher,lane_2_deep_review_candidate_locked,Michael Fulmer 부상 계약 방출,0,0
+naver_news,attempted,bb0ba3f751af1c43,"Fulmer, Michael",foreign_pitcher,lane_2_deep_review_candidate_locked,Michael Fulmer KBO 한국 해외,0,0
+naver_news,attempted,eb0e31e197f71be3,"Rashi, Taylor",foreign_pitcher,lane_2_deep_review_candidate_locked,Taylor Rashi 부상 계약 방출,0,0
+naver_news,attempted,eb0e31e197f71be3,"Rashi, Taylor",foreign_pitcher,lane_2_deep_review_candidate_locked,Taylor Rashi KBO 한국 해외,0,0
+naver_news,attempted,7f482518adc54611,"Stefanic, Michael",foreign_pitcher,lane_2_deep_review_candidate_locked,Michael Stefanic 부상 계약 방출,0,0
+naver_news,attempted,7f482518adc54611,"Stefanic, Michael",foreign_pitcher,lane_2_deep_review_candidate_locked,Michael Stefanic KBO 한국 해외,0,0
+naver_news,attempted,e432b835b58b25d4,"Voth, Austin",foreign_pitcher,lane_2_deep_review_candidate_locked,Austin Voth 부상 계약 방출,0,0
+naver_news,attempted,e432b835b58b25d4,"Voth, Austin",foreign_pitcher,lane_2_deep_review_candidate_locked,Austin Voth KBO 한국 해외,0,0
+naver_news,attempted,c7d48fd9d3ce6482,"Amaya, Jacob",foreign_pitcher,lane_2_deep_review_candidate_locked,Jacob Amaya 부상 계약 방출,0,0
+naver_news,attempted,c7d48fd9d3ce6482,"Amaya, Jacob",foreign_pitcher,lane_2_deep_review_candidate_locked,Jacob Amaya KBO 한국 해외,0,0
+naver_news,attempted,920f728bd7daa282,"Brebbia, John",foreign_pitcher,lane_2_deep_review_candidate_locked,John Brebbia 부상 계약 방출,0,0
+naver_news,attempted,920f728bd7daa282,"Brebbia, John",foreign_pitcher,lane_2_deep_review_candidate_locked,John Brebbia KBO 한국 해외,0,0
+naver_news,attempted,b924a41ac8a012bb,"Fitzgerald, Ryan",foreign_pitcher,lane_2_deep_review_candidate_locked,Ryan Fitzgerald 부상 계약 방출,0,0
+naver_news,attempted,b924a41ac8a012bb,"Fitzgerald, Ryan",foreign_pitcher,lane_2_deep_review_candidate_locked,Ryan Fitzgerald KBO 한국 해외,0,0
+naver_news,attempted,f5fc583f73271164,"Owens, Tyler",foreign_pitcher,lane_2_deep_review_candidate_locked,Tyler Owens 부상 계약 방출,0,0
+naver_news,attempted,f5fc583f73271164,"Owens, Tyler",foreign_pitcher,lane_2_deep_review_candidate_locked,Tyler Owens KBO 한국 해외,0,0
+naver_news,attempted,d910d73a6cfe41c2,"Davidson, Logan",foreign_pitcher,lane_2_deep_review_candidate_locked,Logan Davidson 부상 계약 방출,0,0
+naver_news,attempted,d910d73a6cfe41c2,"Davidson, Logan",foreign_pitcher,lane_2_deep_review_candidate_locked,Logan Davidson KBO 한국 해외,0,0
+naver_news,attempted,0afb88844f093020,"Thomas, Connor",foreign_pitcher,lane_2_deep_review_candidate_locked,Connor Thomas 부상 계약 방출,0,0
+naver_news,attempted,0afb88844f093020,"Thomas, Connor",foreign_pitcher,lane_2_deep_review_candidate_locked,Connor Thomas KBO 한국 해외,0,0
+naver_news,attempted,809975e400464e3e,"Duran, Carlos",foreign_pitcher,lane_2_deep_review_candidate_locked,Carlos Duran 부상 계약 방출,0,0
+naver_news,attempted,809975e400464e3e,"Duran, Carlos",foreign_pitcher,lane_2_deep_review_candidate_locked,Carlos Duran KBO 한국 해외,0,0
+naver_news,attempted,e5b0c9d2385be760,"Kuhnel, Joel",foreign_pitcher,lane_2_deep_review_candidate_locked,Joel Kuhnel 부상 계약 방출,0,0
+naver_news,attempted,e5b0c9d2385be760,"Kuhnel, Joel",foreign_pitcher,lane_2_deep_review_candidate_locked,Joel Kuhnel KBO 한국 해외,0,0
+naver_news,attempted,e63b3436aec4c2ea,"McCaughan, Darren",foreign_pitcher,lane_2_deep_review_candidate_locked,Darren McCaughan 부상 계약 방출,0,0
+naver_news,attempted,e63b3436aec4c2ea,"McCaughan, Darren",foreign_pitcher,lane_2_deep_review_candidate_locked,Darren McCaughan KBO 한국 해외,0,0
+naver_news,attempted,269c99c385c3da59,"Nido, Tomás",foreign_pitcher,lane_2_deep_review_candidate_locked,Tomás Nido 부상 계약 방출,0,0
+naver_news,attempted,269c99c385c3da59,"Nido, Tomás",foreign_pitcher,lane_2_deep_review_candidate_locked,Tomás Nido KBO 한국 해외,0,0
+naver_news,attempted,3e18a39d689bd996,"Velasquez, Vince",foreign_pitcher,lane_2_deep_review_candidate_locked,Vince Velasquez 부상 계약 방출,1,0
+naver_news,attempted,3e18a39d689bd996,"Velasquez, Vince",foreign_pitcher,lane_2_deep_review_candidate_locked,Vince Velasquez KBO 한국 해외,0,0
+naver_news,attempted,53e48096324bf0a3,"Hampson, Garrett",foreign_pitcher,lane_2_deep_review_candidate_locked,Garrett Hampson 부상 계약 방출,0,0
+naver_news,attempted,53e48096324bf0a3,"Hampson, Garrett",foreign_pitcher,lane_2_deep_review_candidate_locked,Garrett Hampson KBO 한국 해외,0,0
+naver_news,attempted,59913f52d6423507,"Williams, Luke",foreign_pitcher,lane_2_deep_review_candidate_locked,Luke Williams 부상 계약 방출,0,0
+naver_news,attempted,59913f52d6423507,"Williams, Luke",foreign_pitcher,lane_2_deep_review_candidate_locked,Luke Williams KBO 한국 해외,0,0
+naver_news,attempted,a53e96e3b37e1333,"Little, Jack",foreign_pitcher,lane_2_deep_review_candidate_locked,Jack Little 부상 계약 방출,0,0
+naver_news,attempted,a53e96e3b37e1333,"Little, Jack",foreign_pitcher,lane_2_deep_review_candidate_locked,Jack Little KBO 한국 해외,0,0
+naver_news,attempted,8dd5b927f5b22706,"Reyes, Pablo",foreign_pitcher,lane_2_deep_review_candidate_locked,Pablo Reyes 부상 계약 방출,0,0
+naver_news,attempted,8dd5b927f5b22706,"Reyes, Pablo",foreign_pitcher,lane_2_deep_review_candidate_locked,Pablo Reyes KBO 한국 해외,0,0
+naver_news,attempted,668ff51f501c3811,"Zulueta, Yosver",foreign_pitcher,lane_2_deep_review_candidate_locked,Yosver Zulueta 부상 계약 방출,0,0
+naver_news,attempted,668ff51f501c3811,"Zulueta, Yosver",foreign_pitcher,lane_2_deep_review_candidate_locked,Yosver Zulueta KBO 한국 해외,0,0
+naver_news,attempted,9dbf3ac9478260e3,"Bride, Jonah",foreign_pitcher,lane_2_deep_review_candidate_locked,Jonah Bride 부상 계약 방출,0,0
+naver_news,attempted,9dbf3ac9478260e3,"Bride, Jonah",foreign_pitcher,lane_2_deep_review_candidate_locked,Jonah Bride KBO 한국 해외,0,0

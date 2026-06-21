@@ -17,10 +17,10 @@ From this point forward, every major update should report progress on these six 
 |---:|---|---|---:|---|---|
 | 1 | SSG hidden weakness mining | presentation bridge ready pending refresh | 93% | `outputs/tables/ssg_layer1_candidate_feature_blueprint_v4.csv` | refresh STATIZ/current-game data and attach stronger play-by-play/defense/baserunning proxies; then freeze Layer 1 or move effort to layers 2-5 |
 | 2 | KBO foreign-player success/failure archetype mining | pre-arrival archetype bridge attached | 78% | `outputs/tables/kbo_foreign_archetype_feature_contract_v0_2.csv` | backfill 2017-2022 ID/pre-arrival features, add NPB/CPBL historical context, and validate promoted archetype rules against candidate-side source lanes |
-| 3 | Candidate market construction | official market refresh plus news joined | 94% | `outputs/tables/ssg_market_realism_news_join_v0_5.csv` | fill salary, opt-out, transfer-fee, buyout, agent, medical, and Korea-willingness source lanes |
+| 3 | Candidate market construction | fit source-fill packet built | 95% | `outputs/tables/ssg_fit_source_fill_packet_v0_1.csv` | fill exact salary, opt-out, transfer-fee, buyout, agent, passport, medical, and Korea-willingness source values |
 | 4 | KBO translation model | hitter component in fit-prep mart | 80% | `outputs/tables/ssg_fit_preparation_mart_v0_1.csv` | keep hitter component as pilot input and build pitcher translation only after stronger risk/context variables |
-| 5 | Failure risk model | candidate failure-risk ledger built | 89% | `outputs/tables/candidate_failure_risk_ledger_v0_1.csv` | fill source values and calibrate risk buckets against resolved cases before using any score in Layer 6 |
-| 6 | SSG fit ranking | risk-adjusted fit queue built release locked | 80% | `outputs/tables/ssg_risk_adjusted_fit_queue_v0_1.csv` | fill feasibility source lanes and calibrate the internal score before any candidate names, ranks, shortlist labels, or recommendations are released |
+| 5 | Failure risk model | source evidence status attached | 90% | `outputs/tables/ssg_fit_source_fill_packet_v0_1.csv` | use source-fill statuses to recalibrate risk buckets after manual contract and medical checks |
+| 6 | SSG fit ranking | source-actionable queue built release locked | 83% | `outputs/tables/ssg_fit_source_fill_packet_v0_1.csv` | turn source-supported rows into locked scouting cards before any candidate names, ranks, shortlist labels, or recommendations are released |
 
 ## Reporting Rule
 

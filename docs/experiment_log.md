@@ -1803,3 +1803,45 @@ Next:
 - Calibrate internal scores against resolved cases and manual scouting notes.
 - Only after that, consider unlocking candidate-name discussion for the final
   team shortlist.
+
+## 2026-06-22 Run 034 Fit Source-Fill Packet v0.1
+
+Hypothesis:
+
+- The next unlock step after a risk-adjusted fit queue is not another score; it
+  is source verification for contract, medical, passport, agent, and
+  Korea-willingness blockers.
+
+Actions:
+
+- Added `src/data/collect_fit_queue_source_news_v0_1.py`.
+- Collected fresh Naver Search News metadata for the Layer 6 source-fill scope.
+- Added `src/modeling/build_fit_source_fill_packet_v0_1.py`.
+- Combined prior article relevance with fresh Naver metadata.
+- Built a 118-row source-fill packet with evidence statuses and next manual
+  actions.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v24.csv`.
+
+Validation:
+
+- Source-fill scope rows: 118.
+- Naver query attempts: 236.
+- Fresh Naver article metadata rows: 3.
+- Candidate-name matched fresh rows: 2.
+- Source-fill packet rows: 118.
+- Release locks passed for all 118 rows.
+
+Decision:
+
+- Promote the source-fill packet as the current bridge from Layer 6 modeling to
+  manual scouting-card work.
+- Keep all candidate names, ranks, scores, shortlist labels, and
+  recommendations locked.
+
+Next:
+
+- Build locked scouting-card templates for source-supported rows.
+- Fill exact salary, option, buyout, transfer-fee, agent, passport, medical, and
+  Korea-willingness values.
+- Recalibrate failure-risk and fit ranking only after those source values are
+  attached.
