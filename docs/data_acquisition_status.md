@@ -256,6 +256,21 @@ NPB 공식 성적 수집 coverage:
 - 한국어 뉴스는 현재 shell에 Naver 환경변수가 없어 수집되지 않았다.
 - 아시아쿼터 후보의 영어 기사 공백은 리스크 없음이 아니라 source coverage gap으로 처리해야 한다.
 
+2026-06-21에 한국 로케일 Google News RSS fallback과 manual feasibility source lane을 추가했다.
+
+| dataset | scope | rows | output |
+|---|---|---:|---|
+| Google KR RSS fallback audit | 62 priority candidates, 124 attempted Korean-locale RSS queries | 186 | `outputs/tables/candidate_news_collection_audit_ko_v0_3.csv` |
+| Combined candidate news signals | English v0.2 + Korean fallback audit | 200 | `outputs/tables/candidate_news_signal_summary_v0_3.csv` |
+| Manual feasibility source worklist | full market-realism worklist with source lanes | 2,723 | `outputs/tables/manual_feasibility_source_worklist_v0_1.csv` |
+| Manual feasibility source lane summary | source-lane counts by missing reality-check type | 10 | `outputs/tables/manual_feasibility_source_lane_summary_v0_1.csv` |
+
+요약:
+
+- Google KR RSS fallback은 124개 시도에서 기사 0건, error 124건으로 실패했다.
+- 따라서 Google KR RSS는 Naver/local Korean news의 대체재로 쓰지 않는다.
+- 후보 release 전 필요한 검증 소스는 Korean news, medical file, MLB contract/salary/option, Asian-league buyout/transfer fee, passport/nationality, agent/Korea-willingness로 정리됐다.
+
 2026-06-12에 논문/스카우팅/규정 자료를 후보평가용으로 보강했다.
 
 | source | status | local output |

@@ -1,0 +1,187 @@
+provider,status,candidate_key,candidate_name,message,query,returned_rows,error_rows
+naver_news,skipped_missing_env,c58df457ee2acd50,"Sun, Yi-Lei",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,c58df457ee2acd50,"Sun, Yi-Lei",,Yi-Lei Sun 야구,0.0,1.0
+google_news_rss_ko,attempted,c58df457ee2acd50,"Sun, Yi-Lei",,Yi-Lei Sun 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,77fcb317bda63213,"Yang, Po-Hsiang",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,77fcb317bda63213,"Yang, Po-Hsiang",,Po-Hsiang Yang 야구,0.0,1.0
+google_news_rss_ko,attempted,77fcb317bda63213,"Yang, Po-Hsiang",,Po-Hsiang Yang 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,dc923c066641a262,"Gu Lin, Ruei-Yang",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,dc923c066641a262,"Gu Lin, Ruei-Yang",,Ruei-Yang Gu Lin 야구,0.0,1.0
+google_news_rss_ko,attempted,dc923c066641a262,"Gu Lin, Ruei-Yang",,Ruei-Yang Gu Lin 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,036e9341b9b2a5eb,CHEN Jiu Teng,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,036e9341b9b2a5eb,CHEN Jiu Teng,,CHEN Jiu Teng 야구,0.0,1.0
+google_news_rss_ko,attempted,036e9341b9b2a5eb,CHEN Jiu Teng,,CHEN Jiu Teng 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,07d6481baede5769,CHEN Tong En,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,07d6481baede5769,CHEN Tong En,,CHEN Tong En 야구,0.0,1.0
+google_news_rss_ko,attempted,07d6481baede5769,CHEN Tong En,,CHEN Tong En 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,84a38920dcef97cb,KAO Yu Chieh,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,84a38920dcef97cb,KAO Yu Chieh,,KAO Yu Chieh 야구,0.0,1.0
+google_news_rss_ko,attempted,84a38920dcef97cb,KAO Yu Chieh,,KAO Yu Chieh 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,a4d1a63e8d72d579,CHANG Chih Hao,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,a4d1a63e8d72d579,CHANG Chih Hao,,CHANG Chih Hao 야구,0.0,1.0
+google_news_rss_ko,attempted,a4d1a63e8d72d579,CHANG Chih Hao,,CHANG Chih Hao 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,d92f63deb3d66696,HSU Ting Lun,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,d92f63deb3d66696,HSU Ting Lun,,HSU Ting Lun 야구,0.0,1.0
+google_news_rss_ko,attempted,d92f63deb3d66696,HSU Ting Lun,,HSU Ting Lun 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,d4d4084b3ae27c88,YUEH Cheng Hua,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,d4d4084b3ae27c88,YUEH Cheng Hua,,YUEH Cheng Hua 야구,0.0,1.0
+google_news_rss_ko,attempted,d4d4084b3ae27c88,YUEH Cheng Hua,,YUEH Cheng Hua 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,d43930fce77b50b9,HSU Chi Hung,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,d43930fce77b50b9,HSU Chi Hung,,HSU Chi Hung 야구,0.0,1.0
+google_news_rss_ko,attempted,d43930fce77b50b9,HSU Chi Hung,,HSU Chi Hung 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,69cf675fde869cf2,HUANG Wei Sheng,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,69cf675fde869cf2,HUANG Wei Sheng,,HUANG Wei Sheng 야구,0.0,1.0
+google_news_rss_ko,attempted,69cf675fde869cf2,HUANG Wei Sheng,,HUANG Wei Sheng 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,c718bca5c65c4f94,CHAN Tzu Hsien,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,c718bca5c65c4f94,CHAN Tzu Hsien,,CHAN Tzu Hsien 야구,0.0,1.0
+google_news_rss_ko,attempted,c718bca5c65c4f94,CHAN Tzu Hsien,,CHAN Tzu Hsien 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,d3e640f66642324f,CHEN Hu,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,d3e640f66642324f,CHEN Hu,,CHEN Hu 야구,0.0,1.0
+google_news_rss_ko,attempted,d3e640f66642324f,CHEN Hu,,CHEN Hu 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,f9145705b9896156,CHIANG Chung Chen,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,f9145705b9896156,CHIANG Chung Chen,,CHIANG Chung Chen 야구,0.0,1.0
+google_news_rss_ko,attempted,f9145705b9896156,CHIANG Chung Chen,,CHIANG Chung Chen 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,31172afbd9993351,HSIEH Jung Hao,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,31172afbd9993351,HSIEH Jung Hao,,HSIEH Jung Hao 야구,0.0,1.0
+google_news_rss_ko,attempted,31172afbd9993351,HSIEH Jung Hao,,HSIEH Jung Hao 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,8f637cde64ba5f17,LEE Chen Chang,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,8f637cde64ba5f17,LEE Chen Chang,,LEE Chen Chang 야구,0.0,1.0
+google_news_rss_ko,attempted,8f637cde64ba5f17,LEE Chen Chang,,LEE Chen Chang 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,ef34a68bf858688f,LU Yen Ching,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,ef34a68bf858688f,LU Yen Ching,,LU Yen Ching 야구,0.0,1.0
+google_news_rss_ko,attempted,ef34a68bf858688f,LU Yen Ching,,LU Yen Ching 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,61a8ea85674daa56,TSAI Chi Che,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,61a8ea85674daa56,TSAI Chi Che,,TSAI Chi Che 야구,0.0,1.0
+google_news_rss_ko,attempted,61a8ea85674daa56,TSAI Chi Che,,TSAI Chi Che 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,63d8a573a2b6111e,WEI Shuo Cheng,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,63d8a573a2b6111e,WEI Shuo Cheng,,WEI Shuo Cheng 야구,0.0,1.0
+google_news_rss_ko,attempted,63d8a573a2b6111e,WEI Shuo Cheng,,WEI Shuo Cheng 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,32b9a113fe643865,WU Chun Wei,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,32b9a113fe643865,WU Chun Wei,,WU Chun Wei 야구,0.0,1.0
+google_news_rss_ko,attempted,32b9a113fe643865,WU Chun Wei,,WU Chun Wei 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,c1a28e2afc520384,WU Li Chen,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,c1a28e2afc520384,WU Li Chen,,WU Li Chen 야구,0.0,1.0
+google_news_rss_ko,attempted,c1a28e2afc520384,WU Li Chen,,WU Li Chen 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,a96040b69b8259ba,YOU Jun You,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,a96040b69b8259ba,YOU Jun You,,YOU Jun You 야구,0.0,1.0
+google_news_rss_ko,attempted,a96040b69b8259ba,YOU Jun You,,YOU Jun You 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,88cbcc9e11201bf9,CHANG Jen Wei,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,88cbcc9e11201bf9,CHANG Jen Wei,,CHANG Jen Wei 야구,0.0,1.0
+google_news_rss_ko,attempted,88cbcc9e11201bf9,CHANG Jen Wei,,CHANG Jen Wei 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,10c588172b046ac5,LIN Jui Chun,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,10c588172b046ac5,LIN Jui Chun,,LIN Jui Chun 야구,0.0,1.0
+google_news_rss_ko,attempted,10c588172b046ac5,LIN Jui Chun,,LIN Jui Chun 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,b23f6e7cff319bfb,CHANG Shr Lun,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,b23f6e7cff319bfb,CHANG Shr Lun,,CHANG Shr Lun 야구,0.0,1.0
+google_news_rss_ko,attempted,b23f6e7cff319bfb,CHANG Shr Lun,,CHANG Shr Lun 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,4c25d0dd81e484e7,CHIANG Kun Yu,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,4c25d0dd81e484e7,CHIANG Kun Yu,,CHIANG Kun Yu 야구,0.0,1.0
+google_news_rss_ko,attempted,4c25d0dd81e484e7,CHIANG Kun Yu,,CHIANG Kun Yu 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,8b9c3bf14fba5f09,WANG Cheng Shun,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,8b9c3bf14fba5f09,WANG Cheng Shun,,WANG Cheng Shun 야구,0.0,1.0
+google_news_rss_ko,attempted,8b9c3bf14fba5f09,WANG Cheng Shun,,WANG Cheng Shun 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,abcd007c02e88802,WANG Wei Chen,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,abcd007c02e88802,WANG Wei Chen,,WANG Wei Chen 야구,0.0,1.0
+google_news_rss_ko,attempted,abcd007c02e88802,WANG Wei Chen,,WANG Wei Chen 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,276c736bd5c855b8,JIANG Shao Hong,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,276c736bd5c855b8,JIANG Shao Hong,,JIANG Shao Hong 야구,0.0,1.0
+google_news_rss_ko,attempted,276c736bd5c855b8,JIANG Shao Hong,,JIANG Shao Hong 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,f02d1d6feebf41ea,LIN Chen Hsun,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,f02d1d6feebf41ea,LIN Chen Hsun,,LIN Chen Hsun 야구,0.0,1.0
+google_news_rss_ko,attempted,f02d1d6feebf41ea,LIN Chen Hsun,,LIN Chen Hsun 부상 계약 이적료 바이아웃 KBO,0.0,1.0
+naver_news,skipped_missing_env,08d5a18c327d9b93,will brennan,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,08d5a18c327d9b93,will brennan,,will brennan 야구,0.0,1.0
+google_news_rss_ko,attempted,08d5a18c327d9b93,will brennan,,will brennan 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,d30bb7a0c8810b39,omar martinez,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,d30bb7a0c8810b39,omar martinez,,omar martinez 야구,0.0,1.0
+google_news_rss_ko,attempted,d30bb7a0c8810b39,omar martinez,,omar martinez 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,c7b49f5657f0b336,césar salazar,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,c7b49f5657f0b336,césar salazar,,césar salazar 야구,0.0,1.0
+google_news_rss_ko,attempted,c7b49f5657f0b336,césar salazar,,césar salazar 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,c07d037cda2b8992,rhylan thomas,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,c07d037cda2b8992,rhylan thomas,,rhylan thomas 야구,0.0,1.0
+google_news_rss_ko,attempted,c07d037cda2b8992,rhylan thomas,,rhylan thomas 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,e7a8764273b7dcb2,chadwick tromp,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,e7a8764273b7dcb2,chadwick tromp,,chadwick tromp 야구,0.0,1.0
+google_news_rss_ko,attempted,e7a8764273b7dcb2,chadwick tromp,,chadwick tromp 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,3edf37c0ec4e3096,orlando arcia,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,3edf37c0ec4e3096,orlando arcia,,orlando arcia 야구,0.0,1.0
+google_news_rss_ko,attempted,3edf37c0ec4e3096,orlando arcia,,orlando arcia 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,528cf226e7fba270,vidal bruján,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,528cf226e7fba270,vidal bruján,,vidal bruján 야구,0.0,1.0
+google_news_rss_ko,attempted,528cf226e7fba270,vidal bruján,,vidal bruján 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,5322310d436edffd,luis rengifo,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,5322310d436edffd,luis rengifo,,luis rengifo 야구,0.0,1.0
+google_news_rss_ko,attempted,5322310d436edffd,luis rengifo,,luis rengifo 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,266dcf1c8ea0bbbd,sam haggerty,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,266dcf1c8ea0bbbd,sam haggerty,,sam haggerty 야구,0.0,1.0
+google_news_rss_ko,attempted,266dcf1c8ea0bbbd,sam haggerty,,sam haggerty 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,87e2ce08bfcae78b,josé azócar,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,87e2ce08bfcae78b,josé azócar,,josé azócar 야구,0.0,1.0
+google_news_rss_ko,attempted,87e2ce08bfcae78b,josé azócar,,josé azócar 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,b9ff876bb5e6dbe0,bryce johnson,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,b9ff876bb5e6dbe0,bryce johnson,,bryce johnson 야구,0.0,1.0
+google_news_rss_ko,attempted,b9ff876bb5e6dbe0,bryce johnson,,bryce johnson 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,4c8a666a603c3ccb,aramis garcia,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,4c8a666a603c3ccb,aramis garcia,,aramis garcia 야구,0.0,1.0
+google_news_rss_ko,attempted,4c8a666a603c3ccb,aramis garcia,,aramis garcia 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,95fd4d0314e9a748,austin slater,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,95fd4d0314e9a748,austin slater,,austin slater 야구,0.0,1.0
+google_news_rss_ko,attempted,95fd4d0314e9a748,austin slater,,austin slater 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,c6ee2f0513fbda49,george valera,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,c6ee2f0513fbda49,george valera,,george valera 야구,0.0,1.0
+google_news_rss_ko,attempted,c6ee2f0513fbda49,george valera,,george valera 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,b300d75c1af24722,sandy león,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,b300d75c1af24722,sandy león,,sandy león 야구,0.0,1.0
+google_news_rss_ko,attempted,b300d75c1af24722,sandy león,,sandy león 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,867a6f5b885f375b,p. j. higgins,NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,867a6f5b885f375b,p. j. higgins,,p. j. higgins 야구,0.0,1.0
+google_news_rss_ko,attempted,867a6f5b885f375b,p. j. higgins,,p. j. higgins 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,7a55953cea7bee47,"Rodríguez, Yariel",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,7a55953cea7bee47,"Rodríguez, Yariel",,Yariel Rodríguez 야구,0.0,1.0
+google_news_rss_ko,attempted,7a55953cea7bee47,"Rodríguez, Yariel",,Yariel Rodríguez 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,eeba3c1f9f7fe331,"Falter, Bailey",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,eeba3c1f9f7fe331,"Falter, Bailey",,Bailey Falter 야구,0.0,1.0
+google_news_rss_ko,attempted,eeba3c1f9f7fe331,"Falter, Bailey",,Bailey Falter 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,e910355ba4060585,"Gonzalez, Domingo",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,e910355ba4060585,"Gonzalez, Domingo",,Domingo Gonzalez 야구,0.0,1.0
+google_news_rss_ko,attempted,e910355ba4060585,"Gonzalez, Domingo",,Domingo Gonzalez 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,20117bc6ab3ab515,"Thompson, Keegan",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,20117bc6ab3ab515,"Thompson, Keegan",,Keegan Thompson 야구,0.0,1.0
+google_news_rss_ko,attempted,20117bc6ab3ab515,"Thompson, Keegan",,Keegan Thompson 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,e8de2782bd57a2e1,"Salazar, César",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,e8de2782bd57a2e1,"Salazar, César",,César Salazar 야구,0.0,1.0
+google_news_rss_ko,attempted,e8de2782bd57a2e1,"Salazar, César",,César Salazar 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,e432b835b58b25d4,"Voth, Austin",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,e432b835b58b25d4,"Voth, Austin",,Austin Voth 야구,0.0,1.0
+google_news_rss_ko,attempted,e432b835b58b25d4,"Voth, Austin",,Austin Voth 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,6d6ec0c129792603,"Woodford, Jake",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,6d6ec0c129792603,"Woodford, Jake",,Jake Woodford 야구,0.0,1.0
+google_news_rss_ko,attempted,6d6ec0c129792603,"Woodford, Jake",,Jake Woodford 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,6e1ab580572b5708,"Andrews, Tanner",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,6e1ab580572b5708,"Andrews, Tanner",,Tanner Andrews 야구,0.0,1.0
+google_news_rss_ko,attempted,6e1ab580572b5708,"Andrews, Tanner",,Tanner Andrews 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,5f7859a298fe593b,"Enns, Dietrich",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,5f7859a298fe593b,"Enns, Dietrich",,Dietrich Enns 야구,0.0,1.0
+google_news_rss_ko,attempted,5f7859a298fe593b,"Enns, Dietrich",,Dietrich Enns 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,6b9e581a3ebfed3e,"Haggerty, Sam",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,6b9e581a3ebfed3e,"Haggerty, Sam",,Sam Haggerty 야구,0.0,1.0
+google_news_rss_ko,attempted,6b9e581a3ebfed3e,"Haggerty, Sam",,Sam Haggerty 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,03bbbec5350be454,"Anderson, Shaun",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,03bbbec5350be454,"Anderson, Shaun",,Shaun Anderson 야구,0.0,1.0
+google_news_rss_ko,attempted,03bbbec5350be454,"Anderson, Shaun",,Shaun Anderson 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,1dbd6dd10cc9a699,"Richardson, Lyon",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,1dbd6dd10cc9a699,"Richardson, Lyon",,Lyon Richardson 야구,0.0,1.0
+google_news_rss_ko,attempted,1dbd6dd10cc9a699,"Richardson, Lyon",,Lyon Richardson 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,dc255a774b146607,"Pallette, Peyton",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,dc255a774b146607,"Pallette, Peyton",,Peyton Pallette 야구,0.0,1.0
+google_news_rss_ko,attempted,dc255a774b146607,"Pallette, Peyton",,Peyton Pallette 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,cfc7d7f161849a7d,"Pushard, Matt",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,cfc7d7f161849a7d,"Pushard, Matt",,Matt Pushard 야구,0.0,1.0
+google_news_rss_ko,attempted,cfc7d7f161849a7d,"Pushard, Matt",,Matt Pushard 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,de8c1d9ac46dfc5b,"Roycroft, Chris",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,de8c1d9ac46dfc5b,"Roycroft, Chris",,Chris Roycroft 야구,0.0,1.0
+google_news_rss_ko,attempted,de8c1d9ac46dfc5b,"Roycroft, Chris",,Chris Roycroft 부상 계약 방출 KBO 한국,0.0,1.0
+naver_news,skipped_missing_env,676a2ed2077d1829,"Leibrandt, Brandon",NAVER_CLIENT_ID and NAVER_CLIENT_SECRET are not loaded in the shell environment,,,
+google_news_rss_ko,attempted,676a2ed2077d1829,"Leibrandt, Brandon",,Brandon Leibrandt 야구,0.0,1.0
+google_news_rss_ko,attempted,676a2ed2077d1829,"Leibrandt, Brandon",,Brandon Leibrandt 부상 계약 방출 KBO 한국,0.0,1.0

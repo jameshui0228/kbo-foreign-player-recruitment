@@ -7,7 +7,7 @@ The first pass intentionally uses a small priority scope from Run 024:
 - a limited number of Asian-quota rows that pass nationality but still need
   buyout/salary/agent checks.
 
-Google News RSS is used for English-language metadata without a Google API key.
+Google News RSS is used for English/Korean-locale metadata without a Google API key.
 Naver Search News is supported only when NAVER_CLIENT_ID and
 NAVER_CLIENT_SECRET are loaded in the shell environment. Credentials are never
 written to disk.
@@ -169,8 +169,33 @@ def build_naver_queries(row: pd.Series) -> list[str]:
     ]
 
 
-def fetch_google_news(query: str, max_items: int, timeout_sec: float) -> list[dict[str, object]]:
-    params = urllib.parse.urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
+def build_google_ko_queries(row: pd.Series, query_mode: str) -> list[str]:
+    name = row["search_name"]
+    if query_mode == "compact":
+        if row["fit_slot"] in {"foreign_hitter", "foreign_pitcher"}:
+            return [
+                f"{name} 야구",
+                f"{name} 부상 계약 방출 KBO 한국",
+            ]
+        return [
+            f"{name} 야구",
+            f"{name} 부상 계약 이적료 바이아웃 KBO",
+        ]
+    return build_naver_queries(row)
+
+
+def fetch_google_news(
+    query: str,
+    max_items: int,
+    timeout_sec: float,
+    *,
+    provider: str = "google_news_rss",
+    query_language: str = "en",
+    hl: str = "en-US",
+    gl: str = "US",
+    ceid: str = "US:en",
+) -> list[dict[str, object]]:
+    params = urllib.parse.urlencode({"q": query, "hl": hl, "gl": gl, "ceid": ceid})
     url = f"https://news.google.com/rss/search?{params}"
     request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
@@ -192,9 +217,9 @@ def fetch_google_news(query: str, max_items: int, timeout_sec: float) -> list[di
         source = item.find("source")
         rows.append(
             {
-                "provider": "google_news_rss",
+                "provider": provider,
                 "query": query,
-                "query_language": "en",
+                "query_language": query_language,
                 "title": clean_text(item.findtext("title")),
                 "description": clean_text(item.findtext("description")),
                 "pubDate": clean_text(item.findtext("pubDate")),
@@ -294,6 +319,8 @@ def main() -> None:
         providers = []
         if "google_news_rss" in args.providers:
             providers.append("google_news_rss")
+        if "google_news_rss_ko" in args.providers:
+            providers.append("google_news_rss_ko")
         if "naver_news" in args.providers:
             if naver_client_id and naver_client_secret:
                 providers.append("naver_news")
@@ -309,10 +336,26 @@ def main() -> None:
                 )
 
         for provider in providers:
-            queries = build_google_queries(candidate, args.query_mode) if provider == "google_news_rss" else build_naver_queries(candidate)
+            if provider == "google_news_rss":
+                queries = build_google_queries(candidate, args.query_mode)
+            elif provider == "google_news_rss_ko":
+                queries = build_google_ko_queries(candidate, args.query_mode)
+            else:
+                queries = build_naver_queries(candidate)
             for query in queries:
                 if provider == "google_news_rss":
                     fetched = fetch_google_news(query, args.max_items_per_query, args.timeout_sec)
+                elif provider == "google_news_rss_ko":
+                    fetched = fetch_google_news(
+                        query,
+                        args.max_items_per_query,
+                        args.timeout_sec,
+                        provider="google_news_rss_ko",
+                        query_language="ko",
+                        hl="ko",
+                        gl="KR",
+                        ceid="KR:ko",
+                    )
                 else:
                     fetched = fetch_naver_news(
                         query,

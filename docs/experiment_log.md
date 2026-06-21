@@ -1528,3 +1528,43 @@ Next:
 
 - Load Naver credentials in the shell and rerun candidate-specific Korean news.
 - Add salary, opt-out, transfer-fee, buyout, agent, and Korea-willingness sources before any shortlist labels.
+
+## 2026-06-21 Run 027 Korean-News Fallback And Manual Feasibility Worklist v0.1
+
+Hypothesis:
+
+- Korean no-key news fallback and manual feasibility source lanes should clarify remaining reality-check blockers before candidate release.
+
+Actions:
+
+- Added `google_news_rss_ko` support to the candidate-news collector.
+- Tested Korean-locale Google News RSS on a 62-candidate priority scope.
+- Combined Run 026 English news metadata with the Run 027 Korean fallback audit into v0.3 candidate-news outputs.
+- Added `src/modeling/build_manual_feasibility_worklist_v0_1.py`.
+- Built manual source lanes for Korean news, medical file review, contract/salary/options, Asian-league buyout/transfer fee, agent, and Korea-willingness checks.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v17.csv`.
+
+Validation:
+
+- Korean fallback scope rows: 62.
+- Google KR RSS attempted queries: 124.
+- Google KR RSS article rows: 0.
+- Google KR RSS error rows: 124.
+- Combined news article rows: 613.
+- Combined usable news-signal rows: 340.
+- Usable Korean article rows: 0.
+- Manual feasibility worklist rows: 2,723.
+- Manual source follow-up rows: 1,706.
+- Release locks passed for all joined/manual rows.
+
+Decision:
+
+- Keep Google KR RSS as optional fallback only.
+- Do not treat Google KR RSS as a substitute for Naver/local Korean news.
+- Promote the manual feasibility source worklist as the next reality-check queue.
+- Do not release candidate recommendations or shortlist labels.
+
+Next:
+
+- Load Naver credentials in the shell and run candidate-specific Korean news.
+- Fill source-lane values for salary, contract terms, options, buyout/transfer fee, medical availability, agent signals, and Korea-willingness.

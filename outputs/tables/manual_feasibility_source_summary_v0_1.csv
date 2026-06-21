@@ -1,0 +1,7 @@
+fit_slot,manual_feasibility_priority_tier,rows,unique_players,avg_source_lanes,korean_news_missing_rows,medical_review_rows,contract_review_rows
+asian_quota,not_in_manual_feasibility_scope,824,820,0.0,824,0,0
+asian_quota,tier_1_medical_and_contract_blocker,154,153,5.08,154,154,154
+foreign_hitter,not_in_manual_feasibility_scope,81,81,0.0,81,0,0
+foreign_hitter,tier_1_medical_and_contract_blocker,655,648,4.97,655,655,655
+foreign_pitcher,not_in_manual_feasibility_scope,112,112,0.0,112,0,0
+foreign_pitcher,tier_1_medical_and_contract_blocker,897,897,4.97,897,897,897

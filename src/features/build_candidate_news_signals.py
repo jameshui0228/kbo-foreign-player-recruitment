@@ -241,7 +241,10 @@ def build_join(summary: pd.DataFrame, missing_status: str) -> pd.DataFrame:
                 "player_name",
                 "team_or_org",
                 "position_or_role",
+                "article_rows",
                 "usable_article_rows",
+                "english_article_rows",
+                "korean_article_rows",
                 "injury_medical_article_rows",
                 "contract_market_article_rows",
                 "korea_willingness_article_rows",
@@ -260,6 +263,9 @@ def build_join(summary: pd.DataFrame, missing_status: str) -> pd.DataFrame:
     joined["candidate_news_status"] = joined["candidate_news_status"].fillna(missing_status)
     for col in [
         "usable_article_rows",
+        "article_rows",
+        "english_article_rows",
+        "korean_article_rows",
         "injury_medical_article_rows",
         "contract_market_article_rows",
         "korea_willingness_article_rows",
@@ -278,23 +284,43 @@ def build_join(summary: pd.DataFrame, missing_status: str) -> pd.DataFrame:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--raw-dir", default="data/raw/articles/candidate_news_pilot_v0_1")
+    parser.add_argument("--raw-dirs", nargs="*", default=None)
     parser.add_argument("--scope-file", default="outputs/tables/candidate_news_pilot_scope_v0_1.csv")
     parser.add_argument("--output-suffix", default="v0_1")
     parser.add_argument("--missing-status", default="not_in_run025_pilot_scope")
     return parser.parse_args()
 
 
+def read_news_metadata(raw_dirs: list[str]) -> pd.DataFrame:
+    frames = []
+    for raw_dir in raw_dirs:
+        news_meta = PROJECT_ROOT / raw_dir / "candidate_news_metadata.csv"
+        if news_meta.exists() and news_meta.stat().st_size > 0:
+            try:
+                frame = pd.read_csv(news_meta)
+            except pd.errors.EmptyDataError:
+                continue
+            if frame.empty:
+                continue
+            frame["source_raw_dir"] = raw_dir
+            frames.append(frame)
+    if not frames:
+        return pd.DataFrame()
+    news = pd.concat(frames, ignore_index=True)
+    dedupe_cols = [col for col in ["candidate_key", "originallink", "title", "pubDate"] if col in news.columns]
+    if dedupe_cols:
+        news = news.drop_duplicates(dedupe_cols)
+    return news
+
+
 def main() -> None:
     args = parse_args()
-    news_meta = PROJECT_ROOT / args.raw_dir / "candidate_news_metadata.csv"
+    raw_dirs = args.raw_dirs if args.raw_dirs else [args.raw_dir]
     scope_path = PROJECT_ROOT / args.scope_file
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     scope = pd.read_csv(scope_path)
-    if news_meta.exists() and news_meta.stat().st_size > 0:
-        news = pd.read_csv(news_meta)
-    else:
-        news = pd.DataFrame()
+    news = read_news_metadata(raw_dirs)
 
     if news.empty:
         article_relevance = pd.DataFrame()
