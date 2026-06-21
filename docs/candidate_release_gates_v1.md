@@ -177,3 +177,34 @@ Important scope label:
 - `no_milb_stats_found` means the row was requested but no MiLB split was returned.
 
 Final candidate names remain locked because contract, medical/news, adaptation, willingness, ABL, and historical MiLB backfill are still incomplete.
+
+## Run 023 Gate Audit
+
+`run_023` built the locked SSG fit-preparation mart and confirmed that final candidate selection is still not allowed.
+
+| gate | run_023 status | evidence |
+|---|---|---|
+| G1 SSG need | pass into fit-prep | Layer 1 feature contract is mapped to candidate-side proxy columns |
+| G2 KBO archetype | fit-prep signal contract attached | hitter pilot component and diagnostic contexts are attached to the mart |
+| G3 market | consolidated but partial | MLB hitter, MLB pitcher, and Asian-quota rows are in one mart |
+| G4 KBO translation | hitter component only | hitter Savant pilot is usable; pitcher translation remains diagnostic only |
+| G5 failure risk | visible but partial | pitcher damage/command and Asian feasibility gaps are visible, but medical/news/adaptation are missing |
+| G6 final fit | locked fit-prep only | no shortlist or recommendation labels allowed |
+
+Run 023 coverage:
+
+| item | value |
+|---|---:|
+| fit-preparation mart rows | 2,723 |
+| foreign hitter rows | 736 |
+| foreign pitcher rows | 1,009 |
+| Asian-quota rows | 978 |
+| rows with final recommendation allowed | 0 |
+| rows with shortlist label allowed | 0 |
+| rows with candidate name release allowed | 0 |
+
+Important interpretation:
+
+- `fit_preparation_index` is a research triage index, not a recommendation score.
+- Pitcher rows remain diagnostic-only.
+- Asian-quota rows still need contract, salary, buyout, and agent/willingness checks.

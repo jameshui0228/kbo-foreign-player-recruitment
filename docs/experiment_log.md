@@ -1380,3 +1380,41 @@ Next:
 
 - Build locked SSG fit ranking preparation mart with research-only labels.
 - Add contract, salary, buyout, injury/news/adaptation, Korea-willingness, and manual feasibility context before any candidate release.
+
+## 2026-06-21 Run 023 Locked SSG Fit Preparation Mart v0.1
+
+Hypothesis:
+
+- Three acquisition slots should be consolidated into a locked SSG fit-preparation mart before any final candidate ranking.
+
+Actions:
+
+- Added `src/modeling/build_ssg_fit_preparation_mart_v0_1.py`.
+- Built a single locked mart for foreign hitter, foreign pitcher, and Asian-quota candidates.
+- Mapped the SSG Layer 1 feature contract to candidate-side proxy columns.
+- Kept hitter Savant pilot component as a research input.
+- Kept pitcher output as diagnostic-only, not a promoted model score.
+- Added NPB official-stat context to Asian-quota feasibility where available.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v13.csv`.
+
+Validation:
+
+- Fit-preparation mart rows: 2,723.
+- Foreign hitter rows: 736.
+- Foreign pitcher rows: 1,009.
+- Asian-quota rows: 978.
+- Release locks passed for all 2,723 rows.
+- Pitcher score gate stayed diagnostic-only for all 1,009 pitcher rows.
+- Asian-quota contract/salary/buyout gap stayed visible for all 978 Asian-quota rows.
+
+Decision:
+
+- Promote the fit-preparation mart as the next working table.
+- Do not release final names, shortlist labels, or recommendations.
+- Treat `fit_preparation_index` as research triage only.
+
+Next:
+
+- Add manual contract, salary, buyout, medical/news/adaptation, and Korea-willingness checks.
+- Refresh current SSG data when available.
+- Only then build the final SSG fit ranking review.

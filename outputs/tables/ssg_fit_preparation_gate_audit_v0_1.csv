@@ -1,0 +1,6 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+R1,no_final_recommendations,2723,2723,pass,"unlock requires all six layers, manual contract/news checks, and final review"
+R2,no_shortlist_labels,2723,2723,pass,shortlist labels remain prohibited in Run 023
+R3,candidate_name_release_locked,2723,2723,pass,names stay research inventory only
+R4,pitcher_score_not_promoted,1009,1009,pass,pitcher failure/translation model still needs injury/news/adaptation and larger historical context
+R5,asian_quota_contract_gap_visible,978,978,pass_visible_gap,Asian-quota contract/salary/buyout and agent willingness remain manual checks
