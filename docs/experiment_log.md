@@ -1301,3 +1301,44 @@ Next:
 
 - Run compact feature-family ablations:
   Savant-only, MiLB level/role only, MiLB damage/command only, recent-track continuity only, and compact mixed models with at most 6-10 features per role/target.
+
+## 2026-06-21 Run 021 Feature-Family Ablation v0.3
+
+Hypothesis:
+
+- Compact feature-family ablation should recover usable signal groups after all-feature v0.2 overfit.
+
+Actions:
+
+- Added `src/modeling/run_kbo_feature_family_ablation_v0_3.py`.
+- Built `outputs/tables/kbo_translation_feature_family_ablation_mart_v0_3.csv`.
+- Tested five feature families: `savant_only`, `milb_level_role`, `milb_damage_command`, `recent_track_continuity`, and `compact_mixed`.
+- Wrote fold-level CV scores, feature-family comparison, and target-level gate decisions.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v11.csv`.
+
+Validation:
+
+- Feature-family CV score rows: 7,200.
+- Comparison rows: 80.
+- Decision rows: 4.
+- Candidate release gate remained locked.
+
+Findings:
+
+- Hitter `savant_only` cleared the pilot-promotion gate for both success and failure.
+- Hitter success: AUC 0.833, Brier lift +0.073, top-25 precision lift +0.222.
+- Hitter failure: AUC 0.738, Brier lift +0.023, top-25 precision lift +0.344.
+- Pitcher `milb_damage_command` reached watch status for success only: AUC 0.603, Brier lift +0.0068, top-25 precision lift +0.118.
+- Pitcher failure did not clear the Brier gate, so pitcher model scoring remains diagnostic only.
+
+Decision:
+
+- Promote hitter `savant_only` as a future pilot score component.
+- Keep pitcher `milb_damage_command` as diagnostic/watch only.
+- Do not release candidate names or rankings.
+
+Next:
+
+- Build candidate-side hitter Savant pilot component.
+- Convert pitcher MiLB damage/command into diagnostic tags.
+- Add injury/news/adaptation, Korea-willingness, contract, salary, buyout, and NPB nationality feasibility before fit ranking.
