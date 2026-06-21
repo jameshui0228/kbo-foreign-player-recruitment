@@ -1,0 +1,6 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+M1,updated_mlb_official_sources_joined,1556,1745,partial_pass,"Official roster and transaction data are joined for MLB candidates, but salary and opt-out details are not available in this public layer"
+M2,medical_signals_visible,2723,2723,pass_visible_risk_layer,Medical notes are roster/transaction proxies only and still require manual injury-history review
+M3,asian_contract_gap_visible,978,978,pass_visible_gap,"Asian-quota salary, transfer fee, buyout, and agent willingness remain manual checks"
+M4,candidate_news_refresh_gap_visible,2723,2723,pass_visible_gap,Candidate-specific article/Naver signals are maintained in candidate_news_* outputs and are not attached inside this market-realism table
+M5,release_locks_preserved,2723,2723,pass,Market-realism layer is research-only; no recommendation labels allowed

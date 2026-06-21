@@ -230,8 +230,8 @@ def build_summary(article_relevance: pd.DataFrame, scope: pd.DataFrame) -> pd.Da
     return base
 
 
-def build_join(summary: pd.DataFrame, missing_status: str) -> pd.DataFrame:
-    worklist = pd.read_csv(WORKLIST)
+def build_join(summary: pd.DataFrame, missing_status: str, worklist_file: Path) -> pd.DataFrame:
+    worklist = pd.read_csv(worklist_file)
     joined = worklist.merge(
         summary[
             [
@@ -286,6 +286,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--raw-dir", default="data/raw/articles/candidate_news_pilot_v0_1")
     parser.add_argument("--raw-dirs", nargs="*", default=None)
     parser.add_argument("--scope-file", default="outputs/tables/candidate_news_pilot_scope_v0_1.csv")
+    parser.add_argument("--worklist-file", default=str(WORKLIST.relative_to(PROJECT_ROOT)))
     parser.add_argument("--output-suffix", default="v0_1")
     parser.add_argument("--missing-status", default="not_in_run025_pilot_scope")
     return parser.parse_args()
@@ -317,6 +318,7 @@ def main() -> None:
     args = parse_args()
     raw_dirs = args.raw_dirs if args.raw_dirs else [args.raw_dir]
     scope_path = PROJECT_ROOT / args.scope_file
+    worklist_path = PROJECT_ROOT / args.worklist_file
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     scope = pd.read_csv(scope_path)
@@ -328,7 +330,7 @@ def main() -> None:
         article_relevance = build_article_relevance(news)
 
     summary = build_summary(article_relevance, scope)
-    joined = build_join(summary, args.missing_status)
+    joined = build_join(summary, args.missing_status, worklist_path)
 
     article_relevance.to_csv(OUTPUT_DIR / f"candidate_news_article_relevance_{args.output_suffix}.csv", index=False)
     summary.to_csv(OUTPUT_DIR / f"candidate_news_signal_summary_{args.output_suffix}.csv", index=False)

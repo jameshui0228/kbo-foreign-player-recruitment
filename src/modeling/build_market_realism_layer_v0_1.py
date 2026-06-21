@@ -14,6 +14,7 @@ All row-level release locks stay false.
 
 from __future__ import annotations
 
+import argparse
 import re
 from datetime import date
 from pathlib import Path
@@ -30,13 +31,35 @@ MLB_TRANSACTIONS = OUTPUT_DIR / "mlb_transactions_latest.csv"
 MLB_ROSTER = OUTPUT_DIR / "mlb_roster_status_latest.csv"
 ASIAN_MARKET = OUTPUT_DIR / "asian_quota_market_status_v1.csv"
 
-LAYER_OUT = OUTPUT_DIR / "ssg_market_realism_layer_v0_1.csv"
-SUMMARY_OUT = OUTPUT_DIR / "ssg_market_realism_slot_summary_v0_1.csv"
-WORKLIST_OUT = OUTPUT_DIR / "ssg_market_realism_manual_worklist_v0_1.csv"
-GATE_AUDIT_OUT = OUTPUT_DIR / "ssg_market_realism_gate_audit_v0_1.csv"
+DEFAULT_OUTPUT_SUFFIX = "v0_1"
+
+
+def output_path(stem: str, suffix: str) -> Path:
+    return OUTPUT_DIR / f"{stem}_{suffix}.csv"
+
+
+LAYER_OUT = output_path("ssg_market_realism_layer", DEFAULT_OUTPUT_SUFFIX)
+SUMMARY_OUT = output_path("ssg_market_realism_slot_summary", DEFAULT_OUTPUT_SUFFIX)
+WORKLIST_OUT = output_path("ssg_market_realism_manual_worklist", DEFAULT_OUTPUT_SUFFIX)
+GATE_AUDIT_OUT = output_path("ssg_market_realism_gate_audit", DEFAULT_OUTPUT_SUFFIX)
 
 RUN_DATE = date(2026, 6, 21)
 RELEASE_POLICY = "market_realism_research_only_no_recommendation"
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--run-date",
+        default=RUN_DATE.isoformat(),
+        help="Evaluation date used for transaction recency, in YYYY-MM-DD format.",
+    )
+    parser.add_argument(
+        "--output-suffix",
+        default=DEFAULT_OUTPUT_SUFFIX,
+        help="Suffix for output tables, for example v0_2.",
+    )
+    return parser.parse_args()
 
 
 def to_bool(series: pd.Series) -> pd.Series:
@@ -423,6 +446,7 @@ def build_layer() -> pd.DataFrame:
         ],
         default=FIT_PREP.name,
     )
+    out["market_realism_run_date"] = RUN_DATE.isoformat()
     out["candidate_release_policy"] = RELEASE_POLICY
     out["is_final_recommendation"] = False
     out["shortlist_label_allowed"] = False
@@ -550,7 +574,7 @@ def build_gate_audit(layer: pd.DataFrame) -> pd.DataFrame:
             "pass_rows": int(layer["news_context_status"].notna().sum()),
             "total_rows": len(layer),
             "status": "pass_visible_gap",
-            "blocking_gap": "Candidate-specific Naver/news refresh was not run because Naver credentials are not loaded in the shell environment",
+            "blocking_gap": "Candidate-specific article/Naver signals are maintained in candidate_news_* outputs and are not attached inside this market-realism table",
         },
         {
             "gate": "M5",
@@ -573,6 +597,19 @@ def build_gate_audit(layer: pd.DataFrame) -> pd.DataFrame:
 
 
 def main() -> None:
+    args = parse_args()
+    run_date = date.fromisoformat(args.run_date)
+    suffix = args.output_suffix
+    if not re.fullmatch(r"[A-Za-z0-9_]+", suffix):
+        raise ValueError("--output-suffix must contain only letters, numbers, and underscores")
+
+    global RUN_DATE, LAYER_OUT, SUMMARY_OUT, WORKLIST_OUT, GATE_AUDIT_OUT
+    RUN_DATE = run_date
+    LAYER_OUT = output_path("ssg_market_realism_layer", suffix)
+    SUMMARY_OUT = output_path("ssg_market_realism_slot_summary", suffix)
+    WORKLIST_OUT = output_path("ssg_market_realism_manual_worklist", suffix)
+    GATE_AUDIT_OUT = output_path("ssg_market_realism_gate_audit", suffix)
+
     layer = build_layer()
     layer.to_csv(LAYER_OUT, index=False)
     build_summary(layer).to_csv(SUMMARY_OUT, index=False)

@@ -1635,3 +1635,43 @@ Decision:
 Next:
 
 - Fill source-lane values for salary, contract terms, options, buyout/transfer fee, medical availability, agent signals, and Korea-willingness.
+
+## 2026-06-22 Run 030 Official Market Refresh v0.2
+
+Hypothesis:
+
+- The candidate market layer should use the latest official MLB roster and
+  transaction status before any feasibility or ranking work advances.
+
+Actions:
+
+- Collected MLB transactions from 2025-10-01 through 2026-06-22.
+- Collected MLB roster status for 2026-06-22.
+- Added `--run-date` and `--output-suffix` support to the market-realism builder.
+- Rebuilt market realism as `outputs/tables/ssg_market_realism_layer_v0_2.csv`.
+- Rejoined market realism to English plus Naver news as
+  `outputs/tables/ssg_market_realism_news_join_v0_5.csv`.
+- Rebuilt the manual feasibility source worklist as v0.3.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v20.csv`.
+
+Validation:
+
+- MLB transaction rows: 12,155.
+- MLB roster/status rows: 8,198.
+- Market realism rows: 2,723.
+- All market rows carry `market_realism_run_date = 2026-06-22`.
+- Market realism score changed for 16 rows.
+- Market realism status changed for 10 rows.
+- Manual source follow-up rows: 1,703.
+- Release locks passed for all 2,723 market rows.
+
+Decision:
+
+- Promote v0.2 market realism and v0.5 market-news join as the current
+  feasibility base.
+- Do not release candidate recommendations, shortlist labels, scores, or names.
+
+Next:
+
+- Fill source-lane values for salary, contract terms, options, buyout/transfer
+  fee, medical availability, agent signals, and Korea-willingness.
