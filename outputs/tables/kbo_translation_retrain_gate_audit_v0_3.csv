@@ -1,0 +1,6 @@
+gate,layer,check,pass_rows,total_rows,status,blocking_gap
+G4A,KBO translation model,augmented_mart_trainable_coverage,124,128,pass,Model-ready rate is 96.9%; remaining rows need manual lookup or non-MLB sources.
+G4B,KBO translation model,repeated_leakage_safe_cv_rerun,18,1,pass,Repeated stratified CV is research-only and small-sample guarded.
+G4C,KBO translation model,v0_2_vs_v0_3_comparison_built,18,1,pass,Comparison is diagnostic; promotion still depends on model family stability.
+G4D,KBO translation model,feature_signals_built,148,1,pass,"Feature signals are explanatory model diagnostics, not causal claims."
+LOCK,Release policy,historical_only_no_current_candidate_release,1,1,pass,Outputs are historical KBO rows and aggregate metrics; current candidate release remains locked.

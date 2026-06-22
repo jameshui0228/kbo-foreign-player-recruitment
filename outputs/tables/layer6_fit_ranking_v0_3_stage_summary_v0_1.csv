@@ -1,0 +1,14 @@
+fit_slot,ranking_stage_gate_v0_3,locked_rows,release_allowed
+asian_quota,low_priority_or_blocked_locked,795,False
+asian_quota,market_watch_locked,29,False
+asian_quota,source_fill_before_rank_locked,154,False
+foreign_hitter,hold_until_blocker_review_locked,254,False
+foreign_hitter,low_priority_or_blocked_locked,46,False
+foreign_hitter,manual_review_candidate_locked,37,False
+foreign_hitter,market_watch_locked,12,False
+foreign_hitter,source_fill_before_rank_locked,387,False
+foreign_pitcher,hold_until_blocker_review_locked,794,False
+foreign_pitcher,low_priority_or_blocked_locked,38,False
+foreign_pitcher,manual_review_candidate_locked,47,False
+foreign_pitcher,market_watch_locked,41,False
+foreign_pitcher,source_fill_before_rank_locked,89,False

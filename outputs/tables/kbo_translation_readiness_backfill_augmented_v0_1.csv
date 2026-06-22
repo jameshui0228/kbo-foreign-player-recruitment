@@ -1,0 +1,4 @@
+scope,rows,label_available_rows,pre_kbo_savant_rows,pre_kbo_milb_rows,model_ready_rows,success_rows,failure_rows,release_policy,candidate_release_allowed
+all,128,128,55,124,124,69,54,layer1_2_freeze_backfill_sprint_no_current_candidate_release,False
+hitter,42,42,22,42,42,23,17,layer1_2_freeze_backfill_sprint_no_current_candidate_release,False
+pitcher,86,86,33,82,82,46,37,layer1_2_freeze_backfill_sprint_no_current_candidate_release,False

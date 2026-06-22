@@ -1,0 +1,4 @@
+scope,rows,label_rows,old_model_ready_rows,new_model_ready_rows,newly_ready_rows,new_model_ready_rate,statsapi_backfilled_model_ready_rows,manual_lookup_remaining_rows,release_policy,candidate_release_allowed
+all,127,127,71,123,52,0.9685,52,4,layer1_2_freeze_backfill_sprint_no_current_candidate_release,False
+hitter,41,41,22,41,19,1.0,19,0,layer1_2_freeze_backfill_sprint_no_current_candidate_release,False
+pitcher,86,86,49,82,33,0.9535,33,4,layer1_2_freeze_backfill_sprint_no_current_candidate_release,False

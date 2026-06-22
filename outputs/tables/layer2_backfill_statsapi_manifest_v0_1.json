@@ -1,0 +1,13 @@
+{
+  "queue_rows": 56,
+  "match_rows": 56,
+  "high_confidence_match_rows": 52,
+  "fetch_pool_rows": 52,
+  "request_rows": 170,
+  "stats_rows": 615,
+  "feature_rows": 52,
+  "model_ready_backfill_rows": 52,
+  "raw_jsonl_path": "/Users/jameshui/CODEX/포트폴리오/SDA 2기 프로젝트_야구/kbo-foreign-player-recruitment/data/raw/mlb/layer2_backfill_milb/layer2_backfill_milb_statsapi_20260622_114351.jsonl",
+  "collected_at": "2026-06-22T11:43:51+09:00",
+  "release_policy": "layer2_backfill_historical_training_only_no_current_candidate_release"
+}

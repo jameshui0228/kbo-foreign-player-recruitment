@@ -1,0 +1,5 @@
+scope,rows,trainable_rows,model_ready_rate,repeated_cv_rows,feature_signal_rows,pilot_promote_rows,watch_rows,release_policy,candidate_release_allowed
+all,128,124,0.9688,18,148,0,0,kbo_translation_v0_3_augmented_training_no_current_candidate_release,False
+hitter,42,42,1.0,8,66,0,0,kbo_translation_v0_3_augmented_training_no_current_candidate_release,False
+pitcher,86,82,0.9535,10,82,0,0,kbo_translation_v0_3_augmented_training_no_current_candidate_release,False
+v0_2_vs_v0_3,18,124,0.9688,18,148,5,5,kbo_translation_v0_3_augmented_training_no_current_candidate_release,False

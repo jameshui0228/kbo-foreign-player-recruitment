@@ -15,12 +15,12 @@ From this point forward, every major update should report progress on these six 
 
 | no. | layer | status | progress | latest evidence | next action |
 |---:|---|---|---:|---|---|
-| 1 | SSG hidden weakness mining | presentation bridge ready pending refresh | 93% | `outputs/tables/ssg_layer1_candidate_feature_blueprint_v4.csv` | refresh STATIZ/current-game data and attach stronger play-by-play/defense/baserunning proxies; then freeze Layer 1 or move effort to layers 2-5 |
-| 2 | KBO foreign-player success/failure archetype mining | archetype validation and rule stability built | 86% | `outputs/tables/layer2_archetype_validation_matrix_v0_1.csv` | close the 56-row historical backfill queue and rerun archetype stability validation |
+| 1 | SSG hidden weakness mining | feature contract freeze ready pending final refresh | 95% | `outputs/tables/layer1_candidate_feature_join_audit_v0_1.csv` | refresh post-2026-06-11 STATIZ/current-game data and get human baseball signoff before public finalization |
+| 2 | KBO foreign-player success/failure archetype mining | recent backfill training coverage ready | 95% | `outputs/tables/layer2_backfill_coverage_recalibration_v0_1.csv` | manually resolve the four non-MLB/ambiguous historical rows and rerun rule stability on the augmented mart |
 | 3 | Candidate market construction | fit source-fill packet built | 95% | `outputs/tables/ssg_fit_source_fill_packet_v0_1.csv` | fill exact salary, opt-out, transfer-fee, buyout, agent, passport, medical, and Korea-willingness source values |
-| 4 | KBO translation model | locked pitcher translation proxy built | 88% | `outputs/tables/layer4_pitcher_translation_proxy_component_v0_1.csv` | attach source evidence to pitcher proxy groups and validate proxy against historical archetype rule tiers |
-| 5 | Failure risk model | source evidence prefill readiness attached | 93% | `outputs/tables/layer5_6_source_readiness_recalibration_v0_1.csv` | fill remaining contract, medical, Korea-willingness, and video/report source rows and mark human-reviewed evidence strength |
-| 6 | SSG fit ranking | locked source evidence prefill built | 93% | `outputs/tables/locked_source_evidence_prefill_template_v0_1.csv` | complete the remaining source URL backlog and transfer reviewed evidence into manual grades before unlock |
+| 4 | KBO translation model | augmented translation retrain complete with conservative policy | 95% | `outputs/tables/kbo_translation_retrain_gate_audit_v0_3.csv` | use role-prior/feature-contract policy until larger labeled samples improve classifier stability |
+| 5 | Failure risk model | failure risk recalibrated with translation uncertainty | 95% | `outputs/tables/layer5_6_augmented_recalibration_gate_audit_v0_1.csv` | complete human source review before any exact risk score or recommendation can be made public |
+| 6 | SSG fit ranking | locked ranking stage gate complete | 95% | `outputs/tables/layer6_fit_ranking_v0_3_stage_summary_v0_1.csv` | use locked stage gates for internal review; keep names, ranks, exact scores, shortlist labels, and recommendations locked |
 
 ## Reporting Rule
 
@@ -33,6 +33,8 @@ Every future work update should include:
 
 ## Current Candidate Policy
 
-Candidate names can be used only as `research_inventory` or `market_watch`.
+Candidate names, exact scores, exact ranks, shortlist labels, manual unlock labels,
+and recommendations remain locked even though all six layers have reached 95%.
 
-The labels `shortlist_candidate` and `recommendation` remain locked until all six layers pass.
+The current 95% state means the data/model/risk/ranking stage gates are built
+and reproducible. It does not mean the public shortlist is unlocked.

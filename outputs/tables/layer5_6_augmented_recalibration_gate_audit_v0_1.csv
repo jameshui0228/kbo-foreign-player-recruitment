@@ -1,0 +1,5 @@
+gate,layer,check,pass_rows,total_rows,status,blocking_gap
+G5A,Failure risk model,translation_uncertainty_propagated_to_risk_band,2723,2723,pass,Policy=classifier_not_promoted_use_role_prior_feature_contract; exact risk scores remain internal.
+G5B,Failure risk model,model_ready_rate_supports_risk_refresh,969,1000,pass,Augmented translation model-ready rate is 96.9%.
+G6A,SSG fit ranking,locked_stage_gate_built_for_all_rows,2723,2723,pass,"Ranking output is stage-gated and locked, not a public shortlist."
+LOCK,Release policy,candidate_identifiers_scores_and_ranks_removed,1,1,pass,"No player names, teams, IDs, exact scores, exact ranks, or recommendations are released."

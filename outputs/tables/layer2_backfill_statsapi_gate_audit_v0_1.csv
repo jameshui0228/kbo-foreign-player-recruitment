@@ -1,0 +1,5 @@
+gate,layer,check,pass_rows,total_rows,status,blocking_gap
+L2B1,KBO foreign-player success/failure archetype mining,recent_backfill_queue_preserved,56,56,pass,Recent 2023-2025 backfill queue is now row-addressable.
+L2B2,KBO foreign-player success/failure archetype mining,statsapi_name_matching,52,56,pass_visible_gap,Unmatched or ambiguous historical names still need manual player-id lookup.
+L2B3,KBO foreign-player success/failure archetype mining,pre_kbo_milb_features_backfilled,52,56,pass_visible_gap,Some matched historical players have no StatsAPI MiLB rows before KBO arrival.
+LOCK,Release policy,no_current_candidate_release,1,1,pass,Only historical KBO training rows are exposed; current candidate names/ranks/scores remain locked.
