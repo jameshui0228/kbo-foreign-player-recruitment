@@ -1,0 +1,5 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+I1,intake_rows_match_required_source_bundle,473,473,pass,"Rows are source intake tasks, not candidate releases"
+I2,candidate_identifiers_and_exact_scores_removed,1,1,pass,"Candidate names, teams, exact scores, and exact ranks remain excluded"
+I3,source_input_fields_start_blank,473,473,pass,"Reviewers must fill URLs, titles, dates, claims, and notes from source evidence"
+I4,release_locks_preserved,473,473,pass,"No candidate names, ranks, scores, shortlist labels, manual unlock labels, or recommendations are released"

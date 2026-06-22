@@ -1,0 +1,12 @@
+field,allowed_values_or_format,guidance
+source_url,url,Reviewer must paste the source URL used for the claim.
+source_title,free_text,Source title or page label.
+source_date,yyyy-mm-dd_or_source_date_text,Publication or snapshot date; source date text is allowed if exact date is unclear.
+source_publisher,free_text,"Publisher, league site, transaction page, stat provider, outlet, or report owner."
+source_language,ko|en|ja|zh|other|unknown,Language of the source.
+source_evidence_strength,primary|secondary|weak|conflicting|unusable,Primary means direct and current; weak means snippet/indirect/old.
+extracted_value_or_claim,free_text,"Exact value, status, or claim taken from the source."
+supports_or_blocks,supports|blocks|mixed|context_only|unknown,Whether this evidence supports or blocks continued review.
+reviewer_notes,free_text,Short reviewer interpretation.
+reviewed_by,free_text,Reviewer initials or name.
+reviewed_date,yyyy-mm-dd,Date the source row was reviewed.

@@ -2005,3 +2005,45 @@ Next:
   evidence.
 - Recalibrate failure-risk and fit after source values and manual grades are
   attached.
+
+## 2026-06-22 Run 039 Locked Source Evidence Intake Template v0.1
+
+Hypothesis:
+
+- Source work becomes tractable only when the required evidence is decomposed
+  into row-level source tasks mapped to manual review fields.
+
+Actions:
+
+- Added `src/modeling/build_locked_source_evidence_intake_template_v0_1.py`.
+- Expanded the locked source-rebuild packet into 473 source intake rows.
+- Mapped each source type to target manual fields.
+- Added source intake summary, manual-field map, source intake rubric, and gate
+  audit.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v29.csv`.
+
+Validation:
+
+- Source evidence intake rows: 473 / 473.
+- Foreign hitter source rows: 186.
+- Foreign pitcher source rows: 287.
+- Source URL/title/date/claim fields start blank: 473 / 473.
+- Candidate identifiers and exact score/rank fields removed.
+- Release locks passed for all 473 rows.
+
+Decision:
+
+- Promote the locked source evidence intake template as the current Layer 6
+  operating artifact.
+- Measure next source-work progress by filled source rows instead of vague
+  research status.
+- Do not release candidate names, ranks, scores, shortlist labels, manual unlock
+  labels, or recommendations.
+
+Next:
+
+- Fill the 473 source rows with reviewed URLs, source titles, dates, publishers,
+  extracted claims, and reviewer notes.
+- Recompute manual readiness after source rows are filled.
+- Recalibrate failure-risk and SSG fit only after source evidence and manual
+  grades are attached.
