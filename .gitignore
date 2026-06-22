@@ -39,6 +39,7 @@ data/processed/
 # Local scratch exports
 outputs/figures/
 outputs/reports/
+!outputs/reports/*.html
 outputs/candidates/
 reports/rendered/
 tmp/
