@@ -1,0 +1,12 @@
+source_type,check_instruction
+current_stat_page,Attach official/minor-league/stat provider URL and snapshot date.
+recent_video_or_scouting_report,Attach one recent video or scouting report and note date/context.
+contract_access_source,"Attach evidence for salary, option, buyout, club control, or agent/access uncertainty."
+medical_current_status_source,"Attach source for injury, rehab, workload interruption, IL, or current availability."
+transaction_or_roster_status_source,Attach roster/transaction status and whether movement is plausible.
+workload_starter_runway_source,"For pitchers, attach recent IP, starts, pitch count, role, or ramp-up evidence."
+of_dh_role_and_defense_source,"For hitters, attach OF/DH role, defense, run value, or platoon context evidence."
+korea_or_overseas_willingness_source_if_available,"Attach Korea/overseas openness, agent posture, role acceptance, or local-context source if available."
+passport_or_nationality_source,"For Asian-quota work, attach passport/nationality eligibility evidence."
+contract_transfer_buyout_source,"For Asian-quota work, attach transfer fee, buyout, salary, or club-control source."
+role_willingness_source,Attach role acceptance and realistic usage-context source.

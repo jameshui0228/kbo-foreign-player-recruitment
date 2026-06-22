@@ -1960,3 +1960,48 @@ Next:
 - Fill reviewed source URLs, video/stat links, contract evidence, medical
   evidence, and Korea-willingness evidence.
 - Recalibrate failure-risk and fit only after those manual values are attached.
+
+## 2026-06-22 Run 038 Locked Source Rebuild Packet v0.1
+
+Hypothesis:
+
+- Manual scouting grades should not influence candidate unlock until each
+  anonymous card has a minimum source bundle.
+
+Actions:
+
+- Added `src/modeling/build_locked_source_rebuild_packet_v0_1.py`.
+- Built a locked source-rebuild packet for 72 anonymous cards.
+- Added source-rebuild priority, source bundle requirements, search templates,
+  stat/video done definitions, feasibility done definitions, and minimum manual
+  unlock fields.
+- Added source-rebuild summary, bundle matrix, source checklist, and gate audit.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v28.csv`.
+
+Validation:
+
+- Source rebuild packet rows: 72 / 72.
+- P0 existing-source read: 1 card.
+- P1 source-file rebuild before video: 69 cards.
+- P2 hold until core source file exists: 2 cards.
+- Candidate identifiers and exact score/rank fields removed.
+- Release locks passed for all 72 rows.
+- Source file status remains `not_started_locked` for all 72 rows.
+
+Decision:
+
+- Promote the locked source-rebuild packet as the current Layer 6 operating
+  artifact.
+- Treat model-interesting cards, source-ready cards, scouting-ready cards, and
+  release-ready candidates as separate states.
+- Do not release candidate names, ranks, scores, shortlist labels, manual unlock
+  labels, or recommendations.
+
+Next:
+
+- Fill reviewed source URLs into the source rebuild packet/manual review
+  template.
+- Add exact contract, medical, workload, role, and Korea/overseas willingness
+  evidence.
+- Recalibrate failure-risk and fit after source values and manual grades are
+  attached.

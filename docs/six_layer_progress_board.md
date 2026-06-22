@@ -20,7 +20,7 @@ From this point forward, every major update should report progress on these six 
 | 3 | Candidate market construction | fit source-fill packet built | 95% | `outputs/tables/ssg_fit_source_fill_packet_v0_1.csv` | fill exact salary, opt-out, transfer-fee, buyout, agent, passport, medical, and Korea-willingness source values |
 | 4 | KBO translation model | hitter component in fit-prep mart | 80% | `outputs/tables/ssg_fit_preparation_mart_v0_1.csv` | keep hitter component as pilot input and build pitcher translation only after stronger risk/context variables |
 | 5 | Failure risk model | source evidence status attached | 90% | `outputs/tables/ssg_fit_source_fill_packet_v0_1.csv` | use source-fill statuses to recalibrate risk buckets after manual contract and medical checks |
-| 6 | SSG fit ranking | locked manual review assignment queue built | 88% | `outputs/tables/locked_manual_review_assignment_queue_v0_1.csv` | rebuild source files and fill manual scouting notes, source URLs, contract values, medical status, and Korea-willingness evidence before any candidate names, ranks, shortlist labels, manual unlock labels, or recommendations are released |
+| 6 | SSG fit ranking | locked source rebuild packet built | 89% | `outputs/tables/locked_source_rebuild_packet_v0_1.csv` | fill reviewed source URLs, contract values, medical status, workload/role evidence, and Korea-willingness evidence before any candidate names, ranks, shortlist labels, manual unlock labels, or recommendations are released |
 
 ## Reporting Rule
 

@@ -1,0 +1,5 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+R1,source_rebuild_packet_rows_match_assignment_queue,72,72,pass,"Packet is anonymous source work, not a candidate release"
+R2,candidate_identifiers_and_exact_scores_removed,1,1,pass,"Candidate names, teams, exact scores, and exact ranks remain excluded"
+R3,release_locks_preserved,72,72,pass,"No candidate names, ranks, scores, shortlist labels, manual unlock labels, or recommendations are released"
+R4,source_file_status_not_started,72,72,pass,Source files still need reviewer-filled URLs and evidence before manual unlock

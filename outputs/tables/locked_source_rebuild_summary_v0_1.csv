@@ -1,0 +1,6 @@
+source_rebuild_priority,fit_slot,source_rebuild_lane,cards,cold_start_cards,existing_source_cards,lower_risk_cards,strong_or_above_fit_cards,release_allowed
+P0_read_existing_source_now,foreign_hitter,targeted_contract_access_read,1,0,1,1,1,False
+P1_rebuild_source_file_before_video,foreign_hitter,hitter_full_source_file_rebuild,29,29,0,19,26,False
+P1_rebuild_source_file_before_video,foreign_pitcher,pitcher_full_source_file_rebuild,40,40,0,4,39,False
+P2_hold_until_core_source_file_exists,foreign_hitter,hitter_full_source_file_rebuild,1,1,0,0,1,False
+P2_hold_until_core_source_file_exists,foreign_pitcher,pitcher_full_source_file_rebuild,1,1,0,0,0,False
