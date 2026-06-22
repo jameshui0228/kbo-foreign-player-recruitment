@@ -1,0 +1,5 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+C1,cards_built_from_source_supported_rows,72,72,pass,Cards are templates only and do not unlock candidates
+C2,candidate_identifiers_removed,1,1,pass,"Candidate names, teams, exact scores, and exact ranks are excluded from card template output"
+C3,release_locks_preserved,72,72,pass,"No candidate names, scores, ranks, shortlist labels, scouting-card release, or recommendations are allowed"
+C4,asian_quota_not_promoted_to_card,72,72,pass,Asian quota remains source-blocked before scouting-card promotion

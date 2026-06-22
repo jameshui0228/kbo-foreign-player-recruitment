@@ -1845,3 +1845,43 @@ Next:
   Korea-willingness values.
 - Recalibrate failure-risk and fit ranking only after those source values are
   attached.
+
+## 2026-06-22 Run 035 Locked Scouting Cards v0.1
+
+Hypothesis:
+
+- The project can move from model queue to scouting workflow without releasing
+  candidate names, exact scores, exact ranks, shortlist labels, or
+  recommendations.
+
+Actions:
+
+- Added `src/modeling/build_locked_scouting_cards_v0_1.py`.
+- Built candidate-name-free scouting-card templates from source-supported rows.
+- Removed player names, team/org fields, exact internal scores, and exact ranks
+  from the card output.
+- Added a card schema, slot-specific question bank, slot summary, and gate
+  audit.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v25.csv`.
+
+Validation:
+
+- Locked scouting-card rows: 72.
+- Foreign hitter cards: 31.
+- Foreign pitcher cards: 41.
+- Asian quota cards: 0 because the slot remains source-blocked.
+- Candidate identifiers removed from card template output.
+- Release locks passed for all 72 cards.
+
+Decision:
+
+- Promote the locked scouting-card templates as the current Layer 6 handoff
+  artifact.
+- Do not release candidate names, ranks, scores, shortlist labels, scouting-card
+  release labels, or recommendations.
+
+Next:
+
+- Fill manual scouting notes into the card structure.
+- Attach exact contract values, medical status, and Korea-willingness evidence.
+- Recalibrate risk and fit only after the card evidence is filled.

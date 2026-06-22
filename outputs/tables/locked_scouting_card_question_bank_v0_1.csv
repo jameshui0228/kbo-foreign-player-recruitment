@@ -1,0 +1,16 @@
+fit_slot,question_topic,review_question,required_before_candidate_unlock
+foreign_hitter,offense,Does the profile improve RHP game-script quality without raising contact-floor risk?,True
+foreign_hitter,role,Can the player handle SSG's realistic OF/DH role and lineup slot?,True
+foreign_hitter,defense_baserunning,Does defense/run value avoid creating a new run-kill problem?,True
+foreign_hitter,translation,"Which pre-KBO/KBO-translation signals are strongest, and which are thin?",True
+foreign_hitter,market,"What exact contract, salary, option, and agent evidence is still needed?",True
+foreign_pitcher,workload,Is there enough recent starter or multi-inning runway?,True
+foreign_pitcher,traffic_command,Does the profile suppress BB/HR damage after traffic?,True
+foreign_pitcher,role,"Is role continuity real, or is this only raw stuff without workload support?",True
+foreign_pitcher,medical,"What current injury, rehab, or workload interruption must be checked?",True
+foreign_pitcher,market,"What exact contract, salary, option, and agent evidence is still needed?",True
+asian_quota,passport,Is passport/nationality eligibility actually verified?,True
+asian_quota,contract,"What transfer fee, buyout, salary, and club-control evidence is needed?",True
+asian_quota,league_context,How should NPB/CPBL performance be translated to KBO role needs?,True
+asian_quota,medical,Is there recent medical/current-availability evidence?,True
+asian_quota,role,Would the player accept the KBO/SSG role at Asian-quota cost constraints?,True

@@ -1,0 +1,11 @@
+field,review_prompt,required_before_unlock,candidate_name_allowed,score_or_rank_allowed
+slot_context,What acquisition slot and roster problem does this card address?,True,False,False
+ssg_fit_question,What SSG-specific need does the profile claim to solve?,True,False,False
+translation_question,What evidence says this profile can translate to KBO?,True,False,False
+tool_process_question,What tool/process traits need scouting confirmation?,True,False,False
+risk_question,What failure mode could still break the case?,True,False,False
+market_question,What contract/availability reality must be verified?,True,False,False
+medical_question,What health/workload status must be verified?,True,False,False
+adaptation_question,What Korea/role/clubhouse adaptation evidence is still needed?,True,False,False
+source_question,Which source types should the reviewer open first?,True,False,False
+decision_question,What would move this card forward or close it?,True,False,False

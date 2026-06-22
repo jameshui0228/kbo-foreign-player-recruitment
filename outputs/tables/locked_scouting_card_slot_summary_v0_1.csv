@@ -1,0 +1,6 @@
+fit_slot,failure_risk_band,source_confidence_band,cards,strong_fit_cards,strong_translation_cards,market_watch_cards,release_allowed
+foreign_hitter,lower_current_risk,strong,1,1,1,0,False
+foreign_hitter,lower_current_risk,watch,19,18,19,0,False
+foreign_hitter,manageable_risk,watch,11,9,11,0,False
+foreign_pitcher,lower_current_risk,weak_or_unknown,4,3,4,0,False
+foreign_pitcher,manageable_risk,weak_or_unknown,37,36,37,0,False
