@@ -1,0 +1,25 @@
+field,allowed_values_or_format,guidance,requirement_level
+review_owner,free_text,Reviewer name or initials. Leave blank until assigned.,required_for_manual_review
+review_date,yyyy-mm-dd,Date the manual review was completed.,required_for_manual_review
+review_status,not_started|in_progress|needs_source|reviewed,Workflow status.,required_for_manual_review
+video_source_url_1,url,Primary video or report source used for tool/process review.,required_for_manual_review
+stat_source_url_1,url,Primary stat page or report source used for numeric/context review.,required_for_manual_review
+contract_source_url,url,"Best source for contract, salary, option, buyout, or agent context.",required_before_unlock
+medical_source_url,url,"Best source for current injury, rehab, workload, or availability status.",required_before_unlock
+korea_willingness_source_url,url,Best source for Korea/overseas willingness or role acceptance.,required_before_unlock
+primary_tool_grade_20_80,20|30|40|45|50|55|60|70|80,Hitter: bat/power carrying tool. Pitcher: best pitch or stuff carrying tool.,required_for_manual_review
+secondary_tool_grade_20_80,20|30|40|45|50|55|60|70|80,Hitter: secondary offensive/athletic tool. Pitcher: secondary pitch or bat-missing support.,recommended
+command_or_contact_grade_20_80,20|30|40|45|50|55|60|70|80,Hitter: contact/zone survival. Pitcher: strike-throwing and traffic command.,required_for_manual_review
+role_fit_grade_20_80,20|30|40|45|50|55|60|70|80,"Fit to SSG role, lineup/rotation usage, and replacement timing.",required_for_manual_review
+defense_or_workload_grade_20_80,20|30|40|45|50|55|60|70|80,Hitter: OF defense/run value. Pitcher: workload/starter runway.,required_for_manual_review
+translation_confidence_20_80,20|30|40|45|50|55|60|70|80,Confidence that the profile translates to KBO context.,required_for_manual_review
+medical_availability_grade_20_80,20|30|40|45|50|55|60|70|80,"Current health, workload continuity, and near-term availability.",required_before_unlock
+contract_feasibility_grade_20_80,20|30|40|45|50|55|60|70|80,Cost/access feasibility under KBO and SSG constraints.,required_before_unlock
+korea_willingness_grade_20_80,20|30|40|45|50|55|60|70|80,Likelihood of Korea/overseas acceptance at realistic role/cost.,required_before_unlock
+overall_manual_grade_20_80,20|30|40|45|50|55|60|70|80,Overall manual review grade after source checks.,required_for_manual_review
+manual_green_flags,free_text,Positive observations that support continued review.,recommended
+manual_red_flags,free_text,Negative observations that could kill the case.,recommended
+reviewer_summary,free_text,Short synthesis in scouting language.,required_for_manual_review
+continue_reason,free_text,Why this card should continue if it passes.,required_if_continue
+kill_reason,free_text,Why this card should stop if it fails.,required_if_kill
+manual_decision_status,locked_no_decision|continue_review|hold_source_gap|kill_case,Manual decision status. It still does not release a candidate.,required_for_manual_review

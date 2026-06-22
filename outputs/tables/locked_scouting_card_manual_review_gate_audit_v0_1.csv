@@ -1,0 +1,5 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+M1,manual_review_template_rows_match_locked_cards,72,72,pass,"Template rows are still locked card rows, not candidate recommendations"
+M2,manual_input_fields_start_blank,72,72,pass,Manual fields must be filled by reviewers from source evidence
+M3,candidate_identifiers_removed,1,1,pass,"Candidate names, teams, exact scores, and exact ranks remain excluded"
+M4,release_locks_preserved,72,72,pass,"No candidate names, scores, ranks, shortlist labels, manual unlock, or recommendations are allowed"

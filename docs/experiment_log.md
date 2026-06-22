@@ -1885,3 +1885,40 @@ Next:
 - Fill manual scouting notes into the card structure.
 - Attach exact contract values, medical status, and Korea-willingness evidence.
 - Recalibrate risk and fit only after the card evidence is filled.
+
+## 2026-06-22 Run 036 Locked Manual Review Template v0.1
+
+Hypothesis:
+
+- Anonymous locked cards need a structured manual-review template before any
+  candidate discussion can unlock.
+
+Actions:
+
+- Added
+  `src/modeling/build_locked_scouting_card_manual_review_template_v0_1.py`.
+- Built a blank manual review template for 72 locked cards.
+- Added a field rubric, 20-80 grade scale, assignment summary, and gate audit.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v26.csv`.
+
+Validation:
+
+- Manual review template rows: 72.
+- Foreign hitter cards: 31.
+- Foreign pitcher cards: 41.
+- Manual input fields start blank: 72 / 72.
+- Candidate identifiers removed from the manual review template.
+- Release locks passed for all 72 rows.
+
+Decision:
+
+- Promote the locked manual review template as the current Layer 6 workflow
+  artifact.
+- Do not release candidate names, ranks, scores, shortlist labels, manual
+  unlock labels, or recommendations.
+
+Next:
+
+- Fill manual scouting notes, source URLs, contract evidence, medical evidence,
+  and Korea-willingness evidence.
+- Recalibrate fit/risk after manual values are attached.

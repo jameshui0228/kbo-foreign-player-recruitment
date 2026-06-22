@@ -1,0 +1,10 @@
+grade_20_80,label,interpretation
+20,severe_problem,Clearly below practical KBO/SSG threshold; likely kill unless offset by exceptional evidence.
+30,well_below,Major weakness; requires strong offsetting reason.
+40,below_average,Playable only if other source-backed traits are strong.
+45,fringe,Close call; requires context and role protection.
+50,average,Acceptable for role if cost/risk is reasonable.
+55,solid,Positive role fit; worth continued review.
+60,plus,Strong reason to continue if market/medical gates pass.
+70,impact,Impact trait for KBO context; verify source quality carefully.
+80,elite,Rare trait; also likely raises acquisition/access skepticism.
