@@ -1,0 +1,6 @@
+﻿ssg_weakness,archetype_signal,candidate_variable,scouting_question
+1루 주자만 OPS 리그 10위,"A_dominant 타자: wRC+ ≥ 130, 갭 파워",gap_power_pull_avoidance + runner_advancement_proxy,"반대 방향 타구 비율이 높고, 1루 상황에서 주자 진루 능력이 검증됐는가?"
+초반 1~3이닝 OPS 리그 8위,"A_ace 선발: ERA ≤ 3.5, WAR ≥ 4.0으로 초반 이닝 안정",early_inning_support (kbo_translation_index),1~3이닝 ERA가 시즌 ERA와 유사한가? 선발 초반 폭발 이력이 없는가?
+우언더/사이드암 상대 OPS 리그 6위,B_solid 이상 + 낮은 chase% on outside low,abs_zone_discipline_score,KBO 사이드암/언더 유형의 낮고 바깥 공에 chase% / zone_contact% 수치가 어떤가?
+2아웃 상황 OPS 리그 8위,A_dominant 또는 B_solid: 2사 컨택 능력,"two_out_contact_proxy (zone_contact_pct, whiff_pct)",2스트라이크 이후 whiff%가 리그 평균 이하인가?
+홈-원정 격차 (원정 OPS 7위),B_solid 이상 + 원정 적응 이력,road_durability_proxy,원정 성적이 홈보다 크게 떨어지지 않는가? 장거리 이동 후 피로 회복 이력?

@@ -1,0 +1,5 @@
+﻿role,stat,replaced_median,replaced_q25,kept_median,kept_q25,replaced_n,kept_n,replaced_q75,kept_q75
+hitter,WAR,0.03,-0.27,3.5,1.82,12,30,,
+hitter,wRC+,98.09,71.54,132.43,121.78,12,30,,
+starter,WAR,0.86,,3.41,,26,60,1.32,5.22
+starter,ERA,4.52,,3.5,,26,60,5.93,4.08

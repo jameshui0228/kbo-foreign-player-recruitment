@@ -1,0 +1,12 @@
+﻿role_group,archetype,n,success_rate,failure_rate,replacement_rate,avg_war,median_war,avg_wrc_plus,avg_era,median_era
+hitter,A_dominant,7,1.0,0.0,0.0,5.2,5.13,153.9,,
+hitter,B_solid,14,1.0,0.0,0.0,3.42,3.52,130.4,,
+hitter,C_marginal,10,0.2,0.6,0.5,1.29,1.43,123.1,,
+hitter,C_replaced_poor,7,0.0,1.0,1.0,-0.32,-0.23,72.9,,
+hitter,D_failure,4,0.0,1.0,0.0,0.01,0.09,99.4,,
+starter,A_ace_translation,21,1.0,0.0,0.0,5.71,5.57,,2.75,2.67
+starter,B_solid_contributor,48,0.5,0.438,0.292,2.36,2.28,,3.85,3.86
+starter,C_risky,4,0.25,0.75,0.25,0.51,0.26,,4.99,5.44
+starter,C_replaced_marginal,4,0.0,1.0,1.0,0.32,0.32,,5.35,5.36
+starter,D_era_blowup,2,0.0,1.0,0.0,-0.29,-0.29,,7.38,7.38
+starter,D_replaced_blowup,7,0.0,1.0,1.0,-0.06,0.06,,7.55,6.75

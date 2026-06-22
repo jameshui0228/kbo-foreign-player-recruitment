@@ -1,0 +1,4 @@
+﻿role,total_labeled,success_n,failure_n,replacement_n,strong_success_n,success_rate,failure_rate,replacement_rate
+hitter,101,48,17,12,13,0.475,0.168,0.119
+starter,201,93,37,26,24,0.463,0.184,0.129
+all,353,141,105,89,37,0.399,0.297,0.252

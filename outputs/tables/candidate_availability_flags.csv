@@ -1,0 +1,756 @@
+﻿mlb_id,full_name,txn_type,txn_date,from_team,to_team,description
+641540,Dane Dunning,Outrighted,2025-10-01,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent RHP Dane Dunning outright to Gwinnett Stripers.
+672284,Jarred Kelenic,Outrighted,2025-10-01,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent RF Jarred Kelenic outright to Gwinnett Stripers.
+506702,Sandy León,Outrighted,2025-10-01,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent C Sandy León outright to Gwinnett Stripers.
+664747,Alexis Díaz,Outrighted,2025-10-01,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent RHP Alexis Díaz outright to Gwinnett Stripers.
+663897,Luke Williams,Outrighted,2025-10-01,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent SS Luke Williams outright to Gwinnett Stripers.
+605218,Carl Edwards Jr.,Declared Free Agency,2025-10-06,,Texas Rangers,RHP Carl Edwards Jr. elected free agency.
+668952,Ryan Kreidler,Designated for Assignment,2025-10-13,,Pittsburgh Pirates,Pittsburgh Pirates designated CF Ryan Kreidler for assignment.
+665625,Elvis Peguero,Outrighted,2025-10-13,Chicago White Sox,Charlotte Knights,Chicago White Sox sent RHP Elvis Peguero outright to Charlotte Knights.
+666150,Dominic Fletcher,Outrighted,2025-10-13,Chicago White Sox,Charlotte Knights,Chicago White Sox sent RF Dominic Fletcher outright to Charlotte Knights.
+667452,Corey Julks,Outrighted,2025-10-13,Chicago White Sox,Charlotte Knights,Chicago White Sox sent LF Corey Julks outright to Charlotte Knights.
+669391,Owen White,Outrighted,2025-10-13,Chicago White Sox,Charlotte Knights,Chicago White Sox sent RHP Owen White outright to Charlotte Knights.
+663462,Isaiah Campbell,Outrighted,2025-10-16,Boston Red Sox,Worcester Red Sox,Boston Red Sox sent RHP Isaiah Campbell outright to Worcester Red Sox.
+592254,José De León,Outrighted,2025-10-16,Boston Red Sox,Worcester Red Sox,Boston Red Sox sent RHP José De León outright to Worcester Red Sox.
+641401,Connor Brogdon,Outrighted,2025-10-22,Los Angeles Angels,Salt Lake Bees,Los Angeles Angels sent RHP Connor Brogdon outright to Salt Lake Bees.
+666198,Carter Kieboom,Outrighted,2025-10-22,Los Angeles Angels,Salt Lake Bees,Los Angeles Angels sent 3B Carter Kieboom outright to Salt Lake Bees.
+608334,Carson Fulmer,Outrighted,2025-10-22,Los Angeles Angels,Salt Lake Bees,Los Angeles Angels sent RHP Carson Fulmer outright to Salt Lake Bees.
+669722,Logan Davidson,Outrighted,2025-10-22,Los Angeles Angels,Salt Lake Bees,Los Angeles Angels sent 1B Logan Davidson outright to Salt Lake Bees.
+671162,Connor Thomas,Outrighted,2025-10-23,Milwaukee Brewers,Nashville Sounds,Milwaukee Brewers sent LHP Connor Thomas outright to Nashville Sounds.
+664139,Ian Gibaut,Outrighted,2025-10-28,Cincinnati Reds,Louisville Bats,Cincinnati Reds sent RHP Ian Gibaut outright to Louisville Bats.
+829272,Shinnosuke Ogasawara,Outrighted,2025-10-29,Washington Nationals,Rochester Red Wings,Washington Nationals sent LHP Shinnosuke Ogasawara outright to Rochester Red Wings.
+666168,Mason Thompson,Outrighted,2025-10-29,Washington Nationals,Rochester Red Wings,Washington Nationals sent RHP Mason Thompson outright to Rochester Red Wings.
+674285,Eduardo Salazar,Outrighted,2025-10-29,Washington Nationals,Rochester Red Wings,Washington Nationals sent RHP Eduardo Salazar outright to Rochester Red Wings.
+667690,C.J. Stubbs,Outrighted,2025-10-29,Washington Nationals,Rochester Red Wings,Washington Nationals sent C C.J. Stubbs outright to Rochester Red Wings.
+595751,Jorge Alfaro,Declared Free Agency,2025-10-31,,Washington Nationals,C Jorge Alfaro elected free agency.
+656458,Lucas Gilbreath,Outrighted,2025-10-31,Colorado Rockies,Albuquerque Isotopes,Colorado Rockies sent LHP Lucas Gilbreath outright to Albuquerque Isotopes.
+668845,Aaron Schunk,Outrighted,2025-10-31,Colorado Rockies,Albuquerque Isotopes,Colorado Rockies sent SS Aaron Schunk outright to Albuquerque Isotopes.
+669289,Santiago Espinal,Outrighted,2025-10-31,Cincinnati Reds,Louisville Bats,Cincinnati Reds sent 3B Santiago Espinal outright to Louisville Bats.
+596133,Luke Weaver,Declared Free Agency,2025-11-02,,New York Yankees,RHP Luke Weaver elected free agency.
+642207,Devin Williams,Declared Free Agency,2025-11-02,,New York Yankees,RHP Devin Williams elected free agency.
+664208,Phil Maton,Declared Free Agency,2025-11-02,,Texas Rangers,RHP Phil Maton elected free agency.
+624428,Adam Frazier,Declared Free Agency,2025-11-02,,Kansas City Royals,2B Adam Frazier elected free agency.
+596103,Austin Slater,Declared Free Agency,2025-11-02,,New York Yankees,LF Austin Slater elected free agency.
+656794,Sean Newcomb,Declared Free Agency,2025-11-02,,Athletics,LHP Sean Newcomb elected free agency.
+641835,Tim Mayza,Declared Free Agency,2025-11-02,,Philadelphia Phillies,LHP Tim Mayza elected free agency.
+571927,Steven Matz,Declared Free Agency,2025-11-02,,Boston Red Sox,LHP Steven Matz elected free agency.
+641941,Emilio Pagán,Declared Free Agency,2025-11-02,,Cincinnati Reds,RHP Emilio Pagán elected free agency.
+650402,Gleyber Torres,Declared Free Agency,2025-11-02,,Detroit Tigers,2B Gleyber Torres elected free agency.
+592663,J.T. Realmuto,Declared Free Agency,2025-11-02,,Philadelphia Phillies,C J.T. Realmuto elected free agency.
+605288,Adrian Houser,Declared Free Agency,2025-11-02,,Tampa Bay Rays,RHP Adrian Houser elected free agency.
+542888,Shawn Armstrong,Declared Free Agency,2025-11-02,,Texas Rangers,RHP Shawn Armstrong elected free agency.
+453286,Max Scherzer,Declared Free Agency,2025-11-02,,Toronto Blue Jays,RHP Max Scherzer elected free agency.
+663978,Chris Paddack,Declared Free Agency,2025-11-02,,Detroit Tigers,RHP Chris Paddack elected free agency.
+500743,Miguel Rojas,Declared Free Agency,2025-11-02,,Los Angeles Dodgers,2B Miguel Rojas elected free agency.
+656756,Jordan Montgomery,Declared Free Agency,2025-11-02,,Milwaukee Brewers,LHP Jordan Montgomery elected free agency.
+656222,Jalen Beeks,Declared Free Agency,2025-11-02,,Arizona Diamondbacks,LHP Jalen Beeks elected free agency.
+450203,Charlie Morton,Declared Free Agency,2025-11-02,,Atlanta Braves,RHP Charlie Morton elected free agency.
+457705,Andrew McCutchen,Declared Free Agency,2025-11-02,,Pittsburgh Pirates,RF Andrew McCutchen elected free agency.
+571578,Patrick Corbin,Declared Free Agency,2025-11-02,,Texas Rangers,LHP Patrick Corbin elected free agency.
+518886,Craig Kimbrel,Declared Free Agency,2025-11-02,,Houston Astros,RHP Craig Kimbrel elected free agency.
+664854,Ryan Helsley,Declared Free Agency,2025-11-02,,New York Mets,RHP Ryan Helsley elected free agency.
+650633,Michael King,Declared Free Agency,2025-11-02,,San Diego Padres,RHP Michael King elected free agency.
+456781,Donovan Solano,Declared Free Agency,2025-11-02,,Texas Rangers,1B Donovan Solano elected free agency.
+624424,Michael Conforto,Declared Free Agency,2025-11-02,,Los Angeles Dodgers,LF Michael Conforto elected free agency.
+641745,Brad Keller,Declared Free Agency,2025-11-02,,Chicago Cubs,RHP Brad Keller elected free agency.
+640448,Kyle Finnegan,Declared Free Agency,2025-11-02,,Detroit Tigers,RHP Kyle Finnegan elected free agency.
+571912,Luke Maile,Declared Free Agency,2025-11-02,,Kansas City Royals,C Luke Maile elected free agency.
+657557,Paul DeJong,Declared Free Agency,2025-11-02,,Washington Nationals,3B Paul DeJong elected free agency.
+657041,Lane Thomas,Declared Free Agency,2025-11-02,,Cleveland Guardians,CF Lane Thomas elected free agency.
+502171,Alex Cobb,Declared Free Agency,2025-11-02,,Detroit Tigers,RHP Alex Cobb elected free agency.
+657571,Caleb Ferguson,Declared Free Agency,2025-11-02,,Seattle Mariners,LHP Caleb Ferguson elected free agency.
+592351,Jon Gray,Declared Free Agency,2025-11-02,,Texas Rangers,RHP Jon Gray elected free agency.
+445276,Kenley Jansen,Declared Free Agency,2025-11-02,,Los Angeles Angels,RHP Kenley Jansen elected free agency.
+592426,Luke Jackson,Declared Free Agency,2025-11-02,,Seattle Mariners,RHP Luke Jackson elected free agency.
+664238,Dylan Moore,Declared Free Agency,2025-11-02,,Texas Rangers,2B Dylan Moore elected free agency.
+542881,Tyler Anderson,Declared Free Agency,2025-11-02,,Los Angeles Angels,LHP Tyler Anderson elected free agency.
+434378,Justin Verlander,Declared Free Agency,2025-11-02,,San Francisco Giants,RHP Justin Verlander elected free agency.
+455119,Chris Martin,Declared Free Agency,2025-11-02,,Texas Rangers,RHP Chris Martin elected free agency.
+663656,Kyle Tucker,Declared Free Agency,2025-11-02,,Chicago Cubs,RF Kyle Tucker elected free agency.
+571946,Shelby Miller,Declared Free Agency,2025-11-02,,Milwaukee Brewers,RHP Shelby Miller elected free agency.
+642708,Amed Rosario,Declared Free Agency,2025-11-02,,New York Yankees,3B Amed Rosario elected free agency.
+600917,José Leclerc,Declared Free Agency,2025-11-02,,Athletics,RHP José Leclerc elected free agency.
+502085,David Robertson,Declared Free Agency,2025-11-02,,Philadelphia Phillies,RHP David Robertson elected free agency.
+642397,Gregory Soto,Declared Free Agency,2025-11-02,,New York Mets,LHP Gregory Soto elected free agency.
+592773,Ryne Stanek,Declared Free Agency,2025-11-02,,New York Mets,RHP Ryne Stanek elected free agency.
+605135,Chris Bassitt,Declared Free Agency,2025-11-02,,Toronto Blue Jays,RHP Chris Bassitt elected free agency.
+467793,Carlos Santana,Declared Free Agency,2025-11-02,,Chicago Cubs,1B Carlos Santana elected free agency.
+572191,Michael A. Taylor,Declared Free Agency,2025-11-02,,Chicago White Sox,RF Michael A. Taylor elected free agency.
+609280,Miguel Andujar,Declared Free Agency,2025-11-02,,Cincinnati Reds,LF Miguel Andujar elected free agency.
+650333,Luis Arraez,Declared Free Agency,2025-11-02,,San Diego Padres,1B Luis Arraez elected free agency.
+570632,José Ureña,Declared Free Agency,2025-11-02,,Los Angeles Angels,RHP José Ureña elected free agency.
+664285,Framber Valdez,Declared Free Agency,2025-11-02,,Houston Astros,LHP Framber Valdez elected free agency.
+656811,Ryan O'Hearn,Declared Free Agency,2025-11-02,,San Diego Padres,1B Ryan O'Hearn elected free agency.
+527038,Wilmer Flores,Declared Free Agency,2025-11-02,,San Francisco Giants,1B Wilmer Flores elected free agency.
+596142,Gary Sánchez,Declared Free Agency,2025-11-02,,Baltimore Orioles,C Gary Sánchez elected free agency.
+489446,Kirby Yates,Declared Free Agency,2025-11-02,,Los Angeles Dodgers,RHP Kirby Yates elected free agency.
+578428,Jose Iglesias,Declared Free Agency,2025-11-02,,San Diego Padres,2B Jose Iglesias elected free agency.
+596001,Jakob Junis,Declared Free Agency,2025-11-02,,Cleveland Guardians,RHP Jakob Junis elected free agency.
+650489,Willi Castro,Declared Free Agency,2025-11-02,,Chicago Cubs,LF Willi Castro elected free agency.
+608566,Germán Márquez,Declared Free Agency,2025-11-02,,Colorado Rockies,RHP Germán Márquez elected free agency.
+650859,Luis Rengifo,Declared Free Agency,2025-11-02,,Los Angeles Angels,3B Luis Rengifo elected free agency.
+543056,Danny Coulombe,Declared Free Agency,2025-11-02,,Texas Rangers,LHP Danny Coulombe elected free agency.
+622554,Seranthony Domínguez,Declared Free Agency,2025-11-02,,Toronto Blue Jays,RHP Seranthony Domínguez elected free agency.
+656288,Griffin Canning,Declared Free Agency,2025-11-02,,New York Mets,RHP Griffin Canning elected free agency.
+612434,Miguel Castro,Declared Free Agency,2025-11-02,,Chicago White Sox,RHP Miguel Castro elected free agency.
+502054,Tommy Pham,Declared Free Agency,2025-11-02,,Pittsburgh Pirates,LF Tommy Pham elected free agency.
+642086,Dominic Smith,Declared Free Agency,2025-11-02,,San Francisco Giants,1B Dominic Smith elected free agency.
+605137,Josh Bell,Declared Free Agency,2025-11-02,,Washington Nationals,1B Josh Bell elected free agency.
+643396,Isiah Kiner-Falefa,Declared Free Agency,2025-11-02,,Toronto Blue Jays,SS Isiah Kiner-Falefa elected free agency.
+663757,Trent Grisham,Declared Free Agency,2025-11-02,,New York Yankees,CF Trent Grisham elected free agency.
+553993,Eugenio Suárez,Declared Free Agency,2025-11-02,,Seattle Mariners,3B Eugenio Suárez elected free agency.
+656629,Michael Kopech,Declared Free Agency,2025-11-02,,Los Angeles Dodgers,RHP Michael Kopech elected free agency.
+519141,Drew Pomeranz,Declared Free Agency,2025-11-02,,Chicago Cubs,LHP Drew Pomeranz elected free agency.
+472610,Luis García,Declared Free Agency,2025-11-02,,Los Angeles Angels,RHP Luis García elected free agency.
+660162,Yoán Moncada,Declared Free Agency,2025-11-02,,Los Angeles Angels,3B Yoán Moncada elected free agency.
+573204,Caleb Thielbar,Declared Free Agency,2025-11-02,,Chicago Cubs,LHP Caleb Thielbar elected free agency.
+621107,Zach Eflin,Declared Free Agency,2025-11-02,,Baltimore Orioles,RHP Zach Eflin elected free agency.
+621111,Walker Buehler,Declared Free Agency,2025-11-02,,Philadelphia Phillies,RHP Walker Buehler elected free agency.
+596146,Max Kepler,Declared Free Agency,2025-11-02,,Philadelphia Phillies,LF Max Kepler elected free agency.
+663898,Brendan Rodgers,Declared Free Agency,2025-11-02,,Houston Astros,2B Brendan Rodgers elected free agency.
+621035,Chris Taylor,Declared Free Agency,2025-11-02,,Los Angeles Angels,CF Chris Taylor elected free agency.
+642152,Lou Trivino,Declared Free Agency,2025-11-02,,Philadelphia Phillies,RHP Lou Trivino elected free agency.
+647304,Josh Naylor,Declared Free Agency,2025-11-02,,Seattle Mariners,1B Josh Naylor elected free agency.
+489119,Wade Miley,Declared Free Agency,2025-11-02,,Cincinnati Reds,LHP Wade Miley elected free agency.
+606160,Rafael Montero,Declared Free Agency,2025-11-02,,Detroit Tigers,RHP Rafael Montero elected free agency.
+666182,Bo Bichette,Declared Free Agency,2025-11-02,,Toronto Blue Jays,SS Bo Bichette elected free agency.
+664034,Ty France,Declared Free Agency,2025-11-02,,Toronto Blue Jays,1B Ty France elected free agency.
+502671,Paul Goldschmidt,Declared Free Agency,2025-11-02,,New York Yankees,1B Paul Goldschmidt elected free agency.
+518876,Merrill Kelly,Declared Free Agency,2025-11-02,,Texas Rangers,RHP Merrill Kelly elected free agency.
+543294,Kyle Hendricks,Declared Free Agency,2025-11-02,,Los Angeles Angels,RHP Kyle Hendricks elected free agency.
+543877,Christian Vázquez,Declared Free Agency,2025-11-02,,Minnesota Twins,C Christian Vázquez elected free agency.
+516782,Starling Marte,Declared Free Agency,2025-11-02,,New York Mets,LF Starling Marte elected free agency.
+656775,Cedric Mullins,Declared Free Agency,2025-11-02,,New York Mets,CF Cedric Mullins elected free agency.
+643511,Tyler Rogers,Declared Free Agency,2025-11-02,,New York Mets,RHP Tyler Rogers elected free agency.
+641793,Zack Littell,Declared Free Agency,2025-11-02,,Cincinnati Reds,RHP Zack Littell elected free agency.
+668678,Zac Gallen,Declared Free Agency,2025-11-02,,Arizona Diamondbacks,RHP Zac Gallen elected free agency.
+543510,James McCann,Declared Free Agency,2025-11-02,,Arizona Diamondbacks,C James McCann elected free agency.
+605170,Victor Caratini,Declared Free Agency,2025-11-02,,Houston Astros,C Victor Caratini elected free agency.
+477132,Clayton Kershaw,Declared Free Agency,2025-11-02,,Los Angeles Dodgers,LHP Clayton Kershaw elected free agency.
+605447,Jordan Romano,Declared Free Agency,2025-11-02,,Philadelphia Phillies,RHP Jordan Romano elected free agency.
+656302,Dylan Cease,Declared Free Agency,2025-11-02,,San Diego Padres,RHP Dylan Cease elected free agency.
+641482,Nestor Cortes,Declared Free Agency,2025-11-02,,San Diego Padres,LHP Nestor Cortes elected free agency.
+592454,Tommy Kahnle,Declared Free Agency,2025-11-02,,Detroit Tigers,RHP Tommy Kahnle elected free agency.
+571771,Enrique Hernández,Declared Free Agency,2025-11-02,,Los Angeles Dodgers,1B Enrique Hernández elected free agency.
+608385,Jesse Winker,Declared Free Agency,2025-11-02,,New York Mets,LF Jesse Winker elected free agency.
+543518,Scott McGough,Declared Free Agency,2025-11-02,,Athletics,RHP Scott McGough elected free agency.
+455117,Martín Maldonado,Declared Free Agency,2025-11-02,,San Diego Padres,C Martín Maldonado elected free agency.
+571760,Andrew Heaney,Declared Free Agency,2025-11-02,,Los Angeles Dodgers,LHP Andrew Heaney elected free agency.
+642232,Ryan Yarbrough,Declared Free Agency,2025-11-02,,New York Yankees,LHP Ryan Yarbrough elected free agency.
+647336,Michael Soroka,Declared Free Agency,2025-11-02,,Chicago Cubs,RHP Michael Soroka elected free agency.
+518489,Ryan Brasier,Declared Free Agency,2025-11-02,,Chicago Cubs,RHP Ryan Brasier elected free agency.
+624133,Ranger Suarez,Declared Free Agency,2025-11-02,,Philadelphia Phillies,LHP Ranger Suárez elected free agency.
+607259,Nick Martinez,Declared Free Agency,2025-11-02,,Cincinnati Reds,RHP Nick Martinez elected free agency.
+605177,Andrew Chafin,Declared Free Agency,2025-11-02,,Los Angeles Angels,LHP Andrew Chafin elected free agency.
+606115,Orlando Arcia,Declared Free Agency,2025-11-02,,Colorado Rockies,SS Orlando Arcia elected free agency.
+571882,Derek Law,Declared Free Agency,2025-11-02,,Washington Nationals,RHP Derek Law elected free agency.
+669160,Dustin May,Declared Free Agency,2025-11-02,,Boston Red Sox,RHP Dustin May elected free agency.
+608701,Rob Refsnyder,Declared Free Agency,2025-11-02,,Boston Red Sox,RF Rob Refsnyder elected free agency.
+458677,Justin Wilson,Declared Free Agency,2025-11-02,,Boston Red Sox,LHP Justin Wilson elected free agency.
+642133,Rowdy Tellez,Declared Free Agency,2025-11-02,,Texas Rangers,1B Rowdy Tellez elected free agency.
+656941,Kyle Schwarber,Declared Free Agency,2025-11-02,,Philadelphia Phillies,LF Kyle Schwarber elected free agency.
+542303,Marcell Ozuna,Declared Free Agency,2025-11-02,,Atlanta Braves,DH Marcell Ozuna elected free agency.
+608372,Tomoyuki Sugano,Declared Free Agency,2025-11-02,,Baltimore Orioles,RHP Tomoyuki Sugano elected free agency.
+571945,Miles Mikolas,Declared Free Agency,2025-11-02,,St. Louis Cardinals,RHP Miles Mikolas elected free agency.
+573124,Taylor Rogers,Declared Free Agency,2025-11-02,,Chicago Cubs,LHP Taylor Rogers elected free agency.
+519326,Hunter Strickland,Declared Free Agency,2025-11-02,,Los Angeles Angels,RHP Hunter Strickland elected free agency.
+573262,Mike Yastrzemski,Declared Free Agency,2025-11-02,,Kansas City Royals,RF Mike Yastrzemski elected free agency.
+641816,Tyler Mahle,Declared Free Agency,2025-11-02,,Texas Rangers,RHP Tyler Mahle elected free agency.
+571948,Hoby Milner,Declared Free Agency,2025-11-02,,Texas Rangers,LHP Hoby Milner elected free agency.
+650644,Aaron Civale,Declared Free Agency,2025-11-02,,Chicago Cubs,RHP Aaron Civale elected free agency.
+641302,Tyler Alexander,Declared Free Agency,2025-11-02,,Chicago White Sox,LHP Tyler Alexander elected free agency.
+640451,Hunter Harvey,Declared Free Agency,2025-11-02,,Kansas City Royals,RHP Hunter Harvey elected free agency.
+621112,Paul Blackburn,Declared Free Agency,2025-11-02,,New York Yankees,RHP Paul Blackburn elected free agency.
+628452,Raisel Iglesias,Declared Free Agency,2025-11-02,,Atlanta Braves,RHP Raisel Iglesias elected free agency.
+641598,Mitch Garver,Declared Free Agency,2025-11-03,,Seattle Mariners,C Mitch Garver elected free agency.
+670183,Garrett Acton,Designated for Assignment,2025-11-03,,Tampa Bay Rays,Tampa Bay Rays designated RHP Garrett Acton for assignment.
+605540,Brandon Woodruff,Declared Free Agency,2025-11-03,,Milwaukee Brewers,RHP Brandon Woodruff elected free agency.
+547179,Michael Lorenzen,Declared Free Agency,2025-11-03,,Kansas City Royals,RHP Michael Lorenzen elected free agency.
+656413,Stuart Fairchild,Designated for Assignment,2025-11-03,,Tampa Bay Rays,Tampa Bay Rays designated RF Stuart Fairchild for assignment.
+608596,Tom Murphy,Declared Free Agency,2025-11-03,,San Francisco Giants,C Tom Murphy elected free agency.
+656412,Alex Faedo,Designated for Assignment,2025-11-03,,Tampa Bay Rays,Tampa Bay Rays designated RHP Alex Faedo for assignment.
+643376,Danny Jansen,Declared Free Agency,2025-11-03,,Milwaukee Brewers,C Danny Jansen elected free agency.
+676961,Caleb Boushley,Designated for Assignment,2025-11-03,,Tampa Bay Rays,Tampa Bay Rays designated RHP Caleb Boushley for assignment.
+677961,Cole Wilcox,Designated for Assignment,2025-11-03,,Tampa Bay Rays,Tampa Bay Rays designated RHP Cole Wilcox for assignment.
+680702,Joey Gerber,Designated for Assignment,2025-11-03,,Tampa Bay Rays,Tampa Bay Rays designated RHP Joey Gerber for assignment.
+622098,Drew Smith,Declared Free Agency,2025-11-04,,New York Mets,RHP Drew Smith elected free agency.
+608337,Lucas Giolito,Declared Free Agency,2025-11-04,,Boston Red Sox,RHP Lucas Giolito elected free agency.
+624413,Pete Alonso,Declared Free Agency,2025-11-04,,New York Mets,1B Pete Alonso elected free agency.
+684007,Shota Imanaga,Declared Free Agency,2025-11-04,,Chicago Cubs,LHP Shota Imanaga elected free agency.
+500779,Jose Quintana,Declared Free Agency,2025-11-04,,Milwaukee Brewers,LHP Jose Quintana elected free agency.
+641355,Cody Bellinger,Declared Free Agency,2025-11-04,,New York Yankees,LF Cody Bellinger elected free agency.
+521230,Liam Hendriks,Declared Free Agency,2025-11-04,,Boston Red Sox,RHP Liam Hendriks elected free agency.
+571657,Kyle Farmer,Declared Free Agency,2025-11-04,,Colorado Rockies,2B Kyle Farmer elected free agency.
+686249,Nathan Wiles,Released,2025-11-04,,Atlanta Braves,Atlanta Braves released RHP Nathan Wiles.
+656555,Rhys Hoskins,Declared Free Agency,2025-11-04,,Milwaukee Brewers,1B Rhys Hoskins elected free agency.
+527048,Martín Pérez,Declared Free Agency,2025-11-04,,Chicago White Sox,LHP Martín Pérez elected free agency.
+545341,Randal Grichuk,Declared Free Agency,2025-11-04,,Kansas City Royals,RF Randal Grichuk elected free agency.
+660730,Elvin Rodríguez,Declared Free Agency,2025-11-04,,Arizona Diamondbacks,RHP Elvin Rodríguez elected free agency.
+606996,Kyle Hart,Declared Free Agency,2025-11-04,,San Diego Padres,LHP Kyle Hart elected free agency.
+553869,Elias Díaz,Declared Free Agency,2025-11-04,,San Diego Padres,C Elias Díaz elected free agency.
+673490,Ha-Seong Kim,Declared Free Agency,2025-11-04,,Atlanta Braves,SS Ha-Seong Kim elected free agency.
+663158,Robert Suarez,Declared Free Agency,2025-11-04,,San Diego Padres,RHP Robert Suarez elected free agency.
+608324,Alex Bregman,Declared Free Agency,2025-11-04,,Boston Red Sox,3B Alex Bregman elected free agency.
+664056,Harrison Bader,Declared Free Agency,2025-11-04,,Philadelphia Phillies,LF Harrison Bader elected free agency.
+621242,Edwin Díaz,Declared Free Agency,2025-11-04,,New York Mets,RHP Edwin Díaz elected free agency.
+669288,Daniel Johnson,Designated for Assignment,2025-11-05,,Baltimore Orioles,Baltimore Orioles designated CF Daniel Johnson for assignment.
+642528,Jonathan Loáisiga,Declared Free Agency,2025-11-05,,New York Yankees,RHP Jonathan Loáisiga elected free agency.
+608718,Brent Suter,Declared Free Agency,2025-11-05,,Cincinnati Reds,LHP Brent Suter elected free agency.
+605130,Scott Barlow,Declared Free Agency,2025-11-05,,Cincinnati Reds,RHP Scott Barlow elected free agency.
+593871,Jorge Polanco,Declared Free Agency,2025-11-05,,Seattle Mariners,2B Jorge Polanco elected free agency.
+669720,Austin Hays,Declared Free Agency,2025-11-05,,Cincinnati Reds,LF Austin Hays elected free agency.
+641386,Ben Bowden,Outrighted,2025-11-05,Athletics,Las Vegas Aviators,Athletics sent LHP Ben Bowden outright to Las Vegas Aviators.
+543391,Casey Kelly,Outrighted,2025-11-05,Arizona Diamondbacks,Reno Aces,Arizona Diamondbacks sent RHP Casey Kelly outright to Reno Aces.
+622786,Jesus Tinoco,Outrighted,2025-11-05,Miami Marlins,Jacksonville Jumbo Shrimp,Miami Marlins sent RHP Jesus Tinoco outright to Jacksonville Jumbo Shrimp.
+694363,Jared Shuster,Outrighted,2025-11-05,Athletics,Las Vegas Aviators,Athletics sent LHP Jared Shuster outright to Las Vegas Aviators.
+595928,John Curtiss,Outrighted,2025-11-05,Arizona Diamondbacks,Reno Aces,Arizona Diamondbacks sent RHP John Curtiss outright to Reno Aces.
+678368,Valente Bellozo,Outrighted,2025-11-05,Miami Marlins,Jacksonville Jumbo Shrimp,Miami Marlins sent RHP Valente Bellozo outright to Jacksonville Jumbo Shrimp.
+669459,Kyle Nelson,Outrighted,2025-11-05,Arizona Diamondbacks,Reno Aces,Arizona Diamondbacks sent LHP Kyle Nelson outright to Reno Aces.
+676604,Tyler Zuber,Outrighted,2025-11-05,Miami Marlins,Jacksonville Jumbo Shrimp,Miami Marlins sent RHP Tyler Zuber outright to Jacksonville Jumbo Shrimp.
+687957,Dustin Harris,Outrighted,2025-11-05,Texas Rangers,Round Rock Express,Texas Rangers sent LF Dustin Harris outright to Round Rock Express.
+676206,Freddy Tarnok,Outrighted,2025-11-05,Miami Marlins,Jacksonville Jumbo Shrimp,Miami Marlins sent RHP Freddy Tarnok outright to Jacksonville Jumbo Shrimp.
+640459,Brian Navarreto,Outrighted,2025-11-05,Miami Marlins,Jacksonville Jumbo Shrimp,Miami Marlins sent C Brian Navarreto outright to Jacksonville Jumbo Shrimp.
+641856,Billy McKinney,Outrighted,2025-11-05,Texas Rangers,Round Rock Express,Texas Rangers sent LF Billy McKinney outright to Round Rock Express.
+687424,Anthony Maldonado,Outrighted,2025-11-05,Athletics,Las Vegas Aviators,Athletics sent RHP Anthony Maldonado outright to Las Vegas Aviators.
+663731,Connor Kaiser,Outrighted,2025-11-05,Arizona Diamondbacks,Reno Aces,Arizona Diamondbacks sent SS Connor Kaiser outright to Reno Aces.
+673820,Robinson Piña,Outrighted,2025-11-05,Toronto Blue Jays,Buffalo Bisons,Toronto Blue Jays sent RHP Robinson Piña outright to Buffalo Bisons.
+687003,Brian Van Belle,Designated for Assignment,2025-11-06,,Tampa Bay Rays,Tampa Bay Rays designated RHP Brian Van Belle for assignment.
+664062,Tony Gonsolin,Designated for Assignment,2025-11-06,,Los Angeles Dodgers,Los Angeles Dodgers designated RHP Tony Gonsolin for assignment.
+664126,Pete Fairbanks,Declared Free Agency,2025-11-06,,Tampa Bay Rays,RHP Pete Fairbanks elected free agency.
+670224,Kameron Misner,Designated for Assignment,2025-11-06,,Tampa Bay Rays,Tampa Bay Rays designated CF Kameron Misner for assignment.
+681320,Nate Lavender,Designated for Assignment,2025-11-06,,Tampa Bay Rays,Tampa Bay Rays designated LHP Nate Lavender for assignment.
+607644,John Means,Declared Free Agency,2025-11-06,,Cleveland Guardians,LHP John Means elected free agency.
+656413,Stuart Fairchild,Declared Free Agency,2025-11-06,,Tampa Bay Rays,RF Stuart Fairchild elected free agency.
+676961,Caleb Boushley,Declared Free Agency,2025-11-06,,Tampa Bay Rays,RHP Caleb Boushley elected free agency.
+656412,Alex Faedo,Declared Free Agency,2025-11-06,,Tampa Bay Rays,RHP Alex Faedo elected free agency.
+457759,Justin Turner,Declared Free Agency,2025-11-06,,Chicago Cubs,1B Justin Turner elected free agency.
+642731,Thairo Estrada,Declared Free Agency,2025-11-06,,Colorado Rockies,2B Thairo Estrada elected free agency.
+699911,Dugan Darnell,Designated for Assignment,2025-11-06,,Pittsburgh Pirates,Pittsburgh Pirates designated RHP Dugan Darnell for assignment.
+621114,Ryan Burr,Declared Free Agency,2025-11-06,,Toronto Blue Jays,RHP Ryan Burr elected free agency.
+623149,Paul Sewald,Declared Free Agency,2025-11-06,,Detroit Tigers,RHP Paul Sewald elected free agency.
+664353,José Urquidy,Declared Free Agency,2025-11-06,,Detroit Tigers,RHP José Urquidy elected free agency.
+641755,Tyler Kinley,Declared Free Agency,2025-11-06,,Atlanta Braves,RHP Tyler Kinley elected free agency.
+676044,Bob Seymour,Designated for Assignment,2025-11-06,,Tampa Bay Rays,Tampa Bay Rays designated 1B Bob Seymour for assignment.
+677020,Josh Walker,Designated for Assignment,2025-11-06,,Baltimore Orioles,Baltimore Orioles designated LHP Josh Walker for assignment.
+663611,Nick Madrigal,Declared Free Agency,2025-11-06,,New York Mets,3B Nick Madrigal elected free agency.
+677651,Luis Garcia,Declared Free Agency,2025-11-06,,Houston Astros,RHP Luis Garcia elected free agency.
+622253,Dillon Tate,Declared Free Agency,2025-11-06,,Toronto Blue Jays,RHP Dillon Tate elected free agency.
+696131,Mason Black,Designated for Assignment,2025-11-06,,San Francisco Giants,San Francisco Giants designated RHP Mason Black for assignment.
+572955,Pierce Johnson,Declared Free Agency,2025-11-06,,Atlanta Braves,RHP Pierce Johnson elected free agency.
+692285,Luis Guerrero,Designated for Assignment,2025-11-06,,Boston Red Sox,Boston Red Sox designated RHP Luis Guerrero for assignment.
+690382,Michael Darrell-Hicks,Designated for Assignment,2025-11-06,,Pittsburgh Pirates,Pittsburgh Pirates designated RHP Michael Darrell-Hicks for assignment.
+666185,Dylan Carlson,Declared Free Agency,2025-11-06,,Baltimore Orioles,LF Dylan Carlson elected free agency.
+545121,Ildemaro Vargas,Declared Free Agency,2025-11-06,,Arizona Diamondbacks,2B Ildemaro Vargas elected free agency.
+622761,Jorge Mateo,Declared Free Agency,2025-11-06,,Baltimore Orioles,SS Jorge Mateo elected free agency.
+677578,Carlos Rodríguez,Outrighted,2025-11-06,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent RF Carlos Rodríguez outright to Gwinnett Stripers.
+657140,Kyle Wright,Outrighted,2025-11-06,Kansas City Royals,Omaha Storm Chasers,Kansas City Royals sent RHP Kyle Wright outright to Omaha Storm Chasers.
+594902,Ben Lively,Outrighted,2025-11-06,Cleveland Guardians,Columbus Clippers,Cleveland Guardians sent RHP Ben Lively outright to Columbus Clippers.
+669674,Sam Long,Outrighted,2025-11-06,Kansas City Royals,Omaha Storm Chasers,Kansas City Royals sent LHP Sam Long outright to Omaha Storm Chasers.
+676466,Jack Winkler,Outrighted,2025-11-06,Miami Marlins,Jacksonville Jumbo Shrimp,Miami Marlins sent 2B Jack Winkler outright to Jacksonville Jumbo Shrimp.
+669717,Will Wilson,Outrighted,2025-11-06,Cleveland Guardians,Columbus Clippers,Cleveland Guardians sent 3B Will Wilson outright to Columbus Clippers.
+680735,Austin Cox,Outrighted,2025-11-06,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent LHP Austin Cox outright to Gwinnett Stripers.
+669288,Daniel Johnson,Outrighted,2025-11-06,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent CF Daniel Johnson outright to Norfolk Tides.
+685107,Anthony Veneziano,Outrighted,2025-11-06,St. Louis Cardinals,Memphis Redbirds,St. Louis Cardinals sent LHP Anthony Veneziano outright to Memphis Redbirds.
+664948,Anthony Misiewicz,Outrighted,2025-11-06,Minnesota Twins,St. Paul Saints,Minnesota Twins sent LHP Anthony Misiewicz outright to St. Paul Saints.
+624513,Dom Nuñez,Outrighted,2025-11-06,Cleveland Guardians,Columbus Clippers,Cleveland Guardians sent C Dom Nuñez outright to Columbus Clippers.
+675627,Michael Grove,Outrighted,2025-11-06,Los Angeles Dodgers,Oklahoma City Comets,Los Angeles Dodgers sent RHP Michael Grove outright to Oklahoma City Comets.
+606303,Joel Payamps,Outrighted,2025-11-06,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent RHP Joel Payamps outright to Gwinnett Stripers.
+650893,Génesis Cabrera,Outrighted,2025-11-06,Minnesota Twins,St. Paul Saints,Minnesota Twins sent LHP Génesis Cabrera outright to St. Paul Saints.
+663465,Kolby Allard,Outrighted,2025-11-06,Cleveland Guardians,Columbus Clippers,Cleveland Guardians sent LHP Kolby Allard outright to Columbus Clippers.
+680397,Sam Benschoter,Outrighted,2025-11-06,Cincinnati Reds,Louisville Bats,Cincinnati Reds sent RHP Sam Benschoter outright to Louisville Bats.
+685005,Christian Roa,Outrighted,2025-11-06,Miami Marlins,Jacksonville Jumbo Shrimp,Miami Marlins sent RHP Christian Roa outright to Jacksonville Jumbo Shrimp.
+669304,Jose Miranda,Outrighted,2025-11-06,Minnesota Twins,St. Paul Saints,Minnesota Twins sent 3B Jose Miranda outright to St. Paul Saints.
+702358,Trey Lipscomb,Outrighted,2025-11-06,Washington Nationals,Rochester Red Wings,Washington Nationals sent 3B Trey Lipscomb outright to Rochester Red Wings.
+672463,Rafael Lantigua,Outrighted,2025-11-06,Philadelphia Phillies,Lehigh Valley IronPigs,Philadelphia Phillies sent 2B Rafael Lantigua outright to Lehigh Valley IronPigs.
+678894,Liover Peguero,Outrighted,2025-11-06,Pittsburgh Pirates,Indianapolis Indians,Pittsburgh Pirates sent SS Liover Peguero outright to Indianapolis Indians.
+680701,John Rooney,Outrighted,2025-11-06,Houston Astros,Sugar Land Space Cowboys,Houston Astros sent LHP John Rooney outright to Sugar Land Space Cowboys.
+543859,Michael Tonkin,Outrighted,2025-11-06,Minnesota Twins,St. Paul Saints,Minnesota Twins sent RHP Michael Tonkin outright to St. Paul Saints.
+668868,Zack Thompson,Outrighted,2025-11-06,St. Louis Cardinals,Memphis Redbirds,St. Louis Cardinals sent LHP Zack Thompson outright to Memphis Redbirds.
+685744,Kenedy Corona,Outrighted,2025-11-06,Houston Astros,Sugar Land Space Cowboys,Houston Astros sent CF Kenedy Corona outright to Sugar Land Space Cowboys.
+676801,Chas McCormick,Outrighted,2025-11-06,Houston Astros,Sugar Land Space Cowboys,Houston Astros sent LF Chas McCormick outright to Sugar Land Space Cowboys.
+642020,Chuckie Robinson,Outrighted,2025-11-06,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent C Chuckie Robinson outright to Gwinnett Stripers.
+687166,Austin Pope,Outrighted,2025-11-06,Arizona Diamondbacks,Reno Aces,Arizona Diamondbacks sent RHP Austin Pope outright to Reno Aces.
+681909,Justin Dean,Outrighted,2025-11-06,Los Angeles Dodgers,Oklahoma City Comets,Los Angeles Dodgers sent CF Justin Dean outright to Oklahoma City Comets.
+640454,Matt Krook,Outrighted,2025-11-06,Cleveland Guardians,Columbus Clippers,Cleveland Guardians sent LHP Matt Krook outright to Columbus Clippers.
+681869,Shawn Dubin,Outrighted,2025-11-06,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent RHP Shawn Dubin outright to Norfolk Tides.
+641672,Thomas Hatch,Outrighted,2025-11-06,Minnesota Twins,St. Paul Saints,Minnesota Twins sent RHP Thomas Hatch outright to St. Paul Saints.
+685068,Carson Ragsdale,Designated for Assignment,2025-11-07,,Baltimore Orioles,Baltimore Orioles designated RHP Carson Ragsdale for assignment.
+690382,Michael Darrell-Hicks,Outrighted,2025-11-10,Pittsburgh Pirates,Indianapolis Indians,Pittsburgh Pirates sent RHP Michael Darrell-Hicks outright to Indianapolis Indians.
+672710,Roansy Contreras,Released,2025-11-12,,Colorado Rockies,Colorado Rockies released RHP Roansy Contreras.
+676044,Bob Seymour,Released,2025-11-12,,Tampa Bay Rays,Tampa Bay Rays released 1B Bob Seymour.
+656638,Alex Lange,Designated for Assignment,2025-11-12,,Detroit Tigers,Detroit Tigers designated RHP Alex Lange for assignment.
+664062,Tony Gonsolin,Outrighted,2025-11-12,Los Angeles Dodgers,Oklahoma City Comets,Los Angeles Dodgers sent RHP Tony Gonsolin outright to Oklahoma City Comets.
+692285,Luis Guerrero,Outrighted,2025-11-13,Boston Red Sox,Worcester Red Sox,Boston Red Sox sent RHP Luis Guerrero outright to Worcester Red Sox.
+687003,Brian Van Belle,Outrighted,2025-11-13,Tampa Bay Rays,Durham Bulls,Tampa Bay Rays sent RHP Brian Van Belle outright to Durham Bulls.
+680704,Nick Sandlin,Outrighted,2025-11-14,Toronto Blue Jays,Buffalo Bisons,Toronto Blue Jays sent RHP Nick Sandlin outright to Buffalo Bisons.
+801216,Christian Montes De Oca,Outrighted,2025-11-17,Arizona Diamondbacks,Reno Aces,Arizona Diamondbacks sent RHP Christian Montes De Oca outright to Reno Aces.
+669020,Ryan Rolison,Designated for Assignment,2025-11-18,,Colorado Rockies,Colorado Rockies designated LHP Ryan Rolison for assignment.
+674944,Sean Guenther,Designated for Assignment,2025-11-18,,Detroit Tigers,Detroit Tigers designated LHP Sean Guenther for assignment.
+694331,Tyler Mattison,Designated for Assignment,2025-11-18,,Detroit Tigers,Detroit Tigers designated RHP Tyler Mattison for assignment.
+670059,Colin Holderman,Designated for Assignment,2025-11-18,,Pittsburgh Pirates,Pittsburgh Pirates designated RHP Colin Holderman for assignment.
+672744,Alexander Canario,Designated for Assignment,2025-11-18,,Pittsburgh Pirates,Pittsburgh Pirates designated LF Alexander Canario for assignment.
+664294,Dauri Moreta,Designated for Assignment,2025-11-18,,Pittsburgh Pirates,Pittsburgh Pirates designated RHP Dauri Moreta for assignment.
+686894,Joey Wiemer,Designated for Assignment,2025-11-18,,Miami Marlins,Miami Marlins designated LF Joey Wiemer for assignment.
+602104,Ramón Urías,Designated for Assignment,2025-11-18,,Houston Astros,Houston Astros designated 3B Ramón Urías for assignment.
+660896,Jorge Alcala,Designated for Assignment,2025-11-18,,St. Louis Cardinals,St. Louis Cardinals designated RHP Jorge Alcala for assignment.
+676679,Luis Vázquez,Designated for Assignment,2025-11-18,,Baltimore Orioles,Baltimore Orioles designated SS Luis Vázquez for assignment.
+668709,JJ Bleday,Designated for Assignment,2025-11-18,,Athletics,Athletics designated CF JJ Bleday for assignment.
+669193,Jack Little,Designated for Assignment,2025-11-18,,Detroit Tigers,Detroit Tigers designated RHP Jack Little for assignment.
+687478,Cam Devanney,Released,2025-11-18,,Pittsburgh Pirates,Pittsburgh Pirates released SS Cam Devanney.
+694175,Pedro León,Designated for Assignment,2025-11-18,,Baltimore Orioles,Baltimore Orioles designated RF Pedro León for assignment.
+671345,Jason Foley,Designated for Assignment,2025-11-18,,Detroit Tigers,Detroit Tigers designated RHP Jason Foley for assignment.
+669911,Michael Toglia,Designated for Assignment,2025-11-18,,Colorado Rockies,Colorado Rockies designated 1B Michael Toglia for assignment.
+663432,Tanner Rainey,Designated for Assignment,2025-11-18,,Detroit Tigers,Detroit Tigers designated RHP Tanner Rainey for assignment.
+593423,Frankie Montas,Designated for Assignment,2025-11-18,,New York Mets,New York Mets designated RHP Frankie Montas for assignment.
+682927,Ronny Simon,Designated for Assignment,2025-11-18,,Pittsburgh Pirates,Pittsburgh Pirates designated 2B Ronny Simon for assignment.
+674072,Tommy Henry,Designated for Assignment,2025-11-18,,Arizona Diamondbacks,Arizona Diamondbacks designated LHP Tommy Henry for assignment.
+666215,Forrest Whitley,Released,2025-11-18,,Tampa Bay Rays,Tampa Bay Rays released RHP Forrest Whitley.
+641584,Jake Fraley,Designated for Assignment,2025-11-18,,Tampa Bay Rays,Tampa Bay Rays designated RF Jake Fraley for assignment.
+663993,Nathaniel Lowe,Designated for Assignment,2025-11-18,,Boston Red Sox,Boston Red Sox designated 1B Nathaniel Lowe for assignment.
+686730,Carson Spiers,Designated for Assignment,2025-11-18,,Cincinnati Reds,Cincinnati Reds designated RHP Carson Spiers for assignment.
+642048,Tayler Saucedo,Designated for Assignment,2025-11-18,,Seattle Mariners,Seattle Mariners designated LHP Tayler Saucedo for assignment.
+656638,Alex Lange,Released,2025-11-18,,Detroit Tigers,Detroit Tigers released RHP Alex Lange.
+663671,Nic Enright,Designated for Assignment,2025-11-18,,Cleveland Guardians,Cleveland Guardians designated RHP Nic Enright for assignment.
+666624,Christopher Morel,Designated for Assignment,2025-11-18,,Tampa Bay Rays,Tampa Bay Rays designated LF Christopher Morel for assignment.
+670174,Josh Winckowski,Designated for Assignment,2025-11-18,,Boston Red Sox,Boston Red Sox designated RHP Josh Winckowski for assignment.
+593423,Frankie Montas,Released,2025-11-19,,New York Mets,New York Mets released RHP Frankie Montas.
+642048,Tayler Saucedo,Declared Free Agency,2025-11-20,,Seattle Mariners,LHP Tayler Saucedo elected free agency.
+686730,Carson Spiers,Declared Free Agency,2025-11-21,,Cincinnati Reds,RHP Carson Spiers elected free agency.
+643565,Mike Tauchman,Declared Free Agency,2025-11-21,,Chicago White Sox,RF Mike Tauchman elected free agency.
+669193,Jack Little,Declared Free Agency,2025-11-21,,Detroit Tigers,RHP Jack Little elected free agency.
+602104,Ramón Urías,Declared Free Agency,2025-11-21,,Houston Astros,3B Ramón Urías elected free agency.
+669308,Sean Reynolds,Declared Free Agency,2025-11-21,,San Diego Padres,RHP Sean Reynolds elected free agency.
+666201,Alek Manoah,Declared Free Agency,2025-11-21,,Atlanta Braves,RHP Alek Manoah elected free agency.
+664776,Jake Cousins,Declared Free Agency,2025-11-21,,New York Yankees,RHP Jake Cousins elected free agency.
+671345,Jason Foley,Declared Free Agency,2025-11-21,,Detroit Tigers,RHP Jason Foley elected free agency.
+668709,JJ Bleday,Declared Free Agency,2025-11-21,,Athletics,CF JJ Bleday elected free agency.
+643410,Mark Leiter Jr.,Declared Free Agency,2025-11-21,,New York Yankees,RHP Mark Leiter Jr. elected free agency.
+624512,Reese McGuire,Declared Free Agency,2025-11-21,,Chicago Cubs,C Reese McGuire elected free agency.
+669212,Eli Morgan,Declared Free Agency,2025-11-21,,Chicago Cubs,RHP Eli Morgan elected free agency.
+641584,Jake Fraley,Declared Free Agency,2025-11-21,,Tampa Bay Rays,RF Jake Fraley elected free agency.
+670059,Colin Holderman,Declared Free Agency,2025-11-21,,Pittsburgh Pirates,RHP Colin Holderman elected free agency.
+682927,Ronny Simon,Declared Free Agency,2025-11-21,,Pittsburgh Pirates,2B Ronny Simon elected free agency.
+668800,Andrew Knizner,Designated for Assignment,2025-11-21,,San Francisco Giants,San Francisco Giants designated C Andrew Knizner for assignment.
+642016,Daniel Robert,Declared Free Agency,2025-11-21,,Philadelphia Phillies,RHP Daniel Robert elected free agency.
+663993,Nathaniel Lowe,Declared Free Agency,2025-11-21,,Boston Red Sox,1B Nathaniel Lowe elected free agency.
+671284,Tim Elko,Declared Free Agency,2025-11-21,,Chicago White Sox,1B Tim Elko elected free agency.
+669004,MJ Melendez,Declared Free Agency,2025-11-21,,Kansas City Royals,LF MJ Melendez elected free agency.
+670174,Josh Winckowski,Declared Free Agency,2025-11-21,,Boston Red Sox,RHP Josh Winckowski elected free agency.
+666619,Gregory Santos,Declared Free Agency,2025-11-21,,Seattle Mariners,RHP Gregory Santos elected free agency.
+664294,Dauri Moreta,Declared Free Agency,2025-11-21,,Pittsburgh Pirates,RHP Dauri Moreta elected free agency.
+660896,Jorge Alcala,Declared Free Agency,2025-11-21,,St. Louis Cardinals,RHP Jorge Alcala elected free agency.
+669911,Michael Toglia,Declared Free Agency,2025-11-21,,Colorado Rockies,1B Michael Toglia elected free agency.
+623465,Evan Phillips,Declared Free Agency,2025-11-21,,Los Angeles Dodgers,RHP Evan Phillips elected free agency.
+668800,Andrew Knizner,Declared Free Agency,2025-11-21,,San Francisco Giants,C Andrew Knizner elected free agency.
+592155,Cam Booser,Declared Free Agency,2025-11-21,,Chicago White Sox,LHP Cam Booser elected free agency.
+677943,Will Banfield,Declared Free Agency,2025-11-21,,Cincinnati Reds,C Will Banfield elected free agency.
+622250,Josh Sborz,Declared Free Agency,2025-11-21,,Texas Rangers,RHP Josh Sborz elected free agency.
+656529,Sam Hentges,Declared Free Agency,2025-11-21,,Cleveland Guardians,LHP Sam Hentges elected free agency.
+664199,Taylor Clarke,Declared Free Agency,2025-11-21,,Kansas City Royals,RHP Taylor Clarke elected free agency.
+641680,Jonah Heim,Declared Free Agency,2025-11-21,,Texas Rangers,C Jonah Heim elected free agency.
+688497,Taylor Rashi,Declared Free Agency,2025-11-21,,Arizona Diamondbacks,RHP Taylor Rashi elected free agency.
+674944,Sean Guenther,Declared Free Agency,2025-11-21,,Detroit Tigers,LHP Sean Guenther elected free agency.
+628451,Andy Ibáñez,Declared Free Agency,2025-11-21,,Detroit Tigers,3B Andy Ibáñez elected free agency.
+667463,John King,Declared Free Agency,2025-11-21,,St. Louis Cardinals,LHP John King elected free agency.
+668820,Max Kranick,Declared Free Agency,2025-11-21,,New York Mets,RHP Max Kranick elected free agency.
+666969,Adolis García,Declared Free Agency,2025-11-21,,Texas Rangers,RF Adolis García elected free agency.
+674072,Tommy Henry,Declared Free Agency,2025-11-21,,Arizona Diamondbacks,LHP Tommy Henry elected free agency.
+699911,Dugan Darnell,Declared Free Agency,2025-11-21,,Detroit Tigers,RHP Dugan Darnell elected free agency.
+666624,Christopher Morel,Declared Free Agency,2025-11-21,,Tampa Bay Rays,LF Christopher Morel elected free agency.
+675650,Michael Mercado,Declared Free Agency,2025-11-21,,Philadelphia Phillies,RHP Michael Mercado elected free agency.
+544150,Albert Suárez,Declared Free Agency,2025-11-21,,Baltimore Orioles,RHP Albert Suárez elected free agency.
+683522,Michael Arias,Declared Free Agency,2025-11-21,,New York Yankees,RHP Michael Arias elected free agency.
+663423,Trent Thornton,Declared Free Agency,2025-11-21,,Seattle Mariners,RHP Trent Thornton elected free agency.
+694331,Tyler Mattison,Declared Free Agency,2025-11-21,,Detroit Tigers,RHP Tyler Mattison elected free agency.
+672569,Gustavo Campero,Declared Free Agency,2025-11-21,,Los Angeles Angels,RF Gustavo Campero elected free agency.
+678316,Omar Cruz,Declared Free Agency,2025-11-21,,San Diego Padres,LHP Omar Cruz elected free agency.
+657097,Jacob Webb,Declared Free Agency,2025-11-21,,Texas Rangers,RHP Jacob Webb elected free agency.
+663671,Nic Enright,Declared Free Agency,2025-11-21,,Cleveland Guardians,RHP Nic Enright elected free agency.
+664192,Joey Lucchesi,Declared Free Agency,2025-11-21,,San Francisco Giants,LHP Joey Lucchesi elected free agency.
+693308,Nick Frasso,Declared Free Agency,2025-11-21,,Los Angeles Dodgers,RHP Nick Frasso elected free agency.
+682610,Roddery Muñoz,Declared Free Agency,2025-11-21,,Cincinnati Reds,RHP Roddery Muñoz elected free agency.
+620454,José Castillo,Declared Free Agency,2025-11-21,,New York Mets,LHP José Castillo elected free agency.
+664849,Danny Young,Declared Free Agency,2025-11-21,,New York Mets,LHP Danny Young elected free agency.
+686823,Will Brennan,Declared Free Agency,2025-11-21,,Cleveland Guardians,RF Will Brennan elected free agency.
+641656,Ian Hamilton,Declared Free Agency,2025-11-21,,New York Yankees,RHP Ian Hamilton elected free agency.
+680577,DaShawn Keirsey Jr.,Declared Free Agency,2025-11-21,,Minnesota Twins,CF DaShawn Keirsey Jr. elected free agency.
+663432,Tanner Rainey,Declared Free Agency,2025-11-21,,Detroit Tigers,RHP Tanner Rainey elected free agency.
+665861,Sebastián Rivero,Declared Free Agency,2025-11-21,,Los Angeles Angels,C Sebastián Rivero elected free agency.
+685068,Carson Ragsdale,Declared Free Agency,2025-11-21,,Atlanta Braves,RHP Carson Ragsdale elected free agency.
+672744,Alexander Canario,Declared Free Agency,2025-11-21,,Pittsburgh Pirates,LF Alexander Canario elected free agency.
+650968,Yohel Pozo,Declared Free Agency,2025-11-21,,St. Louis Cardinals,C Yohel Pozo elected free agency.
+691828,Sem Robberse,Declared Free Agency,2025-11-21,,St. Louis Cardinals,RHP Sem Robberse elected free agency.
+664123,Scott Effross,Declared Free Agency,2025-11-21,,New York Yankees,RHP Scott Effross elected free agency.
+676679,Luis Vázquez,Outrighted,2025-11-23,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent SS Luis Vázquez outright to Norfolk Tides.
+687922,Easton Lucas,Released,2025-11-25,,Toronto Blue Jays,Toronto Blue Jays released LHP Easton Lucas.
+681867,Cooper Criswell,Designated for Assignment,2025-12-04,,Boston Red Sox,Boston Red Sox designated RHP Cooper Criswell for assignment.
+676116,Ryan Noda,Designated for Assignment,2025-12-05,,Baltimore Orioles,Baltimore Orioles designated 1B Ryan Noda for assignment.
+701121,Logan VanWey,Outrighted,2025-12-05,Houston Astros,Sugar Land Space Cowboys,Houston Astros sent RHP Logan VanWey outright to Sugar Land Space Cowboys.
+666211,Taylor Trammell,Outrighted,2025-12-05,Houston Astros,Sugar Land Space Cowboys,Houston Astros sent LF Taylor Trammell outright to Sugar Land Space Cowboys.
+682653,Warming Bernabel,Outrighted,2025-12-06,Colorado Rockies,Albuquerque Isotopes,Colorado Rockies sent 3B Warming Bernabel outright to Albuquerque Isotopes.
+684320,Yariel Rodríguez,Outrighted,2025-12-06,Toronto Blue Jays,Buffalo Bisons,Toronto Blue Jays sent RHP Yariel Rodríguez outright to Buffalo Bisons.
+692414,Yoniel Curet,Designated for Assignment,2025-12-07,,Tampa Bay Rays,Tampa Bay Rays designated RHP Yoniel Curet for assignment.
+672279,Michael Siani,Designated for Assignment,2025-12-10,,Atlanta Braves,Atlanta Braves designated CF Michael Siani for assignment.
+691011,Drew Romo,Designated for Assignment,2025-12-10,,Baltimore Orioles,Baltimore Orioles designated C Drew Romo for assignment.
+676812,Carson McCusker,Released,2025-12-10,,Minnesota Twins,Minnesota Twins released LF Carson McCusker.
+668974,Maverick Handley,Designated for Assignment,2025-12-11,,Baltimore Orioles,Baltimore Orioles designated C Maverick Handley for assignment.
+686826,Bryce Jarvis,Designated for Assignment,2025-12-12,,Arizona Diamondbacks,Arizona Diamondbacks designated RHP Bryce Jarvis for assignment.
+676116,Ryan Noda,Outrighted,2025-12-12,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent 1B Ryan Noda outright to Norfolk Tides.
+674370,Osvaldo Bido,Designated for Assignment,2025-12-15,,Atlanta Braves,Atlanta Braves designated RHP Osvaldo Bido for assignment.
+671976,Tristan Peters,Designated for Assignment,2025-12-16,,Tampa Bay Rays,Tampa Bay Rays designated LF Tristan Peters for assignment.
+677865,Justin Bruihl,Designated for Assignment,2025-12-16,,Toronto Blue Jays,Toronto Blue Jays designated LHP Justin Bruihl for assignment.
+689288,Matt Koperniak,Designated for Assignment,2025-12-17,,St. Louis Cardinals,St. Louis Cardinals designated LF Matt Koperniak for assignment.
+678877,Jhonkensy Noel,Designated for Assignment,2025-12-17,,Cleveland Guardians,Cleveland Guardians designated RF Jhonkensy Noel for assignment.
+642216,Allan Winans,Released,2025-12-17,,New York Yankees,New York Yankees released RHP Allan Winans.
+663399,Brandon Waddell,Designated for Assignment,2025-12-17,,New York Mets,New York Mets designated LHP Brandon Waddell for assignment.
+668974,Maverick Handley,Outrighted,2025-12-17,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent C Maverick Handley outright to Norfolk Tides.
+685133,Wade Meckler,Designated for Assignment,2025-12-19,,San Francisco Giants,San Francisco Giants designated OF Wade Meckler for assignment.
+686826,Bryce Jarvis,Outrighted,2025-12-19,Arizona Diamondbacks,Reno Aces,Arizona Diamondbacks sent RHP Bryce Jarvis outright to Reno Aces.
+682617,Marco Luciano,Designated for Assignment,2025-12-19,,Pittsburgh Pirates,Pittsburgh Pirates designated OF Marco Luciano for assignment.
+691907,Tsung-Che Cheng,Designated for Assignment,2025-12-19,,Pittsburgh Pirates,Pittsburgh Pirates designated SS Tsung-Che Cheng for assignment.
+663399,Brandon Waddell,Outrighted,2025-12-19,New York Mets,Syracuse Mets,New York Mets sent LHP Brandon Waddell outright to Syracuse Mets.
+689288,Matt Koperniak,Outrighted,2025-12-19,St. Louis Cardinals,Memphis Redbirds,St. Louis Cardinals sent LF Matt Koperniak outright to Memphis Redbirds.
+683627,Anthony Molina,Outrighted,2025-12-19,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent RHP Anthony Molina outright to Gwinnett Stripers.
+669234,Justyn-Henry Malloy,Designated for Assignment,2025-12-20,,Detroit Tigers,Detroit Tigers designated RF Justyn-Henry Malloy for assignment.
+686610,Ken Waldichuk,Designated for Assignment,2025-12-22,,Athletics,Athletics designated LHP Ken Waldichuk for assignment.
+680689,Lyon Richardson,Designated for Assignment,2025-12-27,,Cincinnati Reds,Cincinnati Reds designated RHP Lyon Richardson for assignment.
+624522,Keegan Thompson,Designated for Assignment,2025-12-27,,Cincinnati Reds,Cincinnati Reds designated RHP Keegan Thompson for assignment.
+683770,Will Robertson,Designated for Assignment,2025-12-28,,Baltimore Orioles,Baltimore Orioles designated LF Will Robertson for assignment.
+676572,Eric Wagaman,Designated for Assignment,2025-12-30,,Miami Marlins,Miami Marlins designated 1B Eric Wagaman for assignment.
+672391,Kaleb Ort,Designated for Assignment,2026-01-02,,Houston Astros,Houston Astros designated RHP Kaleb Ort for assignment.
+680837,Ryan Fitzgerald,Designated for Assignment,2026-01-02,,Minnesota Twins,Minnesota Twins designated 3B Ryan Fitzgerald for assignment.
+687606,Paxton Schultz,Designated for Assignment,2026-01-04,,Toronto Blue Jays,Toronto Blue Jays designated RHP Paxton Schultz for assignment.
+666277,George Soriano,Designated for Assignment,2026-01-05,,Baltimore Orioles,Baltimore Orioles designated RHP George Soriano for assignment.
+687849,Zak Kent,Designated for Assignment,2026-01-06,,St. Louis Cardinals,St. Louis Cardinals designated RHP Zak Kent for assignment.
+681909,Justin Dean,Designated for Assignment,2026-01-06,,San Francisco Giants,San Francisco Giants designated CF Justin Dean for assignment.
+680689,Lyon Richardson,Outrighted,2026-01-07,Cincinnati Reds,Louisville Bats,Cincinnati Reds sent RHP Lyon Richardson outright to Louisville Bats.
+677020,Josh Walker,Outrighted,2026-01-07,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent LHP Josh Walker outright to Norfolk Tides.
+660644,Vidal Bruján,Designated for Assignment,2026-01-08,,Atlanta Braves,Atlanta Braves designated 3B Vidal Bruján for assignment.
+663767,Chase Shugart,Designated for Assignment,2026-01-08,,Pittsburgh Pirates,Pittsburgh Pirates designated RHP Chase Shugart for assignment.
+701496,Ben Cowles,Designated for Assignment,2026-01-08,,Chicago White Sox,Chicago White Sox designated 3B Ben Cowles for assignment.
+678225,Ji Hwan Bae,Outrighted,2026-01-08,New York Mets,Syracuse Mets,New York Mets sent CF Ji Hwan Bae outright to Syracuse Mets.
+689172,Brett Wisely,Designated for Assignment,2026-01-09,,Atlanta Braves,Atlanta Braves designated 2B Brett Wisely for assignment.
+666659,Sauryn Lao,Released,2026-01-09,,Washington Nationals,Washington Nationals released RHP Sauryn Lao.
+683770,Will Robertson,Outrighted,2026-01-09,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent LF Will Robertson outright to Norfolk Tides.
+681508,Mickey Gasper,Designated for Assignment,2026-01-14,,Minnesota Twins,Minnesota Twins designated 2B Mickey Gasper for assignment.
+678877,Jhonkensy Noel,Outrighted,2026-01-14,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent RF Jhonkensy Noel outright to Norfolk Tides.
+681402,Gus Varland,Designated for Assignment,2026-01-15,,Arizona Diamondbacks,Arizona Diamondbacks designated RHP Gus Varland for assignment.
+669392,Samad Taylor,Designated for Assignment,2026-01-15,,Seattle Mariners,Seattle Mariners designated 2B Samad Taylor for assignment.
+691172,Yosver Zulueta,Designated for Assignment,2026-01-15,,Cincinnati Reds,Cincinnati Reds designated RHP Yosver Zulueta for assignment.
+687134,Bradley Blalock,Designated for Assignment,2026-01-15,,Colorado Rockies,Colorado Rockies designated RHP Bradley Blalock for assignment.
+687589,Dom Hamel,Designated for Assignment,2026-01-20,,Texas Rangers,Texas Rangers designated RHP Dom Hamel for assignment.
+691251,Andry Lara,Designated for Assignment,2026-01-20,,Washington Nationals,Washington Nationals designated RHP Andry Lara for assignment.
+642215,Weston Wilson,Designated for Assignment,2026-01-20,,Philadelphia Phillies,Philadelphia Phillies designated LF Weston Wilson for assignment.
+680837,Ryan Fitzgerald,Outrighted,2026-01-20,Los Angeles Dodgers,Oklahoma City Comets,Los Angeles Dodgers sent 3B Ryan Fitzgerald outright to Oklahoma City Comets.
+656180,Riley Adams,Designated for Assignment,2026-01-22,,Washington Nationals,Washington Nationals designated C Riley Adams for assignment.
+663992,Richard Lovelady,Designated for Assignment,2026-01-22,,New York Mets,New York Mets designated LHP Richard Lovelady for assignment.
+660761,José Suarez,Designated for Assignment,2026-01-22,,Baltimore Orioles,Baltimore Orioles designated LHP José Suarez for assignment.
+669392,Samad Taylor,Outrighted,2026-01-22,Seattle Mariners,Tacoma Rainiers,Seattle Mariners sent 2B Samad Taylor outright to Tacoma Rainiers.
+701487,Pierson Ohl,Designated for Assignment,2026-01-23,,Minnesota Twins,Minnesota Twins designated RHP Pierson Ohl for assignment.
+646242,Jhonathan Díaz,Designated for Assignment,2026-01-23,,Seattle Mariners,Seattle Mariners designated LHP Jhonathan Díaz for assignment.
+640902,Jhonny Pereda,Designated for Assignment,2026-01-23,,Minnesota Twins,Minnesota Twins designated C Jhonny Pereda for assignment.
+663804,Jackson Kowar,Designated for Assignment,2026-01-27,,Seattle Mariners,Seattle Mariners designated RHP Jackson Kowar for assignment.
+682144,Jayvien Sandridge,Designated for Assignment,2026-01-27,,New York Yankees,New York Yankees designated LHP Jayvien Sandridge for assignment.
+691251,Andry Lara,Outrighted,2026-01-27,Washington Nationals,Rochester Red Wings,Washington Nationals sent RHP Andry Lara outright to Rochester Red Wings.
+692585,Yanquiel Fernández,Designated for Assignment,2026-01-28,,Colorado Rockies,Colorado Rockies designated RF Yanquiel Fernández for assignment.
+663455,Konnor Pilkington,Designated for Assignment,2026-01-28,,Washington Nationals,Washington Nationals designated LHP Konnor Pilkington for assignment.
+646242,Jhonathan Díaz,Outrighted,2026-01-28,Seattle Mariners,Tacoma Rainiers,Seattle Mariners sent LHP Jhonathan Díaz outright to Tacoma Rainiers.
+656180,Riley Adams,Outrighted,2026-01-28,Washington Nationals,Rochester Red Wings,Washington Nationals sent C Riley Adams outright to Rochester Red Wings.
+682868,Bryan Ramos,Designated for Assignment,2026-01-29,,Chicago White Sox,Chicago White Sox designated 3B Bryan Ramos for assignment.
+641585,J.P. France,Designated for Assignment,2026-01-29,,Houston Astros,Houston Astros designated RHP J.P. France for assignment.
+683568,Jairo Iriarte,Designated for Assignment,2026-02-01,,Chicago White Sox,Chicago White Sox designated RHP Jairo Iriarte for assignment.
+689520,Cody Laweryson,Designated for Assignment,2026-02-02,,Los Angeles Angels,Los Angeles Angels designated RHP Cody Laweryson for assignment.
+685133,Wade Meckler,Outrighted,2026-02-02,Los Angeles Angels,Salt Lake Bees,Los Angeles Angels sent OF Wade Meckler outright to Salt Lake Bees.
+683748,Victor Mesa Jr.,Designated for Assignment,2026-02-03,,Miami Marlins,Miami Marlins designated CF Victor Mesa Jr. for assignment.
+628451,Andy Ibáñez,Designated for Assignment,2026-02-03,,Los Angeles Dodgers,Los Angeles Dodgers designated 3B Andy Ibáñez for assignment.
+666163,Ben Rortvedt,Designated for Assignment,2026-02-03,,Cincinnati Reds,Cincinnati Reds designated C Ben Rortvedt for assignment.
+682617,Marco Luciano,Outrighted,2026-02-03,New York Yankees,Scranton/Wilkes-Barre RailRiders,New York Yankees sent OF Marco Luciano outright to Scranton/Wilkes-Barre RailRiders.
+663542,Bryan Hudson,Designated for Assignment,2026-02-04,,Chicago White Sox,Chicago White Sox designated LHP Bryan Hudson for assignment.
+663455,Konnor Pilkington,Outrighted,2026-02-04,Washington Nationals,Rochester Red Wings,Washington Nationals sent LHP Konnor Pilkington outright to Rochester Red Wings.
+669699,Braden Shewmake,Designated for Assignment,2026-02-05,,New York Yankees,New York Yankees designated SS Braden Shewmake for assignment.
+641585,J.P. France,Outrighted,2026-02-05,Houston Astros,Sugar Land Space Cowboys,Houston Astros sent RHP J.P. France outright to Sugar Land Space Cowboys.
+689520,Cody Laweryson,Released,2026-02-06,,Los Angeles Angels,Los Angeles Angels released RHP Cody Laweryson.
+680474,Max Schuemann,Designated for Assignment,2026-02-06,,Athletics,Athletics designated 3B Max Schuemann for assignment.
+607455,Anthony Banda,Designated for Assignment,2026-02-06,,Los Angeles Dodgers,Los Angeles Dodgers designated LHP Anthony Banda for assignment.
+691011,Drew Romo,Outrighted,2026-02-06,Chicago White Sox,Charlotte Knights,Chicago White Sox sent C Drew Romo outright to Charlotte Knights.
+683568,Jairo Iriarte,Outrighted,2026-02-06,Chicago White Sox,Charlotte Knights,Chicago White Sox sent RHP Jairo Iriarte outright to Charlotte Knights.
+642215,Weston Wilson,Outrighted,2026-02-06,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent LF Weston Wilson outright to Norfolk Tides.
+687589,Dom Hamel,Outrighted,2026-02-09,New York Yankees,Scranton/Wilkes-Barre RailRiders,New York Yankees sent RHP Dom Hamel outright to Scranton/Wilkes-Barre RailRiders.
+669699,Braden Shewmake,Outrighted,2026-02-09,New York Yankees,Scranton/Wilkes-Barre RailRiders,New York Yankees sent SS Braden Shewmake outright to Scranton/Wilkes-Barre RailRiders.
+672391,Kaleb Ort,Outrighted,2026-02-09,Los Angeles Angels,Salt Lake Bees,Los Angeles Angels sent RHP Kaleb Ort outright to Salt Lake Bees.
+680880,Grant Holman,Designated for Assignment,2026-02-10,,Athletics,Athletics designated RHP Grant Holman for assignment.
+687765,Mitch Spence,Designated for Assignment,2026-02-10,,Athletics,Athletics designated RHP Mitch Spence for assignment.
+681006,Josh Simpson,Designated for Assignment,2026-02-12,,Miami Marlins,Miami Marlins designated LHP Josh Simpson for assignment.
+592206,Nick Castellanos,Released,2026-02-12,,Philadelphia Phillies,Philadelphia Phillies released RF Nick Castellanos.
+669261,Jack Suwinski,Designated for Assignment,2026-02-16,,Pittsburgh Pirates,Pittsburgh Pirates designated RF Jack Suwinski for assignment.
+692585,Yanquiel Fernández,Outrighted,2026-02-16,New York Yankees,Scranton/Wilkes-Barre RailRiders,New York Yankees sent RF Yanquiel Fernández outright to Scranton/Wilkes-Barre RailRiders.
+672359,Tirso Ornelas,Designated for Assignment,2026-02-17,,San Diego Padres,San Diego Padres designated LF Tirso Ornelas for assignment.
+672359,Tirso Ornelas,Outrighted,2026-02-22,San Diego Padres,El Paso Chihuahuas,San Diego Padres sent LF Tirso Ornelas outright to El Paso Chihuahuas.
+680118,Dairon Blanco,Designated for Assignment,2026-03-02,,Kansas City Royals,Kansas City Royals designated CF Dairon Blanco for assignment.
+669261,Jack Suwinski,Outrighted,2026-03-02,Los Angeles Dodgers,Oklahoma City Comets,Los Angeles Dodgers sent RF Jack Suwinski outright to Oklahoma City Comets.
+670897,Daison Acosta,Outrighted,2026-03-09,San Diego Padres,El Paso Chihuahuas,San Diego Padres sent RHP Daison Acosta outright to El Paso Chihuahuas.
+838802,James Colyer,Released,2026-03-10,,Washington Nationals,Washington Nationals released RHP James Colyer.
+664747,Alexis Díaz,Designated for Assignment,2026-03-13,,Texas Rangers,Texas Rangers designated RHP Alexis Díaz for assignment.
+641656,Ian Hamilton,Outrighted,2026-03-19,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent RHP Ian Hamilton outright to Gwinnett Stripers.
+810053,Caleb Ketchup,Released,2026-03-20,,Los Angeles Angels,Los Angeles Angels released SS Caleb Ketchup.
+571657,Kyle Farmer,Released,2026-03-20,,Atlanta Braves,Atlanta Braves released 2B Kyle Farmer.
+694484,Max Wagner,Released,2026-03-20,,Baltimore Orioles,Baltimore Orioles released 3B Max Wagner.
+687439,Colton Johnson,Released,2026-03-20,,Athletics,Athletics released LHP Colton Johnson.
+642086,Dominic Smith,Released,2026-03-20,,Atlanta Braves,Atlanta Braves released 1B Dominic Smith.
+676292,Hunter Breault,Released,2026-03-20,,Athletics,Athletics released RHP Hunter Breault.
+692228,Caleb Pendleton,Released,2026-03-20,,Los Angeles Angels,Los Angeles Angels released RHP Caleb Pendleton.
+570482,Gio Urshela,Released,2026-03-20,,Minnesota Twins,Minnesota Twins released 3B Gio Urshela.
+695327,Dylan Heid,Released,2026-03-20,,Baltimore Orioles,Baltimore Orioles released RHP Dylan Heid.
+690469,Kyle Hayes,Released,2026-03-20,,Kansas City Royals,Kansas City Royals released C Kyle Hayes.
+815291,Tom Reisinger,Released,2026-03-20,,Athletics,Athletics released RHP Tom Reisinger.
+605177,Andrew Chafin,Released,2026-03-20,,Minnesota Twins,Minnesota Twins released LHP Andrew Chafin.
+670871,Guillo Zuñiga,Released,2026-03-20,,Seattle Mariners,Seattle Mariners released RHP Guillo Zuñiga.
+666134,Nolan Jones,Outrighted,2026-03-20,Cleveland Guardians,Columbus Clippers,Cleveland Guardians sent RF Nolan Jones outright to Columbus Clippers.
+702472,Austin Callahan,Released,2026-03-22,,Cincinnati Reds,Cincinnati Reds released 3B Austin Callahan.
+660766,Juan Yepez,Released,2026-03-22,,Toronto Blue Jays,Toronto Blue Jays released 1B Juan Yepez.
+656786,Parker Mushinski,Released,2026-03-22,,Colorado Rockies,Colorado Rockies released LHP Parker Mushinski.
+605131,Austin Barnes,Released,2026-03-22,,New York Mets,New York Mets released C Austin Barnes.
+681475,Luke Albright,Released,2026-03-22,,Arizona Diamondbacks,Arizona Diamondbacks released RHP Luke Albright.
+699229,Alexander Benua,Released,2026-03-22,,Arizona Diamondbacks,Arizona Diamondbacks released SS Alexander Benua.
+667663,Hunter Stovall,Released,2026-03-22,,Pittsburgh Pirates,Pittsburgh Pirates released 2B Hunter Stovall.
+700719,Dairon De Jesus,Released,2026-03-22,,Athletics,Athletics released RHP Dairon De Jesus.
+694216,Malvin Valdez,Released,2026-03-22,,Cincinnati Reds,Cincinnati Reds released CF Malvin Valdez.
+805155,Adrian Herrera,Released,2026-03-22,,Cincinnati Reds,Cincinnati Reds released RHP Adrian Herrera.
+701737,Myles Smith,Released,2026-03-22,,Cincinnati Reds,Cincinnati Reds released OF Myles Smith.
+664192,Joey Lucchesi,Released,2026-03-22,,San Francisco Giants,San Francisco Giants released LHP Joey Lucchesi.
+694555,Chase Centala,Released,2026-03-22,,Miami Marlins,Miami Marlins released RHP Chase Centala.
+666148,Drake Fellows,Released,2026-03-22,,New York Yankees,New York Yankees released RHP Drake Fellows.
+593576,Héctor Neris,Released,2026-03-22,,Kansas City Royals,Kansas City Royals released RHP Héctor Neris.
+676046,Griff McGarry,Designated for Assignment,2026-03-22,,Washington Nationals,Washington Nationals designated RHP Griff McGarry for assignment.
+642731,Thairo Estrada,Released,2026-03-23,,Baltimore Orioles,Baltimore Orioles released 2B Thairo Estrada.
+605154,John Brebbia,Released,2026-03-23,,Colorado Rockies,Colorado Rockies released RHP John Brebbia.
+685112,Zach McCambley,Outrighted,2026-03-23,Miami Marlins,Jacksonville Jumbo Shrimp,Miami Marlins sent RHP Zach McCambley outright to Jacksonville Jumbo Shrimp.
+680891,Jack Neely,Designated for Assignment,2026-03-25,,Chicago Cubs,Chicago Cubs designated RHP Jack Neely for assignment.
+663967,César Salazar,Designated for Assignment,2026-03-25,,Houston Astros,Houston Astros designated C César Salazar for assignment.
+677870,Leo Jiménez,Designated for Assignment,2026-03-25,,Toronto Blue Jays,Toronto Blue Jays designated SS Leo Jiménez for assignment.
+668800,Andrew Knizner,Released,2026-03-25,,Seattle Mariners,Seattle Mariners released C Andrew Knizner.
+682641,Luis Matos,Designated for Assignment,2026-03-25,,San Francisco Giants,San Francisco Giants designated RF Luis Matos for assignment.
+686676,Korey Lee,Designated for Assignment,2026-03-25,,Chicago White Sox,Chicago White Sox designated C Korey Lee for assignment.
+671286,Johnathan Rodríguez,Designated for Assignment,2026-03-25,,Cleveland Guardians,Cleveland Guardians designated RF Johnathan Rodríguez for assignment.
+656577,Alex Jackson,Designated for Assignment,2026-03-25,,Minnesota Twins,Minnesota Twins designated C Alex Jackson for assignment.
+671221,Drew Waters,Designated for Assignment,2026-03-25,,Kansas City Royals,Kansas City Royals designated LF Drew Waters for assignment.
+596117,Garrett Stubbs,Designated for Assignment,2026-03-25,,Philadelphia Phillies,Philadelphia Phillies designated C Garrett Stubbs for assignment.
+682785,Angel Bastardo,Designated for Assignment,2026-03-25,,Toronto Blue Jays,Toronto Blue Jays designated RHP Angel Bastardo for assignment.
+681916,Dylan Smith,Designated for Assignment,2026-03-25,,Detroit Tigers,Detroit Tigers designated RHP Dylan Smith for assignment.
+678554,Curtis Mead,Designated for Assignment,2026-03-25,,Chicago White Sox,Chicago White Sox designated 1B Curtis Mead for assignment.
+624522,Keegan Thompson,Outrighted,2026-03-25,Colorado Rockies,Albuquerque Isotopes,Colorado Rockies sent RHP Keegan Thompson outright to Albuquerque Isotopes.
+656577,Alex Jackson,Outrighted,2026-03-25,Minnesota Twins,St. Paul Saints,Minnesota Twins sent C Alex Jackson outright to St. Paul Saints.
+663804,Jackson Kowar,Outrighted,2026-03-26,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent RHP Jackson Kowar outright to Norfolk Tides.
+682868,Bryan Ramos,Outrighted,2026-03-26,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent 3B Bryan Ramos outright to Norfolk Tides.
+666163,Ben Rortvedt,Outrighted,2026-03-27,New York Mets,Syracuse Mets,New York Mets sent C Ben Rortvedt outright to Syracuse Mets.
+663967,César Salazar,Outrighted,2026-03-27,Houston Astros,Sugar Land Space Cowboys,Houston Astros sent C César Salazar outright to Sugar Land Space Cowboys.
+660644,Vidal Bruján,Outrighted,2026-03-27,New York Mets,Syracuse Mets,New York Mets sent 3B Vidal Bruján outright to Syracuse Mets.
+671109,Jake Eder,Designated for Assignment,2026-03-28,,Washington Nationals,Washington Nationals designated LHP Jake Eder for assignment.
+596117,Garrett Stubbs,Outrighted,2026-03-28,Philadelphia Phillies,Lehigh Valley IronPigs,Philadelphia Phillies sent C Garrett Stubbs outright to Lehigh Valley IronPigs.
+686676,Korey Lee,Outrighted,2026-03-28,Chicago White Sox,Charlotte Knights,Chicago White Sox sent C Korey Lee outright to Charlotte Knights.
+680891,Jack Neely,Outrighted,2026-03-28,Chicago Cubs,Iowa Cubs,Chicago Cubs sent RHP Jack Neely outright to Iowa Cubs.
+682989,Victor Mederos,Designated for Assignment,2026-03-29,,Los Angeles Angels,Los Angeles Angels designated RHP Victor Mederos for assignment.
+671221,Drew Waters,Outrighted,2026-03-29,Kansas City Royals,Omaha Storm Chasers,Kansas City Royals sent LF Drew Waters outright to Omaha Storm Chasers.
+666149,Tyler Fitzgerald,Designated for Assignment,2026-03-30,,San Francisco Giants,San Francisco Giants designated 2B Tyler Fitzgerald for assignment.
+671111,Sammy Peralta,Designated for Assignment,2026-03-30,,Milwaukee Brewers,Milwaukee Brewers designated LHP Sammy Peralta for assignment.
+680951,Doug Nikhazy,Designated for Assignment,2026-03-30,,Cleveland Guardians,Cleveland Guardians designated LHP Doug Nikhazy for assignment.
+680118,Dairon Blanco,Outrighted,2026-03-30,Texas Rangers,Round Rock Express,Texas Rangers sent CF Dairon Blanco outright to Round Rock Express.
+702795,Ryan Loutos,Designated for Assignment,2026-03-31,,Seattle Mariners,Seattle Mariners designated RHP Ryan Loutos for assignment.
+699151,Jedixson Paez,Designated for Assignment,2026-04-01,,Chicago White Sox,Chicago White Sox designated RHP Jedixson Paez for assignment.
+689172,Brett Wisely,Outrighted,2026-04-01,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent 2B Brett Wisely outright to Gwinnett Stripers.
+702795,Ryan Loutos,Released,2026-04-02,,Seattle Mariners,Seattle Mariners released RHP Ryan Loutos.
+665839,Enmanuel Valdez,Designated for Assignment,2026-04-03,,Pittsburgh Pirates,Pittsburgh Pirates designated 1B Enmanuel Valdez for assignment.
+605452,Joe Ross,Designated for Assignment,2026-04-03,,Arizona Diamondbacks,Arizona Diamondbacks designated RHP Joe Ross for assignment.
+672642,Steward Berroa,Designated for Assignment,2026-04-03,,Milwaukee Brewers,Milwaukee Brewers designated RF Steward Berroa for assignment.
+675919,Nick Raquet,Designated for Assignment,2026-04-05,,St. Louis Cardinals,St. Louis Cardinals designated LHP Nick Raquet for assignment.
+664192,Joey Lucchesi,Designated for Assignment,2026-04-05,,Los Angeles Angels,Los Angeles Angels designated LHP Joey Lucchesi for assignment.
+605452,Joe Ross,Outrighted,2026-04-05,Arizona Diamondbacks,Reno Aces,Arizona Diamondbacks sent RHP Joe Ross outright to Reno Aces.
+682610,Roddery Muñoz,Designated for Assignment,2026-04-06,,Houston Astros,Houston Astros designated RHP Roddery Muñoz for assignment.
+608723,Austin Voth,Designated for Assignment,2026-04-06,,Toronto Blue Jays,Toronto Blue Jays designated RHP Austin Voth for assignment.
+676596,Josh Fleming,Designated for Assignment,2026-04-07,,Toronto Blue Jays,Toronto Blue Jays designated LHP Josh Fleming for assignment.
+664192,Joey Lucchesi,Outrighted,2026-04-07,Los Angeles Angels,Salt Lake Bees,Los Angeles Angels sent LHP Joey Lucchesi outright to Salt Lake Bees.
+687952,Christian Encarnacion-Strand,Designated for Assignment,2026-04-08,,Cincinnati Reds,Cincinnati Reds designated 1B Christian Encarnacion-Strand for assignment.
+665839,Enmanuel Valdez,Outrighted,2026-04-08,Pittsburgh Pirates,Indianapolis Indians,Pittsburgh Pirates sent 1B Enmanuel Valdez outright to Indianapolis Indians.
+676596,Josh Fleming,Outrighted,2026-04-09,Toronto Blue Jays,Buffalo Bisons,Toronto Blue Jays sent LHP Josh Fleming outright to Buffalo Bisons.
+608723,Austin Voth,Outrighted,2026-04-09,Toronto Blue Jays,Buffalo Bisons,Toronto Blue Jays sent RHP Austin Voth outright to Buffalo Bisons.
+682610,Roddery Muñoz,Outrighted,2026-04-09,Houston Astros,Sugar Land Space Cowboys,Houston Astros sent RHP Roddery Muñoz outright to Sugar Land Space Cowboys.
+685464,Cade Winquest,Designated for Assignment,2026-04-10,,New York Yankees,New York Yankees designated RHP Cade Winquest for assignment.
+666185,Dylan Carlson,Designated for Assignment,2026-04-10,,Chicago Cubs,Chicago Cubs designated LF Dylan Carlson for assignment.
+694646,Chayce McDermott,Designated for Assignment,2026-04-11,,Baltimore Orioles,Baltimore Orioles designated RHP Chayce McDermott for assignment.
+600869,Jeimer Candelario,Designated for Assignment,2026-04-11,,Los Angeles Angels,Los Angeles Angels designated 3B Jeimer Candelario for assignment.
+472610,Luis García,Designated for Assignment,2026-04-12,,New York Mets,New York Mets designated RHP Luis García for assignment.
+527048,Martín Pérez,Designated for Assignment,2026-04-12,,Atlanta Braves,Atlanta Braves designated LHP Martín Pérez for assignment.
+666185,Dylan Carlson,Outrighted,2026-04-12,Chicago Cubs,Iowa Cubs,Chicago Cubs sent LF Dylan Carlson outright to Iowa Cubs.
+694363,Jared Shuster,Designated for Assignment,2026-04-13,,St. Louis Cardinals,St. Louis Cardinals designated LHP Jared Shuster for assignment.
+663897,Luke Williams,Designated for Assignment,2026-04-13,,Atlanta Braves,Atlanta Braves designated SS Luke Williams for assignment.
+663465,Kolby Allard,Designated for Assignment,2026-04-13,,Cleveland Guardians,Cleveland Guardians designated LHP Kolby Allard for assignment.
+600869,Jeimer Candelario,Outrighted,2026-04-13,Los Angeles Angels,Salt Lake Bees,Los Angeles Angels sent 3B Jeimer Candelario outright to Salt Lake Bees.
+472610,Luis García,Released,2026-04-14,,New York Mets,New York Mets released RHP Luis García.
+680604,Blas Castaño,Designated for Assignment,2026-04-14,,Seattle Mariners,Seattle Mariners designated RHP Blas Castaño for assignment.
+527048,Martín Pérez,Outrighted,2026-04-14,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent LHP Martín Pérez outright to Gwinnett Stripers.
+687957,Dustin Harris,Designated for Assignment,2026-04-15,,Chicago White Sox,Chicago White Sox designated LF Dustin Harris for assignment.
+687847,Marc Church,Designated for Assignment,2026-04-15,,Texas Rangers,Texas Rangers designated RHP Marc Church for assignment.
+663609,Luken Baker,Designated for Assignment,2026-04-18,,Arizona Diamondbacks,Arizona Diamondbacks designated 1B Luken Baker for assignment.
+682144,Jayvien Sandridge,Outrighted,2026-04-19,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent LHP Jayvien Sandridge outright to Norfolk Tides.
+663609,Luken Baker,Outrighted,2026-04-20,Arizona Diamondbacks,Reno Aces,Arizona Diamondbacks sent 1B Luken Baker outright to Reno Aces.
+669087,Sam Huff,Designated for Assignment,2026-04-21,,Baltimore Orioles,Baltimore Orioles designated C Sam Huff for assignment.
+678821,Luis Peralta,Designated for Assignment,2026-04-21,,Colorado Rockies,Colorado Rockies designated LHP Luis Peralta for assignment.
+685005,Christian Roa,Designated for Assignment,2026-04-21,,Houston Astros,Houston Astros designated RHP Christian Roa for assignment.
+668984,Casey Legumina,Designated for Assignment,2026-04-21,,Seattle Mariners,Seattle Mariners designated RHP Casey Legumina for assignment.
+641656,Ian Hamilton,Designated for Assignment,2026-04-22,,Atlanta Braves,Atlanta Braves designated RHP Ian Hamilton for assignment.
+687847,Marc Church,Outrighted,2026-04-22,Texas Rangers,Round Rock Express,Texas Rangers sent RHP Marc Church outright to Round Rock Express.
+592836,Taijuan Walker,Released,2026-04-23,,Philadelphia Phillies,Philadelphia Phillies released RHP Taijuan Walker.
+608371,Lucas Sims,Designated for Assignment,2026-04-23,,Chicago White Sox,Chicago White Sox designated RHP Lucas Sims for assignment.
+596103,Austin Slater,Designated for Assignment,2026-04-23,,Miami Marlins,Miami Marlins designated LF Austin Slater for assignment.
+680862,Willie MacIver,Designated for Assignment,2026-04-23,,Texas Rangers,Texas Rangers designated C Willie MacIver for assignment.
+669087,Sam Huff,Declared Free Agency,2026-04-23,,Baltimore Orioles,C Sam Huff elected free agency.
+664068,Scott Kingery,Designated for Assignment,2026-04-24,,Chicago Cubs,Chicago Cubs designated 2B Scott Kingery for assignment.
+624512,Reese McGuire,Designated for Assignment,2026-04-25,,Chicago White Sox,Chicago White Sox designated C Reese McGuire for assignment.
+596103,Austin Slater,Outrighted,2026-04-25,Miami Marlins,Jacksonville Jumbo Shrimp,Miami Marlins sent LF Austin Slater outright to Jacksonville Jumbo Shrimp.
+608371,Lucas Sims,Outrighted,2026-04-25,Chicago White Sox,Charlotte Knights,Chicago White Sox sent RHP Lucas Sims outright to Charlotte Knights.
+592826,Vince Velasquez,Designated for Assignment,2026-04-26,,Chicago Cubs,Chicago Cubs designated RHP Vince Velasquez for assignment.
+544150,Albert Suárez,Designated for Assignment,2026-04-26,,Baltimore Orioles,Baltimore Orioles designated RHP Albert Suárez for assignment.
+641312,Shaun Anderson,Designated for Assignment,2026-04-26,,Los Angeles Angels,Los Angeles Angels designated RHP Shaun Anderson for assignment.
+605447,Jordan Romano,Designated for Assignment,2026-04-26,,Los Angeles Angels,Los Angeles Angels designated RHP Jordan Romano for assignment.
+605447,Jordan Romano,Released,2026-04-27,,Los Angeles Angels,Los Angeles Angels released RHP Jordan Romano.
+502054,Tommy Pham,Designated for Assignment,2026-04-27,,New York Mets,New York Mets designated LF Tommy Pham for assignment.
+664068,Scott Kingery,Outrighted,2026-04-27,Chicago Cubs,Iowa Cubs,Chicago Cubs sent SS Scott Kingery outright to Iowa Cubs.
+624512,Reese McGuire,Outrighted,2026-04-27,Chicago White Sox,Charlotte Knights,Chicago White Sox sent C Reese McGuire outright to Charlotte Knights.
+592826,Vince Velasquez,Outrighted,2026-04-28,Chicago Cubs,Iowa Cubs,Chicago Cubs sent RHP Vince Velasquez outright to Iowa Cubs.
+641312,Shaun Anderson,Outrighted,2026-04-28,Los Angeles Angels,Salt Lake Bees,Los Angeles Angels sent RHP Shaun Anderson outright to Salt Lake Bees.
+689877,Ryan Harbin,Designated for Assignment,2026-04-29,,Pittsburgh Pirates,Pittsburgh Pirates designated RHP Ryan Harbin for assignment.
+650391,Eloy Jiménez,Designated for Assignment,2026-04-29,,Toronto Blue Jays,Toronto Blue Jays designated DH Eloy Jiménez for assignment.
+471911,Carlos Carrasco,Designated for Assignment,2026-04-29,,Atlanta Braves,Atlanta Braves designated RHP Carlos Carrasco for assignment.
+545341,Randal Grichuk,Designated for Assignment,2026-04-29,,New York Yankees,New York Yankees designated LF Randal Grichuk for assignment.
+502054,Tommy Pham,Outrighted,2026-04-29,New York Mets,Syracuse Mets,New York Mets sent LF Tommy Pham outright to Syracuse Mets.
+682641,Luis Matos,Outrighted,2026-04-29,Milwaukee Brewers,Nashville Sounds,Milwaukee Brewers sent RF Luis Matos outright to Nashville Sounds.
+605218,Carl Edwards Jr.,Designated for Assignment,2026-04-30,,New York Mets,New York Mets designated RHP Carl Edwards Jr. for assignment.
+605244,Aramis Garcia,Designated for Assignment,2026-05-01,,Arizona Diamondbacks,Arizona Diamondbacks designated C Aramis Garcia for assignment.
+606303,Joel Payamps,Designated for Assignment,2026-05-01,,Atlanta Braves,Atlanta Braves designated RHP Joel Payamps for assignment.
+689877,Ryan Harbin,Released,2026-05-01,,Pittsburgh Pirates,Pittsburgh Pirates released RHP Ryan Harbin.
+471911,Carlos Carrasco,Outrighted,2026-05-01,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent RHP Carlos Carrasco outright to Gwinnett Stripers.
+664238,Dylan Moore,Designated for Assignment,2026-05-02,,Philadelphia Phillies,Philadelphia Phillies designated CF Dylan Moore for assignment.
+672782,Yoendrys Gómez,Designated for Assignment,2026-05-02,,Tampa Bay Rays,Tampa Bay Rays designated RHP Yoendrys Gómez for assignment.
+672335,Cionel Pérez,Outrighted,2026-05-02,Washington Nationals,Rochester Red Wings,Washington Nationals sent LHP Cionel Pérez outright to Rochester Red Wings.
+650391,Eloy Jiménez,Outrighted,2026-05-02,Toronto Blue Jays,Buffalo Bisons,Toronto Blue Jays sent DH Eloy Jiménez outright to Buffalo Bisons.
+605441,Yacksel Ríos,Designated for Assignment,2026-05-03,,Chicago Cubs,Chicago Cubs designated RHP Yacksel Ríos for assignment.
+689041,Rhylan Thomas,Designated for Assignment,2026-05-03,,Seattle Mariners,Seattle Mariners designated LF Rhylan Thomas for assignment.
+605218,Carl Edwards Jr.,Outrighted,2026-05-03,New York Mets,Syracuse Mets,New York Mets sent RHP Carl Edwards Jr. outright to Syracuse Mets.
+605244,Aramis Garcia,Outrighted,2026-05-03,Arizona Diamondbacks,Reno Aces,Arizona Diamondbacks sent C Aramis Garcia outright to Reno Aces.
+678232,Jesus Valdez,Outrighted,2026-05-03,Arizona Diamondbacks,Amarillo Sod Poodles,Arizona Diamondbacks sent 3B Jesus Valdez outright to Amarillo Sod Poodles.
+701496,Ben Cowles,Outrighted,2026-05-03,Chicago Cubs,Iowa Cubs,Chicago Cubs sent 3B Ben Cowles outright to Iowa Cubs.
+666464,Jerar Encarnacion,Designated for Assignment,2026-05-04,,San Francisco Giants,San Francisco Giants designated RF Jerar Encarnacion for assignment.
+680704,Nick Sandlin,Designated for Assignment,2026-05-04,,Los Angeles Angels,Los Angeles Angels designated RHP Nick Sandlin for assignment.
+675659,Greg Jones,Designated for Assignment,2026-05-04,,Milwaukee Brewers,Milwaukee Brewers designated LF Greg Jones for assignment.
+641680,Jonah Heim,Designated for Assignment,2026-05-04,,Atlanta Braves,Atlanta Braves designated C Jonah Heim for assignment.
+544150,Albert Suárez,Outrighted,2026-05-04,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent RHP Albert Suárez outright to Norfolk Tides.
+670097,Zack Short,Designated for Assignment,2026-05-05,,Detroit Tigers,Detroit Tigers designated 3B Zack Short for assignment.
+671131,Jackson Rutledge,Designated for Assignment,2026-05-05,,Washington Nationals,Washington Nationals designated RHP Jackson Rutledge for assignment.
+663978,Chris Paddack,Designated for Assignment,2026-05-05,,Miami Marlins,Miami Marlins designated RHP Chris Paddack for assignment.
+640492,José Azócar,Designated for Assignment,2026-05-06,,Atlanta Braves,Atlanta Braves designated LF José Azocar for assignment.
+656212,Charlie Barnes,Designated for Assignment,2026-05-06,,Chicago Cubs,Chicago Cubs designated LHP Charlie Barnes for assignment.
+605441,Yacksel Ríos,Outrighted,2026-05-06,Chicago Cubs,Iowa Cubs,Chicago Cubs sent RHP Yacksel Ríos outright to Iowa Cubs.
+642851,Austin Wynns,Designated for Assignment,2026-05-07,,Athletics,Athletics designated C Austin Wynns for assignment.
+656686,Corbin Martin,Designated for Assignment,2026-05-07,,Chicago Cubs,Chicago Cubs designated RHP Corbin Martin for assignment.
+692414,Yoniel Curet,Outrighted,2026-05-07,Detroit Tigers,Toledo Mud Hens,Detroit Tigers sent RHP Yoniel Curet outright to Toledo Mud Hens.
+670097,Zack Short,Outrighted,2026-05-07,Detroit Tigers,Toledo Mud Hens,Detroit Tigers sent 3B Zack Short outright to Toledo Mud Hens.
+677950,Alek Thomas,Designated for Assignment,2026-05-08,,Arizona Diamondbacks,Arizona Diamondbacks designated CF Alek Thomas for assignment.
+641401,Connor Brogdon,Designated for Assignment,2026-05-08,,Cleveland Guardians,Cleveland Guardians designated RHP Connor Brogdon for assignment.
+682240,Stephen Jones,Designated for Assignment,2026-05-08,,Miami Marlins,Miami Marlins designated RHP Stephen Jones for assignment.
+640492,José Azócar,Outrighted,2026-05-08,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent LF José Azocar outright to Gwinnett Stripers.
+664238,Dylan Moore,Outrighted,2026-05-08,Philadelphia Phillies,Lehigh Valley IronPigs,Philadelphia Phillies sent CF Dylan Moore outright to Lehigh Valley IronPigs.
+675659,Greg Jones,Outrighted,2026-05-08,Milwaukee Brewers,Nashville Sounds,Milwaukee Brewers sent LF Greg Jones outright to Nashville Sounds.
+674370,Osvaldo Bido,Outrighted,2026-05-09,Chicago White Sox,Charlotte Knights,Chicago White Sox sent RHP Osvaldo Bido outright to Charlotte Knights.
+663978,Chris Paddack,Released,2026-05-10,,Miami Marlins,Miami Marlins released RHP Chris Paddack.
+642152,Lou Trivino,Designated for Assignment,2026-05-10,,Baltimore Orioles,Baltimore Orioles designated RHP Lou Trivino for assignment.
+656686,Corbin Martin,Outrighted,2026-05-10,Chicago Cubs,Iowa Cubs,Chicago Cubs sent RHP Corbin Martin outright to Iowa Cubs.
+666464,Jerar Encarnacion,Outrighted,2026-05-10,San Francisco Giants,Sacramento River Cats,San Francisco Giants sent RF Jerar Encarnacion outright to Sacramento River Cats.
+676572,Eric Wagaman,Outrighted,2026-05-10,New York Mets,Syracuse Mets,New York Mets sent 1B Eric Wagaman outright to Syracuse Mets.
+682240,Stephen Jones,Outrighted,2026-05-10,Miami Marlins,Jacksonville Jumbo Shrimp,Miami Marlins sent RHP Stephen Jones outright to Jacksonville Jumbo Shrimp.
+641778,Eric Lauer,Designated for Assignment,2026-05-11,,Toronto Blue Jays,Toronto Blue Jays designated LHP Eric Lauer for assignment.
+669234,Justyn-Henry Malloy,Outrighted,2026-05-11,Tampa Bay Rays,Durham Bulls,Tampa Bay Rays sent RF Justyn-Henry Malloy outright to Durham Bulls.
+674384,Eduarniel Núñez,Designated for Assignment,2026-05-12,,Athletics,Athletics designated RHP Eduarniel Núñez for assignment.
+642851,Austin Wynns,Released,2026-05-12,,Athletics,Athletics released C Austin Wynns.
+664731,P.J. Higgins,Designated for Assignment,2026-05-13,,Cincinnati Reds,Cincinnati Reds designated C P.J. Higgins for assignment.
+678577,Junior Perez,Designated for Assignment,2026-05-14,,Athletics,Athletics designated CF Junior Perez for assignment.
+664731,P.J. Higgins,Outrighted,2026-05-14,Cincinnati Reds,Louisville Bats,Cincinnati Reds sent C P.J. Higgins outright to Louisville Bats.
+605156,Aaron Brooks,Designated for Assignment,2026-05-15,,Tampa Bay Rays,Tampa Bay Rays designated RHP Aaron Brooks for assignment.
+628451,Andy Ibáñez,Outrighted,2026-05-15,New York Mets,Syracuse Mets,New York Mets sent 2B Andy Ibáñez outright to Syracuse Mets.
+683021,Michael Stefanic,Designated for Assignment,2026-05-16,,Athletics,Athletics designated 2B Michael Stefanic for assignment.
+605156,Aaron Brooks,Outrighted,2026-05-16,Tampa Bay Rays,Durham Bulls,Tampa Bay Rays sent RHP Aaron Brooks outright to Durham Bulls.
+657265,Peter Strzelecki,Designated for Assignment,2026-05-17,,Milwaukee Brewers,Milwaukee Brewers designated RHP Peter Strzelecki for assignment.
+677956,Rece Hinds,Designated for Assignment,2026-05-17,,Cincinnati Reds,Cincinnati Reds designated RF Rece Hinds for assignment.
+675989,Cody Bolton,Designated for Assignment,2026-05-18,,Houston Astros,Houston Astros designated RHP Cody Bolton for assignment.
+664744,Jose Espada,Designated for Assignment,2026-05-18,,Baltimore Orioles,Baltimore Orioles designated RHP Jose Espada for assignment.
+683021,Michael Stefanic,Outrighted,2026-05-18,Athletics,Las Vegas Aviators,Athletics sent 2B Michael Stefanic outright to Las Vegas Aviators.
+621389,Ty Blach,Designated for Assignment,2026-05-19,,Chicago Cubs,Chicago Cubs designated LHP Ty Blach for assignment.
+607481,Aaron Bummer,Released,2026-05-19,,Atlanta Braves,Atlanta Braves released LHP Aaron Bummer.
+623437,Justin Topa,Designated for Assignment,2026-05-19,,Minnesota Twins,Minnesota Twins designated RHP Justin Topa for assignment.
+688760,Blaine Crim,Designated for Assignment,2026-05-20,,Colorado Rockies,Colorado Rockies designated 1B Blaine Crim for assignment.
+657265,Peter Strzelecki,Outrighted,2026-05-20,Milwaukee Brewers,Nashville Sounds,Milwaukee Brewers sent RHP Peter Strzelecki outright to Nashville Sounds.
+666201,Alek Manoah,Outrighted,2026-05-20,Los Angeles Angels,Salt Lake Bees,Los Angeles Angels sent RHP Alek Manoah outright to Salt Lake Bees.
+687223,Carson Palmquist,Designated for Assignment,2026-05-21,,Colorado Rockies,Colorado Rockies designated LHP Carson Palmquist for assignment.
+675989,Cody Bolton,Outrighted,2026-05-21,Houston Astros,Sugar Land Space Cowboys,Houston Astros sent RHP Cody Bolton outright to Sugar Land Space Cowboys.
+664744,Jose Espada,Outrighted,2026-05-21,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent RHP Jose Espada outright to Norfolk Tides.
+553869,Elias Díaz,Designated for Assignment,2026-05-22,,Kansas City Royals,Kansas City Royals designated C Elias Díaz for assignment.
+518886,Craig Kimbrel,Designated for Assignment,2026-05-22,,New York Mets,New York Mets designated RHP Craig Kimbrel for assignment.
+621389,Ty Blach,Outrighted,2026-05-22,Chicago Cubs,Iowa Cubs,Chicago Cubs sent LHP Ty Blach outright to Iowa Cubs.
+670032,Nicky Lopez,Designated for Assignment,2026-05-23,,Chicago Cubs,Chicago Cubs designated 2B Nicky Lopez for assignment.
+623437,Justin Topa,Released,2026-05-23,,Minnesota Twins,Minnesota Twins released RHP Justin Topa.
+688883,Peyton Pallette,Designated for Assignment,2026-05-24,,Cleveland Guardians,Cleveland Guardians designated RHP Peyton Pallette for assignment.
+657756,Connor Seabold,Designated for Assignment,2026-05-24,,Detroit Tigers,Detroit Tigers designated RHP Connor Seabold for assignment.
+518886,Craig Kimbrel,Outrighted,2026-05-24,New York Mets,Syracuse Mets,New York Mets sent RHP Craig Kimbrel outright to Syracuse Mets.
+672284,Jarred Kelenic,Designated for Assignment,2026-05-25,,Chicago White Sox,Chicago White Sox designated RF Jarred Kelenic for assignment.
+669289,Santiago Espinal,Designated for Assignment,2026-05-25,,Los Angeles Dodgers,Los Angeles Dodgers designated 3B Santiago Espinal for assignment.
+472610,Luis García,Outrighted,2026-05-25,Minnesota Twins,St. Paul Saints,Minnesota Twins sent RHP Luis García outright to St. Paul Saints.
+670032,Nicky Lopez,Outrighted,2026-05-25,Chicago Cubs,Iowa Cubs,Chicago Cubs sent 2B Nicky Lopez outright to Iowa Cubs.
+608650,Dietrich Enns,Designated for Assignment,2026-05-26,,Baltimore Orioles,Baltimore Orioles designated LHP Dietrich Enns for assignment.
+553869,Elias Díaz,Outrighted,2026-05-26,Kansas City Royals,Omaha Storm Chasers,Kansas City Royals sent C Elias Díaz outright to Omaha Storm Chasers.
+663559,Bailey Falter,Designated for Assignment,2026-05-27,,Kansas City Royals,Kansas City Royals designated LHP Bailey Falter for assignment.
+683090,Matthew Lugo,Designated for Assignment,2026-05-27,,Los Angeles Angels,Los Angeles Angels designated LF Matthew Lugo for assignment.
+457705,Andrew McCutchen,Designated for Assignment,2026-05-27,,Texas Rangers,Texas Rangers designated DH Andrew McCutchen for assignment.
+457705,Andrew McCutchen,Released,2026-05-28,,Texas Rangers,Texas Rangers released DH Andrew McCutchen.
+664875,Justin Lawrence,Designated for Assignment,2026-05-29,,Pittsburgh Pirates,Pittsburgh Pirates designated RHP Justin Lawrence for assignment.
+680573,Simeon Woods Richardson,Designated for Assignment,2026-05-30,,Minnesota Twins,Minnesota Twins designated RHP Simeon Woods Richardson for assignment.
+647315,Zach Pop,Designated for Assignment,2026-05-30,,Philadelphia Phillies,Philadelphia Phillies designated RHP Zach Pop for assignment.
+644429,Anderson Severino,Designated for Assignment,2026-05-30,,New York Mets,New York Mets designated LHP Anderson Severino for assignment.
+693312,Kyle Nicolas,Designated for Assignment,2026-05-30,,Cincinnati Reds,Cincinnati Reds designated RHP Kyle Nicolas for assignment.
+690155,Matt Pushard,Designated for Assignment,2026-05-31,,St. Louis Cardinals,St. Louis Cardinals designated RHP Matt Pushard for assignment.
+621366,Ryan Borucki,Designated for Assignment,2026-05-31,,San Francisco Giants,San Francisco Giants designated LHP Ryan Borucki for assignment.
+681806,Andrew Wantz,Designated for Assignment,2026-05-31,,Tampa Bay Rays,Tampa Bay Rays designated RHP Andrew Wantz for assignment.
+608650,Dietrich Enns,Outrighted,2026-05-31,Baltimore Orioles,Norfolk Tides,Baltimore Orioles sent LHP Dietrich Enns outright to Norfolk Tides.
+628708,Yunior Marte,Designated for Assignment,2026-06-01,,Cincinnati Reds,Cincinnati Reds designated RHP Yunior Marte for assignment.
+682515,Logan Porter,Designated for Assignment,2026-06-01,,San Francisco Giants,San Francisco Giants designated C Logan Porter for assignment.
+608723,Austin Voth,Declared Free Agency,2026-06-01,,Toronto Blue Jays,RHP Austin Voth elected free agency.
+605335,Brandon Leibrandt,Designated for Assignment,2026-06-02,,Cincinnati Reds,Cincinnati Reds designated LHP Brandon Leibrandt for assignment.
+681806,Andrew Wantz,Outrighted,2026-06-02,Tampa Bay Rays,Durham Bulls,Tampa Bay Rays sent RHP Andrew Wantz outright to Durham Bulls.
+663559,Bailey Falter,Outrighted,2026-06-02,Kansas City Royals,Omaha Storm Chasers,Kansas City Royals sent LHP Bailey Falter outright to Omaha Storm Chasers.
+592206,Nick Castellanos,Designated for Assignment,2026-06-03,,San Diego Padres,San Diego Padres designated RF Nick Castellanos for assignment.
+628708,Yunior Marte,Outrighted,2026-06-03,Cincinnati Reds,Louisville Bats,Cincinnati Reds sent RHP Yunior Marte outright to Louisville Bats.
+681084,Tanner Andrews,Designated for Assignment,2026-06-04,,Toronto Blue Jays,Toronto Blue Jays designated RHP Tanner Andrews for assignment.
+644433,Chadwick Tromp,Designated for Assignment,2026-06-04,,Atlanta Braves,Atlanta Braves designated C Chadwick Tromp for assignment.
+682515,Logan Porter,Outrighted,2026-06-04,San Francisco Giants,Sacramento River Cats,San Francisco Giants sent C Logan Porter outright to Sacramento River Cats.
+605335,Brandon Leibrandt,Outrighted,2026-06-04,Cincinnati Reds,Louisville Bats,Cincinnati Reds sent LHP Brandon Leibrandt outright to Louisville Bats.
+663765,Jake Woodford,Designated for Assignment,2026-06-05,,Milwaukee Brewers,Milwaukee Brewers designated RHP Jake Woodford for assignment.
+689041,Rhylan Thomas,Released,2026-06-05,,Houston Astros,Houston Astros released LF Rhylan Thomas.
+688497,Taylor Rashi,Designated for Assignment,2026-06-05,,Arizona Diamondbacks,Arizona Diamondbacks designated RHP Taylor Rashi for assignment.
+664059,Sam Haggerty,Designated for Assignment,2026-06-05,,Texas Rangers,Texas Rangers designated LF Sam Haggerty for assignment.
+669270,Joel Kuhnel,Designated for Assignment,2026-06-05,,Athletics,Athletics designated RHP Joel Kuhnel for assignment.
+681546,James Outman,Designated for Assignment,2026-06-06,,Minnesota Twins,Minnesota Twins designated CF James Outman for assignment.
+683079,Omar Martinez,Designated for Assignment,2026-06-06,,Los Angeles Angels,Los Angeles Angels designated C Omar Martinez for assignment.
+621366,Ryan Borucki,Released,2026-06-06,,San Francisco Giants,San Francisco Giants released LHP Ryan Borucki.
+644433,Chadwick Tromp,Outrighted,2026-06-06,Atlanta Braves,Gwinnett Stripers,Atlanta Braves sent C Chadwick Tromp outright to Gwinnett Stripers.
+647315,Zach Pop,Outrighted,2026-06-06,Philadelphia Phillies,Lehigh Valley IronPigs,Philadelphia Phillies sent RHP Zach Pop outright to Lehigh Valley IronPigs.
+664059,Sam Haggerty,Released,2026-06-07,,Texas Rangers,Texas Rangers released LF Sam Haggerty.
+681084,Tanner Andrews,Outrighted,2026-06-07,Toronto Blue Jays,Buffalo Bisons,Toronto Blue Jays sent RHP Tanner Andrews outright to Buffalo Bisons.
+684320,Yariel Rodríguez,Designated for Assignment,2026-06-08,,Toronto Blue Jays,Toronto Blue Jays designated RHP Yariel Rodríguez for assignment.
+663765,Jake Woodford,Outrighted,2026-06-08,Milwaukee Brewers,Nashville Sounds,Milwaukee Brewers sent RHP Jake Woodford outright to Nashville Sounds.
+686823,Will Brennan,Designated for Assignment,2026-06-10,,San Francisco Giants,San Francisco Giants designated LF Will Brennan for assignment.
+666149,Tyler Fitzgerald,Released,2026-06-10,,Los Angeles Dodgers,Los Angeles Dodgers released 2B Tyler Fitzgerald.
+702910,Jhancarlos Lara,Designated for Assignment,2026-06-10,,Atlanta Braves,Atlanta Braves designated RHP Jhancarlos Lara for assignment.
+682445,Domingo Gonzalez,Designated for Assignment,2026-06-11,,Seattle Mariners,Seattle Mariners designated RHP Domingo Gonzalez for assignment.
+642759,Julian Fernández,Designated for Assignment,2026-06-12,,Washington Nationals,Washington Nationals designated RHP Julian Fernández for assignment.
+669369,Bryce Johnson,Designated for Assignment,2026-06-12,,San Diego Padres,San Diego Padres designated RF Bryce Johnson for assignment.
+668974,Maverick Handley,Released,2026-06-12,,Atlanta Braves,Atlanta Braves released C Maverick Handley.
+623168,Tyler Heineman,Designated for Assignment,2026-06-12,,Toronto Blue Jays,Toronto Blue Jays designated C Tyler Heineman for assignment.
+680802,Ryan Weiss,Designated for Assignment,2026-06-12,,Houston Astros,Houston Astros designated RHP Ryan Weiss for assignment.

@@ -1,0 +1,10 @@
+﻿rule_name,role_group,target,support_rows,base_rate,inside_rate,rate_delta_vs_base,lift_vs_base,permutation_p_value,rule_gate,abs_rate_delta
+hitter_war_ge4_strong,hitter,strong_success,9,0.31,1.0,0.69,3.23,0.0,usable,0.69
+starter_war_ge4_strong,starter,strong_success,25,0.279,0.92,0.641,3.3,0.0,usable,0.641
+hitter_wrc_lt90_failure,hitter,failure,6,0.405,1.0,0.595,2.47,0.001,usable,0.595
+starter_war_lt1_failure,starter,failure,20,0.43,1.0,0.57,2.32,0.0,usable,0.57
+starter_era_ge600_replaced,starter,in_season_replaced,9,0.302,0.778,0.475,2.57,0.003,usable,0.475
+starter_era_ge500_replaced,starter,in_season_replaced,16,0.302,0.688,0.385,2.27,0.001,usable,0.385
+hitter_wrc_ge120_success,hitter,success,24,0.548,0.875,0.327,1.6,0.0,usable,0.327
+starter_era_le350_success,starter,success,32,0.535,0.844,0.309,1.58,0.0,usable,0.309
+hitter_war_lt1_replaced,hitter,in_season_replaced,14,0.286,0.571,0.286,2.0,0.001,usable,0.286
