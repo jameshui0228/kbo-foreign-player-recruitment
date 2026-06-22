@@ -1,0 +1,52 @@
+slot,feature_name,feature_type,source_family,required,definition,model_use
+foreign_hitter,player_name,string,roster,true,Player display name,identifier
+foreign_hitter,current_org,string,roster,true,Current MLB parent organization,market_context
+foreign_hitter,current_team,string,roster,true,Current team name,market_context
+foreign_hitter,level,string,roster,true,Current level such as MLB or AAA,market_context
+foreign_hitter,league,string,roster,true,Current league,market_context
+foreign_hitter,age,number,roster,true,Player age on query date,market_context
+foreign_hitter,bats,string,roster,true,Batting side,profile
+foreign_hitter,position,string,roster,true,Primary position or playable role,profile
+foreign_hitter,aaa_ops_2026,number,official_stats,true,2026 AAA OPS,production
+foreign_hitter,mlb_ops_recent,number,official_stats,false,Most recent MLB season OPS if available,translation
+foreign_hitter,mlb_ops_career,number,official_stats,false,MLB career OPS,translation
+foreign_hitter,ops_translation_gap_recent,number,derived,false,aaa_ops_2026 minus mlb_ops_recent,translation_risk
+foreign_hitter,ops_translation_gap_career,number,derived,false,aaa_ops_2026 minus mlb_ops_career,translation_risk
+foreign_hitter,iso_aaa_2026,number,derived,true,AAA SLG minus AAA AVG,power
+foreign_hitter,k_pct_aaa_2026,number,derived,true,AAA strikeouts divided by plate appearances,contact_risk
+foreign_hitter,bb_pct_aaa_2026,number,derived,true,AAA walks divided by plate appearances,approach
+foreign_hitter,max_ev,number,savant,false,Maximum MLB tracked exit velocity,quality_of_contact
+foreign_hitter,ev90,number,savant,false,90th percentile MLB tracked exit velocity,quality_of_contact
+foreign_hitter,hard_hit_pct,number,savant,false,Share of batted balls at 95 mph or harder,quality_of_contact
+foreign_hitter,barrel_pct,number,savant,false,Share of tracked batted balls classified as barrels,power_quality
+foreign_hitter,sweet_spot_pct,number,savant,false,Share of tracked batted balls with launch angle 8 to 32 degrees,batted_ball_shape
+foreign_hitter,key_strength,string,manual_summary,true,Short explanation of the candidate's carrying tool,reporting
+foreign_hitter,main_defect,string,manual_summary,true,Main reason the player is available or risky,reporting
+foreign_hitter,ssg_fit_reason,string,manual_summary,true,Why the defect may be tolerable for SSG,reporting
+foreign_hitter,risk_reason,string,manual_summary,true,Why the candidate could fail,reporting
+foreign_hitter,model_score,number,derived,true,Final hitter model score,ranking
+foreign_hitter,review_label,string,derived,true,target watch or reject,stage_gate
+foreign_starter,player_name,string,roster,true,Player display name,identifier
+foreign_starter,current_org,string,roster,true,Current MLB parent organization,market_context
+foreign_starter,current_team,string,roster,true,Current team name,market_context
+foreign_starter,level,string,roster,true,Current level such as MLB or AAA,market_context
+foreign_starter,league,string,roster,true,Current league,market_context
+foreign_starter,age,number,roster,true,Player age on query date,market_context
+foreign_starter,throws,string,roster,true,Throwing hand,profile
+foreign_starter,role,string,roster,true,Starter swingman or reliever,profile
+foreign_starter,aaa_ip_2026,number,official_stats,true,2026 AAA innings pitched,durability
+foreign_starter,aaa_gs_2026,number,official_stats,true,2026 AAA games started,starter_continuity
+foreign_starter,aaa_ip_per_gs_2026,number,derived,true,2026 AAA innings pitched divided by games started,durability
+foreign_starter,aaa_k9_2026,number,derived,true,2026 AAA strikeouts per nine innings,stuff
+foreign_starter,aaa_bb9_2026,number,derived,true,2026 AAA walks per nine innings,command
+foreign_starter,aaa_hr9_2026,number,derived,true,2026 AAA home runs allowed per nine innings,hr_suppression
+foreign_starter,aaa_k_bb_ratio_2026,number,derived,true,2026 AAA strikeouts divided by walks,command
+foreign_starter,gb_pct_statcast,number,savant,false,MLB tracked ground-ball share on balls in play,munhak_fit
+foreign_starter,mlb_career_bb9,number,derived,false,MLB career walks per nine innings,translation_risk
+foreign_starter,mlb_career_hr9,number,derived,false,MLB career home runs allowed per nine innings,munhak_risk
+foreign_starter,key_strength,string,manual_summary,true,Short explanation of the candidate's carrying tool,reporting
+foreign_starter,main_defect,string,manual_summary,true,Main reason the player is available or risky,reporting
+foreign_starter,ssg_fit_reason,string,manual_summary,true,Why the defect may be tolerable for SSG,reporting
+foreign_starter,risk_reason,string,manual_summary,true,Why the candidate could fail,reporting
+foreign_starter,model_score,number,derived,true,Final starter model score,ranking
+foreign_starter,review_label,string,derived,true,target watch or reject,stage_gate
