@@ -1,0 +1,6 @@
+gate,layer,check,pass_rows,total_rows,status,blocking_gap
+L2A,KBO foreign-player success/failure archetype mining,archetype_validation_matrix_built,7,7,pass_visible_gap,"Backfill-required archetypes still exist, but tiers are now explicit"
+L2B,KBO foreign-player success/failure archetype mining,rule_stability_tiers_built,39,294,pass_visible_gap,Rules remain research-only and small-sample gates stay visible
+L2C,KBO foreign-player success/failure archetype mining,historical_backfill_queue_built,56,56,pass,Backfill work is now measurable by row and priority
+L4A,KBO translation model,pitcher_translation_proxy_component_built,1009,1009,pass_visible_gap,"Pitcher proxy is candidate-side and locked, not a final translation model"
+LOCK,Release policy,candidate_release_locks_preserved,1,1,pass,"No candidate names, ranks, scores, shortlist labels, or recommendations are released"

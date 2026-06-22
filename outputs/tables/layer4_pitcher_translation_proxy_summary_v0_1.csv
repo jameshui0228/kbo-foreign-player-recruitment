@@ -1,0 +1,7 @@
+source_pool,translation_proxy_status,pitcher_translation_proxy_band,rows,median_proxy_score,median_component_coverage,release_allowed
+regular_foreign_pitcher,research_proxy_needs_manual_review,above_average,83,57.24170123212079,100.0,False
+regular_foreign_pitcher,research_proxy_needs_manual_review,watch,503,48.19428726024602,100.0,False
+regular_foreign_pitcher,thin_proxy_needs_source_rebuild,watch,175,43.6525589547018,100.0,False
+regular_foreign_pitcher,thin_proxy_needs_source_rebuild,weak_or_unknown,73,35.090237757303605,100.0,False
+regular_foreign_pitcher,usable_candidate_side_proxy,above_average,142,64.97641239135842,100.0,False
+regular_foreign_pitcher,usable_candidate_side_proxy,strong,33,72.49798508008533,100.0,False

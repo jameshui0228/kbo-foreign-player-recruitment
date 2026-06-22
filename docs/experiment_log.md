@@ -2047,3 +2047,47 @@ Next:
 - Recompute manual readiness after source rows are filled.
 - Recalibrate failure-risk and SSG fit only after source evidence and manual
   grades are attached.
+
+## 2026-06-22 Run 040 Layer 2/4 Validation Sprint v0.1
+
+Hypothesis:
+
+- Layer 2 and Layer 4 can advance together by turning historical archetype
+  rules into stability tiers and attaching a locked pitcher translation proxy to
+  candidate-side rows.
+
+Actions:
+
+- Added `src/modeling/build_layer2_4_validation_sprint_v0_1.py`.
+- Built `layer2_archetype_validation_matrix_v0_1.csv`.
+- Built `layer2_rule_stability_tiers_v0_1.csv`.
+- Built `layer2_historical_backfill_queue_v0_1.csv`.
+- Built `layer4_pitcher_translation_proxy_component_v0_1.csv`.
+- Built `layer4_pitcher_translation_proxy_summary_v0_1.csv`.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v30.csv`.
+
+Validation:
+
+- Archetype validation rows: 7.
+- Rule stability rows: 294.
+- Promote-to-candidate-proxy rules: 7.
+- Research-support rules: 32.
+- Historical backfill queue rows: 56.
+- Locked pitcher translation proxy rows: 1009.
+- Usable pitcher proxy rows: 175.
+- Pitcher proxy rows needing manual review: 586.
+- Pitcher proxy rows needing source rebuild: 248.
+- Candidate release locks passed.
+
+Decision:
+
+- Promote Layer 2 to archetype validation and rule-stability status.
+- Promote Layer 4 to locked pitcher translation proxy status.
+- Do not release candidate names, ranks, scores, shortlist labels, manual unlock
+  labels, or recommendations.
+
+Next:
+
+- Close the 56-row historical backfill queue.
+- Attach source evidence to pitcher proxy groups.
+- Validate the pitcher proxy against historical archetype rule tiers.
