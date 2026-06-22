@@ -1,0 +1,8 @@
+reviewer_role,check_topic,check_instruction
+source_contract_reviewer,source,Find primary stat/video page and one contract/access source before assigning a manual grade.
+source_contract_reviewer,contract,"Record salary, option, buyout, transfer, club-control, and agent uncertainty as text evidence."
+medical_workload_reviewer,medical,"Check injury, rehab, IL, recent workload, pitch count, role continuity, and current availability."
+hitter_video_reviewer,hitter_video,"Grade swing decision, contact floor, two-strike survival, OF/DH role, defense, and baserunning fit."
+pitcher_video_reviewer,pitcher_video,"Grade pitch mix, command under traffic, HR/BB damage shape, starter runway, and role willingness."
+translation_model_reviewer,translation,Compare manual notes against KBO archetype and failure-risk rules before any unlock discussion.
+general_scouting_reviewer,decision,"Write continue or kill reason, but keep recommendation locked until all gates pass."

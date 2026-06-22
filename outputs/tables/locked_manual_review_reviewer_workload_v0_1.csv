@@ -1,0 +1,5 @@
+reviewer_role,reviewer_position,fit_slot,cards
+hitter_video_reviewer,secondary,foreign_hitter,31
+medical_workload_reviewer,secondary,foreign_pitcher,41
+source_contract_reviewer,primary,foreign_hitter,31
+source_contract_reviewer,primary,foreign_pitcher,41

@@ -1,0 +1,5 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+A1,assignment_queue_rows_match_manual_template,72,72,pass,"Assignment queue is still anonymous card workflow, not a shortlist"
+A2,candidate_identifiers_and_exact_scores_removed,1,1,pass,"Candidate names, teams, exact scores, and exact ranks are not allowed"
+A3,release_locks_preserved,72,72,pass,"No candidate names, ranks, scores, shortlist labels, manual unlock labels, or recommendations are released"
+A4,manual_decision_status_still_locked,72,72,pass,Manual decision remains locked_no_decision until reviewers fill evidence

@@ -1,0 +1,6 @@
+fit_slot,review_wave,review_lane,cards,cold_start_source_cards,source_search_required_cards,lower_risk_cards,strong_or_above_fit_cards,release_allowed
+foreign_hitter,wave_1_evidence_read_now,contract_access_check,1,0,0,1,1,False
+foreign_hitter,wave_1_rebuild_source_first,source_rebuild_before_video,29,29,0,19,26,False
+foreign_hitter,wave_2_review_after_core_sources,source_rebuild_before_video,1,1,0,0,1,False
+foreign_pitcher,wave_1_rebuild_source_first,pitcher_source_and_workload_rebuild,40,40,0,4,39,False
+foreign_pitcher,wave_2_review_after_core_sources,pitcher_source_and_workload_rebuild,1,1,0,0,0,False

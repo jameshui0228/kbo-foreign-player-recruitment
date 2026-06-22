@@ -1922,3 +1922,41 @@ Next:
 - Fill manual scouting notes, source URLs, contract evidence, medical evidence,
   and Korea-willingness evidence.
 - Recalibrate fit/risk after manual values are attached.
+
+## 2026-06-22 Run 037 Locked Manual Review Assignment Queue v0.1
+
+Hypothesis:
+
+- The anonymous scouting-card workflow needs an operating queue before manual
+  reviewers start filling evidence.
+
+Actions:
+
+- Added `src/modeling/build_locked_manual_review_assignment_queue_v0_1.py`.
+- Built an anonymous 72-card assignment queue from the locked manual review
+  template.
+- Assigned review waves, reviewer roles, source-search intensity, first fields
+  to fill, evidence-gap statements, and kill-switch questions.
+- Added assignment summary, reviewer workload, checklist, and gate audit.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v27.csv`.
+
+Validation:
+
+- Assignment queue rows: 72 / 72.
+- Candidate identifiers and exact score/rank fields removed.
+- Release locks passed for all 72 rows.
+- Manual decision status remains `locked_no_decision` for all 72 rows.
+
+Decision:
+
+- Promote the locked assignment queue as the current Layer 6 operating artifact.
+- Treat most cards as source-rebuild-first, not scouting-conviction-ready.
+- Do not release candidate names, ranks, scores, shortlist labels, manual unlock
+  labels, or recommendations.
+
+Next:
+
+- Rebuild source files for the review queue.
+- Fill reviewed source URLs, video/stat links, contract evidence, medical
+  evidence, and Korea-willingness evidence.
+- Recalibrate failure-risk and fit only after those manual values are attached.
