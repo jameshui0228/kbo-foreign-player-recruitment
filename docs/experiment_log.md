@@ -2091,3 +2091,44 @@ Next:
 - Close the 56-row historical backfill queue.
 - Attach source evidence to pitcher proxy groups.
 - Validate the pitcher proxy against historical archetype rule tiers.
+
+## 2026-06-22 Run 041 Locked Source Evidence Prefill v0.1
+
+Hypothesis:
+
+- Failure-risk and SSG-fit readiness can advance before manual grades if safe
+  ID-based source URLs are prefilled without exposing candidate names.
+
+Actions:
+
+- Added `src/modeling/build_locked_source_evidence_prefill_v0_1.py`.
+- Prefilled source rows from MLBAM ID-based MLB Stats API and Baseball Savant
+  URLs.
+- Attached existing article metadata links where available.
+- Built `locked_source_evidence_prefill_template_v0_1.csv`.
+- Built `layer5_6_source_readiness_recalibration_v0_1.csv`.
+- Updated six-layer progress and `outputs/tables/recruitment_gate_status_v31.csv`.
+
+Validation:
+
+- Source intake rows: 473.
+- URL-prefilled rows: 190.
+- Remaining blank source rows: 283.
+- Foreign hitter source rows filled: 65.
+- Foreign pitcher source rows filled: 125.
+- Candidate identifiers and exact score/rank fields removed.
+- Release locks passed for all 473 rows.
+
+Decision:
+
+- Promote source evidence prefill as the current Layer 5/6 readiness artifact.
+- Treat prefilled URLs as reviewer starting points, not verified evidence.
+- Do not release candidate names, ranks, scores, shortlist labels, manual unlock
+  labels, or recommendations.
+
+Next:
+
+- Fill remaining 283 source URL rows.
+- Human-review prefilled rows and extract claims.
+- Recalibrate failure risk and SSG fit after evidence strength and manual grades
+  are attached.

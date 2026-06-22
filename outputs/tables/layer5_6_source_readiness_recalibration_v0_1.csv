@@ -1,0 +1,5 @@
+fit_slot,readiness_band,cards,median_source_fill_rate,stat_filled_cards,contract_filled_cards,medical_filled_cards
+foreign_hitter,partial_prefill,2,0.5833333333333333,2,2,1
+foreign_hitter,thin_prefill,29,0.3333333333333333,29,0,0
+foreign_pitcher,partial_prefill,40,0.42857142857142855,40,0,0
+foreign_pitcher,source_complete,1,0.7142857142857143,1,1,1

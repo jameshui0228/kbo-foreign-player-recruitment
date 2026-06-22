@@ -1,0 +1,5 @@
+gate,check,pass_rows,total_rows,status,blocking_gap
+P1,prefill_rows_match_intake_rows,473,473,pass,"Prefill is source evidence work, not candidate release"
+P2,source_urls_prefilled,190,473,pass_visible_gap,Remaining blank source rows still need human source collection
+P3,candidate_identifiers_and_exact_scores_removed,1,1,pass,"Candidate names, teams, exact scores, and exact ranks remain excluded"
+P4,release_locks_preserved,473,473,pass,"No candidate names, ranks, scores, shortlist labels, manual unlock labels, or recommendations are released"

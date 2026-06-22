@@ -19,8 +19,8 @@ From this point forward, every major update should report progress on these six 
 | 2 | KBO foreign-player success/failure archetype mining | archetype validation and rule stability built | 86% | `outputs/tables/layer2_archetype_validation_matrix_v0_1.csv` | close the 56-row historical backfill queue and rerun archetype stability validation |
 | 3 | Candidate market construction | fit source-fill packet built | 95% | `outputs/tables/ssg_fit_source_fill_packet_v0_1.csv` | fill exact salary, opt-out, transfer-fee, buyout, agent, passport, medical, and Korea-willingness source values |
 | 4 | KBO translation model | locked pitcher translation proxy built | 88% | `outputs/tables/layer4_pitcher_translation_proxy_component_v0_1.csv` | attach source evidence to pitcher proxy groups and validate proxy against historical archetype rule tiers |
-| 5 | Failure risk model | source evidence status attached | 90% | `outputs/tables/ssg_fit_source_fill_packet_v0_1.csv` | use source-fill statuses to recalibrate risk buckets after manual contract and medical checks |
-| 6 | SSG fit ranking | locked source evidence intake template built | 90% | `outputs/tables/locked_source_evidence_intake_template_v0_1.csv` | fill 473 reviewed source rows with URLs, extracted claims, contract values, medical status, workload/role evidence, and Korea-willingness evidence before any candidate names, ranks, shortlist labels, manual unlock labels, or recommendations are released |
+| 5 | Failure risk model | source evidence prefill readiness attached | 93% | `outputs/tables/layer5_6_source_readiness_recalibration_v0_1.csv` | fill remaining contract, medical, Korea-willingness, and video/report source rows and mark human-reviewed evidence strength |
+| 6 | SSG fit ranking | locked source evidence prefill built | 93% | `outputs/tables/locked_source_evidence_prefill_template_v0_1.csv` | complete the remaining source URL backlog and transfer reviewed evidence into manual grades before unlock |
 
 ## Reporting Rule
 
