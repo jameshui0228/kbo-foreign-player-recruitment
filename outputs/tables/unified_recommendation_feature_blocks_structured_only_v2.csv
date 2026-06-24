@@ -1,0 +1,13 @@
+slot,slot_label,feature_block,source_layer,input_column,weight,plain_explanation
+foreign_pitcher,외인투수,SSG Need Fit,Layer 1,ssg_fit_component,0.32,SSG 상황별 병목과 후보 능력의 직접 적합도
+foreign_pitcher,외인투수,KBO Translation,Layer 4,kbo_translation_component,0.22,해외 성과가 KBO에서 통할 가능성
+foreign_pitcher,외인투수,Market Realism,Layer 3,market_realism_component,0.17,로스터/계약/접근 가능성
+foreign_pitcher,외인투수,Tool Process,Layer 2/4,tool_process_component,0.09,KBO 외인 유형과 후보 세부 지표의 연결성
+foreign_pitcher,외인투수,Surplus Access,Layer 3,surplus_access_component,0.1,비용 대비 접근성과 시장 비효율
+foreign_pitcher,외인투수,Failure Resilience,Layer 5,failure_resilience_component,0.1,실패 리스크를 버틸 가능성
+foreign_hitter,외인타자,SSG Need Fit,Layer 1,ssg_fit_component,0.34,SSG 상황별 병목과 후보 능력의 직접 적합도
+foreign_hitter,외인타자,KBO Translation,Layer 4,kbo_translation_component,0.24,해외 성과가 KBO에서 통할 가능성
+foreign_hitter,외인타자,Market Realism,Layer 3,market_realism_component,0.15,로스터/계약/접근 가능성
+foreign_hitter,외인타자,Tool Process,Layer 2/4,tool_process_component,0.08,KBO 외인 유형과 후보 세부 지표의 연결성
+foreign_hitter,외인타자,Surplus Access,Layer 3,surplus_access_component,0.09,비용 대비 접근성과 시장 비효율
+foreign_hitter,외인타자,Failure Resilience,Layer 5,failure_resilience_component,0.1,실패 리스크를 버틸 가능성

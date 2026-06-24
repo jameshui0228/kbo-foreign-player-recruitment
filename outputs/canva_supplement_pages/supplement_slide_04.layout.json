@@ -1,0 +1,1713 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/mikccy",
+    "id": "mikccy",
+    "slide": 4,
+    "layoutId": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F8F6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "1",
+      "bbox": [
+        72,
+        54,
+        1100,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Candidate Funnel: 넓게 만들고, 좁게 검증했다",
+      "textPreview": "Candidate Funnel: 넓게 만들고, 좁게 검증했다",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Candidate Funnel: 넓게 만들고, 좁게 검증했다"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Candidate Funnel: 넓게 만들고, 좁게 검증했다",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Candidate Funnel: 넓게 만들고, 좁게 검증했다",
+              "fontSize": 44,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "2",
+      "bbox": [
+        72,
+        124,
+        150,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9152B",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "3",
+      "bbox": [
+        72,
+        158,
+        1220,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Step 1~3은 후보를 줄이는 과정, Step 4~5는 후보를 정렬하는 과정",
+      "textPreview": "Step 1~3은 후보를 줄이는 과정, Step 4~5는 후보를 정렬하는 과정",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Step 1~3은 후보를 줄이는 과정, Step 4~5는 후보를 정렬하는 과정"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Step 1~3은 후보를 줄이는 과정, Step 4~5는 후보를 정렬하는 과정",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Step 1~3은 후보를 줄이는 과정, Step 4~5는 후보를 정렬하는 과정",
+              "fontSize": 22,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "4",
+      "bbox": [
+        72,
+        250,
+        268,
+        376
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "5",
+      "bbox": [
+        100,
+        276,
+        150,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Step 1",
+      "textPreview": "Step 1",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Step 1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Step 1",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Step 1",
+              "fontSize": 17,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "6",
+      "bbox": [
+        100,
+        330,
+        220,
+        42
+      ],
+      "geometry": "rect",
+      "text": "736 / 1,009",
+      "textPreview": "736 / 1,009",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "736 / 1,009"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "736 / 1,009",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "736 / 1,009",
+              "fontSize": 30,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovahoza1",
+      "id": "7",
+      "bbox": [
+        100,
+        382,
+        220,
+        30
+      ],
+      "geometry": "rect",
+      "text": "전체 구조화 시장",
+      "textPreview": "전체 구조화 시장",
+      "resolvedFontSize": 18.51,
+      "resolvedTextStyle": {
+        "fontSize": 18.51,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "전체 구조화 시장"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "전체 구조화 시장",
+          "resolvedTextStyle": {
+            "fontSize": 18.51,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "전체 구조화 시장",
+              "fontSize": 18.51,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtwra5g",
+      "id": "8",
+      "bbox": [
+        96,
+        440,
+        220,
+        150
+      ],
+      "geometry": "rect",
+      "text": "MLB/MiLB/roster 기반으로 모델 입력 가능한 후보 pool 구성.\n추천이 아니라 분석 가능한 시장 구축.",
+      "textPreview": "MLB/MiLB/roster 기반으로 모델 입력 가능한 후보 pool 구성. | 추천이 아니라 분석 가능한 시장 구축.",
+      "resolvedFontSize": 13.8,
+      "resolvedTextStyle": {
+        "fontSize": 13.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MLB/MiLB/roster 기반으로 모델"
+          },
+          {
+            "index": 2,
+            "text": "입력 가능한 후보 pool 구성."
+          },
+          {
+            "index": 3,
+            "text": "추천이 아니라 분석 가능한 시장"
+          },
+          {
+            "index": 4,
+            "text": "구축."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MLB/MiLB/roster 기반으로 모델 입력 가능한 후보 pool 구성.",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MLB/MiLB/roster 기반으로 모델 입력 가능한 후보 pool 구성.",
+              "fontSize": 13.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "추천이 아니라 분석 가능한 시장 구축.",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "추천이 아니라 분석 가능한 시장 구축.",
+              "fontSize": 13.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61032lsz",
+      "id": "9",
+      "bbox": [
+        364,
+        250,
+        268,
+        376
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#ECEDEA",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wval87ed",
+      "id": "10",
+      "bbox": [
+        392,
+        276,
+        150,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Step 2",
+      "textPreview": "Step 2",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Step 2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Step 2",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Step 2",
+              "fontSize": 17,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3ex0nu",
+      "id": "11",
+      "bbox": [
+        392,
+        330,
+        220,
+        42
+      ],
+      "geometry": "rect",
+      "text": "16 / 18",
+      "textPreview": "16 / 18",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "16 / 18"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "16 / 18",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "16 / 18",
+              "fontSize": 30,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "12",
+      "bbox": [
+        392,
+        382,
+        220,
+        30
+      ],
+      "geometry": "rect",
+      "text": "후보 생성 모듈",
+      "textPreview": "후보 생성 모듈",
+      "resolvedFontSize": 18.51,
+      "resolvedTextStyle": {
+        "fontSize": 18.51,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "후보 생성 모듈"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "후보 생성 모듈",
+          "resolvedTextStyle": {
+            "fontSize": 18.51,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "후보 생성 모듈",
+              "fontSize": 18.51,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "13",
+      "bbox": [
+        388,
+        440,
+        220,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Market, Team Fit, Upside, Translation screen 중 하나 이상에서 강한 신호.\nOR-screen: 넓게 건져 올림.",
+      "textPreview": "Market, Team Fit, Upside, Translation screen 중 하나 이상에서 강한 신호. | OR-screen: 넓게 건져 올림.",
+      "resolvedFontSize": 13.8,
+      "resolvedTextStyle": {
+        "fontSize": 13.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Market, Team Fit, Upside,"
+          },
+          {
+            "index": 2,
+            "text": "Translation screen 중 하나"
+          },
+          {
+            "index": 3,
+            "text": "이상에서 강한 신호."
+          },
+          {
+            "index": 4,
+            "text": "OR-screen: 넓게 건져 올림."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Market, Team Fit, Upside, Translation screen 중 하나 이상에서 강한 신호.",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Market, Team Fit, Upside, Translation screen 중 하나 이상에서 강한 신호.",
+              "fontSize": 13.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "OR-screen: 넓게 건져 올림.",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OR-screen: 넓게 건져 올림.",
+              "fontSize": 13.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "14",
+      "bbox": [
+        656,
+        250,
+        268,
+        376
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "15",
+      "bbox": [
+        684,
+        276,
+        150,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Step 3",
+      "textPreview": "Step 3",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Step 3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Step 3",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Step 3",
+              "fontSize": 17,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1w7mp0b",
+      "id": "16",
+      "bbox": [
+        684,
+        330,
+        220,
+        42
+      ],
+      "geometry": "rect",
+      "text": "6 / 3",
+      "textPreview": "6 / 3",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "6 / 3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "6 / 3",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6 / 3",
+              "fontSize": 30,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mp0bi9s",
+      "id": "17",
+      "bbox": [
+        684,
+        382,
+        220,
+        30
+      ],
+      "geometry": "rect",
+      "text": "1차 검증 통과",
+      "textPreview": "1차 검증 통과",
+      "resolvedFontSize": 18.51,
+      "resolvedTextStyle": {
+        "fontSize": 18.51,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1차 검증 통과"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1차 검증 통과",
+          "resolvedTextStyle": {
+            "fontSize": 18.51,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1차 검증 통과",
+              "fontSize": 18.51,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "18",
+      "bbox": [
+        680,
+        440,
+        220,
+        150
+      ],
+      "geometry": "rect",
+      "text": "표본, 포지션/역할, 40-man/계약, salary, medical, 데이터 결측을 동시에 확인.\nAND-gate: 검증된 후보만 남김.",
+      "textPreview": "표본, 포지션/역할, 40-man/계약, salary, medical, 데이터 결측을 동시에 확인. | AND-gate: 검증된 후보만 남김.",
+      "resolvedFontSize": 13.8,
+      "resolvedTextStyle": {
+        "fontSize": 13.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "표본, 포지션/역할, 40-man/계약,"
+          },
+          {
+            "index": 2,
+            "text": "salary, medical, 데이터 결측을"
+          },
+          {
+            "index": 3,
+            "text": "동시에 확인."
+          },
+          {
+            "index": 4,
+            "text": "AND-gate: 검증된 후보만 남김."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "표본, 포지션/역할, 40-man/계약, salary, medical, 데이터 결측을 동시에 확인.",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "표본, 포지션/역할, 40-man/계약, salary, medical, 데이터 결측을 동시에 확인.",
+              "fontSize": 13.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "AND-gate: 검증된 후보만 남김.",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AND-gate: 검증된 후보만 남김.",
+              "fontSize": 13.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0rqd4vm",
+      "id": "19",
+      "bbox": [
+        948,
+        250,
+        268,
+        376
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#ECEDEA",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwb2hwfy",
+      "id": "20",
+      "bbox": [
+        976,
+        276,
+        150,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Step 4",
+      "textPreview": "Step 4",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Step 4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Step 4",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Step 4",
+              "fontSize": 17,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bi9s36h",
+      "id": "21",
+      "bbox": [
+        976,
+        330,
+        220,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Top 3",
+      "textPreview": "Top 3",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Top 3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Top 3",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Top 3",
+              "fontSize": 30,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qpg3ex0",
+      "id": "22",
+      "bbox": [
+        976,
+        382,
+        220,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Raw Ranking",
+      "textPreview": "Raw Ranking",
+      "resolvedFontSize": 18.51,
+      "resolvedTextStyle": {
+        "fontSize": 18.51,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Raw Ranking"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Raw Ranking",
+          "resolvedTextStyle": {
+            "fontSize": 18.51,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Raw Ranking",
+              "fontSize": 18.51,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i5sneloj",
+      "id": "23",
+      "bbox": [
+        972,
+        440,
+        220,
+        150
+      ],
+      "geometry": "rect",
+      "text": "SSG Need Fit, KBO Translation, Archetype, Failure Resilience, Consensus 기반.\n데이터상 좋아 보이는 후보.",
+      "textPreview": "SSG Need Fit, KBO Translation, Archetype, Failure Resilience, Consensus 기반. | 데이터상 좋아 보이는 후보.",
+      "resolvedFontSize": 13.8,
+      "resolvedTextStyle": {
+        "fontSize": 13.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SSG Need Fit, KBO Translation,"
+          },
+          {
+            "index": 2,
+            "text": "Archetype, Failure Resilience,"
+          },
+          {
+            "index": 3,
+            "text": "Consensus 기반."
+          },
+          {
+            "index": 4,
+            "text": "데이터상 좋아 보이는 후보."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SSG Need Fit, KBO Translation, Archetype, Failure Resilience, Consensus 기반.",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SSG Need Fit, KBO Translation, Archetype, Failure Resilience, Consensus 기반.",
+              "fontSize": 13.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "데이터상 좋아 보이는 후보.",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "데이터상 좋아 보이는 후보.",
+              "fontSize": 13.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4r65wju",
+      "id": "24",
+      "bbox": [
+        1240,
+        250,
+        268,
+        376
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F6E7EA",
+      "lineColor": "#C9152B",
+      "lineWidth": 1
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjudg7ad",
+      "id": "25",
+      "bbox": [
+        1268,
+        276,
+        150,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Step 5",
+      "textPreview": "Step 5",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Step 5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Step 5",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Step 5",
+              "fontSize": 17,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y1kre1w",
+      "id": "26",
+      "bbox": [
+        1268,
+        330,
+        220,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Top 3",
+      "textPreview": "Top 3",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Top 3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Top 3",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Top 3",
+              "fontSize": 30,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8v6psf",
+      "id": "27",
+      "bbox": [
+        1268,
+        382,
+        220,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Final Ranking",
+      "textPreview": "Final Ranking",
+      "resolvedFontSize": 18.51,
+      "resolvedTextStyle": {
+        "fontSize": 18.51,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Final Ranking"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Final Ranking",
+          "resolvedTextStyle": {
+            "fontSize": 18.51,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Final Ranking",
+              "fontSize": 18.51,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8nqxs72",
+      "id": "28",
+      "bbox": [
+        1264,
+        440,
+        220,
+        150
+      ],
+      "geometry": "rect",
+      "text": "40-man, DFA/outright, 연봉, 계약, 의료, role acceptance, KBO행 가능성을 반영.\n실제 접촉 가능한 후보.",
+      "textPreview": "40-man, DFA/outright, 연봉, 계약, 의료, role acceptance, KBO행 가능성을 반영. | 실제 접촉 가능한 후보.",
+      "resolvedFontSize": 13.8,
+      "resolvedTextStyle": {
+        "fontSize": 13.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "40-man, DFA/outright, 연봉, 계약,"
+          },
+          {
+            "index": 2,
+            "text": "의료, role acceptance, KBO행"
+          },
+          {
+            "index": 3,
+            "text": "가능성을 반영."
+          },
+          {
+            "index": 4,
+            "text": "실제 접촉 가능한 후보."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "40-man, DFA/outright, 연봉, 계약, 의료, role acceptance, KBO행 가능성을 반영.",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "40-man, DFA/outright, 연봉, 계약, 의료, role acceptance, KBO행 가능성을 반영.",
+              "fontSize": 13.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "실제 접촉 가능한 후보.",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "실제 접촉 가능한 후보.",
+              "fontSize": 13.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "29",
+      "bbox": [
+        140,
+        730,
+        1320,
+        64
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#8C0E1A",
+      "lineWidth": 1
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "30",
+      "bbox": [
+        158,
+        747,
+        1284,
+        42
+      ],
+      "geometry": "rect",
+      "text": "발표 포인트: Step 1~3은 pool을 줄이는 mining process, Step 4~5는 raw score와 실행 가능성을 나눠 정렬하는 decision process다.",
+      "textPreview": "발표 포인트: Step 1~3은 pool을 줄이는 mining process, Step 4~5는 raw score와 실행 가능성을 나눠 정렬하는 decision process다.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "발표 포인트: Step 1~3은 pool을 줄이는 mining process, Step 4~5는 raw score와 실행 가능성을 나눠 정렬하는 decision process다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "발표 포인트: Step 1~3은 pool을 줄이는 mining process, Step 4~5는 raw score와 실행 가능성을 나눠 정렬하는 decision process다.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "발표 포인트: Step 1~3은 pool을 줄이는 mining process, Step 4~5는 raw score와 실행 가능성을 나눠 정렬하는 decision process다.",
+              "fontSize": 21,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

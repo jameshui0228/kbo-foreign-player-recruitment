@@ -1,0 +1,1434 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/0sxwd9",
+    "id": "0sxwd9",
+    "slide": 6,
+    "layoutId": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F8F6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqtcj6to",
+      "id": "1",
+      "bbox": [
+        72,
+        54,
+        1100,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Raw Ranking과 Final Ranking은 왜 다른가?",
+      "textPreview": "Raw Ranking과 Final Ranking은 왜 다른가?",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Raw Ranking과 Final Ranking은 왜 다른가?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Raw Ranking과 Final Ranking은 왜 다른가?",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Raw Ranking과 Final Ranking은 왜 다른가?",
+              "fontSize": 44,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obm58z25",
+      "id": "2",
+      "bbox": [
+        72,
+        124,
+        150,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9152B",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfyxobm",
+      "id": "3",
+      "bbox": [
+        72,
+        158,
+        1220,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Raw는 데이터상 우수 후보, Final은 실제 영입 가능한 후보",
+      "textPreview": "Raw는 데이터상 우수 후보, Final은 실제 영입 가능한 후보",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Raw는 데이터상 우수 후보, Final은 실제 영입 가능한 후보"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Raw는 데이터상 우수 후보, Final은 실제 영입 가능한 후보",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Raw는 데이터상 우수 후보, Final은 실제 영입 가능한 후보",
+              "fontSize": 22,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "4",
+      "bbox": [
+        78,
+        232,
+        410,
+        152
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zed8v6ps",
+      "id": "5",
+      "bbox": [
+        112,
+        256,
+        280,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Raw Ranking",
+      "textPreview": "Raw Ranking",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Raw Ranking"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Raw Ranking",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Raw Ranking",
+              "fontSize": 28,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza1gvy9",
+      "id": "6",
+      "bbox": [
+        112,
+        306,
+        330,
+        60
+      ],
+      "geometry": "rect",
+      "text": "순수 모델 점수와 cross-model consistency 기반\nSSG Need, KBO Translation, Archetype, Failure Risk 반영\n= 데이터상 좋아 보이는 후보",
+      "textPreview": "순수 모델 점수와 cross-model consistency 기반 | SSG Need, KBO Translation, Archetype, Failure Risk 반영 | = 데이터상 좋아 보이는 후보",
+      "resolvedFontSize": 15.69,
+      "resolvedTextStyle": {
+        "fontSize": 15.69,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "순수 모델 점수와 cross-model consistency"
+          },
+          {
+            "index": 2,
+            "text": "기반"
+          },
+          {
+            "index": 3,
+            "text": "SSG Need, KBO Translation, Archetype,"
+          },
+          {
+            "index": 4,
+            "text": "Failure Risk 반영"
+          },
+          {
+            "index": 5,
+            "text": "= 데이터상 좋아 보이는 후보"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "순수 모델 점수와 cross-model consistency 기반",
+          "resolvedTextStyle": {
+            "fontSize": 15.69,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "순수 모델 점수와 cross-model consistency 기반",
+              "fontSize": 15.69,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "SSG Need, KBO Translation, Archetype, Failure Risk 반영",
+          "resolvedTextStyle": {
+            "fontSize": 15.69,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SSG Need, KBO Translation, Archetype, Failure Risk 반영",
+              "fontSize": 15.69,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "= 데이터상 좋아 보이는 후보",
+          "resolvedTextStyle": {
+            "fontSize": 15.69,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "= 데이터상 좋아 보이는 후보",
+              "fontSize": 15.69,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3q5o7q",
+      "id": "7",
+      "bbox": [
+        518,
+        282,
+        70,
+        52
+      ],
+      "geometry": "rect",
+      "text": "→",
+      "textPreview": "→",
+      "resolvedFontSize": 42,
+      "resolvedTextStyle": {
+        "fontSize": 42,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "→"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "→",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "→",
+              "fontSize": 42,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "8",
+      "bbox": [
+        596,
+        232,
+        410,
+        152
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#ECEDEA",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "9",
+      "bbox": [
+        630,
+        256,
+        300,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Execution Gate",
+      "textPreview": "Execution Gate",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Execution Gate"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Execution Gate",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Execution Gate",
+              "fontSize": 28,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "10",
+      "bbox": [
+        630,
+        306,
+        330,
+        60
+      ],
+      "geometry": "rect",
+      "text": "40-man, DFA/outright, minor contract,\nsalary/contract, medical, role acceptance,\nKBO행 가능성, 즉시 전력 가능성",
+      "textPreview": "40-man, DFA/outright, minor contract, | salary/contract, medical, role acceptance, | KBO행 가능성, 즉시 전력 가능성",
+      "resolvedFontSize": 15.69,
+      "resolvedTextStyle": {
+        "fontSize": 15.69,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "40-man, DFA/outright, minor contract,"
+          },
+          {
+            "index": 2,
+            "text": "salary/contract, medical, role acceptance,"
+          },
+          {
+            "index": 3,
+            "text": "KBO행 가능성, 즉시 전력 가능성"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "40-man, DFA/outright, minor contract,",
+          "resolvedTextStyle": {
+            "fontSize": 15.69,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "40-man, DFA/outright, minor contract,",
+              "fontSize": 15.69,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "salary/contract, medical, role acceptance,",
+          "resolvedTextStyle": {
+            "fontSize": 15.69,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "salary/contract, medical, role acceptance,",
+              "fontSize": 15.69,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "KBO행 가능성, 즉시 전력 가능성",
+          "resolvedTextStyle": {
+            "fontSize": 15.69,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KBO행 가능성, 즉시 전력 가능성",
+              "fontSize": 15.69,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "11",
+      "bbox": [
+        1036,
+        282,
+        70,
+        52
+      ],
+      "geometry": "rect",
+      "text": "→",
+      "textPreview": "→",
+      "resolvedFontSize": 42,
+      "resolvedTextStyle": {
+        "fontSize": 42,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "→"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "→",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "color": "#66635F",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "→",
+              "fontSize": 42,
+              "color": "#66635F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "12",
+      "bbox": [
+        1114,
+        232,
+        410,
+        152
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F6E7EA",
+      "lineColor": "#C9152B",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "13",
+      "bbox": [
+        1148,
+        256,
+        300,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Final Ranking",
+      "textPreview": "Final Ranking",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Final Ranking"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Final Ranking",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Final Ranking",
+              "fontSize": 28,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "14",
+      "bbox": [
+        1148,
+        306,
+        330,
+        60
+      ],
+      "geometry": "rect",
+      "text": "모델 점수에 프런트 현실성 검증을 더한 최종 접촉 순위\n= 실제로 데려올 수 있는 후보",
+      "textPreview": "모델 점수에 프런트 현실성 검증을 더한 최종 접촉 순위 | = 실제로 데려올 수 있는 후보",
+      "resolvedFontSize": 15.69,
+      "resolvedTextStyle": {
+        "fontSize": 15.69,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "모델 점수에 프런트 현실성 검증을 더한 최종 접촉"
+          },
+          {
+            "index": 2,
+            "text": "순위"
+          },
+          {
+            "index": 3,
+            "text": "= 실제로 데려올 수 있는 후보"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "모델 점수에 프런트 현실성 검증을 더한 최종 접촉 순위",
+          "resolvedTextStyle": {
+            "fontSize": 15.69,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "모델 점수에 프런트 현실성 검증을 더한 최종 접촉 순위",
+              "fontSize": 15.69,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "= 실제로 데려올 수 있는 후보",
+          "resolvedTextStyle": {
+            "fontSize": 15.69,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "= 실제로 데려올 수 있는 후보",
+              "fontSize": 15.69,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "15",
+      "bbox": [
+        78,
+        428,
+        654,
+        202
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "16",
+      "bbox": [
+        110,
+        452,
+        280,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Unified Fit Score",
+      "textPreview": "Unified Fit Score",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Unified Fit Score"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Unified Fit Score",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Unified Fit Score",
+              "fontSize": 23,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "17",
+      "bbox": [
+        110,
+        494,
+        568,
+        42
+      ],
+      "geometry": "rect",
+      "text": "weighted feature-block score + role/position adjustment + sample adjustment + age adjustment - categorical risk penalty",
+      "textPreview": "weighted feature-block score + role/position adjustment + sample adjustment + age adjustment - categorical risk penalty",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "weighted feature-block score + role/position adjustment + sample"
+          },
+          {
+            "index": 2,
+            "text": "adjustment + age adjustment - categorical risk penalty"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "weighted feature-block score + role/position adjustment + sample adjustment + age adjustment - categorical risk penalty",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "weighted feature-block score + role/position adjustment + sample adjustment + age adjustment - categorical risk penalty",
+              "fontSize": 17,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "18",
+      "bbox": [
+        110,
+        558,
+        568,
+        48
+      ],
+      "geometry": "rect",
+      "text": "외인타자: Need 0.34 · Translation 0.24 · Market 0.15 · Tool 0.08 · Surplus 0.09 · Failure 0.10\n외인투수: Need 0.32 · Translation 0.22 · Market 0.17 · Tool 0.09 · Surplus 0.10 · Failure 0.10",
+      "textPreview": "외인타자: Need 0.34 · Translation 0.24 · Market 0.15 · Tool 0.08 · Surplus 0.09 · Failure 0.10 | 외인투수: Need 0.32 · Translation 0.22 · Market ...",
+      "resolvedFontSize": 14.8,
+      "resolvedTextStyle": {
+        "fontSize": 14.8,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "외인타자: Need 0.34 · Translation 0.24 · Market 0.15 · Tool 0.08 · Surplus 0.09 ·"
+          },
+          {
+            "index": 2,
+            "text": "Failure 0.10"
+          },
+          {
+            "index": 3,
+            "text": "외인투수: Need 0.32 · Translation 0.22 · Market 0.17 · Tool 0.09 · Surplus 0.10 ·"
+          },
+          {
+            "index": 4,
+            "text": "Failure 0.10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "외인타자: Need 0.34 · Translation 0.24 · Market 0.15 · Tool 0.08 · Surplus 0.09 · Failure 0.10",
+          "resolvedTextStyle": {
+            "fontSize": 14.8,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "외인타자: Need 0.34 · Translation 0.24 · Market 0.15 · Tool 0.08 · Surplus 0.09 · Failure 0.10",
+              "fontSize": 14.8,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "외인투수: Need 0.32 · Translation 0.22 · Market 0.17 · Tool 0.09 · Surplus 0.10 · Failure 0.10",
+          "resolvedTextStyle": {
+            "fontSize": 14.8,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "외인투수: Need 0.32 · Translation 0.22 · Market 0.17 · Tool 0.09 · Surplus 0.10 · Failure 0.10",
+              "fontSize": 14.8,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5gbq1or",
+      "id": "19",
+      "bbox": [
+        788,
+        428,
+        736,
+        202
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E7EFF2",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxobm58z",
+      "id": "20",
+      "bbox": [
+        820,
+        452,
+        320,
+        28
+      ],
+      "geometry": "rect",
+      "text": "왜 순위가 바뀌나?",
+      "textPreview": "왜 순위가 바뀌나?",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#245C73",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "왜 순위가 바뀌나?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "왜 순위가 바뀌나?",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#245C73",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "왜 순위가 바뀌나?",
+              "fontSize": 23,
+              "color": "#245C73",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "21",
+      "bbox": [
+        820,
+        494,
+        646,
+        100
+      ],
+      "geometry": "rect",
+      "text": "Raw 점수가 높아도 40-man blocked면 HOLD\n너무 젊고 MLB 가치가 높으면 HOLD\nmedical risk가 크면 WATCH 또는 RED\nRaw 점수가 중간이어도 DFA/outright + SSG fit 강하면 CONTACT 상승\n투수는 raw score보다 starter floor, command, BB/HR 억제, workload를 더 강하게 본다.",
+      "textPreview": "Raw 점수가 높아도 40-man blocked면 HOLD | 너무 젊고 MLB 가치가 높으면 HOLD | medical risk가 크면 WATCH 또는 RED | Raw 점수가 중간이어도 DFA/outright + SSG fit 강하면 CONT...",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Raw 점수가 높아도 40-man blocked면 HOLD"
+          },
+          {
+            "index": 2,
+            "text": "너무 젊고 MLB 가치가 높으면 HOLD"
+          },
+          {
+            "index": 3,
+            "text": "medical risk가 크면 WATCH 또는 RED"
+          },
+          {
+            "index": 4,
+            "text": "Raw 점수가 중간이어도 DFA/outright + SSG fit 강하면 CONTACT 상승"
+          },
+          {
+            "index": 5,
+            "text": "투수는 raw score보다 starter floor, command, BB/HR 억제, workload를 더 강하게 본다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Raw 점수가 높아도 40-man blocked면 HOLD",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Raw 점수가 높아도 40-man blocked면 HOLD",
+              "fontSize": 16,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "너무 젊고 MLB 가치가 높으면 HOLD",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "너무 젊고 MLB 가치가 높으면 HOLD",
+              "fontSize": 16,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "medical risk가 크면 WATCH 또는 RED",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "medical risk가 크면 WATCH 또는 RED",
+              "fontSize": 16,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "Raw 점수가 중간이어도 DFA/outright + SSG fit 강하면 CONTACT 상승",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Raw 점수가 중간이어도 DFA/outright + SSG fit 강하면 CONTACT 상승",
+              "fontSize": 16,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "투수는 raw score보다 starter floor, command, BB/HR 억제, workload를 더 강하게 본다.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "투수는 raw score보다 starter floor, command, BB/HR 억제, workload를 더 강하게 본다.",
+              "fontSize": 16,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3ex0nux",
+      "id": "22",
+      "bbox": [
+        78,
+        670,
+        1446,
+        104
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C9152B",
+      "lineWidth": 1
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o7qpg3e",
+      "id": "23",
+      "bbox": [
+        110,
+        696,
+        150,
+        26
+      ],
+      "geometry": "rect",
+      "text": "방어 문장",
+      "textPreview": "방어 문장",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "방어 문장"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "방어 문장",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "방어 문장",
+              "fontSize": 22,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylc7u54z",
+      "id": "24",
+      "bbox": [
+        268,
+        694,
+        1180,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Raw 1위가 Final 1위가 아닐 수 있는 이유는 모델이 틀려서가 아니라, 실제 영입에서는 계약·연봉·의료·로스터 접근성이 hard gate로 작동하기 때문이다. 후보 feature에는 KBO 입단 후 성과를 넣지 않아 leakage를 방지했다.",
+      "textPreview": "Raw 1위가 Final 1위가 아닐 수 있는 이유는 모델이 틀려서가 아니라, 실제 영입에서는 계약·연봉·의료·로스터 접근성이 hard gate로 작동하기 때문이다. 후보 feature에는 KBO 입단 후 성과를 넣지 않아 leakage를 방지했다.",
+      "resolvedFontSize": 17.4,
+      "resolvedTextStyle": {
+        "fontSize": 17.4,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Raw 1위가 Final 1위가 아닐 수 있는 이유는 모델이 틀려서가 아니라, 실제 영입에서는 계약·연봉·의료·로스터 접근성이 hard gate로 작동하기 때문이다. 후보"
+          },
+          {
+            "index": 2,
+            "text": "feature에는 KBO 입단 후 성과를 넣지 않아 leakage를 방지했다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Raw 1위가 Final 1위가 아닐 수 있는 이유는 모델이 틀려서가 아니라, 실제 영입에서는 계약·연봉·의료·로스터 접근성이 hard gate로 작동하기 때문이다. 후보 feature에는 KBO 입단 후 성과를 넣지 않아 leakage를 방지했다.",
+          "resolvedTextStyle": {
+            "fontSize": 17.4,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Raw 1위가 Final 1위가 아닐 수 있는 이유는 모델이 틀려서가 아니라, 실제 영입에서는 계약·연봉·의료·로스터 접근성이 hard gate로 작동하기 때문이다. 후보 feature에는 KBO 입단 후 성과를 넣지 않아 leakage를 방지했다.",
+              "fontSize": 17.4,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

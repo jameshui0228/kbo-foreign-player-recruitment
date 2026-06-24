@@ -1,0 +1,1258 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/2mri7u",
+    "id": "2mri7u",
+    "slide": 1,
+    "layoutId": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F8F6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6psfil0r",
+      "id": "1",
+      "bbox": [
+        72,
+        54,
+        1100,
+        64
+      ],
+      "geometry": "rect",
+      "text": "모델 상세 1: A/B/C",
+      "textPreview": "모델 상세 1: A/B/C",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "모델 상세 1: A/B/C"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "모델 상세 1: A/B/C",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "모델 상세 1: A/B/C",
+              "fontSize": 44,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "2",
+      "bbox": [
+        72,
+        124,
+        150,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9152B",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kre1w7mp",
+      "id": "3",
+      "bbox": [
+        72,
+        158,
+        1220,
+        42
+      ],
+      "geometry": "rect",
+      "text": "SSG 약점 정의 → 과거 KBO 성공/실패 학습 → 역할 유사도 매칭",
+      "textPreview": "SSG 약점 정의 → 과거 KBO 성공/실패 학습 → 역할 유사도 매칭",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SSG 약점 정의 → 과거 KBO 성공/실패 학습 → 역할 유사도 매칭"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SSG 약점 정의 → 과거 KBO 성공/실패 학습 → 역할 유사도 매칭",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SSG 약점 정의 → 과거 KBO 성공/실패 학습 → 역할 유사도 매칭",
+              "fontSize": 22,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vixczed8",
+      "id": "4",
+      "bbox": [
+        72,
+        250,
+        462,
+        432
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x4nap4r",
+      "id": "5",
+      "bbox": [
+        98,
+        278,
+        48,
+        44
+      ],
+      "geometry": "rect",
+      "text": "A",
+      "textPreview": "A",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A",
+              "fontSize": 34,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "6",
+      "bbox": [
+        168,
+        280,
+        340,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Team Need Mining",
+      "textPreview": "Team Need Mining",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Team Need Mining"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Team Need Mining",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Team Need Mining",
+              "fontSize": 25,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "7",
+      "bbox": [
+        106,
+        338,
+        394,
+        326
+      ],
+      "geometry": "rect",
+      "text": "질문: SSG는 어떤 경기 조건에서 평균 득실과 승률이 급격히 나빠지는가?\n\n입력: KBO/STATIZ 2023-2026 SSG 상황별 성과, 상대 선발 유형, 주자 상황, 득실, 선발 이닝, 불펜 부담.\n\n방법: 단순 순위표가 아니라 game-state interaction을 조합해 hidden weakness rule을 mining.\n\n발견: RHP game-script lock(-5.10), RHP OF/DH run-kill(-5.11), extra-out high OF void(-4.50), top-opponent short start(-5.83).\n\n출력: 타자=이닝 전환형 OF/DH, 투수=traffic-command starter feature contract.",
+      "textPreview": "질문: SSG는 어떤 경기 조건에서 평균 득실과 승률이 급격히 나빠지는가? |  | 입력: KBO/STATIZ 2023-2026 SSG 상황별 성과, 상대 선발 유형, 주자 상황, 득실, 선발 이닝, 불펜 부담. |  | 방법: 단순 순위표가 아...",
+      "resolvedFontSize": 15.6,
+      "resolvedTextStyle": {
+        "fontSize": 15.6,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 15,
+        "lines": [
+          {
+            "index": 1,
+            "text": "질문: SSG는 어떤 경기 조건에서 평균 득실과 승률이 급격히"
+          },
+          {
+            "index": 2,
+            "text": "나빠지는가?"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "입력: KBO/STATIZ 2023-2026 SSG 상황별 성과, 상대"
+          },
+          {
+            "index": 5,
+            "text": "선발 유형, 주자 상황, 득실, 선발 이닝, 불펜 부담."
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "방법: 단순 순위표가 아니라 game-state interaction을"
+          },
+          {
+            "index": 8,
+            "text": "조합해 hidden weakness rule을 mining."
+          },
+          {
+            "index": 9,
+            "text": ""
+          },
+          {
+            "index": 10,
+            "text": "발견: RHP game-script lock(-5.10), RHP OF/DH"
+          },
+          {
+            "index": 11,
+            "text": "run-kill(-5.11), extra-out high OF void(-4.50),"
+          },
+          {
+            "index": 12,
+            "text": "top-opponent short start(-5.83)."
+          },
+          {
+            "index": 13,
+            "text": ""
+          },
+          {
+            "index": 14,
+            "text": "출력: 타자=이닝 전환형 OF/DH, 투수=traffic-command"
+          },
+          {
+            "index": 15,
+            "text": "starter feature contract."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "질문: SSG는 어떤 경기 조건에서 평균 득실과 승률이 급격히 나빠지는가?",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "질문: SSG는 어떤 경기 조건에서 평균 득실과 승률이 급격히 나빠지는가?",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "입력: KBO/STATIZ 2023-2026 SSG 상황별 성과, 상대 선발 유형, 주자 상황, 득실, 선발 이닝, 불펜 부담.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "입력: KBO/STATIZ 2023-2026 SSG 상황별 성과, 상대 선발 유형, 주자 상황, 득실, 선발 이닝, 불펜 부담.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "방법: 단순 순위표가 아니라 game-state interaction을 조합해 hidden weakness rule을 mining.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "방법: 단순 순위표가 아니라 game-state interaction을 조합해 hidden weakness rule을 mining.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "발견: RHP game-script lock(-5.10), RHP OF/DH run-kill(-5.11), extra-out high OF void(-4.50), top-opponent short start(-5.83).",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "발견: RHP game-script lock(-5.10), RHP OF/DH run-kill(-5.11), extra-out high OF void(-4.50), top-opponent short start(-5.83).",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "출력: 타자=이닝 전환형 OF/DH, 투수=traffic-command starter feature contract.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "출력: 타자=이닝 전환형 OF/DH, 투수=traffic-command starter feature contract.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu9knih4",
+      "id": "8",
+      "bbox": [
+        572,
+        250,
+        462,
+        432
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#ECEDEA",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29gr2p8n",
+      "id": "9",
+      "bbox": [
+        598,
+        278,
+        48,
+        44
+      ],
+      "geometry": "rect",
+      "text": "B",
+      "textPreview": "B",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "B"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "B",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "B",
+              "fontSize": 34,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kre1w7mp",
+      "id": "10",
+      "bbox": [
+        668,
+        280,
+        340,
+        38
+      ],
+      "geometry": "rect",
+      "text": "KBO History Model",
+      "textPreview": "KBO History Model",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KBO History Model"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KBO History Model",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KBO History Model",
+              "fontSize": 25,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "11",
+      "bbox": [
+        606,
+        338,
+        394,
+        326
+      ],
+      "geometry": "rect",
+      "text": "질문: 후보는 과거 KBO 성공 외국인 선수와 닮았는가, 혹은 실패 패턴을 가졌는가?\n\n입력: 과거 KBO 외국인 선수의 pre-KBO Savant/MiLB feature. KBO 입단 후 성과는 label/사후 검증에만 사용.\n\n모델: 타자 Ridge Logistic Regression success/failure classifier. 투수 Sparse/L1 diagnostic classifier.\n\n성능: 타자 success AUC 0.833, failure AUC 0.738. 투수 AUC 0.603.\n\n사용: 타자는 high signal, 투수는 확정 추천이 아닌 diagnostic signal.",
+      "textPreview": "질문: 후보는 과거 KBO 성공 외국인 선수와 닮았는가, 혹은 실패 패턴을 가졌는가? |  | 입력: 과거 KBO 외국인 선수의 pre-KBO Savant/MiLB feature. KBO 입단 후 성과는 label/사후 검증에만 사용. |  | ...",
+      "resolvedFontSize": 15.6,
+      "resolvedTextStyle": {
+        "fontSize": 15.6,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 14,
+        "lines": [
+          {
+            "index": 1,
+            "text": "질문: 후보는 과거 KBO 성공 외국인 선수와 닮았는가, 혹은"
+          },
+          {
+            "index": 2,
+            "text": "실패 패턴을 가졌는가?"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "입력: 과거 KBO 외국인 선수의 pre-KBO Savant/MiLB"
+          },
+          {
+            "index": 5,
+            "text": "feature. KBO 입단 후 성과는 label/사후 검증에만 사용."
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "모델: 타자 Ridge Logistic Regression success/failure"
+          },
+          {
+            "index": 8,
+            "text": "classifier. 투수 Sparse/L1 diagnostic classifier."
+          },
+          {
+            "index": 9,
+            "text": ""
+          },
+          {
+            "index": 10,
+            "text": "성능: 타자 success AUC 0.833, failure AUC 0.738. 투수"
+          },
+          {
+            "index": 11,
+            "text": "AUC 0.603."
+          },
+          {
+            "index": 12,
+            "text": ""
+          },
+          {
+            "index": 13,
+            "text": "사용: 타자는 high signal, 투수는 확정 추천이 아닌"
+          },
+          {
+            "index": 14,
+            "text": "diagnostic signal."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "질문: 후보는 과거 KBO 성공 외국인 선수와 닮았는가, 혹은 실패 패턴을 가졌는가?",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "질문: 후보는 과거 KBO 성공 외국인 선수와 닮았는가, 혹은 실패 패턴을 가졌는가?",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "입력: 과거 KBO 외국인 선수의 pre-KBO Savant/MiLB feature. KBO 입단 후 성과는 label/사후 검증에만 사용.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "입력: 과거 KBO 외국인 선수의 pre-KBO Savant/MiLB feature. KBO 입단 후 성과는 label/사후 검증에만 사용.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "모델: 타자 Ridge Logistic Regression success/failure classifier. 투수 Sparse/L1 diagnostic classifier.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "모델: 타자 Ridge Logistic Regression success/failure classifier. 투수 Sparse/L1 diagnostic classifier.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "성능: 타자 success AUC 0.833, failure AUC 0.738. 투수 AUC 0.603.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "성능: 타자 success AUC 0.833, failure AUC 0.738. 투수 AUC 0.603.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "사용: 타자는 high signal, 투수는 확정 추천이 아닌 diagnostic signal.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "사용: 타자는 high signal, 투수는 확정 추천이 아닌 diagnostic signal.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6psfil0r",
+      "id": "12",
+      "bbox": [
+        1072,
+        250,
+        462,
+        432
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/val87ed8",
+      "id": "13",
+      "bbox": [
+        1098,
+        278,
+        48,
+        44
+      ],
+      "geometry": "rect",
+      "text": "C",
+      "textPreview": "C",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "C"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "C",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "C",
+              "fontSize": 34,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "14",
+      "bbox": [
+        1168,
+        280,
+        340,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Archetype Matching",
+      "textPreview": "Archetype Matching",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Archetype Matching"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Archetype Matching",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Archetype Matching",
+              "fontSize": 25,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "15",
+      "bbox": [
+        1106,
+        338,
+        394,
+        326
+      ],
+      "geometry": "rect",
+      "text": "질문: 이 선수는 어떤 유형이며, SSG 필요 역할과 얼마나 닮았는가?\n\n입력: 후보별 표준화 feature vector.\n\n타자 vector: contact floor, on-base/damage, RHP fit, run-kill avoidance, role/market fit.\n\n투수 vector: command stability, damage control, starter floor, KBO/ABS translation, market/medical fit.\n\n방법: role similarity, archetype score, KBO 성공 유형/SSG 필요 유형과의 distance 비교.\n\n유형: contact-floor OF/DH, RHP unlocker, traffic-command starter.",
+      "textPreview": "질문: 이 선수는 어떤 유형이며, SSG 필요 역할과 얼마나 닮았는가? |  | 입력: 후보별 표준화 feature vector. |  | 타자 vector: contact floor, on-base/damage, RHP fit, run-kill...",
+      "resolvedFontSize": 15.6,
+      "resolvedTextStyle": {
+        "fontSize": 15.6,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 16,
+        "lines": [
+          {
+            "index": 1,
+            "text": "질문: 이 선수는 어떤 유형이며, SSG 필요 역할과 얼마나"
+          },
+          {
+            "index": 2,
+            "text": "닮았는가?"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "입력: 후보별 표준화 feature vector."
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": "타자 vector: contact floor, on-base/damage, RHP fit,"
+          },
+          {
+            "index": 7,
+            "text": "run-kill avoidance, role/market fit."
+          },
+          {
+            "index": 8,
+            "text": ""
+          },
+          {
+            "index": 9,
+            "text": "투수 vector: command stability, damage control,"
+          },
+          {
+            "index": 10,
+            "text": "starter floor, KBO/ABS translation, market/medical fit."
+          },
+          {
+            "index": 11,
+            "text": ""
+          },
+          {
+            "index": 12,
+            "text": "방법: role similarity, archetype score, KBO 성공"
+          },
+          {
+            "index": 13,
+            "text": "유형/SSG 필요 유형과의 distance 비교."
+          },
+          {
+            "index": 14,
+            "text": ""
+          },
+          {
+            "index": 15,
+            "text": "유형: contact-floor OF/DH, RHP unlocker,"
+          },
+          {
+            "index": 16,
+            "text": "traffic-command starter."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "질문: 이 선수는 어떤 유형이며, SSG 필요 역할과 얼마나 닮았는가?",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "질문: 이 선수는 어떤 유형이며, SSG 필요 역할과 얼마나 닮았는가?",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "입력: 후보별 표준화 feature vector.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "입력: 후보별 표준화 feature vector.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "타자 vector: contact floor, on-base/damage, RHP fit, run-kill avoidance, role/market fit.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "타자 vector: contact floor, on-base/damage, RHP fit, run-kill avoidance, role/market fit.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "투수 vector: command stability, damage control, starter floor, KBO/ABS translation, market/medical fit.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "투수 vector: command stability, damage control, starter floor, KBO/ABS translation, market/medical fit.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "방법: role similarity, archetype score, KBO 성공 유형/SSG 필요 유형과의 distance 비교.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "방법: role similarity, archetype score, KBO 성공 유형/SSG 필요 유형과의 distance 비교.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 11,
+          "text": "유형: contact-floor OF/DH, RHP unlocker, traffic-command starter.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "유형: contact-floor OF/DH, RHP unlocker, traffic-command starter.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x4nap4r",
+      "id": "16",
+      "bbox": [
+        220,
+        742,
+        1160,
+        64
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#8C0E1A",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vixczed8",
+      "id": "17",
+      "bbox": [
+        238,
+        759,
+        1124,
+        42
+      ],
+      "geometry": "rect",
+      "text": "핵심: A는 필요 유형을 정의하고, B는 성공/실패 신호를 학습하며, C는 후보가 그 역할과 얼마나 닮았는지 비교한다.",
+      "textPreview": "핵심: A는 필요 유형을 정의하고, B는 성공/실패 신호를 학습하며, C는 후보가 그 역할과 얼마나 닮았는지 비교한다.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "핵심: A는 필요 유형을 정의하고, B는 성공/실패 신호를 학습하며, C는 후보가 그 역할과 얼마나 닮았는지 비교한다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "핵심: A는 필요 유형을 정의하고, B는 성공/실패 신호를 학습하며, C는 후보가 그 역할과 얼마나 닮았는지 비교한다.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "핵심: A는 필요 유형을 정의하고, B는 성공/실패 신호를 학습하며, C는 후보가 그 역할과 얼마나 닮았는지 비교한다.",
+              "fontSize": 21,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

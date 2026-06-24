@@ -1,0 +1,991 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/5c21pd",
+    "id": "5c21pd",
+    "slide": 5,
+    "layoutId": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F8F6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "1",
+      "bbox": [
+        72,
+        54,
+        1100,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Step 2와 Step 3은 무엇이 다른가?",
+      "textPreview": "Step 2와 Step 3은 무엇이 다른가?",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Step 2와 Step 3은 무엇이 다른가?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Step 2와 Step 3은 무엇이 다른가?",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Step 2와 Step 3은 무엇이 다른가?",
+              "fontSize": 44,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkjm1cf",
+      "id": "2",
+      "bbox": [
+        72,
+        124,
+        150,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9152B",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dcbulw",
+      "id": "3",
+      "bbox": [
+        72,
+        158,
+        1220,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Step 2는 가능성을 넓게 보는 OR-screen, Step 3은 발표 가능한 후보만 남기는 AND-gate",
+      "textPreview": "Step 2는 가능성을 넓게 보는 OR-screen, Step 3은 발표 가능한 후보만 남기는 AND-gate",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Step 2는 가능성을 넓게 보는 OR-screen, Step 3은 발표 가능한 후보만 남기는 AND-gate"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Step 2는 가능성을 넓게 보는 OR-screen, Step 3은 발표 가능한 후보만 남기는 AND-gate",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Step 2는 가능성을 넓게 보는 OR-screen, Step 3은 발표 가능한 후보만 남기는 AND-gate",
+              "fontSize": 22,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "4",
+      "bbox": [
+        72,
+        238,
+        686,
+        378
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkf6dcbu",
+      "id": "5",
+      "bbox": [
+        110,
+        264,
+        470,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Step 2 Candidate Generation",
+      "textPreview": "Step 2 Candidate Generation",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Step 2 Candidate Generation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Step 2 Candidate Generation",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Step 2 Candidate Generation",
+              "fontSize": 25,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "6",
+      "bbox": [
+        110,
+        312,
+        590,
+        104
+      ],
+      "geometry": "rect",
+      "text": "목적: 넓게 후보 발굴\n방식: OR-screen\n기준: 하나 이상의 모듈에서 강한 신호가 있으면 후보 board 포함\n결과: 타자 16명, 투수 18명\n해석: 찾아낸 후보",
+      "textPreview": "목적: 넓게 후보 발굴 | 방식: OR-screen | 기준: 하나 이상의 모듈에서 강한 신호가 있으면 후보 board 포함 | 결과: 타자 16명, 투수 18명 | 해석: 찾아낸 후보",
+      "resolvedFontSize": 17.2,
+      "resolvedTextStyle": {
+        "fontSize": 17.2,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "목적: 넓게 후보 발굴"
+          },
+          {
+            "index": 2,
+            "text": "방식: OR-screen"
+          },
+          {
+            "index": 3,
+            "text": "기준: 하나 이상의 모듈에서 강한 신호가 있으면 후보 board 포함"
+          },
+          {
+            "index": 4,
+            "text": "결과: 타자 16명, 투수 18명"
+          },
+          {
+            "index": 5,
+            "text": "해석: 찾아낸 후보"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "목적: 넓게 후보 발굴",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "목적: 넓게 후보 발굴",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "방식: OR-screen",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "방식: OR-screen",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "기준: 하나 이상의 모듈에서 강한 신호가 있으면 후보 board 포함",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "기준: 하나 이상의 모듈에서 강한 신호가 있으면 후보 board 포함",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "결과: 타자 16명, 투수 18명",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "결과: 타자 16명, 투수 18명",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "해석: 찾아낸 후보",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "해석: 찾아낸 후보",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fepkzupw",
+      "id": "7",
+      "bbox": [
+        110,
+        444,
+        590,
+        118
+      ],
+      "geometry": "rect",
+      "text": "타자 예시: RHP 상대 출루/장타, contact floor, OF/DH 가능성, 낮은 run-kill risk, 시장 비효율\n\n투수 예시: starter floor, low BB9, low HR9, traffic command, multi-inning 가능성",
+      "textPreview": "타자 예시: RHP 상대 출루/장타, contact floor, OF/DH 가능성, 낮은 run-kill risk, 시장 비효율 |  | 투수 예시: starter floor, low BB9, low HR9, traffic command, mul...",
+      "resolvedFontSize": 16.31,
+      "resolvedTextStyle": {
+        "fontSize": 16.31,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "타자 예시: RHP 상대 출루/장타, contact floor, OF/DH 가능성, 낮은 run-kill risk, 시장"
+          },
+          {
+            "index": 2,
+            "text": "비효율"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "투수 예시: starter floor, low BB9, low HR9, traffic command, multi-inning 가능성"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "타자 예시: RHP 상대 출루/장타, contact floor, OF/DH 가능성, 낮은 run-kill risk, 시장 비효율",
+          "resolvedTextStyle": {
+            "fontSize": 16.31,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "타자 예시: RHP 상대 출루/장타, contact floor, OF/DH 가능성, 낮은 run-kill risk, 시장 비효율",
+              "fontSize": 16.31,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "투수 예시: starter floor, low BB9, low HR9, traffic command, multi-inning 가능성",
+          "resolvedTextStyle": {
+            "fontSize": 16.31,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "투수 예시: starter floor, low BB9, low HR9, traffic command, multi-inning 가능성",
+              "fontSize": 16.31,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "8",
+      "bbox": [
+        842,
+        238,
+        686,
+        378
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E7EFF2",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "9",
+      "bbox": [
+        880,
+        264,
+        500,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Step 3 Basic Data-Mining Gate",
+      "textPreview": "Step 3 Basic Data-Mining Gate",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#245C73",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Step 3 Basic Data-Mining Gate"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Step 3 Basic Data-Mining Gate",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#245C73",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Step 3 Basic Data-Mining Gate",
+              "fontSize": 25,
+              "color": "#245C73",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "10",
+      "bbox": [
+        880,
+        312,
+        590,
+        104
+      ],
+      "geometry": "rect",
+      "text": "목적: 모델 비교 가능한 후보만 남김\n방식: AND-gate\n기준: 핵심 조건을 동시에 통과해야 함\n결과: 타자 6명, 투수 3명\n해석: 검증을 통과한 후보",
+      "textPreview": "목적: 모델 비교 가능한 후보만 남김 | 방식: AND-gate | 기준: 핵심 조건을 동시에 통과해야 함 | 결과: 타자 6명, 투수 3명 | 해석: 검증을 통과한 후보",
+      "resolvedFontSize": 17.2,
+      "resolvedTextStyle": {
+        "fontSize": 17.2,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "목적: 모델 비교 가능한 후보만 남김"
+          },
+          {
+            "index": 2,
+            "text": "방식: AND-gate"
+          },
+          {
+            "index": 3,
+            "text": "기준: 핵심 조건을 동시에 통과해야 함"
+          },
+          {
+            "index": 4,
+            "text": "결과: 타자 6명, 투수 3명"
+          },
+          {
+            "index": 5,
+            "text": "해석: 검증을 통과한 후보"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "목적: 모델 비교 가능한 후보만 남김",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "목적: 모델 비교 가능한 후보만 남김",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "방식: AND-gate",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "방식: AND-gate",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "기준: 핵심 조건을 동시에 통과해야 함",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "기준: 핵심 조건을 동시에 통과해야 함",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "결과: 타자 6명, 투수 3명",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "결과: 타자 6명, 투수 3명",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "해석: 검증을 통과한 후보",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "해석: 검증을 통과한 후보",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kre1w7mp",
+      "id": "11",
+      "bbox": [
+        880,
+        444,
+        590,
+        118
+      ],
+      "geometry": "rect",
+      "text": "검증 항목: 표본 신뢰도, 포지션/역할 적합성, 시장 접근성, 40-man/계약 상태, salary/contract signal, medical risk, 데이터 결측, 신원 매칭",
+      "textPreview": "검증 항목: 표본 신뢰도, 포지션/역할 적합성, 시장 접근성, 40-man/계약 상태, salary/contract signal, medical risk, 데이터 결측, 신원 매칭",
+      "resolvedFontSize": 16.31,
+      "resolvedTextStyle": {
+        "fontSize": 16.31,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "검증 항목: 표본 신뢰도, 포지션/역할 적합성, 시장 접근성, 40-man/계약 상태,"
+          },
+          {
+            "index": 2,
+            "text": "salary/contract signal, medical risk, 데이터 결측, 신원 매칭"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "검증 항목: 표본 신뢰도, 포지션/역할 적합성, 시장 접근성, 40-man/계약 상태, salary/contract signal, medical risk, 데이터 결측, 신원 매칭",
+          "resolvedTextStyle": {
+            "fontSize": 16.31,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "검증 항목: 표본 신뢰도, 포지션/역할 적합성, 시장 접근성, 40-man/계약 상태, salary/contract signal, medical risk, 데이터 결측, 신원 매칭",
+              "fontSize": 16.31,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/val87ed8",
+      "id": "12",
+      "bbox": [
+        72,
+        650,
+        1456,
+        112
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6psfil0r",
+      "id": "13",
+      "bbox": [
+        104,
+        674,
+        420,
+        30
+      ],
+      "geometry": "rect",
+      "text": "왜 타자는 6명, 투수는 3명인가?",
+      "textPreview": "왜 타자는 6명, 투수는 3명인가?",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "왜 타자는 6명, 투수는 3명인가?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "왜 타자는 6명, 투수는 3명인가?",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "왜 타자는 6명, 투수는 3명인가?",
+              "fontSize": 23,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "14",
+      "bbox": [
+        104,
+        714,
+        640,
+        38
+      ],
+      "geometry": "rect",
+      "text": "타자: historical KBO hitter classifier가 success AUC 0.833 / failure AUC 0.738로 의미 있는 신호를 보였고, Savant 기반 OF/DH feature가 비교적 안정적이었다.",
+      "textPreview": "타자: historical KBO hitter classifier가 success AUC 0.833 / failure AUC 0.738로 의미 있는 신호를 보였고, Savant 기반 OF/DH feature가 비교적 안정적이었다.",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "타자: historical KBO hitter classifier가 success AUC 0.833 / failure AUC 0.738로 의미 있는"
+          },
+          {
+            "index": 2,
+            "text": "신호를 보였고, Savant 기반 OF/DH feature가 비교적 안정적이었다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "타자: historical KBO hitter classifier가 success AUC 0.833 / failure AUC 0.738로 의미 있는 신호를 보였고, Savant 기반 OF/DH feature가 비교적 안정적이었다.",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "타자: historical KBO hitter classifier가 success AUC 0.833 / failure AUC 0.738로 의미 있는 신호를 보였고, Savant 기반 OF/DH feature가 비교적 안정적이었다.",
+              "fontSize": 15.4,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "15",
+      "bbox": [
+        790,
+        714,
+        686,
+        46
+      ],
+      "geometry": "rect",
+      "text": "투수: classifier AUC 0.603으로 diagnostic 수준이고, 수비·포수·구장·역할 이질성 영향이 커서 starter floor, BB9, HR9, workload, market/medical gate를 더 보수적으로 적용했다.",
+      "textPreview": "투수: classifier AUC 0.603으로 diagnostic 수준이고, 수비·포수·구장·역할 이질성 영향이 커서 starter floor, BB9, HR9, workload, market/medical gate를 더 보수적으로 적용했다.",
+      "resolvedFontSize": 15.4,
+      "resolvedTextStyle": {
+        "fontSize": 15.4,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "투수: classifier AUC 0.603으로 diagnostic 수준이고, 수비·포수·구장·역할 이질성 영향이 커서 starter"
+          },
+          {
+            "index": 2,
+            "text": "floor, BB9, HR9, workload, market/medical gate를 더 보수적으로 적용했다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "투수: classifier AUC 0.603으로 diagnostic 수준이고, 수비·포수·구장·역할 이질성 영향이 커서 starter floor, BB9, HR9, workload, market/medical gate를 더 보수적으로 적용했다.",
+          "resolvedTextStyle": {
+            "fontSize": 15.4,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "투수: classifier AUC 0.603으로 diagnostic 수준이고, 수비·포수·구장·역할 이질성 영향이 커서 starter floor, BB9, HR9, workload, market/medical gate를 더 보수적으로 적용했다.",
+              "fontSize": 15.4,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

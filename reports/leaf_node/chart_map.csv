@@ -1,0 +1,4 @@
+chart,path,question,takeaway
+hidden_weakness_rules,/Users/jameshui/CODEX/포트폴리오/SDA 2기 프로젝트_야구/kbo-foreign-player-recruitment/reports/leaf_node/assets/hidden_weakness_rules.png,"SSG의 약점이 단순 장타 부족인지, 특정 경기 상태 실패인지",RHP/이닝 단절/추가 출루 이후 상황에서 승률과 득실이 동시에 붕괴한다.
+hitter_success_probabilities,/Users/jameshui/CODEX/포트폴리오/SDA 2기 프로젝트_야구/kbo-foreign-player-recruitment/reports/leaf_node/assets/hitter_success_probabilities.png,타자 후보의 데이터마이닝 성공확률과 최종 게이트가 어떻게 결합되는지,Matos와 Jones는 모두 강하지만 Matos가 비용 게이트에서 최종 1순위가 된다.
+pitcher_gate_movement,/Users/jameshui/CODEX/포트폴리오/SDA 2기 프로젝트_야구/kbo-foreign-player-recruitment/reports/leaf_node/assets/pitcher_gate_movement.png,투수 raw Top 3가 왜 최종 Top 3와 달라지는지,Carson Spiers와 Brian Van Belle은 raw 상위지만 의료 게이트로 보류되고 Fleming이 접촉 1순위가 된다.

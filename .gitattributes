@@ -1,0 +1,5 @@
+# Treat generated presentation/report artifacts as binary in GitHub diffs.
+*.docx binary
+*.pdf binary
+*.png binary
+*.pptx binary

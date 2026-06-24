@@ -1,0 +1,3540 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/jxqrms",
+    "id": "jxqrms",
+    "slide": 3,
+    "layoutId": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F8F6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "1",
+      "bbox": [
+        72,
+        54,
+        1100,
+        64
+      ],
+      "geometry": "rect",
+      "text": "앙상블 의사결정 로직",
+      "textPreview": "앙상블 의사결정 로직",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "앙상블 의사결정 로직"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "앙상블 의사결정 로직",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "앙상블 의사결정 로직",
+              "fontSize": 44,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkjm1cf",
+      "id": "2",
+      "bbox": [
+        72,
+        124,
+        150,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9152B",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dcbulw",
+      "id": "3",
+      "bbox": [
+        72,
+        158,
+        1220,
+        42
+      ],
+      "geometry": "rect",
+      "text": "단순 평균 점수표가 아니라 score model과 hard gate를 결합한 structured-only fit model",
+      "textPreview": "단순 평균 점수표가 아니라 score model과 hard gate를 결합한 structured-only fit model",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "단순 평균 점수표가 아니라 score model과 hard gate를 결합한 structured-only fit model"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "단순 평균 점수표가 아니라 score model과 hard gate를 결합한 structured-only fit model",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "단순 평균 점수표가 아니라 score model과 hard gate를 결합한 structured-only fit model",
+              "fontSize": 22,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "4",
+      "bbox": [
+        72,
+        236,
+        536,
+        158
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkf6dcbu",
+      "id": "5",
+      "bbox": [
+        104,
+        260,
+        320,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Unified Fit Score",
+      "textPreview": "Unified Fit Score",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Unified Fit Score"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Unified Fit Score",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Unified Fit Score",
+              "fontSize": 25,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "6",
+      "bbox": [
+        104,
+        306,
+        460,
+        72
+      ],
+      "geometry": "rect",
+      "text": "weighted feature-block score\n+ role/position adjustment\n+ sample adjustment\n+ age adjustment\n- categorical risk penalty",
+      "textPreview": "weighted feature-block score | + role/position adjustment | + sample adjustment | + age adjustment | - categorical risk penalty",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "weighted feature-block score"
+          },
+          {
+            "index": 2,
+            "text": "+ role/position adjustment"
+          },
+          {
+            "index": 3,
+            "text": "+ sample adjustment"
+          },
+          {
+            "index": 4,
+            "text": "+ age adjustment"
+          },
+          {
+            "index": 5,
+            "text": "- categorical risk penalty"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "weighted feature-block score",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "weighted feature-block score",
+              "fontSize": 18,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "+ role/position adjustment",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "+ role/position adjustment",
+              "fontSize": 18,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "+ sample adjustment",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "+ sample adjustment",
+              "fontSize": 18,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "+ age adjustment",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "+ age adjustment",
+              "fontSize": 18,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "- categorical risk penalty",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- categorical risk penalty",
+              "fontSize": 18,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fepkzupw",
+      "id": "7",
+      "bbox": [
+        636,
+        236,
+        420,
+        158
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#ECEDEA",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "8",
+      "bbox": [
+        668,
+        260,
+        300,
+        30
+      ],
+      "geometry": "rect",
+      "text": "타자 모델 사용 강도",
+      "textPreview": "타자 모델 사용 강도",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "타자 모델 사용 강도"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "타자 모델 사용 강도",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "타자 모델 사용 강도",
+              "fontSize": 23,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "9",
+      "bbox": [
+        668,
+        306,
+        340,
+        74
+      ],
+      "geometry": "rect",
+      "text": "Historical classifier를 가장 강한 base learner로 사용\nsuccess AUC 0.833 / failure AUC 0.738\nSavant feature가 비교적 안정적",
+      "textPreview": "Historical classifier를 가장 강한 base learner로 사용 | success AUC 0.833 / failure AUC 0.738 | Savant feature가 비교적 안정적",
+      "resolvedFontSize": 17.2,
+      "resolvedTextStyle": {
+        "fontSize": 17.2,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Historical classifier를 가장 강한 base"
+          },
+          {
+            "index": 2,
+            "text": "learner로 사용"
+          },
+          {
+            "index": 3,
+            "text": "success AUC 0.833 / failure AUC 0.738"
+          },
+          {
+            "index": 4,
+            "text": "Savant feature가 비교적 안정적"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Historical classifier를 가장 강한 base learner로 사용",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Historical classifier를 가장 강한 base learner로 사용",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "success AUC 0.833 / failure AUC 0.738",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "success AUC 0.833 / failure AUC 0.738",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Savant feature가 비교적 안정적",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Savant feature가 비교적 안정적",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "10",
+      "bbox": [
+        1084,
+        236,
+        444,
+        158
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E7EFF2",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kre1w7mp",
+      "id": "11",
+      "bbox": [
+        1116,
+        260,
+        300,
+        30
+      ],
+      "geometry": "rect",
+      "text": "투수 모델 사용 강도",
+      "textPreview": "투수 모델 사용 강도",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#245C73",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "투수 모델 사용 강도"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "투수 모델 사용 강도",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#245C73",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "투수 모델 사용 강도",
+              "fontSize": 23,
+              "color": "#245C73",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/val87ed8",
+      "id": "12",
+      "bbox": [
+        1116,
+        306,
+        356,
+        74
+      ],
+      "geometry": "rect",
+      "text": "Classifier AUC 0.603으로 diagnostic만 사용\ncommand, starter floor, damage control,\nmarket/medical gate를 더 강하게 반영",
+      "textPreview": "Classifier AUC 0.603으로 diagnostic만 사용 | command, starter floor, damage control, | market/medical gate를 더 강하게 반영",
+      "resolvedFontSize": 17.2,
+      "resolvedTextStyle": {
+        "fontSize": 17.2,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Classifier AUC 0.603으로 diagnostic만 사용"
+          },
+          {
+            "index": 2,
+            "text": "command, starter floor, damage control,"
+          },
+          {
+            "index": 3,
+            "text": "market/medical gate를 더 강하게 반영"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Classifier AUC 0.603으로 diagnostic만 사용",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Classifier AUC 0.603으로 diagnostic만 사용",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "command, starter floor, damage control,",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "command, starter floor, damage control,",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "market/medical gate를 더 강하게 반영",
+          "resolvedTextStyle": {
+            "fontSize": 17.2,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "market/medical gate를 더 강하게 반영",
+              "fontSize": 17.2,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6psfil0r",
+      "id": "13",
+      "bbox": [
+        72,
+        432,
+        686,
+        288
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "14",
+      "bbox": [
+        72,
+        432,
+        686,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#ECEDEA",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "15",
+      "bbox": [
+        80,
+        442,
+        306.42,
+        34
+      ],
+      "geometry": "rect",
+      "text": "타자 모듈",
+      "textPreview": "타자 모듈",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "fontSize": 14.2,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "타자 모듈"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "타자 모듈",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "타자 모듈",
+              "fontSize": 14.2,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vixczed8",
+      "id": "16",
+      "bbox": [
+        402.42,
+        442,
+        73.18,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Weight",
+      "textPreview": "Weight",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "fontSize": 14.2,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Weight"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Weight",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Weight",
+              "fontSize": 14.2,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x4nap4r",
+      "id": "17",
+      "bbox": [
+        491.6,
+        442,
+        258.4,
+        34
+      ],
+      "geometry": "rect",
+      "text": "근거",
+      "textPreview": "근거",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "fontSize": 14.2,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "근거"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "근거",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "근거",
+              "fontSize": 14.2,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0z61032",
+      "id": "18",
+      "bbox": [
+        72,
+        480,
+        686,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kf6dcbul",
+      "id": "19",
+      "bbox": [
+        80,
+        489,
+        306.42,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Historical success/failure",
+      "textPreview": "Historical success/failure",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Historical success/failure"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Historical success/failure",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Historical success/failure",
+              "fontSize": 12.8,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bi9s36h",
+      "id": "20",
+      "bbox": [
+        394.42,
+        480,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwb2hwfy",
+      "id": "21",
+      "bbox": [
+        402.42,
+        489,
+        73.18,
+        36
+      ],
+      "geometry": "rect",
+      "text": "0.40",
+      "textPreview": "0.40",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.40"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.40",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.40",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i5sneloj",
+      "id": "22",
+      "bbox": [
+        483.6,
+        480,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qpg3ex0",
+      "id": "23",
+      "bbox": [
+        491.6,
+        489,
+        258.4,
+        36
+      ],
+      "geometry": "rect",
+      "text": "AUC promoted gate 통과",
+      "textPreview": "AUC promoted gate 통과",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AUC promoted gate 통과"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AUC promoted gate 통과",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AUC promoted gate 통과",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjudg7ad",
+      "id": "24",
+      "bbox": [
+        72,
+        528,
+        686,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4r65wju",
+      "id": "25",
+      "bbox": [
+        80,
+        537,
+        306.42,
+        36
+      ],
+      "geometry": "rect",
+      "text": "SSG fit + translation",
+      "textPreview": "SSG fit + translation",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SSG fit + translation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SSG fit + translation",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SSG fit + translation",
+              "fontSize": 12.8,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8v6psf",
+      "id": "26",
+      "bbox": [
+        394.42,
+        528,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y1kre1w",
+      "id": "27",
+      "bbox": [
+        402.42,
+        537,
+        73.18,
+        36
+      ],
+      "geometry": "rect",
+      "text": "0.25",
+      "textPreview": "0.25",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.25"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.25",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.25",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "28",
+      "bbox": [
+        483.6,
+        528,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8nqxs72",
+      "id": "29",
+      "bbox": [
+        491.6,
+        537,
+        258.4,
+        36
+      ],
+      "geometry": "rect",
+      "text": "SSG 약점과 KBO 번역 동시 반영",
+      "textPreview": "SSG 약점과 KBO 번역 동시 반영",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SSG 약점과 KBO 번역 동시 반영"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SSG 약점과 KBO 번역 동시 반영",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SSG 약점과 KBO 번역 동시 반영",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fepkzupw",
+      "id": "30",
+      "bbox": [
+        72,
+        576,
+        686,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "31",
+      "bbox": [
+        80,
+        585,
+        306.42,
+        36
+      ],
+      "geometry": "rect",
+      "text": "KBO adaptation filter",
+      "textPreview": "KBO adaptation filter",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KBO adaptation filter"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KBO adaptation filter",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KBO adaptation filter",
+              "fontSize": 12.8,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkf6dcbu",
+      "id": "32",
+      "bbox": [
+        394.42,
+        576,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "33",
+      "bbox": [
+        402.42,
+        585,
+        73.18,
+        36
+      ],
+      "geometry": "rect",
+      "text": "0.15",
+      "textPreview": "0.15",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.15"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.15",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.15",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dcbulw",
+      "id": "34",
+      "bbox": [
+        483.6,
+        576,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkjm1cf",
+      "id": "35",
+      "bbox": [
+        491.6,
+        585,
+        258.4,
+        36
+      ],
+      "geometry": "rect",
+      "text": "변화구·저속 구종·좌/스위치 적합성",
+      "textPreview": "변화구·저속 구종·좌/스위치 적합성",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "변화구·저속 구종·좌/스위치 적합성"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "변화구·저속 구종·좌/스위치 적합성",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "변화구·저속 구종·좌/스위치 적합성",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "36",
+      "bbox": [
+        72,
+        624,
+        686,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r65wjud",
+      "id": "37",
+      "bbox": [
+        80,
+        633,
+        306.42,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Market inefficiency",
+      "textPreview": "Market inefficiency",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Market inefficiency"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Market inefficiency",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Market inefficiency",
+              "fontSize": 12.8,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu18jqh0",
+      "id": "38",
+      "bbox": [
+        394.42,
+        624,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94fu18j",
+      "id": "39",
+      "bbox": [
+        402.42,
+        633,
+        73.18,
+        36
+      ],
+      "geometry": "rect",
+      "text": "0.15",
+      "textPreview": "0.15",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.15"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.15",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.15",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6dcbulwv",
+      "id": "40",
+      "bbox": [
+        483.6,
+        624,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy90je9c",
+      "id": "41",
+      "bbox": [
+        491.6,
+        633,
+        258.4,
+        36
+      ],
+      "geometry": "rect",
+      "text": "AAA 장점과 MLB 결함의 translation gap",
+      "textPreview": "AAA 장점과 MLB 결함의 translation gap",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AAA 장점과 MLB 결함의 translation gap"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AAA 장점과 MLB 결함의 translation gap",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AAA 장점과 MLB 결함의 translation gap",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2t83it",
+      "id": "42",
+      "bbox": [
+        72,
+        672,
+        686,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4vmtwra",
+      "id": "43",
+      "bbox": [
+        80,
+        681,
+        306.42,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Cross-model consensus",
+      "textPreview": "Cross-model consensus",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cross-model consensus"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cross-model consensus",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cross-model consensus",
+              "fontSize": 12.8,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61032lsz",
+      "id": "44",
+      "bbox": [
+        394.42,
+        672,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtwra5g",
+      "id": "45",
+      "bbox": [
+        402.42,
+        681,
+        73.18,
+        36
+      ],
+      "geometry": "rect",
+      "text": "0.05",
+      "textPreview": "0.05",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.05",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.05",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7qpg3ex",
+      "id": "46",
+      "bbox": [
+        483.6,
+        672,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 47,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsji5sne",
+      "id": "47",
+      "bbox": [
+        491.6,
+        681,
+        258.4,
+        36
+      ],
+      "geometry": "rect",
+      "text": "반복 등장 후보 안정성 보너스",
+      "textPreview": "반복 등장 후보 안정성 보너스",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "반복 등장 후보 안정성 보너스"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "반복 등장 후보 안정성 보너스",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "반복 등장 후보 안정성 보너스",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "48",
+      "bbox": [
+        842,
+        432,
+        686,
+        288
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 49,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "49",
+      "bbox": [
+        842,
+        432,
+        686,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#E7EFF2",
+      "lineWidth": 0
+    },
+    {
+      "order": 50,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkjm1cfa",
+      "id": "50",
+      "bbox": [
+        850,
+        442,
+        306.42,
+        34
+      ],
+      "geometry": "rect",
+      "text": "투수 모듈",
+      "textPreview": "투수 모듈",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "fontSize": 14.2,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "투수 모듈"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "투수 모듈",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "투수 모듈",
+              "fontSize": 14.2,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 51,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "51",
+      "bbox": [
+        1172.42,
+        442,
+        73.18,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Weight",
+      "textPreview": "Weight",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "fontSize": 14.2,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Weight"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Weight",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Weight",
+              "fontSize": 14.2,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 52,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ex0nuxc",
+      "id": "52",
+      "bbox": [
+        1261.6,
+        442,
+        258.4,
+        34
+      ],
+      "geometry": "rect",
+      "text": "근거",
+      "textPreview": "근거",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "fontSize": 14.2,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "근거"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "근거",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "근거",
+              "fontSize": 14.2,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 53,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47y1kr",
+      "id": "53",
+      "bbox": [
+        842,
+        480,
+        686,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 54,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l87ed8ba",
+      "id": "54",
+      "bbox": [
+        850,
+        489,
+        306.42,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Historical classifier",
+      "textPreview": "Historical classifier",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Historical classifier"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Historical classifier",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Historical classifier",
+              "fontSize": 12.8,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 55,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "55",
+      "bbox": [
+        1164.42,
+        480,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 56,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32lszqtc",
+      "id": "56",
+      "bbox": [
+        1172.42,
+        489,
+        73.18,
+        36
+      ],
+      "geometry": "rect",
+      "text": "0.05",
+      "textPreview": "0.05",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.05",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.05",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 57,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahoza1gv",
+      "id": "57",
+      "bbox": [
+        1253.6,
+        480,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 58,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwval87e",
+      "id": "58",
+      "bbox": [
+        1261.6,
+        489,
+        258.4,
+        36
+      ],
+      "geometry": "rect",
+      "text": "AUC 0.603, weak diagnostic only",
+      "textPreview": "AUC 0.603, weak diagnostic only",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AUC 0.603, weak diagnostic only"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AUC 0.603, weak diagnostic only",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AUC 0.603, weak diagnostic only",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 59,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wb2hwfyx",
+      "id": "59",
+      "bbox": [
+        842,
+        528,
+        686,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 60,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "60",
+      "bbox": [
+        850,
+        537,
+        306.42,
+        36
+      ],
+      "geometry": "rect",
+      "text": "SSG fit + translation",
+      "textPreview": "SSG fit + translation",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SSG fit + translation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SSG fit + translation",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SSG fit + translation",
+              "fontSize": 12.8,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 61,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "61",
+      "bbox": [
+        1164.42,
+        528,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 62,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "62",
+      "bbox": [
+        1172.42,
+        537,
+        73.18,
+        36
+      ],
+      "geometry": "rect",
+      "text": "0.25",
+      "textPreview": "0.25",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.25"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.25",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.25",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 63,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "63",
+      "bbox": [
+        1253.6,
+        528,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 64,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "64",
+      "bbox": [
+        1261.6,
+        537,
+        258.4,
+        36
+      ],
+      "geometry": "rect",
+      "text": "선발 이닝·KBO ERA 번역·영입 등급",
+      "textPreview": "선발 이닝·KBO ERA 번역·영입 등급",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "선발 이닝·KBO ERA 번역·영입 등급"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "선발 이닝·KBO ERA 번역·영입 등급",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "선발 이닝·KBO ERA 번역·영입 등급",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 65,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "65",
+      "bbox": [
+        842,
+        576,
+        686,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 66,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5gbq1or",
+      "id": "66",
+      "bbox": [
+        850,
+        585,
+        306.42,
+        36
+      ],
+      "geometry": "rect",
+      "text": "KBO adaptation filter",
+      "textPreview": "KBO adaptation filter",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KBO adaptation filter"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KBO adaptation filter",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KBO adaptation filter",
+              "fontSize": 12.8,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 67,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "67",
+      "bbox": [
+        1164.42,
+        576,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 68,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "68",
+      "bbox": [
+        1172.42,
+        585,
+        73.18,
+        36
+      ],
+      "geometry": "rect",
+      "text": "0.25",
+      "textPreview": "0.25",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.25"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.25",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.25",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 69,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "69",
+      "bbox": [
+        1253.6,
+        576,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 70,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65wjudg",
+      "id": "70",
+      "bbox": [
+        1261.6,
+        585,
+        258.4,
+        36
+      ],
+      "geometry": "rect",
+      "text": "BB/9, HR/9, third-time risk",
+      "textPreview": "BB/9, HR/9, third-time risk",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BB/9, HR/9, third-time risk"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BB/9, HR/9, third-time risk",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BB/9, HR/9, third-time risk",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 71,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylc7u54z",
+      "id": "71",
+      "bbox": [
+        842,
+        624,
+        686,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 72,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cvixcze",
+      "id": "72",
+      "bbox": [
+        850,
+        633,
+        306.42,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Market inefficiency",
+      "textPreview": "Market inefficiency",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Market inefficiency"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Market inefficiency",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Market inefficiency",
+              "fontSize": 12.8,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 73,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gr2p8nqx",
+      "id": "73",
+      "bbox": [
+        1164.42,
+        624,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 74,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "74",
+      "bbox": [
+        1172.42,
+        633,
+        73.18,
+        36
+      ],
+      "geometry": "rect",
+      "text": "0.20",
+      "textPreview": "0.20",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.20"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.20",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.20",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 75,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxobm58z",
+      "id": "75",
+      "bbox": [
+        1253.6,
+        624,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 76,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o7qpg3e",
+      "id": "76",
+      "bbox": [
+        1261.6,
+        633,
+        258.4,
+        36
+      ],
+      "geometry": "rect",
+      "text": "fringe starter 시장 탐색",
+      "textPreview": "fringe starter 시장 탐색",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "fringe starter 시장 탐색"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "fringe starter 시장 탐색",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "fringe starter 시장 탐색",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 77,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3ex0nux",
+      "id": "77",
+      "bbox": [
+        842,
+        672,
+        686,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 78,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmhk3q5o",
+      "id": "78",
+      "bbox": [
+        850,
+        681,
+        306.42,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Cross-model consensus",
+      "textPreview": "Cross-model consensus",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cross-model consensus"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cross-model consensus",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cross-model consensus",
+              "fontSize": 12.8,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 79,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y1kre1w7",
+      "id": "79",
+      "bbox": [
+        1164.42,
+        672,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 80,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "80",
+      "bbox": [
+        1172.42,
+        681,
+        73.18,
+        36
+      ],
+      "geometry": "rect",
+      "text": "0.25",
+      "textPreview": "0.25",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.25"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.25",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.25",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 81,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "81",
+      "bbox": [
+        1253.6,
+        672,
+        1,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9D9D2",
+      "lineWidth": 0
+    },
+    {
+      "order": 82,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "82",
+      "bbox": [
+        1261.6,
+        681,
+        258.4,
+        36
+      ],
+      "geometry": "rect",
+      "text": "독립 분석 반복 등장 중요",
+      "textPreview": "독립 분석 반복 등장 중요",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "fontSize": 12.8,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "독립 분석 반복 등장 중요"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "독립 분석 반복 등장 중요",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "color": "#262321"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "독립 분석 반복 등장 중요",
+              "fontSize": 12.8,
+              "color": "#262321"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 83,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "83",
+      "bbox": [
+        176,
+        746,
+        1248,
+        62
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#8C0E1A",
+      "lineWidth": 1
+    },
+    {
+      "order": 84,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "84",
+      "bbox": [
+        194,
+        763,
+        1212,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Leakage 방지: KBO 입단 후 성과는 label/사후 검증에만 사용했고, 후보 feature에는 입단 전·현재 구조화 데이터만 사용했다.",
+      "textPreview": "Leakage 방지: KBO 입단 후 성과는 label/사후 검증에만 사용했고, 후보 feature에는 입단 전·현재 구조화 데이터만 사용했다.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#8C0E1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Leakage 방지: KBO 입단 후 성과는 label/사후 검증에만 사용했고, 후보 feature에는 입단 전·현재 구조화 데이터만 사용했다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Leakage 방지: KBO 입단 후 성과는 label/사후 검증에만 사용했고, 후보 feature에는 입단 전·현재 구조화 데이터만 사용했다.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#8C0E1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Leakage 방지: KBO 입단 후 성과는 label/사후 검증에만 사용했고, 후보 feature에는 입단 전·현재 구조화 데이터만 사용했다.",
+              "fontSize": 21,
+              "color": "#8C0E1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

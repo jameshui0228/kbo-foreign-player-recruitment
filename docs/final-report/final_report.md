@@ -1,5 +1,7 @@
 # SSG 랜더스 외국인 선수 영입 전략
 
+> Archive note: 이 문서는 프로젝트 중간 보고서 초안이다. 현재 최종 발표 기준은 `docs/final_project_handoff_2026_06_25.md`, `reports/ssg_overleaf_report_final.pdf`, `reports/presentation/SSG_final_presentation_2026-06-24.pdf`를 따른다. 최종 접촉 1순위는 타자 Will Brennan, 투수 Josh Fleming이다.
+
 ## 데이터 마이닝 기반 외국인 타자·선발투수 후보 선정 보고서
 
 ## 초록(Abstract)

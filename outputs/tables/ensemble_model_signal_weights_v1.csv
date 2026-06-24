@@ -1,0 +1,11 @@
+﻿slot,signal,weight,reason
+foreign_hitter,historical_success_failure_classifier,0.4,"타자 AUC가 성공 0.833, 실패 0.738로 promoted gate를 통과했기 때문에 가장 큰 base learner로 사용"
+foreign_hitter,ssg_fit_translation_pipeline,0.25,"SSG 2026 상황별 약점, KBO 번역, 영입 등급을 동시에 반영하는 구조적 base learner"
+foreign_hitter,kbo_adaptation_filter,0.15,변화구/저속 구종 대응과 좌타/스위치 적합성을 통해 KBO 적응 실패를 줄이는 filter
+foreign_hitter,market_inefficiency_feature_model,0.15,"AAA 장점과 MLB 결함의 translation gap, quality contact를 통해 시장 비효율을 탐색"
+foreign_hitter,cross_model_consensus,0.05,서로 다른 가정의 base learner에서 반복 등장한 후보에 작은 안정성 보너스
+foreign_pitcher,historical_success_failure_classifier,0.05,투수 AUC 0.603으로 watch 등급이므로 확정 추천이 아닌 약한 diagnostic signal로만 사용
+foreign_pitcher,ssg_fit_translation_pipeline,0.25,"선발 이닝, KBO ERA 번역, 영입 등급을 반영하는 구조적 base learner"
+foreign_pitcher,kbo_adaptation_filter,0.25,"BB/9, HR/9, third-time wOBA로 KBO 선발 지속성과 ABS 적응 위험을 줄이는 filter"
+foreign_pitcher,market_inefficiency_feature_model,0.2,"선발 지속성, GB, HR 억제, command feature로 MLB fringe 선발 시장을 탐색"
+foreign_pitcher,cross_model_consensus,0.25,투수 supervised model이 약하기 때문에 여러 독립 분석에서 반복 등장하는지를 더 크게 반영

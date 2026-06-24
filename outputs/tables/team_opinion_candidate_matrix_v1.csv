@@ -1,0 +1,39 @@
+source,slot,candidate,rank_or_group,model_basis,presentation_role,final_status
+sewon,hitter,Weston Wilson,1,SSG Fit 40 + KBO wRC translation 40 + acquisition tier 20,즉시 접근/종합점수 1위,upside_market_board
+sewon,hitter,Christopher Morel,2,KBO wRC translation + power upside,장타 upside,upside_board
+sewon,hitter,Jack Suwinski,3,ABS chase + RF + A_mlb_reject,좌타 장타/ABS 후보,upside_board
+sewon,hitter,Michael Toglia,4,power quality + A_mlb_reject,스위치 장타 후보,upside_board
+sewon,hitter,James Outman,5,CF/L power + A_mlb_reject,고위험 파워 후보,watch_board
+sewon,hitter,Nolan Jones,6,RF/L + success likely + C_outrighted,SSG fit 교집합 후보,consensus_board
+sewon,pitcher,Carson Spiers,1,starter composite score,선발 안정성 1위,starter_depth_board
+sewon,pitcher,Brian Van Belle,2,inning depth + contact management,이닝/커맨드 후보,starter_depth_board_medical_check
+sewon,pitcher,Victor Mederos,3,KBO ERA translation,young upside starter,watch_board
+sewon,pitcher,Cooper Criswell,4,KBO ERA translation + MLB reject,선발 후보,watch_board_medical_access_check
+sewon,pitcher,Brandon Leibrandt,5,left starter + A_dfa_milb,좌완 depth,diagnostic_board
+jimini,hitter,Trey Mancini,1,break/off-speed xwOBA + low-velo xwOBA + DFA,즉시 접촉 후보,market_contact_board
+jimini,hitter,Dominic Fletcher,2,left hitter + low K + KBO pitch adaptation,SSG fit 안정형,consensus_board
+jimini,hitter,Nolan Jones,3,left hitter + break/low-velo 대응,SSG fit 교집합 후보,consensus_board
+jimini,hitter,Abraham Toro,4,switch hitter + KBO pitch adaptation,전환/유틸 후보,market_contact_board
+jimini,hitter,Luis Rengifo,5,switch + DFA,즉시 접촉 후보,market_contact_board
+jimini,pitcher,Josh Fleming,1,BB9 <= 3.5 + command + 40인 외,공통 1순위 투수,consensus_board
+jimini,pitcher,Ian Hamilton,2,K9 + BB9 filter,구위형 진단 후보,diagnostic_board_role_check
+jimini,pitcher,Noah Murdock,3,BB9/HR9 filter,피장타 억제 후보,diagnostic_board
+jimini,pitcher,Jhonathan Diaz,4,third-time wOBA + IP,반복 상대 안정성 후보,diagnostic_board
+jimini,pitcher,Matt Bowman,5,K9 + BB9 filter,단기 구위 후보,diagnostic_board
+kyuho,hitter,Jack Suwinski,1,AAA OPS + quality contact + translation gap,좌타 장타 target,upside_board
+kyuho,hitter,Michael Toglia,2,AAA OPS + switch power + quality contact,스위치 장타 target,upside_board
+kyuho,hitter,Matthew Lugo,3,young OF + AAA power + DFA/40man fringe,젊은 장타 후보,upside_board_access_check
+kyuho,hitter,Rece Hinds,4,AAA power + age,장타 후보,watch_board
+kyuho,hitter,Josh Lowe,5,left OF + AAA power,좌타 외야 후보,watch_board_access_check
+kyuho,pitcher,Josh Fleming,1,BB9/HR9 + GB + starter durability,공통 1순위 투수,consensus_board
+kyuho,pitcher,Randy Dobnak,2,IP/GS + starter continuity,이닝형 후보,starter_depth_board_bb9_check
+kyuho,pitcher,Spencer Bivens,3,multi-inning + 40man fringe,멀티이닝 후보,diagnostic_board_access_check
+kyuho,pitcher,Hunter Barco,4,left starter upside,젊은 좌완 후보,watch_board_access_check
+kyuho,pitcher,Bruce Zimmermann,5,left starter + GB/command,좌완 depth,diagnostic_board
+codex,hitter,Luis Matos,1,structured-only fit + market + translation,젊은 OF fit 후보,model_supported_board
+codex,hitter,Dominic Fletcher,3,structured-only runner-on-first fit,SSG fit 안정형,consensus_board
+codex,hitter,Nolan Jones,prior top,success/failure classifier + OF fit,SSG fit 교집합 후보,consensus_board
+codex,hitter,Will Brennan,2,structured-only fit + recent DFA access,전환형 좌타 후보,model_supported_board_sample_check
+codex,pitcher,Josh Fleming,1,structured-only starter runway + command,공통 1순위 투수,consensus_board
+codex,pitcher,Bruce Zimmermann,2,structured-only starter load + left depth,좌완 depth,diagnostic_board
+codex,pitcher,Yariel Rodriguez,3,structured-only recent DFA access + stuff,구위/멀티이닝 후보,diagnostic_board_role_check

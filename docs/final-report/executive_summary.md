@@ -1,5 +1,7 @@
 # SSG 랜더스 외국인 선수 영입 전략 Executive Summary
 
+> Archive note: 이 문서는 프로젝트 중간 보고서 초안이다. 현재 최종 발표 기준은 `docs/final_project_handoff_2026_06_25.md`, `reports/ssg_overleaf_report_final.pdf`, `reports/presentation/SSG_final_presentation_2026-06-24.pdf`를 따른다. 최종 접촉 1순위는 타자 Will Brennan, 투수 Josh Fleming이다.
+
 ## 결론
 
 최종 접촉 1순위는 외국인 타자 **Luis Matos**, 외국인 선발투수 **Josh Fleming**이다. 타자 raw model은 Nolan Jones를 가장 높게 평가했지만, 계약 비용과 실행 가능성을 반영한 gate-adjusted ranking에서는 Matos가 1순위로 올라온다. 투수는 raw Top 3 중 Carson Spiers와 Brian Van Belle이 medical hold로 내려가면서 Fleming, Bryse Wilson, Austin Gomber가 active board로 남는다.

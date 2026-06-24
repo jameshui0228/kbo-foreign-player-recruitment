@@ -1,0 +1,202 @@
+{"kind":"deck","id":"pr/ikc1p2","name":"Deck"}
+{"kind":"layout","layoutId":"d331bc52-32be-47e0-9319-0e1ed1d74b07","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"8c840b91-a97b-42c0-846b-6fbea38bf5d2","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/2mri7u","slide":1,"title":"모델 상세 1: A/B/C","textShapes":12}
+{"kind":"textbox","id":"sh/6psfil0r","slide":1,"text":"모델 상세 1: A/B/C","textPreview":"모델 상세 1: A/B/C","textChars":14,"textLines":1,"bbox":[72,54,1100,64]}
+{"kind":"shape","id":"sh/dcbulwva","slide":1,"bbox":[72,124,150,7]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":1,"text":"SSG 약점 정의 → 과거 KBO 성공/실패 학습 → 역할 유사도 매칭","textPreview":"SSG 약점 정의 → 과거 KBO 성공/실패 학습 → 역할 유사도 매칭","textChars":39,"textLines":1,"bbox":[72,158,1220,42]}
+{"kind":"shape","id":"sh/vixczed8","slide":1,"bbox":[72,250,462,432]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":1,"text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[98,278,48,44]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":1,"text":"Team Need Mining","textPreview":"Team Need Mining","textChars":16,"textLines":1,"bbox":[168,280,340,38]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":1,"text":"질문: SSG는 어떤 경기 조건에서 평균 득실과 승률이 급격히 나빠지는가?\n\n입력: KBO/STATIZ 2023-2026 SSG 상황별 성과, 상대 선발 유형, 주자 상황, 득실, 선발 이닝, 불펜 부담.\n\n방법: 단순 순위표가 아니라 game-state interaction을 조합해 hidden weakness rule을 mining.\n\n발견: RHP game-script lock(-5.10), RHP OF/DH run-kill(-5.11), extra-out high OF void(-4.50), top-opponent short start(-5.83).\n\n출력: 타자=이닝 전환형 OF/DH, 투수=traffic-command starter feature contract.","textPreview":"질문: SSG는 어떤 경기 조건에서 평균 득실과 승률이 급격히 나빠지는가? |  | 입력: KBO/STATIZ 2023-2026 SSG 상황별 성과, 상대 선발 유형, 주자 상황, 득실, 선발 이닝, 불펜 부담. |  | 방법: 단순 순위표가 아...","textChars":381,"textLines":9,"bbox":[106,338,394,326]}
+{"kind":"shape","id":"sh/vu9knih4","slide":1,"bbox":[572,250,462,432]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":1,"text":"B","textPreview":"B","textChars":1,"textLines":1,"bbox":[598,278,48,44]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":1,"text":"KBO History Model","textPreview":"KBO History Model","textChars":17,"textLines":1,"bbox":[668,280,340,38]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":1,"text":"질문: 후보는 과거 KBO 성공 외국인 선수와 닮았는가, 혹은 실패 패턴을 가졌는가?\n\n입력: 과거 KBO 외국인 선수의 pre-KBO Savant/MiLB feature. KBO 입단 후 성과는 label/사후 검증에만 사용.\n\n모델: 타자 Ridge Logistic Regression success/failure classifier. 투수 Sparse/L1 diagnostic classifier.\n\n성능: 타자 success AUC 0.833, failure AUC 0.738. 투수 AUC 0.603.\n\n사용: 타자는 high signal, 투수는 확정 추천이 아닌 diagnostic signal.","textPreview":"질문: 후보는 과거 KBO 성공 외국인 선수와 닮았는가, 혹은 실패 패턴을 가졌는가? |  | 입력: 과거 KBO 외국인 선수의 pre-KBO Savant/MiLB feature. KBO 입단 후 성과는 label/사후 검증에만 사용. |  | ...","textChars":340,"textLines":9,"bbox":[606,338,394,326]}
+{"kind":"shape","id":"sh/6psfil0r","slide":1,"bbox":[1072,250,462,432]}
+{"kind":"textbox","id":"sh/val87ed8","slide":1,"text":"C","textPreview":"C","textChars":1,"textLines":1,"bbox":[1098,278,48,44]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":1,"text":"Archetype Matching","textPreview":"Archetype Matching","textChars":18,"textLines":1,"bbox":[1168,280,340,38]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":1,"text":"질문: 이 선수는 어떤 유형이며, SSG 필요 역할과 얼마나 닮았는가?\n\n입력: 후보별 표준화 feature vector.\n\n타자 vector: contact floor, on-base/damage, RHP fit, run-kill avoidance, role/market fit.\n\n투수 vector: command stability, damage control, starter floor, KBO/ABS translation, market/medical fit.\n\n방법: role similarity, archetype score, KBO 성공 유형/SSG 필요 유형과의 distance 비교.\n\n유형: contact-floor OF/DH, RHP unlocker, traffic-command starter.","textPreview":"질문: 이 선수는 어떤 유형이며, SSG 필요 역할과 얼마나 닮았는가? |  | 입력: 후보별 표준화 feature vector. |  | 타자 vector: contact floor, on-base/damage, RHP fit, run-kill...","textChars":399,"textLines":11,"bbox":[1106,338,394,326]}
+{"kind":"shape","id":"sh/2x4nap4r","slide":1,"bbox":[220,742,1160,64]}
+{"kind":"textbox","id":"sh/vixczed8","slide":1,"text":"핵심: A는 필요 유형을 정의하고, B는 성공/실패 신호를 학습하며, C는 후보가 그 역할과 얼마나 닮았는지 비교한다.","textPreview":"핵심: A는 필요 유형을 정의하고, B는 성공/실패 신호를 학습하며, C는 후보가 그 역할과 얼마나 닮았는지 비교한다.","textChars":66,"textLines":1,"bbox":[238,759,1124,42]}
+{"kind":"notes","id":"nt/2mri7u","slide":1,"text":""}
+{"kind":"slide","id":"sl/ixbi0z","slide":2,"title":"모델 상세 2: D/E/F","textShapes":12}
+{"kind":"textbox","id":"sh/8bat47y1","slide":2,"text":"모델 상세 2: D/E/F","textPreview":"모델 상세 2: D/E/F","textChars":14,"textLines":1,"bbox":[72,54,1100,64]}
+{"kind":"shape","id":"sh/jqh0fepk","slide":2,"bbox":[72,124,150,7]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":2,"text":"미국 성적의 KBO 번역 가능성, 시장 접근성, 의료·실행 리스크를 gate로 검증","textPreview":"미국 성적의 KBO 번역 가능성, 시장 접근성, 의료·실행 리스크를 gate로 검증","textChars":46,"textLines":1,"bbox":[72,158,1220,42]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":2,"bbox":[72,250,462,432]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":2,"text":"D","textPreview":"D","textChars":1,"textLines":1,"bbox":[98,278,48,44]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":2,"text":"KBO Translation Risk","textPreview":"KBO Translation Risk","textChars":20,"textLines":1,"bbox":[168,280,340,38]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":2,"text":"질문: 미국 성적이 KBO에서도 유지될 수 있는가?\n\n입력: MLB Savant 2023-2026, MiLB 성적, K%, chase, whiff, contact, ISO, xwOBA, BB9, HR9, starter continuity, third-time wOBA, GB%, zone command.\n\n방법: feature family ablation + risk flagging + threshold-based translation risk.\n\n타자 위험: 과도한 K%, 높은 chase%, 낮은 contact, 변화구/저속 구종 약점, run-kill risk.\n\n투수 위험: 높은 BB9/HR9, 낮은 GB%, 선발 지속성 부족, ABS 환경 볼넷 증가.","textPreview":"질문: 미국 성적이 KBO에서도 유지될 수 있는가? |  | 입력: MLB Savant 2023-2026, MiLB 성적, K%, chase, whiff, contact, ISO, xwOBA, BB9, HR9, starter continuity,...","textChars":371,"textLines":9,"bbox":[106,338,394,326]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":2,"bbox":[572,250,462,432]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":2,"text":"E","textPreview":"E","textChars":1,"textLines":1,"bbox":[598,278,48,44]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":2,"text":"Market Feasibility","textPreview":"Market Feasibility","textChars":18,"textLines":1,"bbox":[668,280,340,38]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":2,"text":"질문: 아무리 좋은 선수여도 실제로 데려올 수 있는가?\n\n입력: roster/transaction, 40-man 포함 여부, DFA/outright, minor contract, salary signal, option status, 권리 상태.\n\n방법: 점수 모델이 아니라 hard gate + market access bucket.\n\n판정 예시: MLB active 40-man=접근성 낮음, DFA/outright 이후 40-man 밖=접근성 높음, minor/non-roster=검토 가능.\n\n출력: available, conditional, blocked, contract verification needed, manual contact priority.","textPreview":"질문: 아무리 좋은 선수여도 실제로 데려올 수 있는가? |  | 입력: roster/transaction, 40-man 포함 여부, DFA/outright, minor contract, salary signal, option status, 권리 ...","textChars":370,"textLines":9,"bbox":[606,338,394,326]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":2,"bbox":[1072,250,462,432]}
+{"kind":"textbox","id":"sh/9knih4by","slide":2,"text":"F","textPreview":"F","textChars":1,"textLines":1,"bbox":[1098,278,48,44]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":2,"text":"Medical / Failure Gate","textPreview":"Medical / Failure Gate","textChars":22,"textLines":1,"bbox":[1168,280,340,38]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":2,"text":"질문: 건강, 역할, 비용, 계약 측면에서 현실적인가?\n\n입력: IL, surgery, workload, recent usage, velocity trend, role mismatch, medical public signal, salary/contract signal.\n\n방법: 최종 board에서 실행 불가능성을 걸러내는 hard gate/보류 gate.\n\n출력: PASS(final 유지), YELLOW(conditional), HOLD(watch/medical hold), RED(최종 제외).\n\n예시: 점수 높아도 너무 젊고 MLB 가치가 높으면 HOLD. 최근 부상 이력이 크면 WATCH/RED. 선발 workload 부족 시 감점.","textPreview":"질문: 건강, 역할, 비용, 계약 측면에서 현실적인가? |  | 입력: IL, surgery, workload, recent usage, velocity trend, role mismatch, medical public signal, salary...","textChars":360,"textLines":9,"bbox":[1106,338,394,326]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":2,"bbox":[208,742,1184,64]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":2,"text":"핵심: D는 KBO에서 통할 위험, E는 실제 접촉 가능성, F는 점수 상위 후보를 무조건 추천하지 않기 위한 방어 장치다.","textPreview":"핵심: D는 KBO에서 통할 위험, E는 실제 접촉 가능성, F는 점수 상위 후보를 무조건 추천하지 않기 위한 방어 장치다.","textChars":69,"textLines":1,"bbox":[226,759,1148,42]}
+{"kind":"notes","id":"nt/ixbi0z","slide":2,"text":""}
+{"kind":"slide","id":"sl/jxqrms","slide":3,"title":"앙상블 의사결정 로직","textShapes":45}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":3,"text":"앙상블 의사결정 로직","textPreview":"앙상블 의사결정 로직","textChars":11,"textLines":1,"bbox":[72,54,1100,64]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":3,"bbox":[72,124,150,7]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":3,"text":"단순 평균 점수표가 아니라 score model과 hard gate를 결합한 structured-only fit model","textPreview":"단순 평균 점수표가 아니라 score model과 hard gate를 결합한 structured-only fit model","textChars":68,"textLines":1,"bbox":[72,158,1220,42]}
+{"kind":"shape","id":"sh/4zidonyd","slide":3,"bbox":[72,236,536,158]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":3,"text":"Unified Fit Score","textPreview":"Unified Fit Score","textChars":17,"textLines":1,"bbox":[104,260,320,32]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":3,"text":"weighted feature-block score\n+ role/position adjustment\n+ sample adjustment\n+ age adjustment\n- categorical risk penalty","textPreview":"weighted feature-block score | + role/position adjustment | + sample adjustment | + age adjustment | - categorical risk penalty","textChars":119,"textLines":5,"bbox":[104,306,460,72]}
+{"kind":"shape","id":"sh/fepkzupw","slide":3,"bbox":[636,236,420,158]}
+{"kind":"textbox","id":"sh/83itgfml","slide":3,"text":"타자 모델 사용 강도","textPreview":"타자 모델 사용 강도","textChars":11,"textLines":1,"bbox":[668,260,300,30]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":3,"text":"Historical classifier를 가장 강한 base learner로 사용\nsuccess AUC 0.833 / failure AUC 0.738\nSavant feature가 비교적 안정적","textPreview":"Historical classifier를 가장 강한 base learner로 사용 | success AUC 0.833 / failure AUC 0.738 | Savant feature가 비교적 안정적","textChars":107,"textLines":3,"bbox":[668,306,340,74]}
+{"kind":"shape","id":"sh/dcbulwva","slide":3,"bbox":[1084,236,444,158]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":3,"text":"투수 모델 사용 강도","textPreview":"투수 모델 사용 강도","textChars":11,"textLines":1,"bbox":[1116,260,300,30]}
+{"kind":"textbox","id":"sh/val87ed8","slide":3,"text":"Classifier AUC 0.603으로 diagnostic만 사용\ncommand, starter floor, damage control,\nmarket/medical gate를 더 강하게 반영","textPreview":"Classifier AUC 0.603으로 diagnostic만 사용 | command, starter floor, damage control, | market/medical gate를 더 강하게 반영","textChars":107,"textLines":3,"bbox":[1116,306,356,74]}
+{"kind":"shape","id":"sh/6psfil0r","slide":3,"bbox":[72,432,686,288]}
+{"kind":"shape","id":"sh/donyd0z6","slide":3,"bbox":[72,432,686,48]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":3,"text":"타자 모듈","textPreview":"타자 모듈","textChars":5,"textLines":1,"bbox":[80,442,306.42,34]}
+{"kind":"textbox","id":"sh/vixczed8","slide":3,"text":"Weight","textPreview":"Weight","textChars":6,"textLines":1,"bbox":[402.42,442,73.18,34]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":3,"text":"근거","textPreview":"근거","textChars":2,"textLines":1,"bbox":[491.6,442,258.4,34]}
+{"kind":"shape","id":"sh/d0z61032","slide":3,"bbox":[72,480,686,1]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":3,"text":"Historical success/failure","textPreview":"Historical success/failure","textChars":26,"textLines":1,"bbox":[80,489,306.42,36]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":3,"bbox":[394.42,480,1,48]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":3,"text":"0.40","textPreview":"0.40","textChars":4,"textLines":1,"bbox":[402.42,489,73.18,36]}
+{"kind":"shape","id":"sh/i5sneloj","slide":3,"bbox":[483.6,480,1,48]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":3,"text":"AUC promoted gate 통과","textPreview":"AUC promoted gate 통과","textChars":20,"textLines":1,"bbox":[491.6,489,258.4,36]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":3,"bbox":[72,528,686,1]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":3,"text":"SSG fit + translation","textPreview":"SSG fit + translation","textChars":21,"textLines":1,"bbox":[80,537,306.42,36]}
+{"kind":"shape","id":"sh/ed8v6psf","slide":3,"bbox":[394.42,528,1,48]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":3,"text":"0.25","textPreview":"0.25","textChars":4,"textLines":1,"bbox":[402.42,537,73.18,36]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":3,"bbox":[483.6,528,1,48]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":3,"text":"SSG 약점과 KBO 번역 동시 반영","textPreview":"SSG 약점과 KBO 번역 동시 반영","textChars":20,"textLines":1,"bbox":[491.6,537,258.4,36]}
+{"kind":"shape","id":"sh/fepkzupw","slide":3,"bbox":[72,576,686,1]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":3,"text":"KBO adaptation filter","textPreview":"KBO adaptation filter","textChars":21,"textLines":1,"bbox":[80,585,306.42,36]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":3,"bbox":[394.42,576,1,48]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":3,"text":"0.15","textPreview":"0.15","textChars":4,"textLines":1,"bbox":[402.42,585,73.18,36]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":3,"bbox":[483.6,576,1,48]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":3,"text":"변화구·저속 구종·좌/스위치 적합성","textPreview":"변화구·저속 구종·좌/스위치 적합성","textChars":19,"textLines":1,"bbox":[491.6,585,258.4,36]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":3,"bbox":[72,624,686,1]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":3,"text":"Market inefficiency","textPreview":"Market inefficiency","textChars":19,"textLines":1,"bbox":[80,633,306.42,36]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":3,"bbox":[394.42,624,1,48]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":3,"text":"0.15","textPreview":"0.15","textChars":4,"textLines":1,"bbox":[402.42,633,73.18,36]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":3,"bbox":[483.6,624,1,48]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":3,"text":"AAA 장점과 MLB 결함의 translation gap","textPreview":"AAA 장점과 MLB 결함의 translation gap","textChars":31,"textLines":1,"bbox":[491.6,633,258.4,36]}
+{"kind":"shape","id":"sh/oj2t83it","slide":3,"bbox":[72,672,686,1]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":3,"text":"Cross-model consensus","textPreview":"Cross-model consensus","textChars":21,"textLines":1,"bbox":[80,681,306.42,36]}
+{"kind":"shape","id":"sh/61032lsz","slide":3,"bbox":[394.42,672,1,48]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":3,"text":"0.05","textPreview":"0.05","textChars":4,"textLines":1,"bbox":[402.42,681,73.18,36]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":3,"bbox":[483.6,672,1,48]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":3,"text":"반복 등장 후보 안정성 보너스","textPreview":"반복 등장 후보 안정성 보너스","textChars":16,"textLines":1,"bbox":[491.6,681,258.4,36]}
+{"kind":"shape","id":"sh/6tovahoz","slide":3,"bbox":[842,432,686,288]}
+{"kind":"shape","id":"sh/vahoza1g","slide":3,"bbox":[842,432,686,48]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":3,"text":"투수 모듈","textPreview":"투수 모듈","textChars":5,"textLines":1,"bbox":[850,442,306.42,34]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":3,"text":"Weight","textPreview":"Weight","textChars":6,"textLines":1,"bbox":[1172.42,442,73.18,34]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":3,"text":"근거","textPreview":"근거","textChars":2,"textLines":1,"bbox":[1261.6,442,258.4,34]}
+{"kind":"shape","id":"sh/at47y1kr","slide":3,"bbox":[842,480,686,1]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":3,"text":"Historical classifier","textPreview":"Historical classifier","textChars":21,"textLines":1,"bbox":[850,489,306.42,36]}
+{"kind":"shape","id":"sh/sneloj2t","slide":3,"bbox":[1164.42,480,1,48]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":3,"text":"0.05","textPreview":"0.05","textChars":4,"textLines":1,"bbox":[1172.42,489,73.18,36]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":3,"bbox":[1253.6,480,1,48]}
+{"kind":"textbox","id":"sh/lwval87e","slide":3,"text":"AUC 0.603, weak diagnostic only","textPreview":"AUC 0.603, weak diagnostic only","textChars":31,"textLines":1,"bbox":[1261.6,489,258.4,36]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":3,"bbox":[842,528,686,1]}
+{"kind":"textbox","id":"sh/sji5snel","slide":3,"text":"SSG fit + translation","textPreview":"SSG fit + translation","textChars":21,"textLines":1,"bbox":[850,537,306.42,36]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":3,"bbox":[1164.42,528,1,48]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":3,"text":"0.25","textPreview":"0.25","textChars":4,"textLines":1,"bbox":[1172.42,537,73.18,36]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":3,"bbox":[1253.6,528,1,48]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":3,"text":"선발 이닝·KBO ERA 번역·영입 등급","textPreview":"선발 이닝·KBO ERA 번역·영입 등급","textChars":22,"textLines":1,"bbox":[1261.6,537,258.4,36]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":3,"bbox":[842,576,686,1]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":3,"text":"KBO adaptation filter","textPreview":"KBO adaptation filter","textChars":21,"textLines":1,"bbox":[850,585,306.42,36]}
+{"kind":"shape","id":"sh/3m94fu18","slide":3,"bbox":[1164.42,576,1,48]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":3,"text":"0.25","textPreview":"0.25","textChars":4,"textLines":1,"bbox":[1172.42,585,73.18,36]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":3,"bbox":[1253.6,576,1,48]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":3,"text":"BB/9, HR/9, third-time risk","textPreview":"BB/9, HR/9, third-time risk","textChars":27,"textLines":1,"bbox":[1261.6,585,258.4,36]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":3,"bbox":[842,624,686,1]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":3,"text":"Market inefficiency","textPreview":"Market inefficiency","textChars":19,"textLines":1,"bbox":[850,633,306.42,36]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":3,"bbox":[1164.42,624,1,48]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":3,"text":"0.20","textPreview":"0.20","textChars":4,"textLines":1,"bbox":[1172.42,633,73.18,36]}
+{"kind":"shape","id":"sh/yxobm58z","slide":3,"bbox":[1253.6,624,1,48]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":3,"text":"fringe starter 시장 탐색","textPreview":"fringe starter 시장 탐색","textChars":20,"textLines":1,"bbox":[1261.6,633,258.4,36]}
+{"kind":"shape","id":"sh/g3ex0nux","slide":3,"bbox":[842,672,686,1]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":3,"text":"Cross-model consensus","textPreview":"Cross-model consensus","textChars":21,"textLines":1,"bbox":[850,681,306.42,36]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":3,"bbox":[1164.42,672,1,48]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":3,"text":"0.25","textPreview":"0.25","textChars":4,"textLines":1,"bbox":[1172.42,681,73.18,36]}
+{"kind":"shape","id":"sh/za1gvy90","slide":3,"bbox":[1253.6,672,1,48]}
+{"kind":"textbox","id":"sh/svu9knih","slide":3,"text":"독립 분석 반복 등장 중요","textPreview":"독립 분석 반복 등장 중요","textChars":14,"textLines":1,"bbox":[1261.6,681,258.4,36]}
+{"kind":"shape","id":"sh/hgn29gr2","slide":3,"bbox":[176,746,1248,62]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":3,"text":"Leakage 방지: KBO 입단 후 성과는 label/사후 검증에만 사용했고, 후보 feature에는 입단 전·현재 구조화 데이터만 사용했다.","textPreview":"Leakage 방지: KBO 입단 후 성과는 label/사후 검증에만 사용했고, 후보 feature에는 입단 전·현재 구조화 데이터만 사용했다.","textChars":80,"textLines":1,"bbox":[194,763,1212,40]}
+{"kind":"notes","id":"nt/jxqrms","slide":3,"text":""}
+{"kind":"slide","id":"sl/mikccy","slide":4,"title":"Candidate Funnel: 넓게 만들고, 좁게 검증했다","textShapes":23}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":4,"text":"Candidate Funnel: 넓게 만들고, 좁게 검증했다","textPreview":"Candidate Funnel: 넓게 만들고, 좁게 검증했다","textChars":33,"textLines":1,"bbox":[72,54,1100,64]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":4,"bbox":[72,124,150,7]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":4,"text":"Step 1~3은 후보를 줄이는 과정, Step 4~5는 후보를 정렬하는 과정","textPreview":"Step 1~3은 후보를 줄이는 과정, Step 4~5는 후보를 정렬하는 과정","textChars":43,"textLines":1,"bbox":[72,158,1220,42]}
+{"kind":"shape","id":"sh/vahoza1g","slide":4,"bbox":[72,250,268,376]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":4,"text":"Step 1","textPreview":"Step 1","textChars":6,"textLines":1,"bbox":[100,276,150,28]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":4,"text":"736 / 1,009","textPreview":"736 / 1,009","textChars":11,"textLines":1,"bbox":[100,330,220,42]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":4,"text":"전체 구조화 시장","textPreview":"전체 구조화 시장","textChars":9,"textLines":1,"bbox":[100,382,220,30]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":4,"text":"MLB/MiLB/roster 기반으로 모델 입력 가능한 후보 pool 구성.\n추천이 아니라 분석 가능한 시장 구축.","textPreview":"MLB/MiLB/roster 기반으로 모델 입력 가능한 후보 pool 구성. | 추천이 아니라 분석 가능한 시장 구축.","textChars":64,"textLines":2,"bbox":[96,440,220,150]}
+{"kind":"shape","id":"sh/61032lsz","slide":4,"bbox":[364,250,268,376]}
+{"kind":"textbox","id":"sh/wval87ed","slide":4,"text":"Step 2","textPreview":"Step 2","textChars":6,"textLines":1,"bbox":[392,276,150,28]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":4,"text":"16 / 18","textPreview":"16 / 18","textChars":7,"textLines":1,"bbox":[392,330,220,42]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":4,"text":"후보 생성 모듈","textPreview":"후보 생성 모듈","textChars":8,"textLines":1,"bbox":[392,382,220,30]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":4,"text":"Market, Team Fit, Upside, Translation screen 중 하나 이상에서 강한 신호.\nOR-screen: 넓게 건져 올림.","textPreview":"Market, Team Fit, Upside, Translation screen 중 하나 이상에서 강한 신호. | OR-screen: 넓게 건져 올림.","textChars":82,"textLines":2,"bbox":[388,440,220,150]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":4,"bbox":[656,250,268,376]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":4,"text":"Step 3","textPreview":"Step 3","textChars":6,"textLines":1,"bbox":[684,276,150,28]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":4,"text":"6 / 3","textPreview":"6 / 3","textChars":5,"textLines":1,"bbox":[684,330,220,42]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":4,"text":"1차 검증 통과","textPreview":"1차 검증 통과","textChars":8,"textLines":1,"bbox":[684,382,220,30]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":4,"text":"표본, 포지션/역할, 40-man/계약, salary, medical, 데이터 결측을 동시에 확인.\nAND-gate: 검증된 후보만 남김.","textPreview":"표본, 포지션/역할, 40-man/계약, salary, medical, 데이터 결측을 동시에 확인. | AND-gate: 검증된 후보만 남김.","textChars":77,"textLines":2,"bbox":[680,440,220,150]}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":4,"bbox":[948,250,268,376]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":4,"text":"Step 4","textPreview":"Step 4","textChars":6,"textLines":1,"bbox":[976,276,150,28]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":4,"text":"Top 3","textPreview":"Top 3","textChars":5,"textLines":1,"bbox":[976,330,220,42]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":4,"text":"Raw Ranking","textPreview":"Raw Ranking","textChars":11,"textLines":1,"bbox":[976,382,220,30]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":4,"text":"SSG Need Fit, KBO Translation, Archetype, Failure Resilience, Consensus 기반.\n데이터상 좋아 보이는 후보.","textPreview":"SSG Need Fit, KBO Translation, Archetype, Failure Resilience, Consensus 기반. | 데이터상 좋아 보이는 후보.","textChars":91,"textLines":2,"bbox":[972,440,220,150]}
+{"kind":"shape","id":"sh/p4r65wju","slide":4,"bbox":[1240,250,268,376]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":4,"text":"Step 5","textPreview":"Step 5","textChars":6,"textLines":1,"bbox":[1268,276,150,28]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":4,"text":"Top 3","textPreview":"Top 3","textChars":5,"textLines":1,"bbox":[1268,330,220,42]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":4,"text":"Final Ranking","textPreview":"Final Ranking","textChars":13,"textLines":1,"bbox":[1268,382,220,30]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":4,"text":"40-man, DFA/outright, 연봉, 계약, 의료, role acceptance, KBO행 가능성을 반영.\n실제 접촉 가능한 후보.","textPreview":"40-man, DFA/outright, 연봉, 계약, 의료, role acceptance, KBO행 가능성을 반영. | 실제 접촉 가능한 후보.","textChars":78,"textLines":2,"bbox":[1264,440,220,150]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":4,"bbox":[140,730,1320,64]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":4,"text":"발표 포인트: Step 1~3은 pool을 줄이는 mining process, Step 4~5는 raw score와 실행 가능성을 나눠 정렬하는 decision process다.","textPreview":"발표 포인트: Step 1~3은 pool을 줄이는 mining process, Step 4~5는 raw score와 실행 가능성을 나눠 정렬하는 decision process다.","textChars":99,"textLines":1,"bbox":[158,747,1284,42]}
+{"kind":"notes","id":"nt/mikccy","slide":4,"text":""}
+{"kind":"slide","id":"sl/5c21pd","slide":5,"title":"Step 2와 Step 3은 무엇이 다른가?","textShapes":11}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":5,"text":"Step 2와 Step 3은 무엇이 다른가?","textPreview":"Step 2와 Step 3은 무엇이 다른가?","textChars":24,"textLines":1,"bbox":[72,54,1100,64]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":5,"bbox":[72,124,150,7]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":5,"text":"Step 2는 가능성을 넓게 보는 OR-screen, Step 3은 발표 가능한 후보만 남기는 AND-gate","textPreview":"Step 2는 가능성을 넓게 보는 OR-screen, Step 3은 발표 가능한 후보만 남기는 AND-gate","textChars":61,"textLines":1,"bbox":[72,158,1220,42]}
+{"kind":"shape","id":"sh/4zidonyd","slide":5,"bbox":[72,238,686,378]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":5,"text":"Step 2 Candidate Generation","textPreview":"Step 2 Candidate Generation","textChars":27,"textLines":1,"bbox":[110,264,470,32]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":5,"text":"목적: 넓게 후보 발굴\n방식: OR-screen\n기준: 하나 이상의 모듈에서 강한 신호가 있으면 후보 board 포함\n결과: 타자 16명, 투수 18명\n해석: 찾아낸 후보","textPreview":"목적: 넓게 후보 발굴 | 방식: OR-screen | 기준: 하나 이상의 모듈에서 강한 신호가 있으면 후보 board 포함 | 결과: 타자 16명, 투수 18명 | 해석: 찾아낸 후보","textChars":95,"textLines":5,"bbox":[110,312,590,104]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":5,"text":"타자 예시: RHP 상대 출루/장타, contact floor, OF/DH 가능성, 낮은 run-kill risk, 시장 비효율\n\n투수 예시: starter floor, low BB9, low HR9, traffic command, multi-inning 가능성","textPreview":"타자 예시: RHP 상대 출루/장타, contact floor, OF/DH 가능성, 낮은 run-kill risk, 시장 비효율 |  | 투수 예시: starter floor, low BB9, low HR9, traffic command, mul...","textChars":146,"textLines":3,"bbox":[110,444,590,118]}
+{"kind":"shape","id":"sh/83itgfml","slide":5,"bbox":[842,238,686,378]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":5,"text":"Step 3 Basic Data-Mining Gate","textPreview":"Step 3 Basic Data-Mining Gate","textChars":29,"textLines":1,"bbox":[880,264,500,32]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":5,"text":"목적: 모델 비교 가능한 후보만 남김\n방식: AND-gate\n기준: 핵심 조건을 동시에 통과해야 함\n결과: 타자 6명, 투수 3명\n해석: 검증을 통과한 후보","textPreview":"목적: 모델 비교 가능한 후보만 남김 | 방식: AND-gate | 기준: 핵심 조건을 동시에 통과해야 함 | 결과: 타자 6명, 투수 3명 | 해석: 검증을 통과한 후보","textChars":87,"textLines":5,"bbox":[880,312,590,104]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":5,"text":"검증 항목: 표본 신뢰도, 포지션/역할 적합성, 시장 접근성, 40-man/계약 상태, salary/contract signal, medical risk, 데이터 결측, 신원 매칭","textPreview":"검증 항목: 표본 신뢰도, 포지션/역할 적합성, 시장 접근성, 40-man/계약 상태, salary/contract signal, medical risk, 데이터 결측, 신원 매칭","textChars":100,"textLines":1,"bbox":[880,444,590,118]}
+{"kind":"shape","id":"sh/val87ed8","slide":5,"bbox":[72,650,1456,112]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":5,"text":"왜 타자는 6명, 투수는 3명인가?","textPreview":"왜 타자는 6명, 투수는 3명인가?","textChars":19,"textLines":1,"bbox":[104,674,420,30]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":5,"text":"타자: historical KBO hitter classifier가 success AUC 0.833 / failure AUC 0.738로 의미 있는 신호를 보였고, Savant 기반 OF/DH feature가 비교적 안정적이었다.","textPreview":"타자: historical KBO hitter classifier가 success AUC 0.833 / failure AUC 0.738로 의미 있는 신호를 보였고, Savant 기반 OF/DH feature가 비교적 안정적이었다.","textChars":128,"textLines":1,"bbox":[104,714,640,38]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":5,"text":"투수: classifier AUC 0.603으로 diagnostic 수준이고, 수비·포수·구장·역할 이질성 영향이 커서 starter floor, BB9, HR9, workload, market/medical gate를 더 보수적으로 적용했다.","textPreview":"투수: classifier AUC 0.603으로 diagnostic 수준이고, 수비·포수·구장·역할 이질성 영향이 커서 starter floor, BB9, HR9, workload, market/medical gate를 더 보수적으로 적용했다.","textChars":136,"textLines":1,"bbox":[790,714,686,46]}
+{"kind":"notes","id":"nt/5c21pd","slide":5,"text":""}
+{"kind":"slide","id":"sl/0sxwd9","slide":6,"title":"Raw Ranking과 Final Ranking은 왜 다른가?","textShapes":17}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":6,"text":"Raw Ranking과 Final Ranking은 왜 다른가?","textPreview":"Raw Ranking과 Final Ranking은 왜 다른가?","textChars":34,"textLines":1,"bbox":[72,54,1100,64]}
+{"kind":"shape","id":"sh/obm58z25","slide":6,"bbox":[72,124,150,7]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":6,"text":"Raw는 데이터상 우수 후보, Final은 실제 영입 가능한 후보","textPreview":"Raw는 데이터상 우수 후보, Final은 실제 영입 가능한 후보","textChars":36,"textLines":1,"bbox":[72,158,1220,42]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":6,"bbox":[78,232,410,152]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":6,"text":"Raw Ranking","textPreview":"Raw Ranking","textChars":11,"textLines":1,"bbox":[112,256,280,34]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":6,"text":"순수 모델 점수와 cross-model consistency 기반\nSSG Need, KBO Translation, Archetype, Failure Risk 반영\n= 데이터상 좋아 보이는 후보","textPreview":"순수 모델 점수와 cross-model consistency 기반 | SSG Need, KBO Translation, Archetype, Failure Risk 반영 | = 데이터상 좋아 보이는 후보","textChars":107,"textLines":3,"bbox":[112,306,330,60]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[518,282,70,52]}
+{"kind":"shape","id":"sh/al87ed8b","slide":6,"bbox":[596,232,410,152]}
+{"kind":"textbox","id":"sh/z61032ls","slide":6,"text":"Execution Gate","textPreview":"Execution Gate","textChars":14,"textLines":1,"bbox":[630,256,300,34]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":6,"text":"40-man, DFA/outright, minor contract,\nsalary/contract, medical, role acceptance,\nKBO행 가능성, 즉시 전력 가능성","textPreview":"40-man, DFA/outright, minor contract, | salary/contract, medical, role acceptance, | KBO행 가능성, 즉시 전력 가능성","textChars":100,"textLines":3,"bbox":[630,306,330,60]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1036,282,70,52]}
+{"kind":"shape","id":"sh/hgn29gr2","slide":6,"bbox":[1114,232,410,152]}
+{"kind":"textbox","id":"sh/svu9knih","slide":6,"text":"Final Ranking","textPreview":"Final Ranking","textChars":13,"textLines":1,"bbox":[1148,256,300,34]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":6,"text":"모델 점수에 프런트 현실성 검증을 더한 최종 접촉 순위\n= 실제로 데려올 수 있는 후보","textPreview":"모델 점수에 프런트 현실성 검증을 더한 최종 접촉 순위 | = 실제로 데려올 수 있는 후보","textChars":48,"textLines":2,"bbox":[1148,306,330,60]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":6,"bbox":[78,428,654,202]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":6,"text":"Unified Fit Score","textPreview":"Unified Fit Score","textChars":17,"textLines":1,"bbox":[110,452,280,28]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":6,"text":"weighted feature-block score + role/position adjustment + sample adjustment + age adjustment - categorical risk penalty","textPreview":"weighted feature-block score + role/position adjustment + sample adjustment + age adjustment - categorical risk penalty","textChars":119,"textLines":1,"bbox":[110,494,568,42]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":6,"text":"외인타자: Need 0.34 · Translation 0.24 · Market 0.15 · Tool 0.08 · Surplus 0.09 · Failure 0.10\n외인투수: Need 0.32 · Translation 0.22 · Market 0.17 · Tool 0.09 · Surplus 0.10 · Failure 0.10","textPreview":"외인타자: Need 0.34 · Translation 0.24 · Market 0.15 · Tool 0.08 · Surplus 0.09 · Failure 0.10 | 외인투수: Need 0.32 · Translation 0.22 · Market ...","textChars":181,"textLines":2,"bbox":[110,558,568,48]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":6,"bbox":[788,428,736,202]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":6,"text":"왜 순위가 바뀌나?","textPreview":"왜 순위가 바뀌나?","textChars":10,"textLines":1,"bbox":[820,452,320,28]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":6,"text":"Raw 점수가 높아도 40-man blocked면 HOLD\n너무 젊고 MLB 가치가 높으면 HOLD\nmedical risk가 크면 WATCH 또는 RED\nRaw 점수가 중간이어도 DFA/outright + SSG fit 강하면 CONTACT 상승\n투수는 raw score보다 starter floor, command, BB/HR 억제, workload를 더 강하게 본다.","textPreview":"Raw 점수가 높아도 40-man blocked면 HOLD | 너무 젊고 MLB 가치가 높으면 HOLD | medical risk가 크면 WATCH 또는 RED | Raw 점수가 중간이어도 DFA/outright + SSG fit 강하면 CONT...","textChars":207,"textLines":5,"bbox":[820,494,646,100]}
+{"kind":"shape","id":"sh/g3ex0nux","slide":6,"bbox":[78,670,1446,104]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":6,"text":"방어 문장","textPreview":"방어 문장","textChars":5,"textLines":1,"bbox":[110,696,150,26]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":6,"text":"Raw 1위가 Final 1위가 아닐 수 있는 이유는 모델이 틀려서가 아니라, 실제 영입에서는 계약·연봉·의료·로스터 접근성이 hard gate로 작동하기 때문이다. 후보 feature에는 KBO 입단 후 성과를 넣지 않아 leakage를 방지했다.","textPreview":"Raw 1위가 Final 1위가 아닐 수 있는 이유는 모델이 틀려서가 아니라, 실제 영입에서는 계약·연봉·의료·로스터 접근성이 hard gate로 작동하기 때문이다. 후보 feature에는 KBO 입단 후 성과를 넣지 않아 leakage를 방지했다.","textChars":139,"textLines":1,"bbox":[268,694,1180,44]}
+{"kind":"notes","id":"nt/0sxwd9","slide":6,"text":""}

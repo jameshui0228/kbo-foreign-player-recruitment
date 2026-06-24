@@ -1,0 +1,35 @@
+﻿slot,candidate,ensemble_score,dm_success_prob,dm_failure_prob,dm_margin,dm_signal,sewon_signal,jimini_signal,kyuho_signal,consensus_signal,source_presence,ensemble_tier,rank
+foreign_hitter,Nolan Jones,0.5055,0.9015860130730085,0.0919400465835464,0.809645966489462,0.8096,0.1667,0.6,0.0,1.0,sewon; jimini; codex_structured; historical_dm,core,1
+foreign_hitter,Luis Matos,0.3617,0.9238448207592336,0.0820551115034496,0.8417897092557839,0.8418,0.0,0.0,0.0,0.5,codex_structured; historical_dm,core,2
+foreign_hitter,Jack Suwinski,0.3417,,,,0.0,0.6667,0.0,1.0,0.5,sewon; kyuho,scouting_consensus,3
+foreign_hitter,Dylan Carlson,0.2818,0.8239796324227562,0.1506900913664517,0.6732895410563045,0.6733,0.0,0.0,0.0,0.25,historical_dm,watch,4
+foreign_hitter,Michael Toglia,0.27,,,,0.0,0.5,0.0,0.8,0.5,sewon; kyuho,watch,5
+foreign_hitter,Weston Wilson,0.2625,,,,0.0,1.0,0.0,0.0,0.25,sewon,watch,6
+foreign_hitter,Christopher Morel,0.2208,,,,0.0,0.8333,0.0,0.0,0.25,sewon,watch,7
+foreign_hitter,Trey Mancini,0.1625,,,,0.0,0.0,1.0,0.0,0.25,jimini,watch,8
+foreign_hitter,Dominic Fletcher,0.145,,,,0.0,0.0,0.8,0.0,0.5,jimini; codex_structured,watch,9
+foreign_hitter,Matthew Lugo,0.1025,,,,0.0,0.0,0.0,0.6,0.25,kyuho,watch,10
+foreign_hitter,James Outman,0.0958,,,,0.0,0.3333,0.0,0.0,0.25,sewon,watch,11
+foreign_hitter,Abraham Toro,0.0725,,,,0.0,0.0,0.4,0.0,0.25,jimini,watch,12
+foreign_hitter,Rece Hinds,0.0725,,,,0.0,0.0,0.0,0.4,0.25,kyuho,watch,13
+foreign_hitter,Josh Lowe,0.0425,,,,0.0,0.0,0.0,0.2,0.25,kyuho,watch,14
+foreign_hitter,Luis Rengifo,0.0425,,,,0.0,0.0,0.2,0.0,0.25,jimini,watch,15
+foreign_hitter,Will Brennan,0.0125,,,,0.0,0.0,0.0,0.0,0.25,codex_structured,watch,16
+foreign_pitcher,Josh Fleming,0.6375,,,,0.0,0.0,1.0,1.0,0.75,jimini; kyuho; codex_structured,diagnostic_core,1
+foreign_pitcher,Carson Spiers,0.3125,,,,0.0,1.0,0.0,0.0,0.25,sewon,diagnostic_core,2
+foreign_pitcher,Brian Van Belle,0.2625,,,,0.0,0.8,0.0,0.0,0.25,sewon,watch,3
+foreign_pitcher,Ian Hamilton,0.2625,,,,0.0,0.0,0.8,0.0,0.25,jimini,watch,4
+foreign_pitcher,Randy Dobnak,0.2225,,,,0.0,0.0,0.0,0.8,0.25,kyuho,watch,5
+foreign_pitcher,Noah Murdock,0.2125,,,,0.0,0.0,0.6,0.0,0.25,jimini,watch,6
+foreign_pitcher,Victor Mederos,0.2125,,,,0.0,0.6,0.0,0.0,0.25,sewon,watch,7
+foreign_pitcher,Spencer Bivens,0.1825,,,,0.0,0.0,0.0,0.6,0.25,kyuho,watch,8
+foreign_pitcher,Bruce Zimmermann,0.165,,,,0.0,0.0,0.0,0.2,0.5,kyuho; codex_structured,watch,9
+foreign_pitcher,Cooper Criswell,0.1625,,,,0.0,0.4,0.0,0.0,0.25,sewon,watch,10
+foreign_pitcher,Jhonathan Diaz,0.1625,,,,0.0,0.0,0.4,0.0,0.25,jimini,watch,11
+foreign_pitcher,Hunter Barco,0.1425,,,,0.0,0.0,0.0,0.4,0.25,kyuho,watch,12
+foreign_pitcher,Brandon Leibrandt,0.1125,,,,0.0,0.2,0.0,0.0,0.25,sewon,watch,13
+foreign_pitcher,Matt Bowman,0.1125,,,,0.0,0.0,0.2,0.0,0.25,jimini,watch,14
+foreign_pitcher,Bryse Wilson,0.0643,0.5049083389859391,0.4686090548675831,0.0362992841183559,0.0363,0.0,0.0,0.0,0.25,historical_dm,watch,15
+foreign_pitcher,Austin Gomber,0.0642,0.5258525947565645,0.4921565517040638,0.0336960430525006,0.0337,0.0,0.0,0.0,0.25,historical_dm,watch,16
+foreign_pitcher,Dietrich Enns,0.0625,0.3952457258373641,0.5666517799502554,-0.1714060541128912,0.0,0.0,0.0,0.0,0.25,historical_dm,watch,17
+foreign_pitcher,Yariel Rodriguez,0.0625,,,,0.0,0.0,0.0,0.0,0.25,codex_structured,watch,18

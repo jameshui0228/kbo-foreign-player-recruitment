@@ -1,0 +1,1237 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ixbi0z",
+    "id": "ixbi0z",
+    "slide": 2,
+    "layoutId": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F8F6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8c840b91-a97b-42c0-846b-6fbea38bf5d2",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d331bc52-32be-47e0-9319-0e1ed1d74b07",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bat47y1",
+      "id": "1",
+      "bbox": [
+        72,
+        54,
+        1100,
+        64
+      ],
+      "geometry": "rect",
+      "text": "모델 상세 2: D/E/F",
+      "textPreview": "모델 상세 2: D/E/F",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "모델 상세 2: D/E/F"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "모델 상세 2: D/E/F",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "모델 상세 2: D/E/F",
+              "fontSize": 44,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "2",
+      "bbox": [
+        72,
+        124,
+        150,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#C9152B",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "3",
+      "bbox": [
+        72,
+        158,
+        1220,
+        42
+      ],
+      "geometry": "rect",
+      "text": "미국 성적의 KBO 번역 가능성, 시장 접근성, 의료·실행 리스크를 gate로 검증",
+      "textPreview": "미국 성적의 KBO 번역 가능성, 시장 접근성, 의료·실행 리스크를 gate로 검증",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "미국 성적의 KBO 번역 가능성, 시장 접근성, 의료·실행 리스크를 gate로 검증"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "미국 성적의 KBO 번역 가능성, 시장 접근성, 의료·실행 리스크를 gate로 검증",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "미국 성적의 KBO 번역 가능성, 시장 접근성, 의료·실행 리스크를 gate로 검증",
+              "fontSize": 22,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "4",
+      "bbox": [
+        72,
+        250,
+        462,
+        432
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#ECEDEA",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nqxs72x",
+      "id": "5",
+      "bbox": [
+        98,
+        278,
+        48,
+        44
+      ],
+      "geometry": "rect",
+      "text": "D",
+      "textPreview": "D",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "+mn-lt",
+        "color": "#245C73",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "D"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "D",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "color": "#245C73",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "D",
+              "fontSize": 34,
+              "color": "#245C73",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2t83itg",
+      "id": "6",
+      "bbox": [
+        168,
+        280,
+        340,
+        38
+      ],
+      "geometry": "rect",
+      "text": "KBO Translation Risk",
+      "textPreview": "KBO Translation Risk",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KBO Translation Risk"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KBO Translation Risk",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KBO Translation Risk",
+              "fontSize": 25,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qh0fepkz",
+      "id": "7",
+      "bbox": [
+        106,
+        338,
+        394,
+        326
+      ],
+      "geometry": "rect",
+      "text": "질문: 미국 성적이 KBO에서도 유지될 수 있는가?\n\n입력: MLB Savant 2023-2026, MiLB 성적, K%, chase, whiff, contact, ISO, xwOBA, BB9, HR9, starter continuity, third-time wOBA, GB%, zone command.\n\n방법: feature family ablation + risk flagging + threshold-based translation risk.\n\n타자 위험: 과도한 K%, 높은 chase%, 낮은 contact, 변화구/저속 구종 약점, run-kill risk.\n\n투수 위험: 높은 BB9/HR9, 낮은 GB%, 선발 지속성 부족, ABS 환경 볼넷 증가.",
+      "textPreview": "질문: 미국 성적이 KBO에서도 유지될 수 있는가? |  | 입력: MLB Savant 2023-2026, MiLB 성적, K%, chase, whiff, contact, ISO, xwOBA, BB9, HR9, starter continuity,...",
+      "resolvedFontSize": 15.6,
+      "resolvedTextStyle": {
+        "fontSize": 15.6,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 14,
+        "lines": [
+          {
+            "index": 1,
+            "text": "질문: 미국 성적이 KBO에서도 유지될 수 있는가?"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "입력: MLB Savant 2023-2026, MiLB 성적, K%, chase,"
+          },
+          {
+            "index": 4,
+            "text": "whiff, contact, ISO, xwOBA, BB9, HR9, starter"
+          },
+          {
+            "index": 5,
+            "text": "continuity, third-time wOBA, GB%, zone command."
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "방법: feature family ablation + risk flagging +"
+          },
+          {
+            "index": 8,
+            "text": "threshold-based translation risk."
+          },
+          {
+            "index": 9,
+            "text": ""
+          },
+          {
+            "index": 10,
+            "text": "타자 위험: 과도한 K%, 높은 chase%, 낮은 contact,"
+          },
+          {
+            "index": 11,
+            "text": "변화구/저속 구종 약점, run-kill risk."
+          },
+          {
+            "index": 12,
+            "text": ""
+          },
+          {
+            "index": 13,
+            "text": "투수 위험: 높은 BB9/HR9, 낮은 GB%, 선발 지속성 부족,"
+          },
+          {
+            "index": 14,
+            "text": "ABS 환경 볼넷 증가."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "질문: 미국 성적이 KBO에서도 유지될 수 있는가?",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "질문: 미국 성적이 KBO에서도 유지될 수 있는가?",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "입력: MLB Savant 2023-2026, MiLB 성적, K%, chase, whiff, contact, ISO, xwOBA, BB9, HR9, starter continuity, third-time wOBA, GB%, zone command.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "입력: MLB Savant 2023-2026, MiLB 성적, K%, chase, whiff, contact, ISO, xwOBA, BB9, HR9, starter continuity, third-time wOBA, GB%, zone command.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "방법: feature family ablation + risk flagging + threshold-based translation risk.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "방법: feature family ablation + risk flagging + threshold-based translation risk.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "타자 위험: 과도한 K%, 높은 chase%, 낮은 contact, 변화구/저속 구종 약점, run-kill risk.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "타자 위험: 과도한 K%, 높은 chase%, 낮은 contact, 변화구/저속 구종 약점, run-kill risk.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "투수 위험: 높은 BB9/HR9, 낮은 GB%, 선발 지속성 부족, ABS 환경 볼넷 증가.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "투수 위험: 높은 BB9/HR9, 낮은 GB%, 선발 지속성 부족, ABS 환경 볼넷 증가.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cfa9w3m",
+      "id": "8",
+      "bbox": [
+        572,
+        250,
+        462,
+        432
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "9",
+      "bbox": [
+        598,
+        278,
+        48,
+        44
+      ],
+      "geometry": "rect",
+      "text": "E",
+      "textPreview": "E",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "+mn-lt",
+        "color": "#245C73",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "E"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "E",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "color": "#245C73",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "E",
+              "fontSize": 34,
+              "color": "#245C73",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2t83itgf",
+      "id": "10",
+      "bbox": [
+        668,
+        280,
+        340,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Market Feasibility",
+      "textPreview": "Market Feasibility",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Market Feasibility"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Market Feasibility",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Market Feasibility",
+              "fontSize": 25,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/re1w7mp0",
+      "id": "11",
+      "bbox": [
+        606,
+        338,
+        394,
+        326
+      ],
+      "geometry": "rect",
+      "text": "질문: 아무리 좋은 선수여도 실제로 데려올 수 있는가?\n\n입력: roster/transaction, 40-man 포함 여부, DFA/outright, minor contract, salary signal, option status, 권리 상태.\n\n방법: 점수 모델이 아니라 hard gate + market access bucket.\n\n판정 예시: MLB active 40-man=접근성 낮음, DFA/outright 이후 40-man 밖=접근성 높음, minor/non-roster=검토 가능.\n\n출력: available, conditional, blocked, contract verification needed, manual contact priority.",
+      "textPreview": "질문: 아무리 좋은 선수여도 실제로 데려올 수 있는가? |  | 입력: roster/transaction, 40-man 포함 여부, DFA/outright, minor contract, salary signal, option status, 권리 ...",
+      "resolvedFontSize": 15.6,
+      "resolvedTextStyle": {
+        "fontSize": 15.6,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 15,
+        "lines": [
+          {
+            "index": 1,
+            "text": "질문: 아무리 좋은 선수여도 실제로 데려올 수 있는가?"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "입력: roster/transaction, 40-man 포함 여부,"
+          },
+          {
+            "index": 4,
+            "text": "DFA/outright, minor contract, salary signal, option"
+          },
+          {
+            "index": 5,
+            "text": "status, 권리 상태."
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "방법: 점수 모델이 아니라 hard gate + market access"
+          },
+          {
+            "index": 8,
+            "text": "bucket."
+          },
+          {
+            "index": 9,
+            "text": ""
+          },
+          {
+            "index": 10,
+            "text": "판정 예시: MLB active 40-man=접근성 낮음,"
+          },
+          {
+            "index": 11,
+            "text": "DFA/outright 이후 40-man 밖=접근성 높음,"
+          },
+          {
+            "index": 12,
+            "text": "minor/non-roster=검토 가능."
+          },
+          {
+            "index": 13,
+            "text": ""
+          },
+          {
+            "index": 14,
+            "text": "출력: available, conditional, blocked, contract"
+          },
+          {
+            "index": 15,
+            "text": "verification needed, manual contact priority."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "질문: 아무리 좋은 선수여도 실제로 데려올 수 있는가?",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "질문: 아무리 좋은 선수여도 실제로 데려올 수 있는가?",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "입력: roster/transaction, 40-man 포함 여부, DFA/outright, minor contract, salary signal, option status, 권리 상태.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "입력: roster/transaction, 40-man 포함 여부, DFA/outright, minor contract, salary signal, option status, 권리 상태.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "방법: 점수 모델이 아니라 hard gate + market access bucket.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "방법: 점수 모델이 아니라 hard gate + market access bucket.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "판정 예시: MLB active 40-man=접근성 낮음, DFA/outright 이후 40-man 밖=접근성 높음, minor/non-roster=검토 가능.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "판정 예시: MLB active 40-man=접근성 낮음, DFA/outright 이후 40-man 밖=접근성 높음, minor/non-roster=검토 가능.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "출력: available, conditional, blocked, contract verification needed, manual contact priority.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "출력: available, conditional, blocked, contract verification needed, manual contact priority.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzupwb2h",
+      "id": "12",
+      "bbox": [
+        1072,
+        250,
+        462,
+        432
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#ECEDEA",
+      "lineColor": "#D9D9D2",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9knih4by",
+      "id": "13",
+      "bbox": [
+        1098,
+        278,
+        48,
+        44
+      ],
+      "geometry": "rect",
+      "text": "F",
+      "textPreview": "F",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "+mn-lt",
+        "color": "#245C73",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "F"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "F",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "color": "#245C73",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "F",
+              "fontSize": 34,
+              "color": "#245C73",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/25kb6xkf",
+      "id": "14",
+      "bbox": [
+        1168,
+        280,
+        340,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Medical / Failure Gate",
+      "textPreview": "Medical / Failure Gate",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#262321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Medical / Failure Gate"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Medical / Failure Gate",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#262321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Medical / Failure Gate",
+              "fontSize": 25,
+              "color": "#262321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqd4vmtw",
+      "id": "15",
+      "bbox": [
+        1106,
+        338,
+        394,
+        326
+      ],
+      "geometry": "rect",
+      "text": "질문: 건강, 역할, 비용, 계약 측면에서 현실적인가?\n\n입력: IL, surgery, workload, recent usage, velocity trend, role mismatch, medical public signal, salary/contract signal.\n\n방법: 최종 board에서 실행 불가능성을 걸러내는 hard gate/보류 gate.\n\n출력: PASS(final 유지), YELLOW(conditional), HOLD(watch/medical hold), RED(최종 제외).\n\n예시: 점수 높아도 너무 젊고 MLB 가치가 높으면 HOLD. 최근 부상 이력이 크면 WATCH/RED. 선발 workload 부족 시 감점.",
+      "textPreview": "질문: 건강, 역할, 비용, 계약 측면에서 현실적인가? |  | 입력: IL, surgery, workload, recent usage, velocity trend, role mismatch, medical public signal, salary...",
+      "resolvedFontSize": 15.6,
+      "resolvedTextStyle": {
+        "fontSize": 15.6,
+        "typeface": "+mn-lt",
+        "color": "#66635F",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 15,
+        "lines": [
+          {
+            "index": 1,
+            "text": "질문: 건강, 역할, 비용, 계약 측면에서 현실적인가?"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "입력: IL, surgery, workload, recent usage, velocity"
+          },
+          {
+            "index": 4,
+            "text": "trend, role mismatch, medical public signal,"
+          },
+          {
+            "index": 5,
+            "text": "salary/contract signal."
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "방법: 최종 board에서 실행 불가능성을 걸러내는 hard"
+          },
+          {
+            "index": 8,
+            "text": "gate/보류 gate."
+          },
+          {
+            "index": 9,
+            "text": ""
+          },
+          {
+            "index": 10,
+            "text": "출력: PASS(final 유지), YELLOW(conditional),"
+          },
+          {
+            "index": 11,
+            "text": "HOLD(watch/medical hold), RED(최종 제외)."
+          },
+          {
+            "index": 12,
+            "text": ""
+          },
+          {
+            "index": 13,
+            "text": "예시: 점수 높아도 너무 젊고 MLB 가치가 높으면 HOLD."
+          },
+          {
+            "index": 14,
+            "text": "최근 부상 이력이 크면 WATCH/RED. 선발 workload 부족"
+          },
+          {
+            "index": 15,
+            "text": "시 감점."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "질문: 건강, 역할, 비용, 계약 측면에서 현실적인가?",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "질문: 건강, 역할, 비용, 계약 측면에서 현실적인가?",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "입력: IL, surgery, workload, recent usage, velocity trend, role mismatch, medical public signal, salary/contract signal.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "입력: IL, surgery, workload, recent usage, velocity trend, role mismatch, medical public signal, salary/contract signal.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "방법: 최종 board에서 실행 불가능성을 걸러내는 hard gate/보류 gate.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "방법: 최종 board에서 실행 불가능성을 걸러내는 hard gate/보류 gate.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "출력: PASS(final 유지), YELLOW(conditional), HOLD(watch/medical hold), RED(최종 제외).",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "출력: PASS(final 유지), YELLOW(conditional), HOLD(watch/medical hold), RED(최종 제외).",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "예시: 점수 높아도 너무 젊고 MLB 가치가 높으면 HOLD. 최근 부상 이력이 크면 WATCH/RED. 선발 workload 부족 시 감점.",
+          "resolvedTextStyle": {
+            "fontSize": 15.6,
+            "color": "#66635F"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "예시: 점수 높아도 너무 젊고 MLB 가치가 높으면 HOLD. 최근 부상 이력이 크면 WATCH/RED. 선발 workload 부족 시 감점.",
+              "fontSize": 15.6,
+              "color": "#66635F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kb6xkf6d",
+      "id": "16",
+      "bbox": [
+        208,
+        742,
+        1184,
+        64
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#245C73",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w3m94fu",
+      "id": "17",
+      "bbox": [
+        226,
+        759,
+        1148,
+        42
+      ],
+      "geometry": "rect",
+      "text": "핵심: D는 KBO에서 통할 위험, E는 실제 접촉 가능성, F는 점수 상위 후보를 무조건 추천하지 않기 위한 방어 장치다.",
+      "textPreview": "핵심: D는 KBO에서 통할 위험, E는 실제 접촉 가능성, F는 점수 상위 후보를 무조건 추천하지 않기 위한 방어 장치다.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#245C73",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "핵심: D는 KBO에서 통할 위험, E는 실제 접촉 가능성, F는 점수 상위 후보를 무조건 추천하지 않기 위한 방어 장치다."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "핵심: D는 KBO에서 통할 위험, E는 실제 접촉 가능성, F는 점수 상위 후보를 무조건 추천하지 않기 위한 방어 장치다.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#245C73",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "핵심: D는 KBO에서 통할 위험, E는 실제 접촉 가능성, F는 점수 상위 후보를 무조건 추천하지 않기 위한 방어 장치다.",
+              "fontSize": 21,
+              "color": "#245C73",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
