@@ -26,6 +26,16 @@ class PortfolioDemoTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "missing columns"):
                 demo.read_rows(path, ["player"])
 
+    def test_english_summary_keeps_context_and_korean_link(self):
+        selected, audit = demo.load_results()
+        summary = demo.markdown(selected, audit)
+        self.assertTrue(summary.startswith("# Public Result Summary\n"))
+        self.assertIn("[한국어](results.ko.md)", summary)
+        self.assertIn("final June 2026 artifacts", summary)
+        self.assertIn("not absolute success probabilities", summary)
+        self.assertIn("| Hitter | 1 | Will Brennan |", summary)
+        self.assertIn("| Pitcher | 1 | Josh Fleming |", summary)
+
     def test_empty_table_is_rejected(self):
         with tempfile.TemporaryDirectory() as folder:
             path = Path(folder) / "empty.csv"

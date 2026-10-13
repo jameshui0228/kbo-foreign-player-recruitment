@@ -49,25 +49,26 @@ def load_results(tables=TABLES):
 
 
 def markdown(selected, audit):
-    lines = ["# 공개 결과 확인", "", "기준: 2026년 6월 최종 산출물. 최신 후보 추천이나 모델 재학습 결과가 아닙니다.",
-             "", "## 최종 접촉 우선순위", "", "| 구분 | 순위 | 후보 |", "|---|---:|---|"]
+    lines = ["# Public Result Summary", "", "[Demo guide](README.md) | [한국어](results.ko.md)", "",
+             "Snapshot: final June 2026 artifacts. This is not a current recommendation or a new model-training result.",
+             "", "## Final Contact Priorities", "", "| Role | Rank | Candidate |", "|---|---:|---|"]
     for row in selected:
-        slot = "타자" if row["slot"] == "foreign_hitter" else "투수"
+        slot = "Hitter" if row["slot"] == "foreign_hitter" else "Pitcher"
         player = row["player"].replace("|", "\\|")
         lines.append(f"| {slot} | {row['decision_rank']} | {player} |")
-    lines += ["", "## 학습 적합과 선수 단위 검증", "",
-              "| 대상 | 학습 행 수 | 고유 선수 | 학습 AUC | 선수 단위 제외 AUC |",
+    lines += ["", "## Training Fit vs. Player-Held-Out Validation", "",
+              "| Target | Training Rows | Unique Players | Training AUC | Player-Held-Out AUC |",
               "|---|---:|---:|---:|---:|"]
     for row in audit:
         lines.append(f"| {row['target']} | {row['historical_rows']} | {row['unique_player_groups']} | "
                      f"{float(row['full_fit_auc']):.3f} | {float(row['leave_one_player_group_auc']):.3f} |")
-    lines += ["", "학습 데이터 적합도는 일반화 성능이 아닙니다. 모델 출력은 절대 성공확률이 아닌 후보 비교의 보조 신호로 해석합니다.",
-              "", "![검증 조건별 AUC](validation.svg)", "", "## 원표와 방법", "",
-              f"- [최종 후보 원표](../../outputs/tables/{BOARD})",
-              f"- [검증 원표](../../outputs/tables/{AUDIT})",
-              "- [최종 검증 해석](../final_report_last_validation_v1.md)",
-              "- [예제 실행 방법](README.md)", "",
-              "이 문서와 그림은 `python3 scripts/portfolio_demo.py --write`로 공개 CSV에서 생성합니다."]
+    lines += ["", "Training fit is not generalization. Model outputs support candidate comparison; they are not absolute success probabilities.",
+              "", "![AUC by evaluation setting](validation.svg)", "", "## Source Tables & Methods", "",
+              f"- [Final candidate table](../../outputs/tables/{BOARD})",
+              f"- [Validation audit table](../../outputs/tables/{AUDIT})",
+              "- [Final validation interpretation (Korean)](../final_report_last_validation_v1.md)",
+              "- [Demo instructions](README.md)", "",
+              "This document and chart are generated from public CSVs with `python3 scripts/portfolio_demo.py --write`."]
     return "\n".join(lines) + "\n"
 
 
