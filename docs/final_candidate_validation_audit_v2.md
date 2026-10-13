@@ -1,5 +1,7 @@
 # Final Candidate Validation Audit v2
 
+> 중간 단계 검증 기록입니다. 아래 Matos/Jones 중심 보드는 이후 계약·시장 접근성 검토로 변경되었습니다. 현재 기준은 [2026-06-25 최종 인수인계](final_project_handoff_2026_06_25.md)와 [마지막 검증 기록](final_report_last_validation_v1.md)입니다. 이 문서의 일반 교차검증 수치와 최신 선수 단위 검증 수치를 혼동하지 마세요.
+
 ## Verdict
 
 기존 최종 후보 보드는 그대로 최종본으로 쓰기에는 부족했다. 핵심 문제는 타자 3순위와 투수 결론의 표현 방식이다.

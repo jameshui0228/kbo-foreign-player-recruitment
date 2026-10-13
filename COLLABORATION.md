@@ -40,7 +40,7 @@ cp .env.example .env
 - `docs/experiment_log.md`
 - `experiments.csv`
 
-현재 최종 후보명은 잠금 상태입니다. 후보 이름은 `research_lead` 수준으로만 다루고, 추천/shortlist는 1-6번 게이트가 더 통과한 뒤에만 사용합니다.
+2026-06-25 기준 발표와 최종 후보 제안이 완료되었습니다. 현재 결과는 [최종 인수인계](docs/final_project_handoff_2026_06_25.md)를 따릅니다. 과거 진행 문서의 후보 잠금·사전 설계 표기는 해당 실험 시점의 기록입니다. 이후 새 후보를 추가한다면 다시 검증을 거친 뒤 추천으로 전환합니다.
 
 ## Branch Workflow
 
