@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
+<title id="title">Training fit versus player-held-out validation</title>
+<desc id="desc">Stored June 2026 AUC results, not new model training. Exact values are labeled on each bar.</desc>
+<rect width="1000" height="430" fill="#faf9f6"/>
+<g font-family="Helvetica, sans-serif" fill="#192d36">
+<text x="40" y="46" font-size="25" font-weight="700">High training fit is not generalization.</text>
+<text x="40" y="78" font-size="16">Hitter models / 22 historical rows / 17 unique players / June 2026</text>
+<rect x="40" y="104" width="14" height="14" fill="#b4c3c9"/>
+<text x="64" y="117" font-size="15">Training fit</text>
+<rect x="220" y="104" width="14" height="14" fill="#126c69"/>
+<text x="244" y="117" font-size="15">Leave-one-player-group validation</text>
+<line x1="210" y1="142" x2="210" y2="345" stroke="#d9dfdf"/>
+<text x="210" y="368" text-anchor="middle" font-size="13">0</text>
+<line x1="380.0" y1="142" x2="380.0" y2="345" stroke="#d9dfdf"/>
+<text x="380.0" y="368" text-anchor="middle" font-size="13">0.25</text>
+<line x1="550.0" y1="142" x2="550.0" y2="345" stroke="#d9dfdf"/>
+<text x="550.0" y="368" text-anchor="middle" font-size="13">0.5</text>
+<line x1="720.0" y1="142" x2="720.0" y2="345" stroke="#d9dfdf"/>
+<text x="720.0" y="368" text-anchor="middle" font-size="13">0.75</text>
+<line x1="890" y1="142" x2="890" y2="345" stroke="#d9dfdf"/>
+<text x="890" y="368" text-anchor="middle" font-size="13">1</text>
+<text x="40" y="191" font-size="19">Success</text>
+<rect x="210" y="156" width="680.000" height="25" rx="3" fill="#b4c3c9"/>
+<text x="900.000" y="174" font-size="15">1.000</text>
+<rect x="210" y="188" width="441.709" height="25" rx="3" fill="#126c69"/>
+<text x="661.709" y="206" font-size="15">0.650</text>
+<text x="40" y="291" font-size="19">Failure</text>
+<rect x="210" y="256" width="673.929" height="25" rx="3" fill="#b4c3c9"/>
+<text x="893.929" y="274" font-size="15">0.991</text>
+<rect x="210" y="288" width="340.000" height="25" rx="3" fill="#126c69"/>
+<text x="560.000" y="306" font-size="15">0.500</text>
+<text x="40" y="410" font-size="14">AUC scale: 0 to 1. Model signals support comparison; they are not absolute success probabilities.</text>
+</g></svg>

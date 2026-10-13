@@ -9,10 +9,16 @@
 
 ## Audit Table
 
-| target | historical_rows | unique_player_groups | positive_rows | feature_count | forbidden_feature_hits | candidate_mapping_forbidden_hits | train_candidate_player_id_overlap_count | train_candidate_player_id_overlap | full_fit_auc | full_fit_brier | full_fit_logloss | full_fit_max_pred | full_fit_p90_pred | full_fit_mean_pred | full_fit_mean_pred_positive | full_fit_mean_pred_negative | leave_one_player_group_auc | leave_one_player_group_brier | leave_one_player_group_logloss | leave_one_player_group_max_pred | leave_one_player_group_p90_pred | leave_one_player_group_mean_pred | leave_one_player_group_mean_pred_positive | leave_one_player_group_mean_pred_negative |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| success | 22 | 17 | 13 | 18 |  |  | 2 | 621550|676724 | 1.0000 | 0.0610 | 0.2331 | 0.9789 | 0.8976 | 0.5909 | 0.8407 | 0.2301 | 0.6496 | 0.2899 | 0.8113 | 0.9990 | 0.9086 | 0.4909 | 0.5605 | 0.3904 |
-| failure | 22 | 17 | 8 | 18 |  |  | 2 | 621550|676724 | 0.9911 | 0.0615 | 0.2425 | 0.9145 | 0.8812 | 0.3636 | 0.7295 | 0.1546 | 0.5000 | 0.3302 | 0.9905 | 0.9723 | 0.8984 | 0.4916 | 0.5375 | 0.4654 |
+타자 학습 데이터는 22행, 고유 선수는 17명입니다. 아래는 학습 적합도와 선수 단위 제외 검증을 구분한 요약입니다.
+
+| 대상 | 학습 AUC | 선수 단위 검증 AUC | 검증 Brier | 검증 Log Loss |
+|---|---:|---:|---:|---:|
+| success | 1.0000 | 0.6496 | 0.2899 | 0.8113 |
+| failure | 0.9911 | 0.5000 | 0.3302 | 0.9905 |
+
+[전체 검증 CSV](../outputs/tables/model_probability_calibration_audit_v1.csv)에는 표본 수, 피처 수, 선수 중복, 예측값 분포와 상세 지표가 보존되어 있습니다.
+
+학습 성능을 일반화 성능으로 사용하지 않습니다. 선수 단위 검증 결과상 실패 모델은 충분한 판별력을 보였다고 보기 어렵고, 성공 모델 역시 작은 표본의 제한이 있습니다.
 
 ## Final Hitter Board Labels After Re-labeling
 
